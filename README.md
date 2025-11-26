@@ -17,7 +17,7 @@ Run `uv run test/mj_viewer_rendering.py` and `uv run pytest`.
 See [`tests/`](tests/)
 
 ## StdTask
-`ExtendedTask`s in the [`tasks.py`](src/lerobothackathonenv/tasks.py) script define one particular instance of the environment, that is one particulatr way to implement environment observations and reward function. A template implementation "`StdTask`" is provided.
+`ExtendedTask`s in the [`tasks.py`](src/lerobothackathonenv/tasks.py) script define the observation dict and the reward function. A template implementation "`StdTask`" is provided.
 
 ### Observation space
 The environment provides observations as a dictionary containing:
