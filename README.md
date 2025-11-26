@@ -10,7 +10,7 @@ cd LeRobotHackathonEnv
 uv sync
 ```
 
-## Verify that installation works
+## Verify installation
 Run `uv run [test/mj_viewer_rendering.py](test/mj_viewer_rendering.py)` and `uv run pytest`.
 
 ## Getting started
