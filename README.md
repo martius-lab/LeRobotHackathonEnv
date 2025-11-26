@@ -11,7 +11,7 @@ uv sync
 ```
 
 ## Verify installation
-Run `uv run [test/mj_viewer_rendering.py](test/mj_viewer_rendering.py)` and `uv run pytest`.
+Run `uv run test/mj_viewer_rendering.py` and `uv run pytest`.
 
 ## Getting started
 See [`tests/`](tests/)
