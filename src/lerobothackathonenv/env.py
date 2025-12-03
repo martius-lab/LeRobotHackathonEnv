@@ -1,4 +1,4 @@
-from .types import *
+from lerobothackathonenv.lerobot_types import *
 
 from pathlib import Path
 

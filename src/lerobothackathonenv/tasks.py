@@ -1,8 +1,9 @@
 from abc import ABC, abstractmethod
-from .types import *
+from lerobothackathonenv.lerobot_types import *
 
 from numpy import clip, array, exp
 from numpy.linalg import norm
+import numpy as np
 
 import mujoco
 from gymnasium import spaces
@@ -97,5 +98,82 @@ class ExampleReachTask(ExampleTask):
 
     def get_sim_metadata(self,):
         return {"target_pos": self.target_pos.copy()}
+
+class GoalConditionedObjectPlaceTask(ExampleTask):
+    DELTA = 0.05
+    TABLE_HEIGHT = 0.6
+    RANGE_TARGET_POS = (-0.4, 0.4)
+    # ~ Body ids of objects to be manipulated
+    MANIPULATEBABLES: List[int] = [
+        9, # milk_0
+        11, # bread_1
+        13 # cereal_2
+    ]
+    OBSERVATION_SPACE = spaces.Dict(
+        dict(
+            qpos=spaces.Box(*ExampleTask.RANGE_QPOS, shape=(27,), dtype=float64),
+            qvel=spaces.Box(*ExampleTask.RANGE_QVEL, shape=(24,), dtype=float64),
+            actuator_force=spaces.Box(*ExampleTask.RANGE_AF, shape=(6,), dtype=float64),
+            gripper_pos=spaces.Box(*ExampleTask.RANGE_GRIPPER, shape=(3,), dtype=float64),
+            target_pos=spaces.Box(*RANGE_TARGET_POS, shape=(3,), dtype=float64),
+            object_index=spaces.Box(0, 1, shape=(len(MANIPULATEBABLES), ), dtype=float64)
+        )
+    )
+
+
+    def __init__(self, random=None):
+        super(ExampleTask, self).__init__(random=random)
+        self.resample_goal()
+
+    def resample_goal(self,):
+        x, y = np.random.uniform(*self.RANGE_TARGET_POS, (2,))
+        z = self.TABLE_HEIGHT + self.DELTA
+        self.target_pos = array([x, y, z])
+        self.focus_object = np.random.randint(
+            len(self.MANIPULATEBABLES)
+        )
+
+    def get_reward(
+        self,
+        physics: Physics
+    ) -> float:
+        data = physics.data
+        object_pos = data.xpos[self.MANIPULATEBABLES[self.focus_object]]
+        print(object_pos)
+        cost = norm(object_pos - self.target_pos)
+        return -float(cost)
+
+    @staticmethod
+    def one_hot(index: int, size: int) -> NDArray[float64]:
+        vector = np.zeros(size)
+        vector[index] = 1.0
+        return vector
+
+    def get_sim_metadata(self,):
+        return {"target_pos": self.target_pos.copy()}
+
+    def get_observation(
+        self,
+        physics: Physics
+    ) -> Obs:
+        data = physics.data
+        gripper_site_id = mujoco.mj_name2id(
+            physics.model._model,
+            mujoco.mjtObj.mjOBJ_SITE.value,
+            "gripperframe"
+        )
+        gripper_pos = data.site_xpos[gripper_site_id]
+        obs = dict(
+            qpos=clip(data.qpos, *self.RANGE_QPOS).copy(),
+            qvel=clip(data.qvel, *self.RANGE_QVEL).copy(),
+            actuator_force=clip(data.actuator_force, *self.RANGE_AF).copy(),
+            gripper_pos=clip(gripper_pos, *self.RANGE_GRIPPER).copy(),
+            target_pos=self.target_pos.copy(),
+            object_index=self.one_hot(
+                self.focus_object,
+                len(self.MANIPULATEBABLES)
+            )
+        )
+        return obs
 
 # Define more tasks here...

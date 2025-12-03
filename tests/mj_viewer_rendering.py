@@ -4,7 +4,7 @@ import gymnasium as gym
 import lerobothackathonenv as _
 from numpy.typing import NDArray
 
-env: LeRobot = gym.make("LeRobot-v0")
+env: LeRobot = gym.make("LeRobotGoalConditioned-v0")
 env.unwrapped.render_to_window()
 
 obs = env.reset()

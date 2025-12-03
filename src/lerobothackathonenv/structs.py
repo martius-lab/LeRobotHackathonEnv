@@ -1,4 +1,4 @@
-from .types import *
+from lerobothackathonenv.lerobot_types import *
 import numpy as np
 from dataclasses import dataclass
 
