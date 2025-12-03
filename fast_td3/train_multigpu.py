@@ -29,6 +29,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 from torch.amp import autocast, GradScaler
+from torch.nn.parallel import DistributedDataParallel as DDP
+import torch.multiprocessing as mp
 
 from tensordict import TensorDict
 
@@ -38,6 +40,8 @@ from fast_td3_utils import (
     PerTaskRewardNormalizer,
     SimpleReplayBuffer,
     save_params,
+    get_ddp_state_dict,
+    load_ddp_state_dict,
     mark_step,
 )
 from hyperparams import get_args
@@ -50,18 +54,37 @@ except ImportError:
     pass
 
 
-def main():
+def setup_distributed(rank: int, world_size: int):
+    os.environ["MASTER_ADDR"] = os.getenv("MASTER_ADDR", "localhost")
+    os.environ["MASTER_PORT"] = os.getenv("MASTER_PORT", "12355")
+    is_distributed = world_size > 1
+    if is_distributed:
+        print(
+            f"Initializing distributed training with rank {rank}, world size {world_size}"
+        )
+        torch.distributed.init_process_group(
+            backend="nccl", init_method="env://", world_size=world_size, rank=rank
+        )
+        torch.cuda.set_device(rank)
+    return is_distributed
+
+
+def main(rank: int, world_size: int):
+    is_distributed = setup_distributed(rank, world_size)
+
     args = get_args()
-    print(args)
+    if rank == 0:
+        print(args)
     run_name = f"{args.env_name}__{args.exp_name}__{args.seed}"
 
     # Per-run experiment directory (root for checkpoints, logs, etc.)
     run_dir = os.path.join(args.exp_dir, run_name)
-    os.makedirs(run_dir, exist_ok=True)
+    if rank == 0:
+        os.makedirs(run_dir, exist_ok=True)
 
     amp_enabled = args.amp and args.cuda and torch.cuda.is_available()
     amp_device_type = (
-        "cuda"
+        f"cuda:{rank}"
         if args.cuda and torch.cuda.is_available()
         else "mps" if args.cuda and torch.backends.mps.is_available() else "cpu"
     )
@@ -69,7 +92,7 @@ def main():
 
     scaler = GradScaler(enabled=amp_enabled and amp_dtype == torch.float16)
 
-    if args.use_wandb:
+    if args.use_wandb and rank == 0:
         wandb_dir = os.path.join(run_dir, "wandb")
         os.makedirs(wandb_dir, exist_ok=True)
         wandb.init(
@@ -80,18 +103,19 @@ def main():
             dir=wandb_dir,
         )
 
-    random.seed(args.seed)
-    np.random.seed(args.seed)
-    torch.manual_seed(args.seed)
+    # Use different seeds per rank to avoid synchronization issues
+    random.seed(args.seed + rank)
+    np.random.seed(args.seed + rank)
+    torch.manual_seed(args.seed + rank)
     torch.backends.cudnn.deterministic = args.torch_deterministic
 
     if not args.cuda:
         device = torch.device("cpu")
     else:
         if torch.cuda.is_available():
-            device = torch.device(f"cuda:{args.device_rank}")
+            device = torch.device(f"cuda:{rank}")
         elif torch.backends.mps.is_available():
-            device = torch.device(f"mps:{args.device_rank}")
+            device = torch.device(f"mps:{rank}")
         else:
             raise ValueError("No GPU available")
     print(f"Using device: {device}")
@@ -101,10 +125,10 @@ def main():
         from environments.lerobot_puffer_env import LeRobotPufferEnv
 
         env_type = "lerobot"
-        envs = LeRobotPufferEnv(args.env_name, args.num_envs, args.seed, device)
+        envs = LeRobotPufferEnv(args.env_name, args.num_envs, args.seed + rank, device)
         eval_envs = envs
-        # Reuse the same vector env for any operations; rendering is not supported.
-        render_env = LeRobotPufferEnv(args.env_name, 1, args.seed, device)
+        # Reuse the same vector env for any operations; rendering is supported only for num_envs == 1.
+        render_env = LeRobotPufferEnv(args.env_name, 1, args.seed + rank, device)
     elif args.env_name.startswith("h1hand-") or args.env_name.startswith("h1-"):
         from environments.humanoid_bench_env import HumanoidBenchEnv
 
@@ -120,9 +144,9 @@ def main():
         env_type = "isaaclab"
         envs = IsaacLabEnv(
             args.env_name,
-            device.type,
+            f"cuda:{rank}",
             args.num_envs,
-            args.seed,
+            args.seed + rank,
             action_bounds=args.action_bounds,
         )
         eval_envs = envs
@@ -132,7 +156,7 @@ def main():
 
         env_name = "-".join(args.env_name.split("-")[1:])
         env_type = "mtbench"
-        envs = MTBenchEnv(env_name, args.device_rank, args.num_envs, args.seed)
+        envs = MTBenchEnv(env_name, rank, args.num_envs, args.seed + rank)
         eval_envs = envs
         render_env = envs
     else:
@@ -142,10 +166,10 @@ def main():
         env_type = "mujoco_playground"
         envs, eval_envs, render_env = make_env(
             args.env_name,
-            args.seed,
+            args.seed + rank,
             args.num_envs,
             args.num_eval_envs,
-            args.device_rank,
+            rank,
             use_tuned_reward=args.use_tuned_reward,
             use_domain_randomization=args.use_domain_randomization,
             use_push_randomization=args.use_push_randomization,
@@ -229,7 +253,8 @@ def main():
             actor_cls = Actor
             critic_cls = Critic
 
-        print("Using FastTD3")
+        if rank == 0:
+            print("Using FastTD3")
     elif args.agent == "fasttd3_simbav2":
         if env_type in ["mtbench"]:
             from fast_td3_simbav2 import MultiTaskActor, MultiTaskCritic
@@ -242,7 +267,8 @@ def main():
             actor_cls = Actor
             critic_cls = Critic
 
-        print("Using FastTD3 + SimbaV2")
+        if rank == 0:
+            print("Using FastTD3 + SimbaV2")
         actor_kwargs.pop("init_scale")
         actor_kwargs.update(
             {
@@ -270,21 +296,26 @@ def main():
         raise ValueError(f"Agent {args.agent} not supported")
 
     actor = actor_cls(**actor_kwargs)
-
+    if is_distributed:
+        actor = DDP(actor, device_ids=[rank])
     if env_type in ["mtbench"]:
         # Python 3.8 doesn't support 'from_module' in tensordict
-        policy = actor.explore
+        policy = actor.module.explore if hasattr(actor, "module") else actor.explore
     else:
         from tensordict import from_module
 
         actor_detach = actor_cls(**actor_kwargs)
         # Copy params to actor_detach without grad
-        from_module(actor).data.to_module(actor_detach)
+        from_module(actor.module if hasattr(actor, "module") else actor).data.to_module(
+            actor_detach
+        )
         policy = actor_detach.explore
 
     qnet = critic_cls(**critic_kwargs)
-    qnet_target = critic_cls(**critic_kwargs)
-    qnet_target.load_state_dict(qnet.state_dict())
+    if is_distributed:
+        qnet = DDP(qnet, device_ids=[rank])
+    qnet_target = critic_cls(**critic_kwargs)  # Create a separate instance
+    qnet_target.load_state_dict(get_ddp_state_dict(qnet))
 
     q_optimizer = optim.AdamW(
         list(qnet.parameters()),
@@ -330,8 +361,6 @@ def main():
         episode_returns = torch.zeros(num_eval_envs, device=device)
         episode_lengths = torch.zeros(num_eval_envs, device=device)
         done_masks = torch.zeros(num_eval_envs, dtype=torch.bool, device=device)
-        # Track per-episode success for LeRobot pick-and-place.
-        eval_success = torch.zeros(num_eval_envs, dtype=torch.bool, device=device)
 
         if env_type == "isaaclab":
             obs = eval_envs.reset(random_start_init=False)
@@ -353,13 +382,6 @@ def main():
                 rewards = (
                     infos["episode"]["success"].float() if "episode" in infos else 0.0
                 )
-
-            if env_type == "lerobot" and "success" in infos:
-                # Mark an episode as successful if it ever achieves success.
-                eval_success = torch.logical_or(
-                    eval_success, infos["success"].bool()
-                )
-
             episode_returns = torch.where(
                 ~done_masks, episode_returns + rewards, episode_returns
             )
@@ -373,12 +395,7 @@ def main():
                 break
             obs = next_obs
 
-        eval_success_rate = eval_success.float().mean().item()
-        return (
-            episode_returns.mean().item(),
-            episode_lengths.mean().item(),
-            eval_success_rate,
-        )
+        return episode_returns.mean(), episode_lengths.mean()
 
     def render_with_rollout():
         # Quick rollout for rendering
@@ -387,7 +404,7 @@ def main():
             renders = [render_env.render()]
         elif env_type in ["isaaclab", "mtbench"]:
             raise NotImplementedError(
-                "Rendering is not supported for IsaacLab or MTBench environments"
+                "We don't support rendering for IsaacLab or MTBench environments"
             )
         else:
             obs = render_env.reset()
@@ -512,8 +529,16 @@ def main():
             )
 
             qf1, qf2 = qnet(critic_observations, actor(data["observations"]))
-            qf1_value = qnet.get_value(F.softmax(qf1, dim=1))
-            qf2_value = qnet.get_value(F.softmax(qf2, dim=1))
+            qf1_value = (
+                qnet.module.get_value(F.softmax(qf1, dim=1))
+                if hasattr(qnet, "module")
+                else qnet.get_value(F.softmax(qf1, dim=1))
+            )
+            qf2_value = (
+                qnet.module.get_value(F.softmax(qf2, dim=1))
+                if hasattr(qnet, "module")
+                else qnet.get_value(F.softmax(qf2, dim=1))
+            )
             if args.use_cdq:
                 qf_value = torch.minimum(qf1_value, qf2_value)
             else:
@@ -538,8 +563,12 @@ def main():
 
     @torch.no_grad()
     def soft_update(src, tgt, tau: float):
-        src_ps = [p.data for p in src.parameters()]
-        tgt_ps = [p.data for p in tgt.parameters()]
+        # Handle DDP module by accessing .module attribute
+        src_module = src.module if hasattr(src, "module") else src
+        tgt_module = tgt.module if hasattr(tgt, "module") else tgt
+
+        src_ps = [p.data for p in src_module.parameters()]
+        tgt_ps = [p.data for p in tgt_module.parameters()]
 
         torch._foreach_mul_(tgt_ps, 1.0 - tau)
         torch._foreach_add_(tgt_ps, src_ps, alpha=tau)
@@ -571,12 +600,14 @@ def main():
         torch_checkpoint = torch.load(
             f"{args.checkpoint_path}", map_location=device, weights_only=False
         )
-        actor.load_state_dict(torch_checkpoint["actor_state_dict"])
-        obs_normalizer.load_state_dict(torch_checkpoint["obs_normalizer_state"])
-        critic_obs_normalizer.load_state_dict(
-            torch_checkpoint["critic_obs_normalizer_state"]
-        )
-        qnet.load_state_dict(torch_checkpoint["qnet_state_dict"])
+        load_ddp_state_dict(actor, torch_checkpoint["actor_state_dict"])
+        if torch_checkpoint["obs_normalizer_state"] is not None:
+            obs_normalizer.load_state_dict(torch_checkpoint["obs_normalizer_state"])
+        if torch_checkpoint["critic_obs_normalizer_state"] is not None:
+            critic_obs_normalizer.load_state_dict(
+                torch_checkpoint["critic_obs_normalizer_state"]
+            )
+        load_ddp_state_dict(qnet, torch_checkpoint["qnet_state_dict"])
         qnet_target.load_state_dict(torch_checkpoint["qnet_target_state_dict"])
         global_step = torch_checkpoint["global_step"]
     else:
@@ -652,7 +683,7 @@ def main():
         if envs.asymmetric_obs:
             critic_obs = next_critic_obs
 
-            if global_step > args.learning_starts:
+        if global_step > args.learning_starts:
             for i in range(args.num_updates):
                 data = rb.sample(max(1, args.batch_size // args.num_envs))
                 data["observations"] = normalize_obs(data["observations"])
@@ -689,7 +720,8 @@ def main():
 
             if global_step % 100 == 0 and start_time is not None:
                 speed = (global_step - measure_burnin) / (time.time() - start_time)
-                pbar.set_description(f"{speed: 4.4f} sps, " + desc)
+                if rank == 0:
+                    pbar.set_description(f"{speed: 4.4f} sps, " + desc)
                 with torch.no_grad():
                     logs = {
                         "actor_loss": logs_dict["actor_loss"].mean(),
@@ -702,20 +734,29 @@ def main():
                         "buffer_rewards": raw_rewards.mean(),
                     }
 
-                    # Training-time success rate for LeRobot pick-and-place.
-                    if env_type == "lerobot" and "success" in infos:
-                        logs["train_success_rate"] = infos["success"].float().mean()
-
                     if args.eval_interval > 0 and global_step % args.eval_interval == 0:
-                        print(f"Evaluating at global step {global_step}")
-                        eval_avg_return, eval_avg_length, eval_success_rate = evaluate()
+                        local_eval_avg_return, local_eval_avg_length = evaluate()
+                        eval_results = torch.tensor(
+                            [local_eval_avg_return, local_eval_avg_length],
+                            device=device,
+                        )
+                        if is_distributed:
+                            torch.distributed.all_reduce(
+                                eval_results, op=torch.distributed.ReduceOp.AVG
+                            )
+
+                        if rank == 0:
+                            global_avg_return = eval_results[0].item()
+                            global_avg_length = eval_results[1].item()
+                            print(
+                                f"Evaluating at global step {global_step}: Avg Return={global_avg_return:.2f}"
+                            )
+                            logs["eval_avg_return"] = global_avg_return
+                            logs["eval_avg_length"] = global_avg_length
+
                         if env_type in ["humanoid_bench", "isaaclab", "mtbench", "lerobot"]:
                             # NOTE: Hacky way of evaluating performance, but just works
                             obs = envs.reset()
-                        logs["eval_avg_return"] = eval_avg_return
-                        logs["eval_avg_length"] = eval_avg_length
-                        if env_type == "lerobot":
-                            logs["eval_success_rate"] = eval_success_rate
 
                     if (
                         args.render_interval > 0
@@ -730,7 +771,8 @@ def main():
                             format="gif",
                         )
                         logs["render_video"] = render_video
-                if args.use_wandb:
+
+                if args.use_wandb and rank == 0:
                     wandb.log(
                         {
                             "speed": speed,
@@ -746,6 +788,7 @@ def main():
                 args.save_interval > 0
                 and global_step > 0
                 and global_step % args.save_interval == 0
+                and rank == 0
             ):
                 print(f"Saving model at global step {global_step}")
                 save_params(
@@ -762,7 +805,8 @@ def main():
         global_step += 1
         actor_scheduler.step()
         q_scheduler.step()
-        pbar.update(1)
+        if rank == 0:
+            pbar.update(1)
 
     save_params(
         global_step,
@@ -775,6 +819,11 @@ def main():
         os.path.join(run_dir, "models", f"{run_name}_final.pt"),
     )
 
+    # Cleanup distributed training
+    if is_distributed:
+        torch.distributed.destroy_process_group()
+
 
 if __name__ == "__main__":
-    main()
+    world_size = torch.cuda.device_count()
+    mp.spawn(main, args=(world_size,), nprocs=world_size)
