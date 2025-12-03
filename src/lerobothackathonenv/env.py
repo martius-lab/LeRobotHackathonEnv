@@ -2,7 +2,8 @@ from .types import *
 
 from pathlib import Path
 
-from .tasks import ExtendedTask, StdTask
+from .tasks import ExtendedTask, ExampleReachTask
+from .structs import MujocoState
 
 from gymnasium import Env
 from dm_control import mujoco
@@ -12,20 +13,21 @@ from mujoco import viewer
 class LeRobot(Env):
     def __init__(
         self,
-        mj_xml_path: Optional[Path] = None,
         dm_control_task_desc: Optional[ExtendedTask] = None,
     ):
-        default_mj_xml_path = Path(__file__).parent / "models" / "xml" / "so101_tabletop_manipulation_generated.xml"
-        mj_xml_path_str = str(mj_xml_path or default_mj_xml_path)
-        dm_control_physics = mujoco.Physics.from_xml_path(mj_xml_path_str)
-        dm_control_task: ExtendedTask = dm_control_task_desc or StdTask()
+        self.dm_control_task: ExtendedTask = (
+            dm_control_task_desc or ExampleReachTask()
+        )
+        dm_control_physics = mujoco.Physics.from_xml_path(
+            str(self.dm_control_task.XML_PATH)
+        )
         self.dm_control_env = control.Environment(
             dm_control_physics,
-            dm_control_task
+            self.dm_control_task
         )
 
-        self.observation_space = dm_control_task.OBSERVATION_SPACE
-        self.action_space = dm_control_task.ACTION_SPACE
+        self.observation_space = self.dm_control_task.OBSERVATION_SPACE
+        self.action_space = self.dm_control_task.ACTION_SPACE
 
         self._window = None
 
@@ -57,8 +59,27 @@ class LeRobot(Env):
         else:
             self._window.sync()
 
-    def render(self):
-        return self.dm_control_env.physics.render()
+    def render(self,
+        width=320,
+        height=240,
+        camera_id=-1,
+    ):
+        return self.dm_control_env.physics.render(
+            width=width,
+            height=height,
+            camera_id=camera_id
+        )
 
-
+    @property
+    def sim_state(self) -> MujocoState:
+        return MujocoState(
+            time=self.dm_control_env._physics.data.time,
+            qpos=self.dm_control_env._physics.data.qpos,
+            qvel=self.dm_control_env._physics.data.qvel,
+            xpos=self.dm_control_env._physics.data.xpos,
+            xquat=self.dm_control_env._physics.data.xquat,
+            mocap_pos=self.dm_control_env._physics.data.mocap_pos,
+            mocap_quat=self.dm_control_env._physics.data.mocap_quat,
+            sim_metadata=self.dm_control_task.get_sim_metadata(),
+        )
 

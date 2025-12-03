@@ -1,4 +1,5 @@
 from abc import ABC
+from pathlib import Path
 
 from numpy.typing import NDArray
 from numpy import float64
@@ -13,8 +14,4 @@ from gymnasium.spaces import Space
 
 from dm_control.mujoco.engine import Physics
 from dm_control.suite.base import Task
-
-class ExtendedTask(Task, ABC):
-    ACTION_SPACE: Space
-    OBSERVATION_SPACE: Space
-
+from .tasks import ExtendedTask
