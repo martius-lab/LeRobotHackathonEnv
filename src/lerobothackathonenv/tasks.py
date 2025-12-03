@@ -357,7 +357,7 @@ class GoalConditionedObjectPlaceTask(ExampleTask):
             target_pos=self.target_pos.copy(),
             object_index=self.one_hot(
                 self.focus_object,
-                len(self.MANIPULATABLES)
+                len(self.MANIPULATABLE_BODY_NAMES)
             )
         )
         return obs
