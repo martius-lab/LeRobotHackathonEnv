@@ -109,13 +109,16 @@ class GoalConditionedObjectPlaceTask(ExampleTask):
         11, # bread_1
         13 # cereal_2
     ]
+    # Note: target_pos has x,y in RANGE_TARGET_POS and fixed z = TABLE_HEIGHT + DELTA.
+    _TARGET_LOW = array([RANGE_TARGET_POS[0], RANGE_TARGET_POS[0], TABLE_HEIGHT + DELTA])
+    _TARGET_HIGH = array([RANGE_TARGET_POS[1], RANGE_TARGET_POS[1], TABLE_HEIGHT + DELTA])
     OBSERVATION_SPACE = spaces.Dict(
         dict(
             qpos=spaces.Box(*ExampleTask.RANGE_QPOS, shape=(27,), dtype=float64),
             qvel=spaces.Box(*ExampleTask.RANGE_QVEL, shape=(24,), dtype=float64),
             actuator_force=spaces.Box(*ExampleTask.RANGE_AF, shape=(6,), dtype=float64),
             gripper_pos=spaces.Box(*ExampleTask.RANGE_GRIPPER, shape=(3,), dtype=float64),
-            target_pos=spaces.Box(*RANGE_TARGET_POS, shape=(3,), dtype=float64),
+            target_pos=spaces.Box(_TARGET_LOW, _TARGET_HIGH, shape=(3,), dtype=float64),
             object_index=spaces.Box(0, 1, shape=(len(MANIPULATABLES), ), dtype=float64)
         )
     )
@@ -139,7 +142,6 @@ class GoalConditionedObjectPlaceTask(ExampleTask):
     ) -> float:
         data = physics.data
         object_pos = data.xpos[self.MANIPULATABLES[self.focus_object]]
-        print(object_pos)
         cost = norm(object_pos - self.target_pos)
         return -float(cost)
 

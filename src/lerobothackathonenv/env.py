@@ -14,6 +14,8 @@ class LeRobot(Env):
     def __init__(
         self,
         dm_control_task_desc: Optional[ExtendedTask] = None,
+        render_size: Tuple[int, int] = (256, 256),
+        render_camera_id: int = 0,
     ):
         # ~ Make inner dm_control env
         self.dm_control_task: ExtendedTask = (
@@ -33,6 +35,8 @@ class LeRobot(Env):
 
         # ~ Neded for the mujoco viewer
         self._window = None
+        self._render_size = render_size
+        self._render_camera_id = render_camera_id
 
     def step(
         self,
@@ -72,17 +76,14 @@ class LeRobot(Env):
             self._window.sync()
 
     def render(self,
-        width=320,
-        height=240,
-        camera_id=-1,
     ):
         """
         Renders to a numpy array
         """
         return self.dm_control_env.physics.render(
-            width=width,
-            height=height,
-            camera_id=camera_id
+            width=self._render_size[0],
+            height=self._render_size[1],
+            camera_id=self._render_camera_id
         )
 
     @property
