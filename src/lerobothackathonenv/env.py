@@ -44,11 +44,26 @@ class LeRobot(Env):
         action: NDArray[float64]
     ) -> StepResult:
         """
-        Standard gym-rquired function for stepping the env
+        Standard gym-required function for stepping the env.
+
+        We also expose a boolean \"success\" flag in the info dict
+        for goal-conditioned pick-and-place tasks.
         """
-        step, reward, discount, observation = self.dm_control_env.step(action)
-        info: Dict = dict()
-        terminated = trunctuated = False
+        time_step = self.dm_control_env.step(action)
+
+        observation = time_step.observation
+        reward = float(time_step.reward)
+
+        terminated = False
+        trunctuated = False
+
+        info: Dict = {}
+
+        # Expose optional task-specific success signal.
+        physics = self.dm_control_env._physics
+        success = bool(self.dm_control_task.get_success(physics))
+        info["success"] = success
+
         return observation, reward, terminated, trunctuated, info
 
     def reset(
@@ -60,6 +75,8 @@ class LeRobot(Env):
         Standard gym-rquired function for reseting the env
         """
         super().reset(seed=seed)
+        if seed is not None:
+            self.dm_control_task._random.seed(seed)
         time_step = self.dm_control_env.reset()
         dummy_info: Dict = dict()
         return time_step.observation, dummy_info
@@ -104,4 +121,3 @@ class LeRobot(Env):
             mocap_quat=self.dm_control_env._physics.data.mocap_quat,
             sim_metadata=self.dm_control_task.get_sim_metadata(),
         )
-

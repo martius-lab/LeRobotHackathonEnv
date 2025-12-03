@@ -30,6 +30,14 @@ class ExtendedTask(Task, ABC):
     def get_sim_metadata(self,) -> Dict:
         raise NotImplementedError("get_sim_metadata is not implemented!")
 
+    def get_success(self, physics: Physics) -> bool:
+        """
+        Optional task-specific success metric.
+        Defaults to False; override in concrete tasks that
+        have a meaningful notion of success.
+        """
+        return False
+
 # ~ Define a task without reward yet that uses the
 #   a generated mujoco xml file for the physics
 
@@ -103,11 +111,27 @@ class GoalConditionedObjectPlaceTask(ExampleTask):
     DELTA = 0.05
     TABLE_HEIGHT = 0.6
     RANGE_TARGET_POS = (-0.4, 0.4)
-    # ~ Body ids of objects to be manipulated
-    MANIPULATABLES: List[int] = [
-        9, # milk_0
-        11, # bread_1
-        13 # cereal_2
+    # Rectangular workspace in front of the robot where
+    # objects and goals are spawned (Meta-World style).
+    OBJECT_X_RANGE = (0.05, 0.35)
+    OBJECT_Y_RANGE = (-0.20, 0.20)
+    GOAL_X_RANGE = (0.05, 0.35)
+    GOAL_Y_RANGE = (-0.20, 0.20)
+    # Reward shaping parameters
+    APPROACH_SIGMA = 0.07
+    PLACE_SIGMA = 0.05
+    SUCCESS_TOL = 0.03
+    LIFT_HEIGHT = TABLE_HEIGHT + 0.03
+    REACH_WEIGHT = 0.3
+    PLACE_WEIGHT = 0.7
+    LIFT_BONUS = 0.2
+    SUCCESS_BONUS = 1.0
+    DISTRACTOR_PENALTY_WEIGHT = 1.0
+    # ~ Body names of objects to be manipulated
+    MANIPULATABLE_BODY_NAMES: List[str] = [
+        "milk_0",
+        "bread_1",
+        "cereal_2",
     ]
     # Note: target_pos has x,y in RANGE_TARGET_POS and fixed z = TABLE_HEIGHT + DELTA.
     _TARGET_LOW = array([RANGE_TARGET_POS[0], RANGE_TARGET_POS[0], TABLE_HEIGHT + DELTA])
@@ -119,7 +143,7 @@ class GoalConditionedObjectPlaceTask(ExampleTask):
             actuator_force=spaces.Box(*ExampleTask.RANGE_AF, shape=(6,), dtype=float64),
             gripper_pos=spaces.Box(*ExampleTask.RANGE_GRIPPER, shape=(3,), dtype=float64),
             target_pos=spaces.Box(_TARGET_LOW, _TARGET_HIGH, shape=(3,), dtype=float64),
-            object_index=spaces.Box(0, 1, shape=(len(MANIPULATABLES), ), dtype=float64)
+            object_index=spaces.Box(0, 1, shape=(len(MANIPULATABLE_BODY_NAMES), ), dtype=float64)
         )
     )
 
@@ -128,22 +152,182 @@ class GoalConditionedObjectPlaceTask(ExampleTask):
         super(ExampleTask, self).__init__(random=random)
         self.resample_goal()
 
-    def resample_goal(self,):
-        x, y = np.random.uniform(*self.RANGE_TARGET_POS, (2,))
+    def _set_body_pos(
+        self,
+        physics: Physics,
+        body_name: str,
+        pos: NDArray[float64]
+    ):
+        """
+        Helper to set the position of a body with a freejoint while
+        preserving its current orientation.
+        """
+        model = physics.model._model
+        data = physics.data
+
+        body_id = mujoco.mj_name2id(
+            model,
+            mujoco.mjtObj.mjOBJ_BODY.value,
+            body_name
+        )
+        if body_id < 0:
+            return
+
+        j_addr = model.body_jntadr[body_id]
+        if j_addr < 0:
+            return
+
+        qpos_adr = model.jnt_qposadr[j_addr]
+        # For a free joint, qpos layout is [x, y, z, qw, qx, qy, qz]
+        current_quat = data.qpos[qpos_adr + 3 : qpos_adr + 7].copy()
+        data.qpos[qpos_adr : qpos_adr + 3] = pos
+        data.qpos[qpos_adr + 3 : qpos_adr + 7] = current_quat
+
+    def initialize_episode(
+        self,
+        physics: Physics,
+        random=None
+    ):
+        """
+        Called by dm_control at the beginning of each episode.
+        We (1) resample the goal, (2) reposition the goal marker mocap
+        body, and (3) respawn objects in a reachable region.
+        """
+        super().initialize_episode(physics)
+
+        # New goal for this episode
+        self.resample_goal()
+
+        model = physics.model._model
+        data = physics.data
+
+        # Cache body ids for manipulatable objects once per env.
+        self._manipulatable_body_ids = [
+            mujoco.mj_name2id(
+                model,
+                mujoco.mjtObj.mjOBJ_BODY.value,
+                name
+            )
+            for name in self.MANIPULATABLE_BODY_NAMES
+        ]
+
+        # Move goal_marker mocap body to match target_pos for visualization
+        goal_body_id = mujoco.mj_name2id(
+            model,
+            mujoco.mjtObj.mjOBJ_BODY.value,
+            "goal_marker"
+        )
+        if goal_body_id >= 0:
+            mocap_id = model.body_mocapid[goal_body_id]
+            if mocap_id >= 0:
+                data.mocap_pos[mocap_id] = self.target_pos.copy()
+
+        # Use task-specific RNG so seeding works as expected.
+        rng = self._random
+
+        # Respawn objects uniformly in a rectangular patch
+        # in front of the robot on the table and remember
+        # their initial positions for distraction penalty.
+        x_low, x_high = self.OBJECT_X_RANGE
+        y_low, y_high = self.OBJECT_Y_RANGE
+        self.initial_object_positions = []
+        for body_name in self.MANIPULATABLE_BODY_NAMES:
+            x = rng.uniform(x_low, x_high)
+            y = rng.uniform(y_low, y_high)
+            z = self.TABLE_HEIGHT + self.DELTA
+            pos = array([x, y, z])
+            self._set_body_pos(physics, body_name, pos)
+            self.initial_object_positions.append(pos)
+
+    def resample_goal(self):
+        # Use task-specific RNG so seeding works as expected.
+        rng = self._random
+
+        # Sample goal uniformly in the same rectangular
+        # reachable patch in front of the robot.
+        x_low, x_high = self.GOAL_X_RANGE
+        y_low, y_high = self.GOAL_Y_RANGE
+
+        x = rng.uniform(x_low, x_high)
+        y = rng.uniform(y_low, y_high)
+
         z = self.TABLE_HEIGHT + self.DELTA
         self.target_pos = array([x, y, z])
-        self.focus_object = np.random.randint(
-            len(self.MANIPULATABLES)
-        )
+        self.focus_object = rng.randint(len(self.MANIPULATABLE_BODY_NAMES))
 
     def get_reward(
         self,
         physics: Physics
     ) -> float:
         data = physics.data
-        object_pos = data.xpos[self.MANIPULATABLES[self.focus_object]]
-        cost = norm(object_pos - self.target_pos)
-        return -float(cost)
+        body_ids: List[int] = self._manipulatable_body_ids  # type: ignore[attr-defined]
+
+        # Object position (focus object for this episode)
+        focus_body_id = body_ids[self.focus_object]
+        object_pos = data.xpos[focus_body_id]
+
+        # Gripper position (for reach / grasp shaping)
+        gripper_site_id = mujoco.mj_name2id(
+            physics.model._model,
+            mujoco.mjtObj.mjOBJ_SITE.value,
+            "gripperframe"
+        )
+        gripper_pos = data.site_xpos[gripper_site_id]
+
+        # Distances
+        d_obj_goal = norm(object_pos - self.target_pos)
+        d_grip_obj = norm(gripper_pos - object_pos)
+
+        # Dense shaping: simple distance-based terms (Meta-World style)
+        # encourage placing the object at the goal and keeping the
+        # gripper close to the object. We use negative norms rather
+        # than exponentials.
+        place_reward = -d_obj_goal
+        reach_reward = -d_grip_obj
+
+        # Small bonus once object is lifted off the table
+        lift_bonus = 0.0
+        if object_pos[2] > self.LIFT_HEIGHT:
+            lift_bonus = self.LIFT_BONUS
+
+        # Sparse success bonus when object is very close to goal
+        success_bonus = 0.0
+        if d_obj_goal < self.SUCCESS_TOL:
+            success_bonus = self.SUCCESS_BONUS
+
+        # Penalize motion of non-goal objects to discourage
+        # unnecessary disturbance of the scene.
+        distractor_penalty = 0.0
+        init_positions = getattr(self, "initial_object_positions", None)
+        if init_positions is not None:
+            for i, body_id in enumerate(body_ids):
+                if i == self.focus_object:
+                    continue
+                if i >= len(init_positions):
+                    continue
+                current_pos = data.xpos[body_id]
+                distractor_penalty += norm(current_pos - init_positions[i])
+
+        reward = (
+            self.REACH_WEIGHT * reach_reward
+            + self.PLACE_WEIGHT * place_reward
+            + lift_bonus
+            + success_bonus
+            - self.DISTRACTOR_PENALTY_WEIGHT * distractor_penalty
+        )
+        return float(reward)
+
+    def get_success(self, physics: Physics) -> bool:
+        """
+        A rollout step is considered successful if the
+        focused object is within SUCCESS_TOL of the goal.
+        """
+        data = physics.data
+        body_ids: List[int] = self._manipulatable_body_ids  # type: ignore[attr-defined]
+        focus_body_id = body_ids[self.focus_object]
+        object_pos = data.xpos[focus_body_id]
+        d_obj_goal = norm(object_pos - self.target_pos)
+        return bool(d_obj_goal < self.SUCCESS_TOL)
 
     @staticmethod
     def one_hot(index: int, size: int) -> NDArray[float64]:
