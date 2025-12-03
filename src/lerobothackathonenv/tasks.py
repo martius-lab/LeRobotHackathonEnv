@@ -1,4 +1,4 @@
-from abc import abstractmethod
+from abc import ABC, abstractmethod
 from .types import *
 
 from numpy import clip, array, exp
@@ -8,6 +8,11 @@ import mujoco
 from gymnasium import spaces
 
 class ExtendedTask(Task, ABC):
+    """
+    This class represents one "variation" of the
+    LeRobot environment. Subclass this to create
+    new variations.
+    """
     XML_PATH: Path
     ACTION_SPACE: Space
     OBSERVATION_SPACE: Space
@@ -24,6 +29,8 @@ class ExtendedTask(Task, ABC):
     def get_sim_metadata(self,) -> Dict:
         raise NotImplementedError("get_sim_metadata is not implemented!")
 
+# ~ Define a task without reward yet that uses the
+#   a generated mujoco xml file for the physics
 
 class ExampleTask(ExtendedTask):
     XML_PATH = (
@@ -68,6 +75,9 @@ class ExampleTask(ExtendedTask):
             gripper_pos=clip(gripper_pos, *self.RANGE_GRIPPER)
         )
         return obs
+
+# ~ Take the task above and make it a reaching task
+#   by defining the appropriate reward function
 
 class ExampleReachTask(ExampleTask):
     def __init__(self, random=None, target_pos: NDArray = array([0, 0, 1.1])):

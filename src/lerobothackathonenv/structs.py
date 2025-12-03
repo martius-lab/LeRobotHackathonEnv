@@ -2,6 +2,7 @@ from .types import *
 import numpy as np
 from dataclasses import dataclass
 
+# ~ Make a class that represents the state...
 @dataclass
 class MujocoState:
     time: float

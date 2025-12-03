@@ -15,6 +15,7 @@ class LeRobot(Env):
         self,
         dm_control_task_desc: Optional[ExtendedTask] = None,
     ):
+        # ~ Make inner dm_control env
         self.dm_control_task: ExtendedTask = (
             dm_control_task_desc or ExampleReachTask()
         )
@@ -26,15 +27,20 @@ class LeRobot(Env):
             self.dm_control_task
         )
 
+        # ~ Init gym-required space variables
         self.observation_space = self.dm_control_task.OBSERVATION_SPACE
         self.action_space = self.dm_control_task.ACTION_SPACE
 
+        # ~ Neded for the mujoco viewer
         self._window = None
 
     def step(
         self,
         action: NDArray[float64]
     ) -> StepResult:
+        """
+        Standard gym-rquired function for stepping the env
+        """
         step, reward, discount, observation = self.dm_control_env.step(action)
         info: Dict = dict()
         terminated = trunctuated = False
@@ -45,12 +51,18 @@ class LeRobot(Env):
         seed: int | None = None,
         options: dict[str, Any] | None = None,
     ) -> ResetResult:
+        """
+        Standard gym-rquired function for reseting the env
+        """
         super().reset(seed=seed)
         time_step = self.dm_control_env.reset()
         dummy_info: Dict = dict()
         return time_step.observation, dummy_info
 
     def render_to_window(self):
+        """
+        Renders to the mujoco viewer
+        """
         if self._window is None:
             self._window = viewer.launch_passive(
                 self.dm_control_env._physics.model.ptr,
@@ -64,6 +76,9 @@ class LeRobot(Env):
         height=240,
         camera_id=-1,
     ):
+        """
+        Renders to a numpy array
+        """
         return self.dm_control_env.physics.render(
             width=width,
             height=height,
@@ -72,6 +87,11 @@ class LeRobot(Env):
 
     @property
     def sim_state(self) -> MujocoState:
+        """
+        This property is used for standardized
+        representation of states in a rollout
+        for later rendering and postprocessing
+        """
         return MujocoState(
             time=self.dm_control_env._physics.data.time,
             qpos=self.dm_control_env._physics.data.qpos,
