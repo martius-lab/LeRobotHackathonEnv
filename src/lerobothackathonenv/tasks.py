@@ -108,15 +108,15 @@ class ExampleReachTask(ExampleTask):
         return {"target_pos": self.target_pos.copy()}
 
 class GoalConditionedObjectPlaceTask(ExampleTask):
-    DELTA = 0.05
+    DELTA = 0.1
     TABLE_HEIGHT = 0.6
     RANGE_TARGET_POS = (-0.4, 0.4)
     # Rectangular workspace in front of the robot where
     # objects and goals are spawned (Meta-World style).
-    OBJECT_X_RANGE = (0.05, 0.35)
-    OBJECT_Y_RANGE = (-0.20, 0.20)
-    GOAL_X_RANGE = (0.05, 0.35)
-    GOAL_Y_RANGE = (-0.20, 0.20)
+    OBJECT_X_RANGE = (0.07, 0.33)
+    OBJECT_Y_RANGE = (-0.17, 0.17)
+    GOAL_X_RANGE = (0.07, 0.33)
+    GOAL_Y_RANGE = (-0.17, 0.17)
     # Reward shaping parameters
     APPROACH_SIGMA = 0.07
     PLACE_SIGMA = 0.05
@@ -229,7 +229,7 @@ class GoalConditionedObjectPlaceTask(ExampleTask):
         x_low, x_high = self.OBJECT_X_RANGE
         y_low, y_high = self.OBJECT_Y_RANGE
         self.initial_object_positions = []
-        rng = np.random.RandomState(14)
+        rng = self._random
         for body_name in self.MANIPULATABLE_BODY_NAMES:
 
             x = rng.uniform(x_low, x_high)
@@ -239,9 +239,26 @@ class GoalConditionedObjectPlaceTask(ExampleTask):
             self._set_body_pos(physics, body_name, pos)
             self.initial_object_positions.append(pos)
 
+        # Ensure the focus object is not spawned trivially at the goal.
+        focus_idx = self.focus_object
+        focus_body_name = self.MANIPULATABLE_BODY_NAMES[focus_idx]
+        current_pos = self.initial_object_positions[focus_idx]
+        # If the focus object starts within SUCCESS_TOL of the goal,
+        # resample its spawn position until it is outside this radius.
+        max_tries = 20
+        tries = 0
+        while norm(current_pos - self.target_pos) <= self.SUCCESS_TOL and tries < max_tries:
+            x = rng.uniform(x_low, x_high)
+            y = rng.uniform(y_low, y_high)
+            current_pos = array([x, y, z])
+            tries += 1
+        # Update focus object position (either original or resampled).
+        self._set_body_pos(physics, focus_body_name, current_pos)
+        self.initial_object_positions[focus_idx] = current_pos
+
     def resample_goal(self):
         # Use task-specific RNG so seeding works as expected.
-        rng = np.random.RandomState(5)
+        rng = self._random
 
         # Sample goal uniformly in the same rectangular
         # reachable patch in front of the robot.
@@ -251,7 +268,7 @@ class GoalConditionedObjectPlaceTask(ExampleTask):
         x = rng.uniform(x_low, x_high)
         y = rng.uniform(y_low, y_high)
 
-        z = self.TABLE_HEIGHT + self.DELTA
+        z = self.TABLE_HEIGHT + self.DELTA - 0.1
         self.target_pos = array([x, y, z])
         self.focus_object = 1
 
@@ -272,22 +289,21 @@ class GoalConditionedObjectPlaceTask(ExampleTask):
         gripper_pos = data.site_xpos[gripper_site_id]
 
 
+        d_obj_goal = norm(object_pos - self.target_pos)
+        r = -d_obj_goal
         d_gripper_object = norm(object_pos - gripper_pos)
-        r = exp(-d_gripper_object ** 2 / (2 * 0.1 ** 2))
+        r -= d_gripper_object
+        # if d_obj_goal >= 0.1:
+        #     z = object_pos[2]
+        #     d_below_ten = self.TABLE_HEIGHT + self.DELTA - z
+        #     r -= max(d_below_ten, 0)
+        #     if d_below_ten > 0:
+        #         print("below 10 applies")
+        #         print("d obj gripper applies")
+        #         d_gripper_object = norm(object_pos - gripper_pos)
+        #         r -= d_gripper_object
 
-        if r >= 0.3:
-            r_height = np.minimum(object_pos[2] - self.TABLE_HEIGHT, 0.1)
-            r += r_height
-            if r_height >= 0.05:
-                d_obj_goal = norm(object_pos - self.target_pos)
-                r_obj_goal = exp(-d_obj_goal ** 2 / (2 * 0.3 ** 2))
-                r += r_obj_goal
-                if r_obj_goal >= 0.3:
-                    table_dist = abs(object_pos[2] - self.TABLE_HEIGHT)
-                    r_proximmity = np.maximum(0, 0.1 - table_dist)
-                    r += r_proximmity
-
-        return r
+        return float(r)
 
     def get_success(self, physics: Physics) -> bool:
         """
