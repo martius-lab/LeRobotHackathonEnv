@@ -108,7 +108,7 @@ class ExampleReachTask(ExampleTask):
         return {"target_pos": self.target_pos.copy()}
 
 class GoalConditionedObjectPlaceTask(ExampleTask):
-    FIXED_SEED = 8
+    FIXED_SEED = 42
     DELTA = 0.1
     TABLE_HEIGHT = 0.6
     RANGE_TARGET_POS = (-0.4, 0.4)
