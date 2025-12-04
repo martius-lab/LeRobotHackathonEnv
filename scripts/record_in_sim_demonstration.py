@@ -106,6 +106,9 @@ def run_collection_loop(cfg: TeleoperateConfig):
             print(teleop_action, action)
 
             observation, reward, terminated, trunctuated, info = env.step(action)
+            done = terminated or trunctuated
+            if done:
+                observation, info = env.reset()
             print_obs(observation)
             print_reward(reward)
             env.unwrapped.render_to_window()
