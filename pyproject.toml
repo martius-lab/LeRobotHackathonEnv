@@ -15,6 +15,7 @@ dependencies = [
     "wandb[media]>=0.17.0",
     "tyro>=0.9.35",
     "moviepy>=2.2.1",
+    "lerobot[feetech]>=0.3.3",
 ]
 
 [dependency-groups]
