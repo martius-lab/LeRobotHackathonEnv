@@ -26,7 +26,9 @@ def print_reward(reward: float):
 
 while True:
     action = env.action_space.sample()
+    action[:] = 0
     observation, reward, terminated, trunctuated, info = env.step(action)
     print_obs(observation)
     print_reward(reward)
+    sleep(0.1)
     env.unwrapped.render_to_window()

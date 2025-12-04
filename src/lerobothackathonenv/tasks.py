@@ -223,15 +223,15 @@ class GoalConditionedObjectPlaceTask(ExampleTask):
                 data.mocap_pos[mocap_id] = self.target_pos.copy()
 
         # Use task-specific RNG so seeding works as expected.
-        rng = self._random
-
         # Respawn objects uniformly in a rectangular patch
         # in front of the robot on the table and remember
         # their initial positions for distraction penalty.
         x_low, x_high = self.OBJECT_X_RANGE
         y_low, y_high = self.OBJECT_Y_RANGE
         self.initial_object_positions = []
+        rng = np.random.RandomState(14)
         for body_name in self.MANIPULATABLE_BODY_NAMES:
+
             x = rng.uniform(x_low, x_high)
             y = rng.uniform(y_low, y_high)
             z = self.TABLE_HEIGHT + self.DELTA
@@ -241,7 +241,7 @@ class GoalConditionedObjectPlaceTask(ExampleTask):
 
     def resample_goal(self):
         # Use task-specific RNG so seeding works as expected.
-        rng = self._random
+        rng = np.random.RandomState(5)
 
         # Sample goal uniformly in the same rectangular
         # reachable patch in front of the robot.
@@ -253,7 +253,7 @@ class GoalConditionedObjectPlaceTask(ExampleTask):
 
         z = self.TABLE_HEIGHT + self.DELTA
         self.target_pos = array([x, y, z])
-        self.focus_object = rng.randint(len(self.MANIPULATABLE_BODY_NAMES))
+        self.focus_object = 1
 
     def get_reward(
         self,
@@ -262,11 +262,8 @@ class GoalConditionedObjectPlaceTask(ExampleTask):
         data = physics.data
         body_ids: List[int] = self._manipulatable_body_ids  # type: ignore[attr-defined]
 
-        # Object position (focus object for this episode)
         focus_body_id = body_ids[self.focus_object]
         object_pos = data.xpos[focus_body_id]
-
-        # Gripper position (for reach / grasp shaping)
         gripper_site_id = mujoco.mj_name2id(
             physics.model._model,
             mujoco.mjtObj.mjOBJ_SITE.value,
@@ -274,48 +271,23 @@ class GoalConditionedObjectPlaceTask(ExampleTask):
         )
         gripper_pos = data.site_xpos[gripper_site_id]
 
-        # Distances
-        d_obj_goal = norm(object_pos - self.target_pos)
-        d_grip_obj = norm(gripper_pos - object_pos)
 
-        # Dense shaping: simple distance-based terms (Meta-World style)
-        # encourage placing the object at the goal and keeping the
-        # gripper close to the object. We use negative norms rather
-        # than exponentials.
-        place_reward = -d_obj_goal
-        reach_reward = -d_grip_obj
+        d_gripper_object = norm(object_pos - gripper_pos)
+        r = exp(-d_gripper_object ** 2 / (2 * 0.1 ** 2))
 
-        # Small bonus once object is lifted off the table
-        lift_bonus = 0.0
-        if object_pos[2] > self.LIFT_HEIGHT:
-            lift_bonus = self.LIFT_BONUS
+        if r >= 0.3:
+            r_height = np.minimum(object_pos[2] - self.TABLE_HEIGHT, 0.1)
+            r += r_height
+            if r_height >= 0.05:
+                d_obj_goal = norm(object_pos - self.target_pos)
+                r_obj_goal = exp(-d_obj_goal ** 2 / (2 * 0.3 ** 2))
+                r += r_obj_goal
+                if r_obj_goal >= 0.3:
+                    table_dist = abs(object_pos[2] - self.TABLE_HEIGHT)
+                    r_proximmity = np.maximum(0, 0.1 - table_dist)
+                    r += r_proximmity
 
-        # Sparse success bonus when object is very close to goal
-        success_bonus = 0.0
-        if d_obj_goal < self.SUCCESS_TOL:
-            success_bonus = self.SUCCESS_BONUS
-
-        # Penalize motion of non-goal objects to discourage
-        # unnecessary disturbance of the scene.
-        distractor_penalty = 0.0
-        init_positions = getattr(self, "initial_object_positions", None)
-        if init_positions is not None:
-            for i, body_id in enumerate(body_ids):
-                if i == self.focus_object:
-                    continue
-                if i >= len(init_positions):
-                    continue
-                current_pos = data.xpos[body_id]
-                distractor_penalty += norm(current_pos - init_positions[i])
-
-        reward = (
-            self.REACH_WEIGHT * reach_reward
-            + self.PLACE_WEIGHT * place_reward
-            + lift_bonus
-            + success_bonus
-            - self.DISTRACTOR_PENALTY_WEIGHT * distractor_penalty
-        )
-        return float(reward)
+        return r
 
     def get_success(self, physics: Physics) -> bool:
         """
@@ -357,7 +329,7 @@ class GoalConditionedObjectPlaceTask(ExampleTask):
             target_pos=self.target_pos.copy(),
             object_index=self.one_hot(
                 self.focus_object,
-                len(self.MANIPULATABLES)
+                len(self.MANIPULATABLE_BODY_NAMES)
             )
         )
         return obs
