@@ -45,25 +45,22 @@ class LeRobot(Env):
     ) -> StepResult:
         """
         Standard gym-required function for stepping the env.
-
         We also expose a boolean \"success\" flag in the info dict
         for goal-conditioned pick-and-place tasks.
         """
         time_step = self.dm_control_env.step(action)
-
         observation = time_step.observation
         reward = float(time_step.reward)
-
         terminated = False
-        trunctuated = False
-
-        info: Dict = {}
-
-        # Expose optional task-specific success signal.
         physics = self.dm_control_env._physics
-        success = bool(self.dm_control_task.get_success(physics))
+        trunctuated = False
+        info: Dict = {}
+        # Expose optional task-specific success signal.
+        success = self.dm_control_task.get_success(physics)
         info["success"] = success
-
+        # Terminate the episode on success for goal-conditioned tasks.
+        if success:
+            terminated = True
         return observation, reward, terminated, trunctuated, info
 
     def reset(
@@ -78,8 +75,7 @@ class LeRobot(Env):
         if seed is not None:
             self.dm_control_task._random.seed(seed)
         time_step = self.dm_control_env.reset()
-        dummy_info: Dict = dict()
-        return time_step.observation, dummy_info
+        return time_step.observation, {"success": False}
 
     def render_to_window(self):
         """
