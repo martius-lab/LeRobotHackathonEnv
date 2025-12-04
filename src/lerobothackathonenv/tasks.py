@@ -46,7 +46,7 @@ class ExampleTask(ExtendedTask):
             Path(__file__).parent
                 / "models"
                 / "xml"
-                / "so101_tabletop_manipulation_generated.xml"
+                / "so101_convex_decomb.xml"
         )
     ACTION_SPACE = spaces.Box(low=-1, high=1, shape=(6,), dtype=float64)
 
