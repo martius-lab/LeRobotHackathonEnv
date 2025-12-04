@@ -134,8 +134,8 @@ class GoalConditionedObjectPlaceTask(ExampleTask):
         "cereal_2",
     ]
     # Note: target_pos has x,y in RANGE_TARGET_POS and fixed z = TABLE_HEIGHT + DELTA.
-    _TARGET_LOW = array([RANGE_TARGET_POS[0], RANGE_TARGET_POS[0], TABLE_HEIGHT + DELTA])
-    _TARGET_HIGH = array([RANGE_TARGET_POS[1], RANGE_TARGET_POS[1], TABLE_HEIGHT + DELTA])
+    _TARGET_LOW = array([RANGE_TARGET_POS[0], RANGE_TARGET_POS[0], TABLE_HEIGHT + DELTA - 0.1])
+    _TARGET_HIGH = array([RANGE_TARGET_POS[1], RANGE_TARGET_POS[1], TABLE_HEIGHT + DELTA - 0.1])
     OBSERVATION_SPACE = spaces.Dict(
         dict(
             qpos=spaces.Box(*ExampleTask.RANGE_QPOS, shape=(27,), dtype=float64),
