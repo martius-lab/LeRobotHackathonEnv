@@ -1,11 +1,14 @@
 <?xml version="1.0" ?>
 <mujoco model="so101_tabletop_manipulation">
-  <option timestep="0.0016666666666666667"/>
+  <option timestep="0.0025" integrator="implicitfast" impratio="10" cone="elliptic" noslip_iterations="2">
+    <flag multiccd="enable"/>
+  </option>
   <compiler angle="radian" meshdir="../meshes" texturedir="../textures" autolimits="true"/>
   
   <include file="arenas/table_arena.xml"/>
   
   <default>
+        <!-- <geom solref="0.001 1"/> -->
     <default class="so101_new_calib">
       <joint damping="1" frictionloss="0.1" armature="0.005"/>
       <position kp="50"/>
