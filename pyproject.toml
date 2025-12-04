@@ -10,6 +10,9 @@ dependencies = [
     "mujoco>=3.3.7",
     "pufferlib==3.0.0",
     "gym==0.23",
+]
+[project.optional-dependencies]
+collect_data = [
     "lerobot[feetech]>=0.3.3",
 ]
 
