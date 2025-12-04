@@ -21,7 +21,7 @@ from lerobot.teleoperators import (
 
 env: LeRobot = gym.make("LeRobotGoalConditioned-v0")
 env.unwrapped.render_to_window()
-obs, info = env.reset()
+observation, info = env.reset()
 
 class RateLimiter:
     def __init__(self, calls_per_second):

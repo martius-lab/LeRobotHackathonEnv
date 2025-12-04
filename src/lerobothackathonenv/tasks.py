@@ -108,6 +108,7 @@ class ExampleReachTask(ExampleTask):
         return {"target_pos": self.target_pos.copy()}
 
 class GoalConditionedObjectPlaceTask(ExampleTask):
+    FIXED_SEED = 8
     DELTA = 0.1
     TABLE_HEIGHT = 0.6
     RANGE_TARGET_POS = (-0.4, 0.4)
@@ -150,7 +151,9 @@ class GoalConditionedObjectPlaceTask(ExampleTask):
 
     def __init__(self, random=None):
         super(ExampleTask, self).__init__(random=random)
-        self.resample_goal()
+        # Set fixed random seed
+        if self.FIXED_SEED:
+            self._random = np.random.RandomState(self.FIXED_SEED)
 
     def _set_body_pos(
         self,
@@ -193,6 +196,10 @@ class GoalConditionedObjectPlaceTask(ExampleTask):
         We (1) resample the goal, (2) reposition the goal marker mocap
         body, and (3) respawn objects in a reachable region.
         """
+        # Set fixed random seed
+        if self.FIXED_SEED:
+            self._random = np.random.RandomState(self.FIXED_SEED)
+
         super().initialize_episode(physics)
 
         # New goal for this episode
@@ -256,6 +263,7 @@ class GoalConditionedObjectPlaceTask(ExampleTask):
         self._set_body_pos(physics, focus_body_name, current_pos)
         self.initial_object_positions[focus_idx] = current_pos
 
+
     def resample_goal(self):
         # Use task-specific RNG so seeding works as expected.
         rng = self._random
@@ -293,15 +301,6 @@ class GoalConditionedObjectPlaceTask(ExampleTask):
         r = -d_obj_goal
         d_gripper_object = norm(object_pos - gripper_pos)
         r -= d_gripper_object
-        # if d_obj_goal >= 0.1:
-        #     z = object_pos[2]
-        #     d_below_ten = self.TABLE_HEIGHT + self.DELTA - z
-        #     r -= max(d_below_ten, 0)
-        #     if d_below_ten > 0:
-        #         print("below 10 applies")
-        #         print("d obj gripper applies")
-        #         d_gripper_object = norm(object_pos - gripper_pos)
-        #         r -= d_gripper_object
 
         return float(r)
 
