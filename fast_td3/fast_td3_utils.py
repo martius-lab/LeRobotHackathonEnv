@@ -753,7 +753,8 @@ def cpu_state(sd):
 
 
 def save_params(
-    global_step,
+    grad_step,
+    env_step,
     actor,
     qnet,
     qnet_target,
@@ -786,7 +787,9 @@ def save_params(
             else None
         ),
         "args": vars(args),  # Save all arguments
-        "global_step": global_step,
+        # Training progress
+        "grad_step": grad_step,
+        "env_step": env_step,
     }
     torch.save(save_dict, save_path, _use_new_zipfile_serialization=True)
     print(f"Saved parameters and configuration to {save_path}")

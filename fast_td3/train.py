@@ -102,7 +102,7 @@ def main():
 
         env_type = "lerobot"
         envs = LeRobotPufferEnv(args.env_name, args.num_envs, args.seed, device)
-        eval_envs = envs
+        eval_envs =  LeRobotPufferEnv(args.env_name, args.num_envs, args.seed, device)
         # Reuse the same vector env for any operations; rendering is not supported.
         render_env = LeRobotPufferEnv(args.env_name, 1, args.seed, device)
     elif args.env_name.startswith("h1hand-") or args.env_name.startswith("h1-"):
@@ -359,6 +359,10 @@ def main():
                 eval_success = torch.logical_or(
                     eval_success, infos["success"].bool()
                 )
+                if eval_success.any():
+                    print(
+                        f"Eval step {i}: Current success rate: {eval_success.float().mean().item():.3f}"
+                    )
 
             episode_returns = torch.where(
                 ~done_masks, episode_returns + rewards, episode_returns
@@ -566,6 +570,7 @@ def main():
         critic_obs = torch.as_tensor(critic_obs, device=device, dtype=torch.float)
     else:
         obs = envs.reset()
+
     if args.checkpoint_path:
         # Load checkpoint if specified
         torch_checkpoint = torch.load(
@@ -578,24 +583,36 @@ def main():
         )
         qnet.load_state_dict(torch_checkpoint["qnet_state_dict"])
         qnet_target.load_state_dict(torch_checkpoint["qnet_target_state_dict"])
-        global_step = torch_checkpoint["global_step"]
+        # Resume exact training progress.
+        agent_step = torch_checkpoint["agent_step"]
+        env_step = torch_checkpoint["env_step"]
     else:
-        global_step = 0
+        agent_step = 0
+        # Environment step counter (counts individual env transitions).
+        env_step = 0
 
     dones = None
-    pbar = tqdm.tqdm(total=args.total_timesteps, initial=global_step)
+    # Track per-env episode returns, lengths, and success flags during training.
+    episode_returns = torch.zeros(envs.num_envs, device=device, dtype=torch.float32)
+    episode_lengths = torch.zeros(envs.num_envs, device=device, dtype=torch.float32)
+    episode_success = torch.zeros(envs.num_envs, device=device, dtype=torch.bool)
+    # Global counters to track a running training success rate (episodes with any success).
+    total_train_episodes = 0
+    total_train_successes = 0.0
+    train_success_rate_running = 0.0
+    pbar = tqdm.tqdm(total=args.total_timesteps, initial=agent_step)
     start_time = None
     desc = ""
 
-    while global_step < args.total_timesteps:
+    while agent_step < args.total_timesteps:
         mark_step()
         logs_dict = TensorDict()
         if (
             start_time is None
-            and global_step >= args.measure_burnin + args.learning_starts
+            and agent_step >= args.measure_burnin + args.learning_starts
         ):
             start_time = time.time()
-            measure_burnin = global_step
+            measure_burnin = agent_step
 
         with torch.no_grad(), autocast(
             device_type=amp_device_type, dtype=amp_dtype, enabled=amp_enabled
@@ -605,6 +622,53 @@ def main():
 
         next_obs, rewards, dones, infos = envs.step(actions.float())
         truncations = infos["time_outs"]
+
+        # Update running episode statistics.
+        episode_returns = episode_returns + rewards
+        episode_lengths = episode_lengths + 1
+
+        # Track per-episode success for LeRobot envs:
+        # mark an episode as successful if it ever achieves success.
+        if "success" in infos:
+            episode_success = torch.logical_or(
+                episode_success, infos["success"].bool()
+            )
+
+        # Log per-episode return, length (and success for LeRobot) whenever an episode finishes.
+        done_envs = dones.bool()
+        if args.use_wandb and done_envs.any():
+            
+            returns_done = episode_returns[done_envs].tolist()
+            lengths_done = episode_lengths[done_envs].tolist()
+            if "success" in infos:
+                success_done_tensor = episode_success[done_envs].float()
+                success_done = success_done_tensor.tolist()
+            else:
+                success_done = None
+
+            for idx, (ret, length) in enumerate(zip(returns_done, lengths_done)):
+                log_dict = {
+                    "train/episode_return": ret,
+                    "train/episode_length": length,
+                }
+                if success_done is not None:
+                    log_dict["train/episode_success"] = success_done[idx]
+                # Use the current env_step for all logs in this iteration
+                # to keep WandB steps monotonically non-decreasing.
+                wandb.log(log_dict, step=env_step+idx)
+
+            # Update global training success statistics for LeRobot runs.
+            if success_done is not None and len(success_done_tensor) > 0:
+                total_train_episodes += len(success_done_tensor)
+                total_train_successes += success_done_tensor.sum().item()
+                train_success_rate_running = float(
+                    total_train_successes / max(1, total_train_episodes)
+                )
+
+            # Reset stats for finished episodes.
+            episode_returns[done_envs] = 0.0
+            episode_lengths[done_envs] = 0.0
+            episode_success[done_envs] = False
 
         if args.reward_normalization:
             if env_type == "mtbench":
@@ -652,7 +716,7 @@ def main():
         if envs.asymmetric_obs:
             critic_obs = next_critic_obs
 
-            if global_step > args.learning_starts:
+        if agent_step > args.learning_starts:
             for i in range(args.num_updates):
                 data = rb.sample(max(1, args.batch_size // args.num_envs))
                 data["observations"] = normalize_obs(data["observations"])
@@ -682,13 +746,13 @@ def main():
                     if i % args.policy_frequency == 1:
                         logs_dict = update_pol(data, logs_dict)
                 else:
-                    if global_step % args.policy_frequency == 0:
+                    if agent_step % args.policy_frequency == 0:
                         logs_dict = update_pol(data, logs_dict)
 
                 soft_update(qnet, qnet_target, args.tau)
 
-            if global_step % 100 == 0 and start_time is not None:
-                speed = (global_step - measure_burnin) / (time.time() - start_time)
+            if agent_step % 100 == 0 and start_time is not None:
+                speed = (agent_step - measure_burnin) / (time.time() - start_time)
                 pbar.set_description(f"{speed: 4.4f} sps, " + desc)
                 with torch.no_grad():
                     logs = {
@@ -702,14 +766,15 @@ def main():
                         "buffer_rewards": raw_rewards.mean(),
                     }
 
-                    # Training-time success rate for LeRobot pick-and-place.
-                    if env_type == "lerobot" and "success" in infos:
-                        logs["train_success_rate"] = infos["success"].float().mean()
+                    # Training-time success rate for LeRobot pick-and-place,
+                    # averaged over all completed training episodes so far.
+                    if env_type == "lerobot" and total_train_episodes > 0:
+                        logs["train_success_rate"] = train_success_rate_running
 
-                    if args.eval_interval > 0 and global_step % args.eval_interval == 0:
-                        print(f"Evaluating at global step {global_step}")
+                    if args.eval_interval > 0 and agent_step % args.eval_interval == 0:
+                        print(f"Evaluating at grad step {agent_step}")
                         eval_avg_return, eval_avg_length, eval_success_rate = evaluate()
-                        if env_type in ["humanoid_bench", "isaaclab", "mtbench", "lerobot"]:
+                        if env_type in ["humanoid_bench", "isaaclab", "mtbench"]:
                             # NOTE: Hacky way of evaluating performance, but just works
                             obs = envs.reset()
                         logs["eval_avg_return"] = eval_avg_return
@@ -719,7 +784,7 @@ def main():
 
                     if (
                         args.render_interval > 0
-                        and global_step % args.render_interval == 0
+                        and agent_step % args.render_interval == 0
                     ):
                         renders = render_with_rollout()
                         render_video = wandb.Video(
@@ -734,38 +799,42 @@ def main():
                     wandb.log(
                         {
                             "speed": speed,
-                            "frame": global_step * args.num_envs,
+                            "frame": env_step,
                             "critic_lr": q_scheduler.get_last_lr()[0],
                             "actor_lr": actor_scheduler.get_last_lr()[0],
                             **logs,
                         },
-                        step=global_step,
+                        step=env_step,
                     )
 
             if (
                 args.save_interval > 0
-                and global_step > 0
-                and global_step % args.save_interval == 0
+                and agent_step > 0
+                and agent_step % args.save_interval == 0
             ):
-                print(f"Saving model at global step {global_step}")
+                print(f"Saving model at agent_step={agent_step}, env_step={env_step}")
                 save_params(
-                    global_step,
+                    agent_step,
+                    env_step,
                     actor,
                     qnet,
                     qnet_target,
                     obs_normalizer,
                     critic_obs_normalizer,
                     args,
-                    os.path.join(run_dir, "models", f"{run_name}_{global_step}.pt"),
+                    os.path.join(run_dir, "models", f"{run_name}_{agent_step}.pt"),
                 )
 
-        global_step += 1
+        agent_step += 1
+        # Each vectorized step advances all envs once.
+        env_step += envs.num_envs
         actor_scheduler.step()
         q_scheduler.step()
         pbar.update(1)
 
     save_params(
-        global_step,
+        agent_step,
+        env_step,
         actor,
         qnet,
         qnet_target,
@@ -774,6 +843,11 @@ def main():
         args,
         os.path.join(run_dir, "models", f"{run_name}_final.pt"),
     )
+
+    # Cleanly close environments so worker processes / resources are released.
+    envs.close()
+    if render_env is not envs:
+        render_env.close()
 
 
 if __name__ == "__main__":

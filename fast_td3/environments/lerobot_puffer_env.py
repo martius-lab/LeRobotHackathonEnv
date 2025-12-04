@@ -34,7 +34,7 @@ class LeRobotPufferEnv:
         self.max_episode_steps = max_episode_steps
 
         # Minimal PufferLib setup, mirroring the README style
-        num_workers = min(8, num_envs)
+        num_workers = min(4, num_envs)
         def make_env():
             env = gym.make(env_id, max_episode_steps=max_episode_steps)
             return env
@@ -91,18 +91,14 @@ class LeRobotPufferEnv:
             "time_outs": trunc_t,
             "observations": {"raw": {"obs": obs_t.clone()}},
         }
-
-        # Optional per-step success signal from the underlying LeRobot env.
-        # In the single-env case, this is a scalar; in the vectorized case,
-        # this is expected to be an array of length num_envs.
-        if isinstance(infos, dict) and "success" in infos:
+        if isinstance(infos, list):
+            success_np = np.asarray([i["success"] for i in infos], dtype=np.float32)
+        else:
             success_np = np.asarray(infos["success"], dtype=np.float32)
-            if success_np.shape == ():
-                success_np = success_np[None]
-            success_t = torch.as_tensor(
-                success_np, device=self.device, dtype=torch.float32
-            )
-            info_ret["success"] = success_t
+        success_t = torch.as_tensor(
+            success_np, device=self.device, dtype=torch.float32
+        )
+        info_ret["success"] = success_t
 
         return obs_t, rewards_t, dones_t, info_ret
 
