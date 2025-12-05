@@ -30,7 +30,7 @@ def print_reward(reward: float):
     print(f"~~~ Reward: {reward: 10.3f} ~~~")
 
 i = 0
-rl = RateLimiter(100)
+rl = RateLimiter(5)
 while True:
     rl.wait()
     i += 1
