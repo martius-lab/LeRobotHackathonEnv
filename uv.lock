@@ -1361,9 +1361,13 @@ dependencies = [
     { name = "dm-control" },
     { name = "gym" },
     { name = "gymnasium" },
-    { name = "lerobot", extra = ["feetech"] },
     { name = "mujoco" },
     { name = "pufferlib" },
+]
+
+[package.optional-dependencies]
+collect-data = [
+    { name = "lerobot", extra = ["feetech"] },
 ]
 
 [package.dev-dependencies]
@@ -1378,10 +1382,11 @@ requires-dist = [
     { name = "dm-control", specifier = ">=1.0.34" },
     { name = "gym", specifier = "==0.23" },
     { name = "gymnasium", specifier = "==0.29.1" },
-    { name = "lerobot", extras = ["feetech"], specifier = ">=0.3.3" },
+    { name = "lerobot", extras = ["feetech"], marker = "extra == 'collect-data'", specifier = ">=0.3.3" },
     { name = "mujoco", specifier = ">=3.3.7" },
     { name = "pufferlib", specifier = "==3.0.0" },
 ]
+provides-extras = ["collect-data"]
 
 [package.metadata.requires-dev]
 dev = [
