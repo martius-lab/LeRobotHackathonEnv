@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Super_Mario_3D_World_Deluxe_Set_texture" file="library_objects/Super_Mario_3D_World_Deluxe_Set/texture.png" />
+    <material name="Super_Mario_3D_World_Deluxe_Set_material" texture="Super_Mario_3D_World_Deluxe_Set_texture" />
+    <mesh name="Super_Mario_3D_World_Deluxe_Set" file="library_objects/Super_Mario_3D_World_Deluxe_Set/Super_Mario_3D_World_Deluxe_Set.obj" />
+    <mesh name="Super_Mario_3D_World_Deluxe_Set_part_0" file="library_objects/Super_Mario_3D_World_Deluxe_Set/Super_Mario_3D_World_Deluxe_Set_decomp_0.obj" />
+    <mesh name="Super_Mario_3D_World_Deluxe_Set_part_1" file="library_objects/Super_Mario_3D_World_Deluxe_Set/Super_Mario_3D_World_Deluxe_Set_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

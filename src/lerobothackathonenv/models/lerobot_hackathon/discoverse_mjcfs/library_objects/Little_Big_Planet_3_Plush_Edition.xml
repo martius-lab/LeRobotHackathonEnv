@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Little_Big_Planet_3_Plush_Edition_material" mesh="Little_Big_Planet_3_Plush_Edition" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Little_Big_Planet_3_Plush_Edition_part_0" />
+</mujocoinclude>

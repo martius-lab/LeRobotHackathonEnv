@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Beta_Glucan_material" mesh="Beta_Glucan" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Beta_Glucan_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Beta_Glucan_part_1" />
+</mujocoinclude>

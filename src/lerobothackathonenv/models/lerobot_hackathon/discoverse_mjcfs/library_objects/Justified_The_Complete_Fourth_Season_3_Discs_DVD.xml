@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Justified_The_Complete_Fourth_Season_3_Discs_DVD_material" mesh="Justified_The_Complete_Fourth_Season_3_Discs_DVD" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Justified_The_Complete_Fourth_Season_3_Discs_DVD_part_0" />
+</mujocoinclude>

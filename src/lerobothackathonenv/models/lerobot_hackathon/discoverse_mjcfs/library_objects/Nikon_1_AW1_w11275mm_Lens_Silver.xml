@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Nikon_1_AW1_w11275mm_Lens_Silver_material" mesh="Nikon_1_AW1_w11275mm_Lens_Silver" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Nikon_1_AW1_w11275mm_Lens_Silver_part_0" />
+</mujocoinclude>

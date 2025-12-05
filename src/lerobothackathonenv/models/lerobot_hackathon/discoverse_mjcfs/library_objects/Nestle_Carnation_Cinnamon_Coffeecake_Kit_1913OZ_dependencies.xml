@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Nestle_Carnation_Cinnamon_Coffeecake_Kit_1913OZ_texture" file="library_objects/Nestle_Carnation_Cinnamon_Coffeecake_Kit_1913OZ/texture.png" />
+    <material name="Nestle_Carnation_Cinnamon_Coffeecake_Kit_1913OZ_material" texture="Nestle_Carnation_Cinnamon_Coffeecake_Kit_1913OZ_texture" />
+    <mesh name="Nestle_Carnation_Cinnamon_Coffeecake_Kit_1913OZ" file="library_objects/Nestle_Carnation_Cinnamon_Coffeecake_Kit_1913OZ/Nestle_Carnation_Cinnamon_Coffeecake_Kit_1913OZ.obj" />
+    <mesh name="Nestle_Carnation_Cinnamon_Coffeecake_Kit_1913OZ_part_0" file="library_objects/Nestle_Carnation_Cinnamon_Coffeecake_Kit_1913OZ/Nestle_Carnation_Cinnamon_Coffeecake_Kit_1913OZ_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

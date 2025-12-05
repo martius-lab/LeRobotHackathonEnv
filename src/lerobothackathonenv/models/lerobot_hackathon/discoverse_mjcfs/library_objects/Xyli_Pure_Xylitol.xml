@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Xyli_Pure_Xylitol_material" mesh="Xyli_Pure_Xylitol" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Xyli_Pure_Xylitol_part_0" />
+</mujocoinclude>

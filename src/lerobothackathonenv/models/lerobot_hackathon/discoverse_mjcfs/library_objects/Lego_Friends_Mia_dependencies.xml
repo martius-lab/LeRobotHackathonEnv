@@ -1,0 +1,23 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Lego_Friends_Mia_texture" file="library_objects/Lego_Friends_Mia/texture.png" />
+    <material name="Lego_Friends_Mia_material" texture="Lego_Friends_Mia_texture" />
+    <mesh name="Lego_Friends_Mia" file="library_objects/Lego_Friends_Mia/Lego_Friends_Mia.obj" />
+    <mesh name="Lego_Friends_Mia_part_0" file="library_objects/Lego_Friends_Mia/Lego_Friends_Mia_decomp_6.obj" />
+    <mesh name="Lego_Friends_Mia_part_1" file="library_objects/Lego_Friends_Mia/Lego_Friends_Mia_decomp_12.obj" />
+    <mesh name="Lego_Friends_Mia_part_2" file="library_objects/Lego_Friends_Mia/Lego_Friends_Mia_decomp_0.obj" />
+    <mesh name="Lego_Friends_Mia_part_3" file="library_objects/Lego_Friends_Mia/Lego_Friends_Mia_decomp_9.obj" />
+    <mesh name="Lego_Friends_Mia_part_4" file="library_objects/Lego_Friends_Mia/Lego_Friends_Mia_decomp_11.obj" />
+    <mesh name="Lego_Friends_Mia_part_5" file="library_objects/Lego_Friends_Mia/Lego_Friends_Mia_decomp_4.obj" />
+    <mesh name="Lego_Friends_Mia_part_6" file="library_objects/Lego_Friends_Mia/Lego_Friends_Mia_decomp_3.obj" />
+    <mesh name="Lego_Friends_Mia_part_7" file="library_objects/Lego_Friends_Mia/Lego_Friends_Mia_decomp_15.obj" />
+    <mesh name="Lego_Friends_Mia_part_8" file="library_objects/Lego_Friends_Mia/Lego_Friends_Mia_decomp_13.obj" />
+    <mesh name="Lego_Friends_Mia_part_9" file="library_objects/Lego_Friends_Mia/Lego_Friends_Mia_decomp_1.obj" />
+    <mesh name="Lego_Friends_Mia_part_10" file="library_objects/Lego_Friends_Mia/Lego_Friends_Mia_decomp_5.obj" />
+    <mesh name="Lego_Friends_Mia_part_11" file="library_objects/Lego_Friends_Mia/Lego_Friends_Mia_decomp_7.obj" />
+    <mesh name="Lego_Friends_Mia_part_12" file="library_objects/Lego_Friends_Mia/Lego_Friends_Mia_decomp_14.obj" />
+    <mesh name="Lego_Friends_Mia_part_13" file="library_objects/Lego_Friends_Mia/Lego_Friends_Mia_decomp_2.obj" />
+    <mesh name="Lego_Friends_Mia_part_14" file="library_objects/Lego_Friends_Mia/Lego_Friends_Mia_decomp_10.obj" />
+    <mesh name="Lego_Friends_Mia_part_15" file="library_objects/Lego_Friends_Mia/Lego_Friends_Mia_decomp_8.obj" />
+  </asset>
+</mujocoinclude>

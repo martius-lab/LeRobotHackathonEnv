@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="U_By_Kotex_Cleanwear_Heavy_Flow_Pads_32_Ct_material" mesh="U_By_Kotex_Cleanwear_Heavy_Flow_Pads_32_Ct" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="U_By_Kotex_Cleanwear_Heavy_Flow_Pads_32_Ct_part_0" />
+</mujocoinclude>

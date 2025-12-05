@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Epson_273XL_Ink_Cartridge_Magenta_texture" file="library_objects/Epson_273XL_Ink_Cartridge_Magenta/texture.png" />
+    <material name="Epson_273XL_Ink_Cartridge_Magenta_material" texture="Epson_273XL_Ink_Cartridge_Magenta_texture" />
+    <mesh name="Epson_273XL_Ink_Cartridge_Magenta" file="library_objects/Epson_273XL_Ink_Cartridge_Magenta/Epson_273XL_Ink_Cartridge_Magenta.obj" />
+    <mesh name="Epson_273XL_Ink_Cartridge_Magenta_part_0" file="library_objects/Epson_273XL_Ink_Cartridge_Magenta/Epson_273XL_Ink_Cartridge_Magenta_decomp_0.obj" />
+    <mesh name="Epson_273XL_Ink_Cartridge_Magenta_part_1" file="library_objects/Epson_273XL_Ink_Cartridge_Magenta/Epson_273XL_Ink_Cartridge_Magenta_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

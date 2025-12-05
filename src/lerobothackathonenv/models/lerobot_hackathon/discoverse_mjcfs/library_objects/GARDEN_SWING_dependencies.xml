@@ -1,0 +1,58 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="GARDEN_SWING_texture" file="library_objects/GARDEN_SWING/texture.png" />
+    <material name="GARDEN_SWING_material" texture="GARDEN_SWING_texture" />
+    <mesh name="GARDEN_SWING" file="library_objects/GARDEN_SWING/GARDEN_SWING.obj" />
+    <mesh name="GARDEN_SWING_part_0" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_24.obj" />
+    <mesh name="GARDEN_SWING_part_1" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_30.obj" />
+    <mesh name="GARDEN_SWING_part_2" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_38.obj" />
+    <mesh name="GARDEN_SWING_part_3" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_43.obj" />
+    <mesh name="GARDEN_SWING_part_4" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_49.obj" />
+    <mesh name="GARDEN_SWING_part_5" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_37.obj" />
+    <mesh name="GARDEN_SWING_part_6" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_35.obj" />
+    <mesh name="GARDEN_SWING_part_7" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_15.obj" />
+    <mesh name="GARDEN_SWING_part_8" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_11.obj" />
+    <mesh name="GARDEN_SWING_part_9" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_33.obj" />
+    <mesh name="GARDEN_SWING_part_10" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_39.obj" />
+    <mesh name="GARDEN_SWING_part_11" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_28.obj" />
+    <mesh name="GARDEN_SWING_part_12" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_8.obj" />
+    <mesh name="GARDEN_SWING_part_13" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_10.obj" />
+    <mesh name="GARDEN_SWING_part_14" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_50.obj" />
+    <mesh name="GARDEN_SWING_part_15" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_22.obj" />
+    <mesh name="GARDEN_SWING_part_16" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_40.obj" />
+    <mesh name="GARDEN_SWING_part_17" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_45.obj" />
+    <mesh name="GARDEN_SWING_part_18" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_13.obj" />
+    <mesh name="GARDEN_SWING_part_19" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_44.obj" />
+    <mesh name="GARDEN_SWING_part_20" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_36.obj" />
+    <mesh name="GARDEN_SWING_part_21" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_32.obj" />
+    <mesh name="GARDEN_SWING_part_22" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_0.obj" />
+    <mesh name="GARDEN_SWING_part_23" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_47.obj" />
+    <mesh name="GARDEN_SWING_part_24" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_3.obj" />
+    <mesh name="GARDEN_SWING_part_25" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_25.obj" />
+    <mesh name="GARDEN_SWING_part_26" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_2.obj" />
+    <mesh name="GARDEN_SWING_part_27" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_9.obj" />
+    <mesh name="GARDEN_SWING_part_28" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_48.obj" />
+    <mesh name="GARDEN_SWING_part_29" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_29.obj" />
+    <mesh name="GARDEN_SWING_part_30" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_14.obj" />
+    <mesh name="GARDEN_SWING_part_31" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_31.obj" />
+    <mesh name="GARDEN_SWING_part_32" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_16.obj" />
+    <mesh name="GARDEN_SWING_part_33" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_7.obj" />
+    <mesh name="GARDEN_SWING_part_34" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_1.obj" />
+    <mesh name="GARDEN_SWING_part_35" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_6.obj" />
+    <mesh name="GARDEN_SWING_part_36" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_4.obj" />
+    <mesh name="GARDEN_SWING_part_37" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_17.obj" />
+    <mesh name="GARDEN_SWING_part_38" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_34.obj" />
+    <mesh name="GARDEN_SWING_part_39" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_18.obj" />
+    <mesh name="GARDEN_SWING_part_40" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_27.obj" />
+    <mesh name="GARDEN_SWING_part_41" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_26.obj" />
+    <mesh name="GARDEN_SWING_part_42" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_19.obj" />
+    <mesh name="GARDEN_SWING_part_43" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_5.obj" />
+    <mesh name="GARDEN_SWING_part_44" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_21.obj" />
+    <mesh name="GARDEN_SWING_part_45" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_41.obj" />
+    <mesh name="GARDEN_SWING_part_46" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_42.obj" />
+    <mesh name="GARDEN_SWING_part_47" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_46.obj" />
+    <mesh name="GARDEN_SWING_part_48" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_23.obj" />
+    <mesh name="GARDEN_SWING_part_49" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_20.obj" />
+    <mesh name="GARDEN_SWING_part_50" file="library_objects/GARDEN_SWING/GARDEN_SWING_decomp_12.obj" />
+  </asset>
+</mujocoinclude>

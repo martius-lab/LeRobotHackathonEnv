@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Kotex_U_Barely_There_Liners_Thin_60_count_material" mesh="Kotex_U_Barely_There_Liners_Thin_60_count" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Kotex_U_Barely_There_Liners_Thin_60_count_part_0" />
+</mujocoinclude>

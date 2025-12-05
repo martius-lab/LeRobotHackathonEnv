@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Deskstar_Desk_Top_Hard_Drive_1_TB_texture" file="library_objects/Deskstar_Desk_Top_Hard_Drive_1_TB/texture.png" />
+    <material name="Deskstar_Desk_Top_Hard_Drive_1_TB_material" texture="Deskstar_Desk_Top_Hard_Drive_1_TB_texture" />
+    <mesh name="Deskstar_Desk_Top_Hard_Drive_1_TB" file="library_objects/Deskstar_Desk_Top_Hard_Drive_1_TB/Deskstar_Desk_Top_Hard_Drive_1_TB.obj" />
+    <mesh name="Deskstar_Desk_Top_Hard_Drive_1_TB_part_0" file="library_objects/Deskstar_Desk_Top_Hard_Drive_1_TB/Deskstar_Desk_Top_Hard_Drive_1_TB_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

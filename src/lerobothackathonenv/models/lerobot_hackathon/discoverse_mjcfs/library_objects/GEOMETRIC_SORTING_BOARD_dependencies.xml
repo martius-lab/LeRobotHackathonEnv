@@ -1,0 +1,12 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="GEOMETRIC_SORTING_BOARD_texture" file="library_objects/GEOMETRIC_SORTING_BOARD/texture.png" />
+    <material name="GEOMETRIC_SORTING_BOARD_material" texture="GEOMETRIC_SORTING_BOARD_texture" />
+    <mesh name="GEOMETRIC_SORTING_BOARD" file="library_objects/GEOMETRIC_SORTING_BOARD/GEOMETRIC_SORTING_BOARD.obj" />
+    <mesh name="GEOMETRIC_SORTING_BOARD_part_0" file="library_objects/GEOMETRIC_SORTING_BOARD/GEOMETRIC_SORTING_BOARD_decomp_4.obj" />
+    <mesh name="GEOMETRIC_SORTING_BOARD_part_1" file="library_objects/GEOMETRIC_SORTING_BOARD/GEOMETRIC_SORTING_BOARD_decomp_1.obj" />
+    <mesh name="GEOMETRIC_SORTING_BOARD_part_2" file="library_objects/GEOMETRIC_SORTING_BOARD/GEOMETRIC_SORTING_BOARD_decomp_3.obj" />
+    <mesh name="GEOMETRIC_SORTING_BOARD_part_3" file="library_objects/GEOMETRIC_SORTING_BOARD/GEOMETRIC_SORTING_BOARD_decomp_0.obj" />
+    <mesh name="GEOMETRIC_SORTING_BOARD_part_4" file="library_objects/GEOMETRIC_SORTING_BOARD/GEOMETRIC_SORTING_BOARD_decomp_2.obj" />
+  </asset>
+</mujocoinclude>

@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Tune_Belt_Sport_Armband_For_Samsung_Galaxy_S3_texture" file="library_objects/Tune_Belt_Sport_Armband_For_Samsung_Galaxy_S3/texture.png" />
+    <material name="Tune_Belt_Sport_Armband_For_Samsung_Galaxy_S3_material" texture="Tune_Belt_Sport_Armband_For_Samsung_Galaxy_S3_texture" />
+    <mesh name="Tune_Belt_Sport_Armband_For_Samsung_Galaxy_S3" file="library_objects/Tune_Belt_Sport_Armband_For_Samsung_Galaxy_S3/Tune_Belt_Sport_Armband_For_Samsung_Galaxy_S3.obj" />
+    <mesh name="Tune_Belt_Sport_Armband_For_Samsung_Galaxy_S3_part_0" file="library_objects/Tune_Belt_Sport_Armband_For_Samsung_Galaxy_S3/Tune_Belt_Sport_Armband_For_Samsung_Galaxy_S3_decomp_0.obj" />
+    <mesh name="Tune_Belt_Sport_Armband_For_Samsung_Galaxy_S3_part_1" file="library_objects/Tune_Belt_Sport_Armband_For_Samsung_Galaxy_S3/Tune_Belt_Sport_Armband_For_Samsung_Galaxy_S3_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

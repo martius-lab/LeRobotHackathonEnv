@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Now_Designs_Snack_Bags_Bicycle_2_count_material" mesh="Now_Designs_Snack_Bags_Bicycle_2_count" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Now_Designs_Snack_Bags_Bicycle_2_count_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Now_Designs_Snack_Bags_Bicycle_2_count_part_1" />
+</mujocoinclude>

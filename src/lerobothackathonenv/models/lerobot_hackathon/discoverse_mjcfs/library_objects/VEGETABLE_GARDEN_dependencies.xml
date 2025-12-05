@@ -1,0 +1,23 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="VEGETABLE_GARDEN_texture" file="library_objects/VEGETABLE_GARDEN/texture.png" />
+    <material name="VEGETABLE_GARDEN_material" texture="VEGETABLE_GARDEN_texture" />
+    <mesh name="VEGETABLE_GARDEN" file="library_objects/VEGETABLE_GARDEN/VEGETABLE_GARDEN.obj" />
+    <mesh name="VEGETABLE_GARDEN_part_0" file="library_objects/VEGETABLE_GARDEN/VEGETABLE_GARDEN_decomp_8.obj" />
+    <mesh name="VEGETABLE_GARDEN_part_1" file="library_objects/VEGETABLE_GARDEN/VEGETABLE_GARDEN_decomp_9.obj" />
+    <mesh name="VEGETABLE_GARDEN_part_2" file="library_objects/VEGETABLE_GARDEN/VEGETABLE_GARDEN_decomp_0.obj" />
+    <mesh name="VEGETABLE_GARDEN_part_3" file="library_objects/VEGETABLE_GARDEN/VEGETABLE_GARDEN_decomp_15.obj" />
+    <mesh name="VEGETABLE_GARDEN_part_4" file="library_objects/VEGETABLE_GARDEN/VEGETABLE_GARDEN_decomp_2.obj" />
+    <mesh name="VEGETABLE_GARDEN_part_5" file="library_objects/VEGETABLE_GARDEN/VEGETABLE_GARDEN_decomp_1.obj" />
+    <mesh name="VEGETABLE_GARDEN_part_6" file="library_objects/VEGETABLE_GARDEN/VEGETABLE_GARDEN_decomp_13.obj" />
+    <mesh name="VEGETABLE_GARDEN_part_7" file="library_objects/VEGETABLE_GARDEN/VEGETABLE_GARDEN_decomp_10.obj" />
+    <mesh name="VEGETABLE_GARDEN_part_8" file="library_objects/VEGETABLE_GARDEN/VEGETABLE_GARDEN_decomp_3.obj" />
+    <mesh name="VEGETABLE_GARDEN_part_9" file="library_objects/VEGETABLE_GARDEN/VEGETABLE_GARDEN_decomp_7.obj" />
+    <mesh name="VEGETABLE_GARDEN_part_10" file="library_objects/VEGETABLE_GARDEN/VEGETABLE_GARDEN_decomp_14.obj" />
+    <mesh name="VEGETABLE_GARDEN_part_11" file="library_objects/VEGETABLE_GARDEN/VEGETABLE_GARDEN_decomp_6.obj" />
+    <mesh name="VEGETABLE_GARDEN_part_12" file="library_objects/VEGETABLE_GARDEN/VEGETABLE_GARDEN_decomp_12.obj" />
+    <mesh name="VEGETABLE_GARDEN_part_13" file="library_objects/VEGETABLE_GARDEN/VEGETABLE_GARDEN_decomp_5.obj" />
+    <mesh name="VEGETABLE_GARDEN_part_14" file="library_objects/VEGETABLE_GARDEN/VEGETABLE_GARDEN_decomp_4.obj" />
+    <mesh name="VEGETABLE_GARDEN_part_15" file="library_objects/VEGETABLE_GARDEN/VEGETABLE_GARDEN_decomp_11.obj" />
+  </asset>
+</mujocoinclude>

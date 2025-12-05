@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Perricone_MD_Best_of_Perricone_7Piece_Collection_MEGsO6GIsyL_texture" file="library_objects/Perricone_MD_Best_of_Perricone_7Piece_Collection_MEGsO6GIsyL/texture.png" />
+    <material name="Perricone_MD_Best_of_Perricone_7Piece_Collection_MEGsO6GIsyL_material" texture="Perricone_MD_Best_of_Perricone_7Piece_Collection_MEGsO6GIsyL_texture" />
+    <mesh name="Perricone_MD_Best_of_Perricone_7Piece_Collection_MEGsO6GIsyL" file="library_objects/Perricone_MD_Best_of_Perricone_7Piece_Collection_MEGsO6GIsyL/Perricone_MD_Best_of_Perricone_7Piece_Collection_MEGsO6GIsyL.obj" />
+    <mesh name="Perricone_MD_Best_of_Perricone_7Piece_Collection_MEGsO6GIsyL_part_0" file="library_objects/Perricone_MD_Best_of_Perricone_7Piece_Collection_MEGsO6GIsyL/Perricone_MD_Best_of_Perricone_7Piece_Collection_MEGsO6GIsyL_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

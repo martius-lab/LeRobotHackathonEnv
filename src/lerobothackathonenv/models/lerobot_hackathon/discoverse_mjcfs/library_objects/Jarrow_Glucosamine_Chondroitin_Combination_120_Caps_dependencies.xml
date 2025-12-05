@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Jarrow_Glucosamine_Chondroitin_Combination_120_Caps_texture" file="library_objects/Jarrow_Glucosamine_Chondroitin_Combination_120_Caps/texture.png" />
+    <material name="Jarrow_Glucosamine_Chondroitin_Combination_120_Caps_material" texture="Jarrow_Glucosamine_Chondroitin_Combination_120_Caps_texture" />
+    <mesh name="Jarrow_Glucosamine_Chondroitin_Combination_120_Caps" file="library_objects/Jarrow_Glucosamine_Chondroitin_Combination_120_Caps/Jarrow_Glucosamine_Chondroitin_Combination_120_Caps.obj" />
+    <mesh name="Jarrow_Glucosamine_Chondroitin_Combination_120_Caps_part_0" file="library_objects/Jarrow_Glucosamine_Chondroitin_Combination_120_Caps/Jarrow_Glucosamine_Chondroitin_Combination_120_Caps_decomp_1.obj" />
+    <mesh name="Jarrow_Glucosamine_Chondroitin_Combination_120_Caps_part_1" file="library_objects/Jarrow_Glucosamine_Chondroitin_Combination_120_Caps/Jarrow_Glucosamine_Chondroitin_Combination_120_Caps_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

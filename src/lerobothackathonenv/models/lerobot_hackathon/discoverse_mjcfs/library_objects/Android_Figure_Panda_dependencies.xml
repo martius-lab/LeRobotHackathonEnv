@@ -1,0 +1,19 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Android_Figure_Panda_texture" file="library_objects/Android_Figure_Panda/texture.png" />
+    <material name="Android_Figure_Panda_material" texture="Android_Figure_Panda_texture" />
+    <mesh name="Android_Figure_Panda" file="library_objects/Android_Figure_Panda/Android_Figure_Panda.obj" />
+    <mesh name="Android_Figure_Panda_part_0" file="library_objects/Android_Figure_Panda/Android_Figure_Panda_decomp_10.obj" />
+    <mesh name="Android_Figure_Panda_part_1" file="library_objects/Android_Figure_Panda/Android_Figure_Panda_decomp_9.obj" />
+    <mesh name="Android_Figure_Panda_part_2" file="library_objects/Android_Figure_Panda/Android_Figure_Panda_decomp_3.obj" />
+    <mesh name="Android_Figure_Panda_part_3" file="library_objects/Android_Figure_Panda/Android_Figure_Panda_decomp_4.obj" />
+    <mesh name="Android_Figure_Panda_part_4" file="library_objects/Android_Figure_Panda/Android_Figure_Panda_decomp_0.obj" />
+    <mesh name="Android_Figure_Panda_part_5" file="library_objects/Android_Figure_Panda/Android_Figure_Panda_decomp_5.obj" />
+    <mesh name="Android_Figure_Panda_part_6" file="library_objects/Android_Figure_Panda/Android_Figure_Panda_decomp_11.obj" />
+    <mesh name="Android_Figure_Panda_part_7" file="library_objects/Android_Figure_Panda/Android_Figure_Panda_decomp_7.obj" />
+    <mesh name="Android_Figure_Panda_part_8" file="library_objects/Android_Figure_Panda/Android_Figure_Panda_decomp_2.obj" />
+    <mesh name="Android_Figure_Panda_part_9" file="library_objects/Android_Figure_Panda/Android_Figure_Panda_decomp_8.obj" />
+    <mesh name="Android_Figure_Panda_part_10" file="library_objects/Android_Figure_Panda/Android_Figure_Panda_decomp_6.obj" />
+    <mesh name="Android_Figure_Panda_part_11" file="library_objects/Android_Figure_Panda/Android_Figure_Panda_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

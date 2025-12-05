@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Seagate_1TB_Wireless_Plus_mobile_device_storage_texture" file="library_objects/Seagate_1TB_Wireless_Plus_mobile_device_storage/texture.png" />
+    <material name="Seagate_1TB_Wireless_Plus_mobile_device_storage_material" texture="Seagate_1TB_Wireless_Plus_mobile_device_storage_texture" />
+    <mesh name="Seagate_1TB_Wireless_Plus_mobile_device_storage" file="library_objects/Seagate_1TB_Wireless_Plus_mobile_device_storage/Seagate_1TB_Wireless_Plus_mobile_device_storage.obj" />
+    <mesh name="Seagate_1TB_Wireless_Plus_mobile_device_storage_part_0" file="library_objects/Seagate_1TB_Wireless_Plus_mobile_device_storage/Seagate_1TB_Wireless_Plus_mobile_device_storage_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

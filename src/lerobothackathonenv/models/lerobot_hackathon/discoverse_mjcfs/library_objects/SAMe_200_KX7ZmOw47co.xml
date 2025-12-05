@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="SAMe_200_KX7ZmOw47co_material" mesh="SAMe_200_KX7ZmOw47co" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="SAMe_200_KX7ZmOw47co_part_0" />
+</mujocoinclude>

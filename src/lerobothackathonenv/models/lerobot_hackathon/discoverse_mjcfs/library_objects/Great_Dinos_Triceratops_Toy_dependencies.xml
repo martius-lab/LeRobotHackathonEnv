@@ -1,0 +1,16 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Great_Dinos_Triceratops_Toy_texture" file="library_objects/Great_Dinos_Triceratops_Toy/texture.png" />
+    <material name="Great_Dinos_Triceratops_Toy_material" texture="Great_Dinos_Triceratops_Toy_texture" />
+    <mesh name="Great_Dinos_Triceratops_Toy" file="library_objects/Great_Dinos_Triceratops_Toy/Great_Dinos_Triceratops_Toy.obj" />
+    <mesh name="Great_Dinos_Triceratops_Toy_part_0" file="library_objects/Great_Dinos_Triceratops_Toy/Great_Dinos_Triceratops_Toy_decomp_3.obj" />
+    <mesh name="Great_Dinos_Triceratops_Toy_part_1" file="library_objects/Great_Dinos_Triceratops_Toy/Great_Dinos_Triceratops_Toy_decomp_2.obj" />
+    <mesh name="Great_Dinos_Triceratops_Toy_part_2" file="library_objects/Great_Dinos_Triceratops_Toy/Great_Dinos_Triceratops_Toy_decomp_7.obj" />
+    <mesh name="Great_Dinos_Triceratops_Toy_part_3" file="library_objects/Great_Dinos_Triceratops_Toy/Great_Dinos_Triceratops_Toy_decomp_6.obj" />
+    <mesh name="Great_Dinos_Triceratops_Toy_part_4" file="library_objects/Great_Dinos_Triceratops_Toy/Great_Dinos_Triceratops_Toy_decomp_1.obj" />
+    <mesh name="Great_Dinos_Triceratops_Toy_part_5" file="library_objects/Great_Dinos_Triceratops_Toy/Great_Dinos_Triceratops_Toy_decomp_4.obj" />
+    <mesh name="Great_Dinos_Triceratops_Toy_part_6" file="library_objects/Great_Dinos_Triceratops_Toy/Great_Dinos_Triceratops_Toy_decomp_5.obj" />
+    <mesh name="Great_Dinos_Triceratops_Toy_part_7" file="library_objects/Great_Dinos_Triceratops_Toy/Great_Dinos_Triceratops_Toy_decomp_8.obj" />
+    <mesh name="Great_Dinos_Triceratops_Toy_part_8" file="library_objects/Great_Dinos_Triceratops_Toy/Great_Dinos_Triceratops_Toy_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

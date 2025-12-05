@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Perricone_MD_No_Mascara_Mascara_texture" file="library_objects/Perricone_MD_No_Mascara_Mascara/texture.png" />
+    <material name="Perricone_MD_No_Mascara_Mascara_material" texture="Perricone_MD_No_Mascara_Mascara_texture" />
+    <mesh name="Perricone_MD_No_Mascara_Mascara" file="library_objects/Perricone_MD_No_Mascara_Mascara/Perricone_MD_No_Mascara_Mascara.obj" />
+    <mesh name="Perricone_MD_No_Mascara_Mascara_part_0" file="library_objects/Perricone_MD_No_Mascara_Mascara/Perricone_MD_No_Mascara_Mascara_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

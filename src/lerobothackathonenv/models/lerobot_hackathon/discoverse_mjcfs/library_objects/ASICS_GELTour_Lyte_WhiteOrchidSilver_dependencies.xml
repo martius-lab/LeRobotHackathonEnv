@@ -1,0 +1,21 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="ASICS_GELTour_Lyte_WhiteOrchidSilver_texture" file="library_objects/ASICS_GELTour_Lyte_WhiteOrchidSilver/texture.png" />
+    <material name="ASICS_GELTour_Lyte_WhiteOrchidSilver_material" texture="ASICS_GELTour_Lyte_WhiteOrchidSilver_texture" />
+    <mesh name="ASICS_GELTour_Lyte_WhiteOrchidSilver" file="library_objects/ASICS_GELTour_Lyte_WhiteOrchidSilver/ASICS_GELTour_Lyte_WhiteOrchidSilver.obj" />
+    <mesh name="ASICS_GELTour_Lyte_WhiteOrchidSilver_part_0" file="library_objects/ASICS_GELTour_Lyte_WhiteOrchidSilver/ASICS_GELTour_Lyte_WhiteOrchidSilver_decomp_2.obj" />
+    <mesh name="ASICS_GELTour_Lyte_WhiteOrchidSilver_part_1" file="library_objects/ASICS_GELTour_Lyte_WhiteOrchidSilver/ASICS_GELTour_Lyte_WhiteOrchidSilver_decomp_12.obj" />
+    <mesh name="ASICS_GELTour_Lyte_WhiteOrchidSilver_part_2" file="library_objects/ASICS_GELTour_Lyte_WhiteOrchidSilver/ASICS_GELTour_Lyte_WhiteOrchidSilver_decomp_9.obj" />
+    <mesh name="ASICS_GELTour_Lyte_WhiteOrchidSilver_part_3" file="library_objects/ASICS_GELTour_Lyte_WhiteOrchidSilver/ASICS_GELTour_Lyte_WhiteOrchidSilver_decomp_6.obj" />
+    <mesh name="ASICS_GELTour_Lyte_WhiteOrchidSilver_part_4" file="library_objects/ASICS_GELTour_Lyte_WhiteOrchidSilver/ASICS_GELTour_Lyte_WhiteOrchidSilver_decomp_0.obj" />
+    <mesh name="ASICS_GELTour_Lyte_WhiteOrchidSilver_part_5" file="library_objects/ASICS_GELTour_Lyte_WhiteOrchidSilver/ASICS_GELTour_Lyte_WhiteOrchidSilver_decomp_11.obj" />
+    <mesh name="ASICS_GELTour_Lyte_WhiteOrchidSilver_part_6" file="library_objects/ASICS_GELTour_Lyte_WhiteOrchidSilver/ASICS_GELTour_Lyte_WhiteOrchidSilver_decomp_8.obj" />
+    <mesh name="ASICS_GELTour_Lyte_WhiteOrchidSilver_part_7" file="library_objects/ASICS_GELTour_Lyte_WhiteOrchidSilver/ASICS_GELTour_Lyte_WhiteOrchidSilver_decomp_3.obj" />
+    <mesh name="ASICS_GELTour_Lyte_WhiteOrchidSilver_part_8" file="library_objects/ASICS_GELTour_Lyte_WhiteOrchidSilver/ASICS_GELTour_Lyte_WhiteOrchidSilver_decomp_5.obj" />
+    <mesh name="ASICS_GELTour_Lyte_WhiteOrchidSilver_part_9" file="library_objects/ASICS_GELTour_Lyte_WhiteOrchidSilver/ASICS_GELTour_Lyte_WhiteOrchidSilver_decomp_10.obj" />
+    <mesh name="ASICS_GELTour_Lyte_WhiteOrchidSilver_part_10" file="library_objects/ASICS_GELTour_Lyte_WhiteOrchidSilver/ASICS_GELTour_Lyte_WhiteOrchidSilver_decomp_4.obj" />
+    <mesh name="ASICS_GELTour_Lyte_WhiteOrchidSilver_part_11" file="library_objects/ASICS_GELTour_Lyte_WhiteOrchidSilver/ASICS_GELTour_Lyte_WhiteOrchidSilver_decomp_1.obj" />
+    <mesh name="ASICS_GELTour_Lyte_WhiteOrchidSilver_part_12" file="library_objects/ASICS_GELTour_Lyte_WhiteOrchidSilver/ASICS_GELTour_Lyte_WhiteOrchidSilver_decomp_7.obj" />
+    <mesh name="ASICS_GELTour_Lyte_WhiteOrchidSilver_part_13" file="library_objects/ASICS_GELTour_Lyte_WhiteOrchidSilver/ASICS_GELTour_Lyte_WhiteOrchidSilver_decomp_13.obj" />
+  </asset>
+</mujocoinclude>

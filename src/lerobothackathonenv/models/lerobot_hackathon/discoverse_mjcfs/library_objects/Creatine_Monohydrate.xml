@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Creatine_Monohydrate_material" mesh="Creatine_Monohydrate" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Creatine_Monohydrate_part_0" />
+</mujocoinclude>

@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="U_By_Kotex_Sleek_Regular_Unscented_Tampons_36_Ct_Box_texture" file="library_objects/U_By_Kotex_Sleek_Regular_Unscented_Tampons_36_Ct_Box/texture.png" />
+    <material name="U_By_Kotex_Sleek_Regular_Unscented_Tampons_36_Ct_Box_material" texture="U_By_Kotex_Sleek_Regular_Unscented_Tampons_36_Ct_Box_texture" />
+    <mesh name="U_By_Kotex_Sleek_Regular_Unscented_Tampons_36_Ct_Box" file="library_objects/U_By_Kotex_Sleek_Regular_Unscented_Tampons_36_Ct_Box/U_By_Kotex_Sleek_Regular_Unscented_Tampons_36_Ct_Box.obj" />
+    <mesh name="U_By_Kotex_Sleek_Regular_Unscented_Tampons_36_Ct_Box_part_0" file="library_objects/U_By_Kotex_Sleek_Regular_Unscented_Tampons_36_Ct_Box/U_By_Kotex_Sleek_Regular_Unscented_Tampons_36_Ct_Box_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

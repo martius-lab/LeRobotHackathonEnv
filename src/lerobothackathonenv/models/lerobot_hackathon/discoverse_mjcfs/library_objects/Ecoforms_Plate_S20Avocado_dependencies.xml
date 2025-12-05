@@ -1,0 +1,17 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Ecoforms_Plate_S20Avocado_texture" file="library_objects/Ecoforms_Plate_S20Avocado/texture.png" />
+    <material name="Ecoforms_Plate_S20Avocado_material" texture="Ecoforms_Plate_S20Avocado_texture" />
+    <mesh name="Ecoforms_Plate_S20Avocado" file="library_objects/Ecoforms_Plate_S20Avocado/Ecoforms_Plate_S20Avocado.obj" />
+    <mesh name="Ecoforms_Plate_S20Avocado_part_0" file="library_objects/Ecoforms_Plate_S20Avocado/Ecoforms_Plate_S20Avocado_decomp_1.obj" />
+    <mesh name="Ecoforms_Plate_S20Avocado_part_1" file="library_objects/Ecoforms_Plate_S20Avocado/Ecoforms_Plate_S20Avocado_decomp_2.obj" />
+    <mesh name="Ecoforms_Plate_S20Avocado_part_2" file="library_objects/Ecoforms_Plate_S20Avocado/Ecoforms_Plate_S20Avocado_decomp_4.obj" />
+    <mesh name="Ecoforms_Plate_S20Avocado_part_3" file="library_objects/Ecoforms_Plate_S20Avocado/Ecoforms_Plate_S20Avocado_decomp_7.obj" />
+    <mesh name="Ecoforms_Plate_S20Avocado_part_4" file="library_objects/Ecoforms_Plate_S20Avocado/Ecoforms_Plate_S20Avocado_decomp_9.obj" />
+    <mesh name="Ecoforms_Plate_S20Avocado_part_5" file="library_objects/Ecoforms_Plate_S20Avocado/Ecoforms_Plate_S20Avocado_decomp_3.obj" />
+    <mesh name="Ecoforms_Plate_S20Avocado_part_6" file="library_objects/Ecoforms_Plate_S20Avocado/Ecoforms_Plate_S20Avocado_decomp_8.obj" />
+    <mesh name="Ecoforms_Plate_S20Avocado_part_7" file="library_objects/Ecoforms_Plate_S20Avocado/Ecoforms_Plate_S20Avocado_decomp_0.obj" />
+    <mesh name="Ecoforms_Plate_S20Avocado_part_8" file="library_objects/Ecoforms_Plate_S20Avocado/Ecoforms_Plate_S20Avocado_decomp_6.obj" />
+    <mesh name="Ecoforms_Plate_S20Avocado_part_9" file="library_objects/Ecoforms_Plate_S20Avocado/Ecoforms_Plate_S20Avocado_decomp_5.obj" />
+  </asset>
+</mujocoinclude>

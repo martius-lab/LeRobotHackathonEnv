@@ -1,0 +1,23 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_texture" file="library_objects/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold/texture.png" />
+    <material name="Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_material" texture="Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_texture" />
+    <mesh name="Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold" file="library_objects/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold.obj" />
+    <mesh name="Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_part_0" file="library_objects/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_decomp_12.obj" />
+    <mesh name="Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_part_1" file="library_objects/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_decomp_15.obj" />
+    <mesh name="Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_part_2" file="library_objects/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_decomp_5.obj" />
+    <mesh name="Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_part_3" file="library_objects/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_decomp_9.obj" />
+    <mesh name="Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_part_4" file="library_objects/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_decomp_8.obj" />
+    <mesh name="Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_part_5" file="library_objects/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_decomp_1.obj" />
+    <mesh name="Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_part_6" file="library_objects/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_decomp_13.obj" />
+    <mesh name="Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_part_7" file="library_objects/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_decomp_0.obj" />
+    <mesh name="Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_part_8" file="library_objects/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_decomp_14.obj" />
+    <mesh name="Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_part_9" file="library_objects/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_decomp_3.obj" />
+    <mesh name="Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_part_10" file="library_objects/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_decomp_6.obj" />
+    <mesh name="Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_part_11" file="library_objects/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_decomp_11.obj" />
+    <mesh name="Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_part_12" file="library_objects/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_decomp_10.obj" />
+    <mesh name="Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_part_13" file="library_objects/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_decomp_4.obj" />
+    <mesh name="Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_part_14" file="library_objects/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_decomp_2.obj" />
+    <mesh name="Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_part_15" file="library_objects/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold_decomp_7.obj" />
+  </asset>
+</mujocoinclude>

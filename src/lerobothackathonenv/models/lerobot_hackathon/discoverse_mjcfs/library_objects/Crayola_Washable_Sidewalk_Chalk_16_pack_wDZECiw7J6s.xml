@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Crayola_Washable_Sidewalk_Chalk_16_pack_wDZECiw7J6s_material" mesh="Crayola_Washable_Sidewalk_Chalk_16_pack_wDZECiw7J6s" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Crayola_Washable_Sidewalk_Chalk_16_pack_wDZECiw7J6s_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Crayola_Washable_Sidewalk_Chalk_16_pack_wDZECiw7J6s_part_1" />
+</mujocoinclude>

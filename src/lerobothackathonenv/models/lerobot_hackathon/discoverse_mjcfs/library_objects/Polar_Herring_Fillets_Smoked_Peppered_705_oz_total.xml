@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Polar_Herring_Fillets_Smoked_Peppered_705_oz_total_material" mesh="Polar_Herring_Fillets_Smoked_Peppered_705_oz_total" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Polar_Herring_Fillets_Smoked_Peppered_705_oz_total_part_0" />
+</mujocoinclude>

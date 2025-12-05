@@ -1,0 +1,33 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Cole_Hardware_Bowl_Scirocco_YellowBlue_texture" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/texture.png" />
+    <material name="Cole_Hardware_Bowl_Scirocco_YellowBlue_material" texture="Cole_Hardware_Bowl_Scirocco_YellowBlue_texture" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_0" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_19.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_1" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_14.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_2" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_17.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_3" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_13.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_4" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_5.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_5" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_25.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_6" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_7.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_7" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_20.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_8" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_15.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_9" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_23.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_10" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_6.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_11" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_8.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_12" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_12.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_13" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_2.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_14" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_22.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_15" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_9.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_16" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_3.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_17" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_1.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_18" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_21.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_19" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_24.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_20" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_4.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_21" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_16.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_22" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_10.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_23" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_0.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_24" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_18.obj" />
+    <mesh name="Cole_Hardware_Bowl_Scirocco_YellowBlue_part_25" file="library_objects/Cole_Hardware_Bowl_Scirocco_YellowBlue/Cole_Hardware_Bowl_Scirocco_YellowBlue_decomp_11.obj" />
+  </asset>
+</mujocoinclude>

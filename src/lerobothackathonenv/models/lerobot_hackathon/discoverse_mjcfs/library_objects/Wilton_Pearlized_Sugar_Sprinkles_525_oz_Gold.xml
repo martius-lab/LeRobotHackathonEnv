@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Wilton_Pearlized_Sugar_Sprinkles_525_oz_Gold_material" mesh="Wilton_Pearlized_Sugar_Sprinkles_525_oz_Gold" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Wilton_Pearlized_Sugar_Sprinkles_525_oz_Gold_part_0" />
+</mujocoinclude>

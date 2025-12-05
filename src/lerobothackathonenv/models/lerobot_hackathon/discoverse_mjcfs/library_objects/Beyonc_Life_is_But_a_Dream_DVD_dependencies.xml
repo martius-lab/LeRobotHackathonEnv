@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Beyonc_Life_is_But_a_Dream_DVD_texture" file="library_objects/Beyonc_Life_is_But_a_Dream_DVD/texture.png" />
+    <material name="Beyonc_Life_is_But_a_Dream_DVD_material" texture="Beyonc_Life_is_But_a_Dream_DVD_texture" />
+    <mesh name="Beyonc_Life_is_But_a_Dream_DVD" file="library_objects/Beyonc_Life_is_But_a_Dream_DVD/Beyonc_Life_is_But_a_Dream_DVD.obj" />
+    <mesh name="Beyonc_Life_is_But_a_Dream_DVD_part_0" file="library_objects/Beyonc_Life_is_But_a_Dream_DVD/Beyonc_Life_is_But_a_Dream_DVD_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

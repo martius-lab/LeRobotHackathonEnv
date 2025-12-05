@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Phillips_Colon_Health_Probiotic_Capsule_material" mesh="Phillips_Colon_Health_Probiotic_Capsule" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Phillips_Colon_Health_Probiotic_Capsule_part_0" />
+</mujocoinclude>

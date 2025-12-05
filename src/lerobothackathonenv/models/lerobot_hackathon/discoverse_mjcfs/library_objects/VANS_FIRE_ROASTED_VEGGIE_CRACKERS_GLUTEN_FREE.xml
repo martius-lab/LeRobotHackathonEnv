@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="VANS_FIRE_ROASTED_VEGGIE_CRACKERS_GLUTEN_FREE_material" mesh="VANS_FIRE_ROASTED_VEGGIE_CRACKERS_GLUTEN_FREE" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="VANS_FIRE_ROASTED_VEGGIE_CRACKERS_GLUTEN_FREE_part_0" />
+</mujocoinclude>

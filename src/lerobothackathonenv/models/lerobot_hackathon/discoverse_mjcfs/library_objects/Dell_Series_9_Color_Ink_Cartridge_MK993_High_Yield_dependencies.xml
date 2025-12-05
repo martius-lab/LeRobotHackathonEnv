@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Dell_Series_9_Color_Ink_Cartridge_MK993_High_Yield_texture" file="library_objects/Dell_Series_9_Color_Ink_Cartridge_MK993_High_Yield/texture.png" />
+    <material name="Dell_Series_9_Color_Ink_Cartridge_MK993_High_Yield_material" texture="Dell_Series_9_Color_Ink_Cartridge_MK993_High_Yield_texture" />
+    <mesh name="Dell_Series_9_Color_Ink_Cartridge_MK993_High_Yield" file="library_objects/Dell_Series_9_Color_Ink_Cartridge_MK993_High_Yield/Dell_Series_9_Color_Ink_Cartridge_MK993_High_Yield.obj" />
+    <mesh name="Dell_Series_9_Color_Ink_Cartridge_MK993_High_Yield_part_0" file="library_objects/Dell_Series_9_Color_Ink_Cartridge_MK993_High_Yield/Dell_Series_9_Color_Ink_Cartridge_MK993_High_Yield_decomp_0.obj" />
+    <mesh name="Dell_Series_9_Color_Ink_Cartridge_MK993_High_Yield_part_1" file="library_objects/Dell_Series_9_Color_Ink_Cartridge_MK993_High_Yield/Dell_Series_9_Color_Ink_Cartridge_MK993_High_Yield_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

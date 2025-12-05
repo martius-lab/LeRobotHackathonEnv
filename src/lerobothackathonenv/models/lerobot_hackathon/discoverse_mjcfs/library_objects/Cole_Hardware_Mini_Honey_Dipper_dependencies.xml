@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Cole_Hardware_Mini_Honey_Dipper_texture" file="library_objects/Cole_Hardware_Mini_Honey_Dipper/texture.png" />
+    <material name="Cole_Hardware_Mini_Honey_Dipper_material" texture="Cole_Hardware_Mini_Honey_Dipper_texture" />
+    <mesh name="Cole_Hardware_Mini_Honey_Dipper" file="library_objects/Cole_Hardware_Mini_Honey_Dipper/Cole_Hardware_Mini_Honey_Dipper.obj" />
+    <mesh name="Cole_Hardware_Mini_Honey_Dipper_part_0" file="library_objects/Cole_Hardware_Mini_Honey_Dipper/Cole_Hardware_Mini_Honey_Dipper_decomp_1.obj" />
+    <mesh name="Cole_Hardware_Mini_Honey_Dipper_part_1" file="library_objects/Cole_Hardware_Mini_Honey_Dipper/Cole_Hardware_Mini_Honey_Dipper_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="HP_Card_Invitation_Kit_material" mesh="HP_Card_Invitation_Kit" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="HP_Card_Invitation_Kit_part_0" />
+</mujocoinclude>

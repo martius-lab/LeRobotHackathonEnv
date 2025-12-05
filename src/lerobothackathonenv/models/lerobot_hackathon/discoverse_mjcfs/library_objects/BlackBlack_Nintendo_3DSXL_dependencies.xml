@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="BlackBlack_Nintendo_3DSXL_texture" file="library_objects/BlackBlack_Nintendo_3DSXL/texture.png" />
+    <material name="BlackBlack_Nintendo_3DSXL_material" texture="BlackBlack_Nintendo_3DSXL_texture" />
+    <mesh name="BlackBlack_Nintendo_3DSXL" file="library_objects/BlackBlack_Nintendo_3DSXL/BlackBlack_Nintendo_3DSXL.obj" />
+    <mesh name="BlackBlack_Nintendo_3DSXL_part_0" file="library_objects/BlackBlack_Nintendo_3DSXL/BlackBlack_Nintendo_3DSXL_decomp_0.obj" />
+    <mesh name="BlackBlack_Nintendo_3DSXL_part_1" file="library_objects/BlackBlack_Nintendo_3DSXL/BlackBlack_Nintendo_3DSXL_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

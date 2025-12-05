@@ -1,0 +1,10 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Cole_Hardware_Butter_Dish_Square_Red_texture" file="library_objects/Cole_Hardware_Butter_Dish_Square_Red/texture.png" />
+    <material name="Cole_Hardware_Butter_Dish_Square_Red_material" texture="Cole_Hardware_Butter_Dish_Square_Red_texture" />
+    <mesh name="Cole_Hardware_Butter_Dish_Square_Red" file="library_objects/Cole_Hardware_Butter_Dish_Square_Red/Cole_Hardware_Butter_Dish_Square_Red.obj" />
+    <mesh name="Cole_Hardware_Butter_Dish_Square_Red_part_0" file="library_objects/Cole_Hardware_Butter_Dish_Square_Red/Cole_Hardware_Butter_Dish_Square_Red_decomp_0.obj" />
+    <mesh name="Cole_Hardware_Butter_Dish_Square_Red_part_1" file="library_objects/Cole_Hardware_Butter_Dish_Square_Red/Cole_Hardware_Butter_Dish_Square_Red_decomp_2.obj" />
+    <mesh name="Cole_Hardware_Butter_Dish_Square_Red_part_2" file="library_objects/Cole_Hardware_Butter_Dish_Square_Red/Cole_Hardware_Butter_Dish_Square_Red_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

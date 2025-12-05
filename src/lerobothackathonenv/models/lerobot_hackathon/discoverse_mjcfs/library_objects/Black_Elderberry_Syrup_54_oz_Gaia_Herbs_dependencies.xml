@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Black_Elderberry_Syrup_54_oz_Gaia_Herbs_texture" file="library_objects/Black_Elderberry_Syrup_54_oz_Gaia_Herbs/texture.png" />
+    <material name="Black_Elderberry_Syrup_54_oz_Gaia_Herbs_material" texture="Black_Elderberry_Syrup_54_oz_Gaia_Herbs_texture" />
+    <mesh name="Black_Elderberry_Syrup_54_oz_Gaia_Herbs" file="library_objects/Black_Elderberry_Syrup_54_oz_Gaia_Herbs/Black_Elderberry_Syrup_54_oz_Gaia_Herbs.obj" />
+    <mesh name="Black_Elderberry_Syrup_54_oz_Gaia_Herbs_part_0" file="library_objects/Black_Elderberry_Syrup_54_oz_Gaia_Herbs/Black_Elderberry_Syrup_54_oz_Gaia_Herbs_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

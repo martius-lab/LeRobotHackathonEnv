@@ -1,0 +1,17 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Ecoforms_Plant_Container_S24NATURAL_texture" file="library_objects/Ecoforms_Plant_Container_S24NATURAL/texture.png" />
+    <material name="Ecoforms_Plant_Container_S24NATURAL_material" texture="Ecoforms_Plant_Container_S24NATURAL_texture" />
+    <mesh name="Ecoforms_Plant_Container_S24NATURAL" file="library_objects/Ecoforms_Plant_Container_S24NATURAL/Ecoforms_Plant_Container_S24NATURAL.obj" />
+    <mesh name="Ecoforms_Plant_Container_S24NATURAL_part_0" file="library_objects/Ecoforms_Plant_Container_S24NATURAL/Ecoforms_Plant_Container_S24NATURAL_decomp_4.obj" />
+    <mesh name="Ecoforms_Plant_Container_S24NATURAL_part_1" file="library_objects/Ecoforms_Plant_Container_S24NATURAL/Ecoforms_Plant_Container_S24NATURAL_decomp_1.obj" />
+    <mesh name="Ecoforms_Plant_Container_S24NATURAL_part_2" file="library_objects/Ecoforms_Plant_Container_S24NATURAL/Ecoforms_Plant_Container_S24NATURAL_decomp_8.obj" />
+    <mesh name="Ecoforms_Plant_Container_S24NATURAL_part_3" file="library_objects/Ecoforms_Plant_Container_S24NATURAL/Ecoforms_Plant_Container_S24NATURAL_decomp_2.obj" />
+    <mesh name="Ecoforms_Plant_Container_S24NATURAL_part_4" file="library_objects/Ecoforms_Plant_Container_S24NATURAL/Ecoforms_Plant_Container_S24NATURAL_decomp_6.obj" />
+    <mesh name="Ecoforms_Plant_Container_S24NATURAL_part_5" file="library_objects/Ecoforms_Plant_Container_S24NATURAL/Ecoforms_Plant_Container_S24NATURAL_decomp_5.obj" />
+    <mesh name="Ecoforms_Plant_Container_S24NATURAL_part_6" file="library_objects/Ecoforms_Plant_Container_S24NATURAL/Ecoforms_Plant_Container_S24NATURAL_decomp_3.obj" />
+    <mesh name="Ecoforms_Plant_Container_S24NATURAL_part_7" file="library_objects/Ecoforms_Plant_Container_S24NATURAL/Ecoforms_Plant_Container_S24NATURAL_decomp_9.obj" />
+    <mesh name="Ecoforms_Plant_Container_S24NATURAL_part_8" file="library_objects/Ecoforms_Plant_Container_S24NATURAL/Ecoforms_Plant_Container_S24NATURAL_decomp_0.obj" />
+    <mesh name="Ecoforms_Plant_Container_S24NATURAL_part_9" file="library_objects/Ecoforms_Plant_Container_S24NATURAL/Ecoforms_Plant_Container_S24NATURAL_decomp_7.obj" />
+  </asset>
+</mujocoinclude>

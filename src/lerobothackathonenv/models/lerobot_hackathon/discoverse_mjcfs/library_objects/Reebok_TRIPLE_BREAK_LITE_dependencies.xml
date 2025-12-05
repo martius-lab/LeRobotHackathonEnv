@@ -1,0 +1,22 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Reebok_TRIPLE_BREAK_LITE_texture" file="library_objects/Reebok_TRIPLE_BREAK_LITE/texture.png" />
+    <material name="Reebok_TRIPLE_BREAK_LITE_material" texture="Reebok_TRIPLE_BREAK_LITE_texture" />
+    <mesh name="Reebok_TRIPLE_BREAK_LITE" file="library_objects/Reebok_TRIPLE_BREAK_LITE/Reebok_TRIPLE_BREAK_LITE.obj" />
+    <mesh name="Reebok_TRIPLE_BREAK_LITE_part_0" file="library_objects/Reebok_TRIPLE_BREAK_LITE/Reebok_TRIPLE_BREAK_LITE_decomp_14.obj" />
+    <mesh name="Reebok_TRIPLE_BREAK_LITE_part_1" file="library_objects/Reebok_TRIPLE_BREAK_LITE/Reebok_TRIPLE_BREAK_LITE_decomp_7.obj" />
+    <mesh name="Reebok_TRIPLE_BREAK_LITE_part_2" file="library_objects/Reebok_TRIPLE_BREAK_LITE/Reebok_TRIPLE_BREAK_LITE_decomp_8.obj" />
+    <mesh name="Reebok_TRIPLE_BREAK_LITE_part_3" file="library_objects/Reebok_TRIPLE_BREAK_LITE/Reebok_TRIPLE_BREAK_LITE_decomp_0.obj" />
+    <mesh name="Reebok_TRIPLE_BREAK_LITE_part_4" file="library_objects/Reebok_TRIPLE_BREAK_LITE/Reebok_TRIPLE_BREAK_LITE_decomp_13.obj" />
+    <mesh name="Reebok_TRIPLE_BREAK_LITE_part_5" file="library_objects/Reebok_TRIPLE_BREAK_LITE/Reebok_TRIPLE_BREAK_LITE_decomp_12.obj" />
+    <mesh name="Reebok_TRIPLE_BREAK_LITE_part_6" file="library_objects/Reebok_TRIPLE_BREAK_LITE/Reebok_TRIPLE_BREAK_LITE_decomp_1.obj" />
+    <mesh name="Reebok_TRIPLE_BREAK_LITE_part_7" file="library_objects/Reebok_TRIPLE_BREAK_LITE/Reebok_TRIPLE_BREAK_LITE_decomp_4.obj" />
+    <mesh name="Reebok_TRIPLE_BREAK_LITE_part_8" file="library_objects/Reebok_TRIPLE_BREAK_LITE/Reebok_TRIPLE_BREAK_LITE_decomp_2.obj" />
+    <mesh name="Reebok_TRIPLE_BREAK_LITE_part_9" file="library_objects/Reebok_TRIPLE_BREAK_LITE/Reebok_TRIPLE_BREAK_LITE_decomp_3.obj" />
+    <mesh name="Reebok_TRIPLE_BREAK_LITE_part_10" file="library_objects/Reebok_TRIPLE_BREAK_LITE/Reebok_TRIPLE_BREAK_LITE_decomp_5.obj" />
+    <mesh name="Reebok_TRIPLE_BREAK_LITE_part_11" file="library_objects/Reebok_TRIPLE_BREAK_LITE/Reebok_TRIPLE_BREAK_LITE_decomp_6.obj" />
+    <mesh name="Reebok_TRIPLE_BREAK_LITE_part_12" file="library_objects/Reebok_TRIPLE_BREAK_LITE/Reebok_TRIPLE_BREAK_LITE_decomp_9.obj" />
+    <mesh name="Reebok_TRIPLE_BREAK_LITE_part_13" file="library_objects/Reebok_TRIPLE_BREAK_LITE/Reebok_TRIPLE_BREAK_LITE_decomp_11.obj" />
+    <mesh name="Reebok_TRIPLE_BREAK_LITE_part_14" file="library_objects/Reebok_TRIPLE_BREAK_LITE/Reebok_TRIPLE_BREAK_LITE_decomp_10.obj" />
+  </asset>
+</mujocoinclude>

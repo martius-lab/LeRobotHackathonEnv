@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Perricone_MD_High_Potency_Evening_Repair_texture" file="library_objects/Perricone_MD_High_Potency_Evening_Repair/texture.png" />
+    <material name="Perricone_MD_High_Potency_Evening_Repair_material" texture="Perricone_MD_High_Potency_Evening_Repair_texture" />
+    <mesh name="Perricone_MD_High_Potency_Evening_Repair" file="library_objects/Perricone_MD_High_Potency_Evening_Repair/Perricone_MD_High_Potency_Evening_Repair.obj" />
+    <mesh name="Perricone_MD_High_Potency_Evening_Repair_part_0" file="library_objects/Perricone_MD_High_Potency_Evening_Repair/Perricone_MD_High_Potency_Evening_Repair_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

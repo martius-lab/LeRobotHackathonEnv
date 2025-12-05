@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Saccharomyces_Boulardii_MOS_Value_Size_texture" file="library_objects/Saccharomyces_Boulardii_MOS_Value_Size/texture.png" />
+    <material name="Saccharomyces_Boulardii_MOS_Value_Size_material" texture="Saccharomyces_Boulardii_MOS_Value_Size_texture" />
+    <mesh name="Saccharomyces_Boulardii_MOS_Value_Size" file="library_objects/Saccharomyces_Boulardii_MOS_Value_Size/Saccharomyces_Boulardii_MOS_Value_Size.obj" />
+    <mesh name="Saccharomyces_Boulardii_MOS_Value_Size_part_0" file="library_objects/Saccharomyces_Boulardii_MOS_Value_Size/Saccharomyces_Boulardii_MOS_Value_Size_decomp_0.obj" />
+    <mesh name="Saccharomyces_Boulardii_MOS_Value_Size_part_1" file="library_objects/Saccharomyces_Boulardii_MOS_Value_Size/Saccharomyces_Boulardii_MOS_Value_Size_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

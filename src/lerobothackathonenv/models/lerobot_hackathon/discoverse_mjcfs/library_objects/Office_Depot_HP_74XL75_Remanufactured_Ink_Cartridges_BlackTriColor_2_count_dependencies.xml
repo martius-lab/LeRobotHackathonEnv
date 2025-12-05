@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Office_Depot_HP_74XL75_Remanufactured_Ink_Cartridges_BlackTriColor_2_count_texture" file="library_objects/Office_Depot_HP_74XL75_Remanufactured_Ink_Cartridges_BlackTriColor_2_count/texture.png" />
+    <material name="Office_Depot_HP_74XL75_Remanufactured_Ink_Cartridges_BlackTriColor_2_count_material" texture="Office_Depot_HP_74XL75_Remanufactured_Ink_Cartridges_BlackTriColor_2_count_texture" />
+    <mesh name="Office_Depot_HP_74XL75_Remanufactured_Ink_Cartridges_BlackTriColor_2_count" file="library_objects/Office_Depot_HP_74XL75_Remanufactured_Ink_Cartridges_BlackTriColor_2_count/Office_Depot_HP_74XL75_Remanufactured_Ink_Cartridges_BlackTriColor_2_count.obj" />
+    <mesh name="Office_Depot_HP_74XL75_Remanufactured_Ink_Cartridges_BlackTriColor_2_count_part_0" file="library_objects/Office_Depot_HP_74XL75_Remanufactured_Ink_Cartridges_BlackTriColor_2_count/Office_Depot_HP_74XL75_Remanufactured_Ink_Cartridges_BlackTriColor_2_count_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

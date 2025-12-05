@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Final_Fantasy_XIV_A_Realm_Reborn_60Day_Subscription_texture" file="library_objects/Final_Fantasy_XIV_A_Realm_Reborn_60Day_Subscription/texture.png" />
+    <material name="Final_Fantasy_XIV_A_Realm_Reborn_60Day_Subscription_material" texture="Final_Fantasy_XIV_A_Realm_Reborn_60Day_Subscription_texture" />
+    <mesh name="Final_Fantasy_XIV_A_Realm_Reborn_60Day_Subscription" file="library_objects/Final_Fantasy_XIV_A_Realm_Reborn_60Day_Subscription/Final_Fantasy_XIV_A_Realm_Reborn_60Day_Subscription.obj" />
+    <mesh name="Final_Fantasy_XIV_A_Realm_Reborn_60Day_Subscription_part_0" file="library_objects/Final_Fantasy_XIV_A_Realm_Reborn_60Day_Subscription/Final_Fantasy_XIV_A_Realm_Reborn_60Day_Subscription_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

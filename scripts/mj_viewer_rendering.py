@@ -1,11 +1,16 @@
 from time import sleep
 from lerobothackathonenv.env import LeRobot
+from lerobothackathonenv.wrappers import ReferenceStateInitializationWrapper
+from lerobothackathonenv.trajectory_set import TrajectorySet
 import gymnasium as gym
 import lerobothackathonenv as _
 from numpy.typing import NDArray
+from rate_limiter import RateLimiter
 
 env: LeRobot = gym.make("LeRobotGoalConditioned-v0")
 env.unwrapped.render_to_window()
+ts = TrajectorySet()
+env = ReferenceStateInitializationWrapper(env, ts)
 
 obs = env.reset()
 
@@ -24,11 +29,16 @@ def print_obs(obs: dict):
 def print_reward(reward: float):
     print(f"~~~ Reward: {reward: 10.3f} ~~~")
 
+i = 0
+rl = RateLimiter(100)
 while True:
+    rl.wait()
+    i += 1
     action = env.action_space.sample()
     action[:] = 0
     observation, reward, terminated, trunctuated, info = env.step(action)
     print_obs(observation)
     print_reward(reward)
-    sleep(0.1)
     env.unwrapped.render_to_window()
+    if i % 10 == 0:
+        env.reset()

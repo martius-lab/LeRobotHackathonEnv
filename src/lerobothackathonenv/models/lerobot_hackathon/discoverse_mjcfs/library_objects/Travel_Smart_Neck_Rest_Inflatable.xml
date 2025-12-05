@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Travel_Smart_Neck_Rest_Inflatable_material" mesh="Travel_Smart_Neck_Rest_Inflatable" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Travel_Smart_Neck_Rest_Inflatable_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Travel_Smart_Neck_Rest_Inflatable_part_1" />
+</mujocoinclude>

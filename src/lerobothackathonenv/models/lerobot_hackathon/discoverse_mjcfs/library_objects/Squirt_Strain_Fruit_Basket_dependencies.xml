@@ -1,0 +1,35 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Squirt_Strain_Fruit_Basket_texture" file="library_objects/Squirt_Strain_Fruit_Basket/texture.png" />
+    <material name="Squirt_Strain_Fruit_Basket_material" texture="Squirt_Strain_Fruit_Basket_texture" />
+    <mesh name="Squirt_Strain_Fruit_Basket" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_0" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_19.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_1" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_8.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_2" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_0.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_3" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_2.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_4" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_25.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_5" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_4.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_6" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_3.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_7" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_15.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_8" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_20.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_9" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_5.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_10" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_6.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_11" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_26.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_12" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_24.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_13" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_14.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_14" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_12.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_15" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_16.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_16" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_9.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_17" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_21.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_18" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_10.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_19" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_22.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_20" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_18.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_21" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_13.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_22" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_17.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_23" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_11.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_24" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_27.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_25" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_7.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_26" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_1.obj" />
+    <mesh name="Squirt_Strain_Fruit_Basket_part_27" file="library_objects/Squirt_Strain_Fruit_Basket/Squirt_Strain_Fruit_Basket_decomp_23.obj" />
+  </asset>
+</mujocoinclude>

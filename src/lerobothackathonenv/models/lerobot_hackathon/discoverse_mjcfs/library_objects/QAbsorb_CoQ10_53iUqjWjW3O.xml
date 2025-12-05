@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="QAbsorb_CoQ10_53iUqjWjW3O_material" mesh="QAbsorb_CoQ10_53iUqjWjW3O" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="QAbsorb_CoQ10_53iUqjWjW3O_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="QAbsorb_CoQ10_53iUqjWjW3O_part_1" />
+</mujocoinclude>

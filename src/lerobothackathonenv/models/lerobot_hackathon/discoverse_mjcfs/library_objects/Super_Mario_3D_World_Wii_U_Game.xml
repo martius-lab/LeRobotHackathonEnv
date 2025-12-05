@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Super_Mario_3D_World_Wii_U_Game_material" mesh="Super_Mario_3D_World_Wii_U_Game" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Super_Mario_3D_World_Wii_U_Game_part_0" />
+</mujocoinclude>

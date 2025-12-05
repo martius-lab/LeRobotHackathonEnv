@@ -1,0 +1,14 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="SPEED_BOAT_texture" file="library_objects/SPEED_BOAT/texture.png" />
+    <material name="SPEED_BOAT_material" texture="SPEED_BOAT_texture" />
+    <mesh name="SPEED_BOAT" file="library_objects/SPEED_BOAT/SPEED_BOAT.obj" />
+    <mesh name="SPEED_BOAT_part_0" file="library_objects/SPEED_BOAT/SPEED_BOAT_decomp_3.obj" />
+    <mesh name="SPEED_BOAT_part_1" file="library_objects/SPEED_BOAT/SPEED_BOAT_decomp_0.obj" />
+    <mesh name="SPEED_BOAT_part_2" file="library_objects/SPEED_BOAT/SPEED_BOAT_decomp_4.obj" />
+    <mesh name="SPEED_BOAT_part_3" file="library_objects/SPEED_BOAT/SPEED_BOAT_decomp_1.obj" />
+    <mesh name="SPEED_BOAT_part_4" file="library_objects/SPEED_BOAT/SPEED_BOAT_decomp_2.obj" />
+    <mesh name="SPEED_BOAT_part_5" file="library_objects/SPEED_BOAT/SPEED_BOAT_decomp_5.obj" />
+    <mesh name="SPEED_BOAT_part_6" file="library_objects/SPEED_BOAT/SPEED_BOAT_decomp_6.obj" />
+  </asset>
+</mujocoinclude>

@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Little_Big_Planet_3_Plush_Edition_texture" file="library_objects/Little_Big_Planet_3_Plush_Edition/texture.png" />
+    <material name="Little_Big_Planet_3_Plush_Edition_material" texture="Little_Big_Planet_3_Plush_Edition_texture" />
+    <mesh name="Little_Big_Planet_3_Plush_Edition" file="library_objects/Little_Big_Planet_3_Plush_Edition/Little_Big_Planet_3_Plush_Edition.obj" />
+    <mesh name="Little_Big_Planet_3_Plush_Edition_part_0" file="library_objects/Little_Big_Planet_3_Plush_Edition/Little_Big_Planet_3_Plush_Edition_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

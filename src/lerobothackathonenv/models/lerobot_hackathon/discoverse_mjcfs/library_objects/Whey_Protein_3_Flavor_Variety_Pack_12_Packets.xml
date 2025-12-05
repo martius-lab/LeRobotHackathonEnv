@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Whey_Protein_3_Flavor_Variety_Pack_12_Packets_material" mesh="Whey_Protein_3_Flavor_Variety_Pack_12_Packets" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Whey_Protein_3_Flavor_Variety_Pack_12_Packets_part_0" />
+</mujocoinclude>

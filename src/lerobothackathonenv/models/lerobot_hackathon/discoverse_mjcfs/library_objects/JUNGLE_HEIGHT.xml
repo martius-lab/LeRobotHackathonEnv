@@ -1,0 +1,7 @@
+<mujocoinclude>
+  <geom material="JUNGLE_HEIGHT_material" mesh="JUNGLE_HEIGHT" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="JUNGLE_HEIGHT_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="JUNGLE_HEIGHT_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="JUNGLE_HEIGHT_part_2" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="JUNGLE_HEIGHT_part_3" />
+</mujocoinclude>

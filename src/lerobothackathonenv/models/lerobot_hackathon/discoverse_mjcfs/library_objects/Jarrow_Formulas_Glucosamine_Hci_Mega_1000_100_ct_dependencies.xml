@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Jarrow_Formulas_Glucosamine_Hci_Mega_1000_100_ct_texture" file="library_objects/Jarrow_Formulas_Glucosamine_Hci_Mega_1000_100_ct/texture.png" />
+    <material name="Jarrow_Formulas_Glucosamine_Hci_Mega_1000_100_ct_material" texture="Jarrow_Formulas_Glucosamine_Hci_Mega_1000_100_ct_texture" />
+    <mesh name="Jarrow_Formulas_Glucosamine_Hci_Mega_1000_100_ct" file="library_objects/Jarrow_Formulas_Glucosamine_Hci_Mega_1000_100_ct/Jarrow_Formulas_Glucosamine_Hci_Mega_1000_100_ct.obj" />
+    <mesh name="Jarrow_Formulas_Glucosamine_Hci_Mega_1000_100_ct_part_0" file="library_objects/Jarrow_Formulas_Glucosamine_Hci_Mega_1000_100_ct/Jarrow_Formulas_Glucosamine_Hci_Mega_1000_100_ct_decomp_0.obj" />
+    <mesh name="Jarrow_Formulas_Glucosamine_Hci_Mega_1000_100_ct_part_1" file="library_objects/Jarrow_Formulas_Glucosamine_Hci_Mega_1000_100_ct/Jarrow_Formulas_Glucosamine_Hci_Mega_1000_100_ct_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

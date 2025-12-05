@@ -1,0 +1,19 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_texture" file="library_objects/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup/texture.png" />
+    <material name="BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_material" texture="BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_texture" />
+    <mesh name="BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup" file="library_objects/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup.obj" />
+    <mesh name="BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_part_0" file="library_objects/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_decomp_3.obj" />
+    <mesh name="BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_part_1" file="library_objects/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_decomp_7.obj" />
+    <mesh name="BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_part_2" file="library_objects/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_decomp_8.obj" />
+    <mesh name="BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_part_3" file="library_objects/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_decomp_10.obj" />
+    <mesh name="BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_part_4" file="library_objects/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_decomp_6.obj" />
+    <mesh name="BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_part_5" file="library_objects/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_decomp_2.obj" />
+    <mesh name="BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_part_6" file="library_objects/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_decomp_5.obj" />
+    <mesh name="BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_part_7" file="library_objects/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_decomp_11.obj" />
+    <mesh name="BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_part_8" file="library_objects/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_decomp_4.obj" />
+    <mesh name="BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_part_9" file="library_objects/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_decomp_1.obj" />
+    <mesh name="BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_part_10" file="library_objects/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_decomp_9.obj" />
+    <mesh name="BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_part_11" file="library_objects/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup/BIA_Porcelain_Ramekin_With_Glazed_Rim_35_45_oz_cup_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

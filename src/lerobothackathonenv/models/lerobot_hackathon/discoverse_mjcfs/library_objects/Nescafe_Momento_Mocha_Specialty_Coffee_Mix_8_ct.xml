@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Nescafe_Momento_Mocha_Specialty_Coffee_Mix_8_ct_material" mesh="Nescafe_Momento_Mocha_Specialty_Coffee_Mix_8_ct" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Nescafe_Momento_Mocha_Specialty_Coffee_Mix_8_ct_part_0" />
+</mujocoinclude>

@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Nescafe_16Count_Dolce_Gusto_Cappuccino_Capsules_texture" file="library_objects/Nescafe_16Count_Dolce_Gusto_Cappuccino_Capsules/texture.png" />
+    <material name="Nescafe_16Count_Dolce_Gusto_Cappuccino_Capsules_material" texture="Nescafe_16Count_Dolce_Gusto_Cappuccino_Capsules_texture" />
+    <mesh name="Nescafe_16Count_Dolce_Gusto_Cappuccino_Capsules" file="library_objects/Nescafe_16Count_Dolce_Gusto_Cappuccino_Capsules/Nescafe_16Count_Dolce_Gusto_Cappuccino_Capsules.obj" />
+    <mesh name="Nescafe_16Count_Dolce_Gusto_Cappuccino_Capsules_part_0" file="library_objects/Nescafe_16Count_Dolce_Gusto_Cappuccino_Capsules/Nescafe_16Count_Dolce_Gusto_Cappuccino_Capsules_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

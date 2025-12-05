@@ -1,0 +1,6 @@
+<mujocoinclude>
+  <geom material="CAR_CARRIER_TRAIN_material" mesh="CAR_CARRIER_TRAIN" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="CAR_CARRIER_TRAIN_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="CAR_CARRIER_TRAIN_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="CAR_CARRIER_TRAIN_part_2" />
+</mujocoinclude>

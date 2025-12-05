@@ -1,0 +1,24 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Room_Essentials_Bowl_Turquiose_texture" file="library_objects/Room_Essentials_Bowl_Turquiose/texture.png" />
+    <material name="Room_Essentials_Bowl_Turquiose_material" texture="Room_Essentials_Bowl_Turquiose_texture" />
+    <mesh name="Room_Essentials_Bowl_Turquiose" file="library_objects/Room_Essentials_Bowl_Turquiose/Room_Essentials_Bowl_Turquiose.obj" />
+    <mesh name="Room_Essentials_Bowl_Turquiose_part_0" file="library_objects/Room_Essentials_Bowl_Turquiose/Room_Essentials_Bowl_Turquiose_decomp_5.obj" />
+    <mesh name="Room_Essentials_Bowl_Turquiose_part_1" file="library_objects/Room_Essentials_Bowl_Turquiose/Room_Essentials_Bowl_Turquiose_decomp_11.obj" />
+    <mesh name="Room_Essentials_Bowl_Turquiose_part_2" file="library_objects/Room_Essentials_Bowl_Turquiose/Room_Essentials_Bowl_Turquiose_decomp_8.obj" />
+    <mesh name="Room_Essentials_Bowl_Turquiose_part_3" file="library_objects/Room_Essentials_Bowl_Turquiose/Room_Essentials_Bowl_Turquiose_decomp_15.obj" />
+    <mesh name="Room_Essentials_Bowl_Turquiose_part_4" file="library_objects/Room_Essentials_Bowl_Turquiose/Room_Essentials_Bowl_Turquiose_decomp_9.obj" />
+    <mesh name="Room_Essentials_Bowl_Turquiose_part_5" file="library_objects/Room_Essentials_Bowl_Turquiose/Room_Essentials_Bowl_Turquiose_decomp_1.obj" />
+    <mesh name="Room_Essentials_Bowl_Turquiose_part_6" file="library_objects/Room_Essentials_Bowl_Turquiose/Room_Essentials_Bowl_Turquiose_decomp_12.obj" />
+    <mesh name="Room_Essentials_Bowl_Turquiose_part_7" file="library_objects/Room_Essentials_Bowl_Turquiose/Room_Essentials_Bowl_Turquiose_decomp_6.obj" />
+    <mesh name="Room_Essentials_Bowl_Turquiose_part_8" file="library_objects/Room_Essentials_Bowl_Turquiose/Room_Essentials_Bowl_Turquiose_decomp_13.obj" />
+    <mesh name="Room_Essentials_Bowl_Turquiose_part_9" file="library_objects/Room_Essentials_Bowl_Turquiose/Room_Essentials_Bowl_Turquiose_decomp_14.obj" />
+    <mesh name="Room_Essentials_Bowl_Turquiose_part_10" file="library_objects/Room_Essentials_Bowl_Turquiose/Room_Essentials_Bowl_Turquiose_decomp_0.obj" />
+    <mesh name="Room_Essentials_Bowl_Turquiose_part_11" file="library_objects/Room_Essentials_Bowl_Turquiose/Room_Essentials_Bowl_Turquiose_decomp_7.obj" />
+    <mesh name="Room_Essentials_Bowl_Turquiose_part_12" file="library_objects/Room_Essentials_Bowl_Turquiose/Room_Essentials_Bowl_Turquiose_decomp_4.obj" />
+    <mesh name="Room_Essentials_Bowl_Turquiose_part_13" file="library_objects/Room_Essentials_Bowl_Turquiose/Room_Essentials_Bowl_Turquiose_decomp_16.obj" />
+    <mesh name="Room_Essentials_Bowl_Turquiose_part_14" file="library_objects/Room_Essentials_Bowl_Turquiose/Room_Essentials_Bowl_Turquiose_decomp_3.obj" />
+    <mesh name="Room_Essentials_Bowl_Turquiose_part_15" file="library_objects/Room_Essentials_Bowl_Turquiose/Room_Essentials_Bowl_Turquiose_decomp_10.obj" />
+    <mesh name="Room_Essentials_Bowl_Turquiose_part_16" file="library_objects/Room_Essentials_Bowl_Turquiose/Room_Essentials_Bowl_Turquiose_decomp_2.obj" />
+  </asset>
+</mujocoinclude>

@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Phillips_Milk_of_Magnesia_Saline_Laxative_Liquid_Original_material" mesh="Phillips_Milk_of_Magnesia_Saline_Laxative_Liquid_Original" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Phillips_Milk_of_Magnesia_Saline_Laxative_Liquid_Original_part_0" />
+</mujocoinclude>

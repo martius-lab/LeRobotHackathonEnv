@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Cole_Hardware_Dishtowel_Stripe_texture" file="library_objects/Cole_Hardware_Dishtowel_Stripe/texture.png" />
+    <material name="Cole_Hardware_Dishtowel_Stripe_material" texture="Cole_Hardware_Dishtowel_Stripe_texture" />
+    <mesh name="Cole_Hardware_Dishtowel_Stripe" file="library_objects/Cole_Hardware_Dishtowel_Stripe/Cole_Hardware_Dishtowel_Stripe.obj" />
+    <mesh name="Cole_Hardware_Dishtowel_Stripe_part_0" file="library_objects/Cole_Hardware_Dishtowel_Stripe/Cole_Hardware_Dishtowel_Stripe_decomp_0.obj" />
+    <mesh name="Cole_Hardware_Dishtowel_Stripe_part_1" file="library_objects/Cole_Hardware_Dishtowel_Stripe/Cole_Hardware_Dishtowel_Stripe_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

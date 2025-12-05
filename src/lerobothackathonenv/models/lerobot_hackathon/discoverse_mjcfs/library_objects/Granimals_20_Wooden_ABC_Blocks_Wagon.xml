@@ -1,0 +1,10 @@
+<mujocoinclude>
+  <geom material="Granimals_20_Wooden_ABC_Blocks_Wagon_material" mesh="Granimals_20_Wooden_ABC_Blocks_Wagon" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Granimals_20_Wooden_ABC_Blocks_Wagon_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Granimals_20_Wooden_ABC_Blocks_Wagon_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Granimals_20_Wooden_ABC_Blocks_Wagon_part_2" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Granimals_20_Wooden_ABC_Blocks_Wagon_part_3" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Granimals_20_Wooden_ABC_Blocks_Wagon_part_4" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Granimals_20_Wooden_ABC_Blocks_Wagon_part_5" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Granimals_20_Wooden_ABC_Blocks_Wagon_part_6" />
+</mujocoinclude>

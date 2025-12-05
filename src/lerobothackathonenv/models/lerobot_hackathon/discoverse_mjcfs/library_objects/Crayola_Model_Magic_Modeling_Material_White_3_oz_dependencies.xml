@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Crayola_Model_Magic_Modeling_Material_White_3_oz_texture" file="library_objects/Crayola_Model_Magic_Modeling_Material_White_3_oz/texture.png" />
+    <material name="Crayola_Model_Magic_Modeling_Material_White_3_oz_material" texture="Crayola_Model_Magic_Modeling_Material_White_3_oz_texture" />
+    <mesh name="Crayola_Model_Magic_Modeling_Material_White_3_oz" file="library_objects/Crayola_Model_Magic_Modeling_Material_White_3_oz/Crayola_Model_Magic_Modeling_Material_White_3_oz.obj" />
+    <mesh name="Crayola_Model_Magic_Modeling_Material_White_3_oz_part_0" file="library_objects/Crayola_Model_Magic_Modeling_Material_White_3_oz/Crayola_Model_Magic_Modeling_Material_White_3_oz_decomp_0.obj" />
+    <mesh name="Crayola_Model_Magic_Modeling_Material_White_3_oz_part_1" file="library_objects/Crayola_Model_Magic_Modeling_Material_White_3_oz/Crayola_Model_Magic_Modeling_Material_White_3_oz_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

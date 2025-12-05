@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Craftsman_Grip_Screwdriver_Phillips_Cushion_material" mesh="Craftsman_Grip_Screwdriver_Phillips_Cushion" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Craftsman_Grip_Screwdriver_Phillips_Cushion_part_0" />
+</mujocoinclude>

@@ -1,0 +1,16 @@
+<mujocoinclude>
+  <geom material="3D_Dollhouse_TablePurple_material" mesh="3D_Dollhouse_TablePurple" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="3D_Dollhouse_TablePurple_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="3D_Dollhouse_TablePurple_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="3D_Dollhouse_TablePurple_part_2" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="3D_Dollhouse_TablePurple_part_3" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="3D_Dollhouse_TablePurple_part_4" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="3D_Dollhouse_TablePurple_part_5" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="3D_Dollhouse_TablePurple_part_6" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="3D_Dollhouse_TablePurple_part_7" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="3D_Dollhouse_TablePurple_part_8" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="3D_Dollhouse_TablePurple_part_9" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="3D_Dollhouse_TablePurple_part_10" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="3D_Dollhouse_TablePurple_part_11" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="3D_Dollhouse_TablePurple_part_12" />
+</mujocoinclude>

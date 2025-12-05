@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Perricoen_MD_No_Concealer_Concealer_texture" file="library_objects/Perricoen_MD_No_Concealer_Concealer/texture.png" />
+    <material name="Perricoen_MD_No_Concealer_Concealer_material" texture="Perricoen_MD_No_Concealer_Concealer_texture" />
+    <mesh name="Perricoen_MD_No_Concealer_Concealer" file="library_objects/Perricoen_MD_No_Concealer_Concealer/Perricoen_MD_No_Concealer_Concealer.obj" />
+    <mesh name="Perricoen_MD_No_Concealer_Concealer_part_0" file="library_objects/Perricoen_MD_No_Concealer_Concealer/Perricoen_MD_No_Concealer_Concealer_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

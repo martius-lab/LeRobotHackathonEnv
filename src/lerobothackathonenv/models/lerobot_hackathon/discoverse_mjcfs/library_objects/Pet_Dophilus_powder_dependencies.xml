@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Pet_Dophilus_powder_texture" file="library_objects/Pet_Dophilus_powder/texture.png" />
+    <material name="Pet_Dophilus_powder_material" texture="Pet_Dophilus_powder_texture" />
+    <mesh name="Pet_Dophilus_powder" file="library_objects/Pet_Dophilus_powder/Pet_Dophilus_powder.obj" />
+    <mesh name="Pet_Dophilus_powder_part_0" file="library_objects/Pet_Dophilus_powder/Pet_Dophilus_powder_decomp_1.obj" />
+    <mesh name="Pet_Dophilus_powder_part_1" file="library_objects/Pet_Dophilus_powder/Pet_Dophilus_powder_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

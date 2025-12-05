@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Perricone_MD_Vitamin_C_Ester_Serum_material" mesh="Perricone_MD_Vitamin_C_Ester_Serum" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Perricone_MD_Vitamin_C_Ester_Serum_part_0" />
+</mujocoinclude>

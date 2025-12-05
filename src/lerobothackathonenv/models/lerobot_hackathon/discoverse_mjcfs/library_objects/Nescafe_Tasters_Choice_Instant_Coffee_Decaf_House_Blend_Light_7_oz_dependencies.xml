@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Nescafe_Tasters_Choice_Instant_Coffee_Decaf_House_Blend_Light_7_oz_texture" file="library_objects/Nescafe_Tasters_Choice_Instant_Coffee_Decaf_House_Blend_Light_7_oz/texture.png" />
+    <material name="Nescafe_Tasters_Choice_Instant_Coffee_Decaf_House_Blend_Light_7_oz_material" texture="Nescafe_Tasters_Choice_Instant_Coffee_Decaf_House_Blend_Light_7_oz_texture" />
+    <mesh name="Nescafe_Tasters_Choice_Instant_Coffee_Decaf_House_Blend_Light_7_oz" file="library_objects/Nescafe_Tasters_Choice_Instant_Coffee_Decaf_House_Blend_Light_7_oz/Nescafe_Tasters_Choice_Instant_Coffee_Decaf_House_Blend_Light_7_oz.obj" />
+    <mesh name="Nescafe_Tasters_Choice_Instant_Coffee_Decaf_House_Blend_Light_7_oz_part_0" file="library_objects/Nescafe_Tasters_Choice_Instant_Coffee_Decaf_House_Blend_Light_7_oz/Nescafe_Tasters_Choice_Instant_Coffee_Decaf_House_Blend_Light_7_oz_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

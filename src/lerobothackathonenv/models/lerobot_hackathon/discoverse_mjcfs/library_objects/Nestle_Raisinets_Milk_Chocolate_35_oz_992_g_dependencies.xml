@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Nestle_Raisinets_Milk_Chocolate_35_oz_992_g_texture" file="library_objects/Nestle_Raisinets_Milk_Chocolate_35_oz_992_g/texture.png" />
+    <material name="Nestle_Raisinets_Milk_Chocolate_35_oz_992_g_material" texture="Nestle_Raisinets_Milk_Chocolate_35_oz_992_g_texture" />
+    <mesh name="Nestle_Raisinets_Milk_Chocolate_35_oz_992_g" file="library_objects/Nestle_Raisinets_Milk_Chocolate_35_oz_992_g/Nestle_Raisinets_Milk_Chocolate_35_oz_992_g.obj" />
+    <mesh name="Nestle_Raisinets_Milk_Chocolate_35_oz_992_g_part_0" file="library_objects/Nestle_Raisinets_Milk_Chocolate_35_oz_992_g/Nestle_Raisinets_Milk_Chocolate_35_oz_992_g_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

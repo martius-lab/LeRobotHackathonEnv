@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Folic_Acid_texture" file="library_objects/Folic_Acid/texture.png" />
+    <material name="Folic_Acid_material" texture="Folic_Acid_texture" />
+    <mesh name="Folic_Acid" file="library_objects/Folic_Acid/Folic_Acid.obj" />
+    <mesh name="Folic_Acid_part_0" file="library_objects/Folic_Acid/Folic_Acid_decomp_0.obj" />
+    <mesh name="Folic_Acid_part_1" file="library_objects/Folic_Acid/Folic_Acid_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

@@ -1,0 +1,15 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Kotex_U_Tween_Pads_16_pads_texture" file="library_objects/Kotex_U_Tween_Pads_16_pads/texture.png" />
+    <material name="Kotex_U_Tween_Pads_16_pads_material" texture="Kotex_U_Tween_Pads_16_pads_texture" />
+    <mesh name="Kotex_U_Tween_Pads_16_pads" file="library_objects/Kotex_U_Tween_Pads_16_pads/Kotex_U_Tween_Pads_16_pads.obj" />
+    <mesh name="Kotex_U_Tween_Pads_16_pads_part_0" file="library_objects/Kotex_U_Tween_Pads_16_pads/Kotex_U_Tween_Pads_16_pads_decomp_0.obj" />
+    <mesh name="Kotex_U_Tween_Pads_16_pads_part_1" file="library_objects/Kotex_U_Tween_Pads_16_pads/Kotex_U_Tween_Pads_16_pads_decomp_4.obj" />
+    <mesh name="Kotex_U_Tween_Pads_16_pads_part_2" file="library_objects/Kotex_U_Tween_Pads_16_pads/Kotex_U_Tween_Pads_16_pads_decomp_6.obj" />
+    <mesh name="Kotex_U_Tween_Pads_16_pads_part_3" file="library_objects/Kotex_U_Tween_Pads_16_pads/Kotex_U_Tween_Pads_16_pads_decomp_5.obj" />
+    <mesh name="Kotex_U_Tween_Pads_16_pads_part_4" file="library_objects/Kotex_U_Tween_Pads_16_pads/Kotex_U_Tween_Pads_16_pads_decomp_3.obj" />
+    <mesh name="Kotex_U_Tween_Pads_16_pads_part_5" file="library_objects/Kotex_U_Tween_Pads_16_pads/Kotex_U_Tween_Pads_16_pads_decomp_1.obj" />
+    <mesh name="Kotex_U_Tween_Pads_16_pads_part_6" file="library_objects/Kotex_U_Tween_Pads_16_pads/Kotex_U_Tween_Pads_16_pads_decomp_7.obj" />
+    <mesh name="Kotex_U_Tween_Pads_16_pads_part_7" file="library_objects/Kotex_U_Tween_Pads_16_pads/Kotex_U_Tween_Pads_16_pads_decomp_2.obj" />
+  </asset>
+</mujocoinclude>

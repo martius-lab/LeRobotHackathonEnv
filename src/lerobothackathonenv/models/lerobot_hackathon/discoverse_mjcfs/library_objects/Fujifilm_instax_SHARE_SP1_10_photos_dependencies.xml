@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Fujifilm_instax_SHARE_SP1_10_photos_texture" file="library_objects/Fujifilm_instax_SHARE_SP1_10_photos/texture.png" />
+    <material name="Fujifilm_instax_SHARE_SP1_10_photos_material" texture="Fujifilm_instax_SHARE_SP1_10_photos_texture" />
+    <mesh name="Fujifilm_instax_SHARE_SP1_10_photos" file="library_objects/Fujifilm_instax_SHARE_SP1_10_photos/Fujifilm_instax_SHARE_SP1_10_photos.obj" />
+    <mesh name="Fujifilm_instax_SHARE_SP1_10_photos_part_0" file="library_objects/Fujifilm_instax_SHARE_SP1_10_photos/Fujifilm_instax_SHARE_SP1_10_photos_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

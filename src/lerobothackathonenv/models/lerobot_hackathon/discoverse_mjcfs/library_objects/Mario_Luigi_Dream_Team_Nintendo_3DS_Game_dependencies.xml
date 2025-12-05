@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Mario_Luigi_Dream_Team_Nintendo_3DS_Game_texture" file="library_objects/Mario_Luigi_Dream_Team_Nintendo_3DS_Game/texture.png" />
+    <material name="Mario_Luigi_Dream_Team_Nintendo_3DS_Game_material" texture="Mario_Luigi_Dream_Team_Nintendo_3DS_Game_texture" />
+    <mesh name="Mario_Luigi_Dream_Team_Nintendo_3DS_Game" file="library_objects/Mario_Luigi_Dream_Team_Nintendo_3DS_Game/Mario_Luigi_Dream_Team_Nintendo_3DS_Game.obj" />
+    <mesh name="Mario_Luigi_Dream_Team_Nintendo_3DS_Game_part_0" file="library_objects/Mario_Luigi_Dream_Team_Nintendo_3DS_Game/Mario_Luigi_Dream_Team_Nintendo_3DS_Game_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

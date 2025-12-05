@@ -1,0 +1,17 @@
+<mujocoinclude>
+  <geom material="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_material" mesh="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_2" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_3" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_4" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_5" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_6" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_7" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_8" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_9" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_10" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_11" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_12" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_13" />
+</mujocoinclude>

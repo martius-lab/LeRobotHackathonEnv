@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Melissa_Doug_Chunky_Puzzle_Vehicles_material" mesh="Melissa_Doug_Chunky_Puzzle_Vehicles" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Melissa_Doug_Chunky_Puzzle_Vehicles_part_0" />
+</mujocoinclude>

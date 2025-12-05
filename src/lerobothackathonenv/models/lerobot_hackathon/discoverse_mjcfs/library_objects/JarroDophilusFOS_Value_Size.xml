@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="JarroDophilusFOS_Value_Size_material" mesh="JarroDophilusFOS_Value_Size" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="JarroDophilusFOS_Value_Size_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="JarroDophilusFOS_Value_Size_part_1" />
+</mujocoinclude>

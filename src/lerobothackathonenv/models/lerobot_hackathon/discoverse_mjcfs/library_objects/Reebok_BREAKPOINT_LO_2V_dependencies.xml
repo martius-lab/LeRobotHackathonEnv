@@ -1,0 +1,27 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Reebok_BREAKPOINT_LO_2V_texture" file="library_objects/Reebok_BREAKPOINT_LO_2V/texture.png" />
+    <material name="Reebok_BREAKPOINT_LO_2V_material" texture="Reebok_BREAKPOINT_LO_2V_texture" />
+    <mesh name="Reebok_BREAKPOINT_LO_2V" file="library_objects/Reebok_BREAKPOINT_LO_2V/Reebok_BREAKPOINT_LO_2V.obj" />
+    <mesh name="Reebok_BREAKPOINT_LO_2V_part_0" file="library_objects/Reebok_BREAKPOINT_LO_2V/Reebok_BREAKPOINT_LO_2V_decomp_0.obj" />
+    <mesh name="Reebok_BREAKPOINT_LO_2V_part_1" file="library_objects/Reebok_BREAKPOINT_LO_2V/Reebok_BREAKPOINT_LO_2V_decomp_16.obj" />
+    <mesh name="Reebok_BREAKPOINT_LO_2V_part_2" file="library_objects/Reebok_BREAKPOINT_LO_2V/Reebok_BREAKPOINT_LO_2V_decomp_13.obj" />
+    <mesh name="Reebok_BREAKPOINT_LO_2V_part_3" file="library_objects/Reebok_BREAKPOINT_LO_2V/Reebok_BREAKPOINT_LO_2V_decomp_7.obj" />
+    <mesh name="Reebok_BREAKPOINT_LO_2V_part_4" file="library_objects/Reebok_BREAKPOINT_LO_2V/Reebok_BREAKPOINT_LO_2V_decomp_18.obj" />
+    <mesh name="Reebok_BREAKPOINT_LO_2V_part_5" file="library_objects/Reebok_BREAKPOINT_LO_2V/Reebok_BREAKPOINT_LO_2V_decomp_6.obj" />
+    <mesh name="Reebok_BREAKPOINT_LO_2V_part_6" file="library_objects/Reebok_BREAKPOINT_LO_2V/Reebok_BREAKPOINT_LO_2V_decomp_15.obj" />
+    <mesh name="Reebok_BREAKPOINT_LO_2V_part_7" file="library_objects/Reebok_BREAKPOINT_LO_2V/Reebok_BREAKPOINT_LO_2V_decomp_17.obj" />
+    <mesh name="Reebok_BREAKPOINT_LO_2V_part_8" file="library_objects/Reebok_BREAKPOINT_LO_2V/Reebok_BREAKPOINT_LO_2V_decomp_4.obj" />
+    <mesh name="Reebok_BREAKPOINT_LO_2V_part_9" file="library_objects/Reebok_BREAKPOINT_LO_2V/Reebok_BREAKPOINT_LO_2V_decomp_8.obj" />
+    <mesh name="Reebok_BREAKPOINT_LO_2V_part_10" file="library_objects/Reebok_BREAKPOINT_LO_2V/Reebok_BREAKPOINT_LO_2V_decomp_5.obj" />
+    <mesh name="Reebok_BREAKPOINT_LO_2V_part_11" file="library_objects/Reebok_BREAKPOINT_LO_2V/Reebok_BREAKPOINT_LO_2V_decomp_14.obj" />
+    <mesh name="Reebok_BREAKPOINT_LO_2V_part_12" file="library_objects/Reebok_BREAKPOINT_LO_2V/Reebok_BREAKPOINT_LO_2V_decomp_3.obj" />
+    <mesh name="Reebok_BREAKPOINT_LO_2V_part_13" file="library_objects/Reebok_BREAKPOINT_LO_2V/Reebok_BREAKPOINT_LO_2V_decomp_10.obj" />
+    <mesh name="Reebok_BREAKPOINT_LO_2V_part_14" file="library_objects/Reebok_BREAKPOINT_LO_2V/Reebok_BREAKPOINT_LO_2V_decomp_12.obj" />
+    <mesh name="Reebok_BREAKPOINT_LO_2V_part_15" file="library_objects/Reebok_BREAKPOINT_LO_2V/Reebok_BREAKPOINT_LO_2V_decomp_11.obj" />
+    <mesh name="Reebok_BREAKPOINT_LO_2V_part_16" file="library_objects/Reebok_BREAKPOINT_LO_2V/Reebok_BREAKPOINT_LO_2V_decomp_1.obj" />
+    <mesh name="Reebok_BREAKPOINT_LO_2V_part_17" file="library_objects/Reebok_BREAKPOINT_LO_2V/Reebok_BREAKPOINT_LO_2V_decomp_9.obj" />
+    <mesh name="Reebok_BREAKPOINT_LO_2V_part_18" file="library_objects/Reebok_BREAKPOINT_LO_2V/Reebok_BREAKPOINT_LO_2V_decomp_19.obj" />
+    <mesh name="Reebok_BREAKPOINT_LO_2V_part_19" file="library_objects/Reebok_BREAKPOINT_LO_2V/Reebok_BREAKPOINT_LO_2V_decomp_2.obj" />
+  </asset>
+</mujocoinclude>

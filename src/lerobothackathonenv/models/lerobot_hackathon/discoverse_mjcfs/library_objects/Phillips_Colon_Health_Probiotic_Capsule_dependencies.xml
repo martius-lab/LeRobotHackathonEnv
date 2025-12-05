@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Phillips_Colon_Health_Probiotic_Capsule_texture" file="library_objects/Phillips_Colon_Health_Probiotic_Capsule/texture.png" />
+    <material name="Phillips_Colon_Health_Probiotic_Capsule_material" texture="Phillips_Colon_Health_Probiotic_Capsule_texture" />
+    <mesh name="Phillips_Colon_Health_Probiotic_Capsule" file="library_objects/Phillips_Colon_Health_Probiotic_Capsule/Phillips_Colon_Health_Probiotic_Capsule.obj" />
+    <mesh name="Phillips_Colon_Health_Probiotic_Capsule_part_0" file="library_objects/Phillips_Colon_Health_Probiotic_Capsule/Phillips_Colon_Health_Probiotic_Capsule_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

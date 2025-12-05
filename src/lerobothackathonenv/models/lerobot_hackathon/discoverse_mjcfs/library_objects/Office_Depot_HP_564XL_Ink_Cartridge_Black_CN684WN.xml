@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Office_Depot_HP_564XL_Ink_Cartridge_Black_CN684WN_material" mesh="Office_Depot_HP_564XL_Ink_Cartridge_Black_CN684WN" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Office_Depot_HP_564XL_Ink_Cartridge_Black_CN684WN_part_0" />
+</mujocoinclude>

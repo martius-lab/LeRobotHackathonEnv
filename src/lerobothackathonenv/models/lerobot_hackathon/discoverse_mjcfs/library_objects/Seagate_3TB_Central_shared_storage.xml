@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Seagate_3TB_Central_shared_storage_material" mesh="Seagate_3TB_Central_shared_storage" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Seagate_3TB_Central_shared_storage_part_0" />
+</mujocoinclude>

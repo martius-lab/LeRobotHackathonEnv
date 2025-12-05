@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Nintendo_Wii_Party_U_with_Controller_Wii_U_Game_material" mesh="Nintendo_Wii_Party_U_with_Controller_Wii_U_Game" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Nintendo_Wii_Party_U_with_Controller_Wii_U_Game_part_0" />
+</mujocoinclude>

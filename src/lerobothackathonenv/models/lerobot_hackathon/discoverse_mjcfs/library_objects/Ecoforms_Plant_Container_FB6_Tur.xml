@@ -1,0 +1,40 @@
+<mujocoinclude>
+  <geom material="Ecoforms_Plant_Container_FB6_Tur_material" mesh="Ecoforms_Plant_Container_FB6_Tur" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_2" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_3" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_4" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_5" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_6" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_7" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_8" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_9" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_10" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_11" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_12" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_13" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_14" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_15" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_16" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_17" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_18" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_19" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_20" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_21" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_22" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_23" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_24" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_25" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_26" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_27" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_28" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_29" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_30" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_31" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_32" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_33" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_34" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_35" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ecoforms_Plant_Container_FB6_Tur_part_36" />
+</mujocoinclude>

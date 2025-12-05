@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Nescafe_Memento_Latte_Caramel_8_08_oz_23_g_packets_64_oz_184_g_material" mesh="Nescafe_Memento_Latte_Caramel_8_08_oz_23_g_packets_64_oz_184_g" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Nescafe_Memento_Latte_Caramel_8_08_oz_23_g_packets_64_oz_184_g_part_0" />
+</mujocoinclude>

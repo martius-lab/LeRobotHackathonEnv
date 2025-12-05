@@ -1,0 +1,7 @@
+<mujocoinclude>
+  <geom material="Remington_1_12_inch_Hair_Straightener_material" mesh="Remington_1_12_inch_Hair_Straightener" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Remington_1_12_inch_Hair_Straightener_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Remington_1_12_inch_Hair_Straightener_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Remington_1_12_inch_Hair_Straightener_part_2" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Remington_1_12_inch_Hair_Straightener_part_3" />
+</mujocoinclude>

@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Google_Cardboard_Original_package_texture" file="library_objects/Google_Cardboard_Original_package/texture.png" />
+    <material name="Google_Cardboard_Original_package_material" texture="Google_Cardboard_Original_package_texture" />
+    <mesh name="Google_Cardboard_Original_package" file="library_objects/Google_Cardboard_Original_package/Google_Cardboard_Original_package.obj" />
+    <mesh name="Google_Cardboard_Original_package_part_0" file="library_objects/Google_Cardboard_Original_package/Google_Cardboard_Original_package_decomp_1.obj" />
+    <mesh name="Google_Cardboard_Original_package_part_1" file="library_objects/Google_Cardboard_Original_package/Google_Cardboard_Original_package_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Granimals_20_Wooden_ABC_Blocks_Wagon_85VdSftGsLi_material" mesh="Granimals_20_Wooden_ABC_Blocks_Wagon_85VdSftGsLi" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Granimals_20_Wooden_ABC_Blocks_Wagon_85VdSftGsLi_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Granimals_20_Wooden_ABC_Blocks_Wagon_85VdSftGsLi_part_1" />
+</mujocoinclude>

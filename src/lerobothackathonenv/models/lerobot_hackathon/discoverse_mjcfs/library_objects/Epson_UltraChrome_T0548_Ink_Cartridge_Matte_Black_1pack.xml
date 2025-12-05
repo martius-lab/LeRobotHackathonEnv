@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Epson_UltraChrome_T0548_Ink_Cartridge_Matte_Black_1pack_material" mesh="Epson_UltraChrome_T0548_Ink_Cartridge_Matte_Black_1pack" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Epson_UltraChrome_T0548_Ink_Cartridge_Matte_Black_1pack_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Epson_UltraChrome_T0548_Ink_Cartridge_Matte_Black_1pack_part_1" />
+</mujocoinclude>

@@ -1,0 +1,33 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Ecoforms_Planter_Pot_GP12AAvocado_texture" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/texture.png" />
+    <material name="Ecoforms_Planter_Pot_GP12AAvocado_material" texture="Ecoforms_Planter_Pot_GP12AAvocado_texture" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_0" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_21.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_1" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_20.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_2" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_14.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_3" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_19.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_4" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_25.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_5" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_24.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_6" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_6.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_7" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_1.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_8" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_9.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_9" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_17.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_10" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_2.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_11" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_5.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_12" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_18.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_13" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_3.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_14" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_16.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_15" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_10.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_16" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_11.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_17" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_8.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_18" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_0.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_19" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_4.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_20" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_7.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_21" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_13.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_22" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_22.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_23" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_15.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_24" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_12.obj" />
+    <mesh name="Ecoforms_Planter_Pot_GP12AAvocado_part_25" file="library_objects/Ecoforms_Planter_Pot_GP12AAvocado/Ecoforms_Planter_Pot_GP12AAvocado_decomp_23.obj" />
+  </asset>
+</mujocoinclude>

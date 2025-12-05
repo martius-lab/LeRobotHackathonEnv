@@ -1,0 +1,18 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="45oz_RAMEKIN_ASST_DEEP_COLORS_texture" file="library_objects/45oz_RAMEKIN_ASST_DEEP_COLORS/texture.png" />
+    <material name="45oz_RAMEKIN_ASST_DEEP_COLORS_material" texture="45oz_RAMEKIN_ASST_DEEP_COLORS_texture" />
+    <mesh name="45oz_RAMEKIN_ASST_DEEP_COLORS" file="library_objects/45oz_RAMEKIN_ASST_DEEP_COLORS/45oz_RAMEKIN_ASST_DEEP_COLORS.obj" />
+    <mesh name="45oz_RAMEKIN_ASST_DEEP_COLORS_part_0" file="library_objects/45oz_RAMEKIN_ASST_DEEP_COLORS/45oz_RAMEKIN_ASST_DEEP_COLORS_decomp_9.obj" />
+    <mesh name="45oz_RAMEKIN_ASST_DEEP_COLORS_part_1" file="library_objects/45oz_RAMEKIN_ASST_DEEP_COLORS/45oz_RAMEKIN_ASST_DEEP_COLORS_decomp_3.obj" />
+    <mesh name="45oz_RAMEKIN_ASST_DEEP_COLORS_part_2" file="library_objects/45oz_RAMEKIN_ASST_DEEP_COLORS/45oz_RAMEKIN_ASST_DEEP_COLORS_decomp_4.obj" />
+    <mesh name="45oz_RAMEKIN_ASST_DEEP_COLORS_part_3" file="library_objects/45oz_RAMEKIN_ASST_DEEP_COLORS/45oz_RAMEKIN_ASST_DEEP_COLORS_decomp_7.obj" />
+    <mesh name="45oz_RAMEKIN_ASST_DEEP_COLORS_part_4" file="library_objects/45oz_RAMEKIN_ASST_DEEP_COLORS/45oz_RAMEKIN_ASST_DEEP_COLORS_decomp_1.obj" />
+    <mesh name="45oz_RAMEKIN_ASST_DEEP_COLORS_part_5" file="library_objects/45oz_RAMEKIN_ASST_DEEP_COLORS/45oz_RAMEKIN_ASST_DEEP_COLORS_decomp_0.obj" />
+    <mesh name="45oz_RAMEKIN_ASST_DEEP_COLORS_part_6" file="library_objects/45oz_RAMEKIN_ASST_DEEP_COLORS/45oz_RAMEKIN_ASST_DEEP_COLORS_decomp_8.obj" />
+    <mesh name="45oz_RAMEKIN_ASST_DEEP_COLORS_part_7" file="library_objects/45oz_RAMEKIN_ASST_DEEP_COLORS/45oz_RAMEKIN_ASST_DEEP_COLORS_decomp_6.obj" />
+    <mesh name="45oz_RAMEKIN_ASST_DEEP_COLORS_part_8" file="library_objects/45oz_RAMEKIN_ASST_DEEP_COLORS/45oz_RAMEKIN_ASST_DEEP_COLORS_decomp_5.obj" />
+    <mesh name="45oz_RAMEKIN_ASST_DEEP_COLORS_part_9" file="library_objects/45oz_RAMEKIN_ASST_DEEP_COLORS/45oz_RAMEKIN_ASST_DEEP_COLORS_decomp_2.obj" />
+    <mesh name="45oz_RAMEKIN_ASST_DEEP_COLORS_part_10" file="library_objects/45oz_RAMEKIN_ASST_DEEP_COLORS/45oz_RAMEKIN_ASST_DEEP_COLORS_decomp_10.obj" />
+  </asset>
+</mujocoinclude>

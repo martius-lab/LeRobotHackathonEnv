@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Prostate_Optimizer_texture" file="library_objects/Prostate_Optimizer/texture.png" />
+    <material name="Prostate_Optimizer_material" texture="Prostate_Optimizer_texture" />
+    <mesh name="Prostate_Optimizer" file="library_objects/Prostate_Optimizer/Prostate_Optimizer.obj" />
+    <mesh name="Prostate_Optimizer_part_0" file="library_objects/Prostate_Optimizer/Prostate_Optimizer_decomp_0.obj" />
+    <mesh name="Prostate_Optimizer_part_1" file="library_objects/Prostate_Optimizer/Prostate_Optimizer_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Crayola_Washable_Sidewalk_Chalk_16_pack_wDZECiw7J6s_texture" file="library_objects/Crayola_Washable_Sidewalk_Chalk_16_pack_wDZECiw7J6s/texture.png" />
+    <material name="Crayola_Washable_Sidewalk_Chalk_16_pack_wDZECiw7J6s_material" texture="Crayola_Washable_Sidewalk_Chalk_16_pack_wDZECiw7J6s_texture" />
+    <mesh name="Crayola_Washable_Sidewalk_Chalk_16_pack_wDZECiw7J6s" file="library_objects/Crayola_Washable_Sidewalk_Chalk_16_pack_wDZECiw7J6s/Crayola_Washable_Sidewalk_Chalk_16_pack_wDZECiw7J6s.obj" />
+    <mesh name="Crayola_Washable_Sidewalk_Chalk_16_pack_wDZECiw7J6s_part_0" file="library_objects/Crayola_Washable_Sidewalk_Chalk_16_pack_wDZECiw7J6s/Crayola_Washable_Sidewalk_Chalk_16_pack_wDZECiw7J6s_decomp_1.obj" />
+    <mesh name="Crayola_Washable_Sidewalk_Chalk_16_pack_wDZECiw7J6s_part_1" file="library_objects/Crayola_Washable_Sidewalk_Chalk_16_pack_wDZECiw7J6s/Crayola_Washable_Sidewalk_Chalk_16_pack_wDZECiw7J6s_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

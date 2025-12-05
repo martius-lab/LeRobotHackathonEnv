@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="IsoRich_Soy_texture" file="library_objects/IsoRich_Soy/texture.png" />
+    <material name="IsoRich_Soy_material" texture="IsoRich_Soy_texture" />
+    <mesh name="IsoRich_Soy" file="library_objects/IsoRich_Soy/IsoRich_Soy.obj" />
+    <mesh name="IsoRich_Soy_part_0" file="library_objects/IsoRich_Soy/IsoRich_Soy_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="FisherPrice_Make_A_Match_Game_Thomas_Friends_material" mesh="FisherPrice_Make_A_Match_Game_Thomas_Friends" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="FisherPrice_Make_A_Match_Game_Thomas_Friends_part_0" />
+</mujocoinclude>

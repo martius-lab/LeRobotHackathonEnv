@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Perricone_MD_Cold_Plasma_texture" file="library_objects/Perricone_MD_Cold_Plasma/texture.png" />
+    <material name="Perricone_MD_Cold_Plasma_material" texture="Perricone_MD_Cold_Plasma_texture" />
+    <mesh name="Perricone_MD_Cold_Plasma" file="library_objects/Perricone_MD_Cold_Plasma/Perricone_MD_Cold_Plasma.obj" />
+    <mesh name="Perricone_MD_Cold_Plasma_part_0" file="library_objects/Perricone_MD_Cold_Plasma/Perricone_MD_Cold_Plasma_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

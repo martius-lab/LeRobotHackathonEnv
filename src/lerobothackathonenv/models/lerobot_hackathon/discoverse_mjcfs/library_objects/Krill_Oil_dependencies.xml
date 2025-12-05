@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Krill_Oil_texture" file="library_objects/Krill_Oil/texture.png" />
+    <material name="Krill_Oil_material" texture="Krill_Oil_texture" />
+    <mesh name="Krill_Oil" file="library_objects/Krill_Oil/Krill_Oil.obj" />
+    <mesh name="Krill_Oil_part_0" file="library_objects/Krill_Oil/Krill_Oil_decomp_0.obj" />
+    <mesh name="Krill_Oil_part_1" file="library_objects/Krill_Oil/Krill_Oil_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

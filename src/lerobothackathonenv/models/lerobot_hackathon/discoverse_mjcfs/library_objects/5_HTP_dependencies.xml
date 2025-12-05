@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="5_HTP_texture" file="library_objects/5_HTP/texture.png" />
+    <material name="5_HTP_material" texture="5_HTP_texture" />
+    <mesh name="5_HTP" file="library_objects/5_HTP/5_HTP.obj" />
+    <mesh name="5_HTP_part_0" file="library_objects/5_HTP/5_HTP_decomp_1.obj" />
+    <mesh name="5_HTP_part_1" file="library_objects/5_HTP/5_HTP_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

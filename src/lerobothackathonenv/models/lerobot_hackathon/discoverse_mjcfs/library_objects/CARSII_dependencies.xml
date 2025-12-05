@@ -1,0 +1,10 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="CARSII_texture" file="library_objects/CARSII/texture.png" />
+    <material name="CARSII_material" texture="CARSII_texture" />
+    <mesh name="CARSII" file="library_objects/CARSII/CARSII.obj" />
+    <mesh name="CARSII_part_0" file="library_objects/CARSII/CARSII_decomp_1.obj" />
+    <mesh name="CARSII_part_1" file="library_objects/CARSII/CARSII_decomp_0.obj" />
+    <mesh name="CARSII_part_2" file="library_objects/CARSII/CARSII_decomp_2.obj" />
+  </asset>
+</mujocoinclude>

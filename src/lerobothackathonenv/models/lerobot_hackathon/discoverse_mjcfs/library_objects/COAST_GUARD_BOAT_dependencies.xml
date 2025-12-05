@@ -1,0 +1,15 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="COAST_GUARD_BOAT_texture" file="library_objects/COAST_GUARD_BOAT/texture.png" />
+    <material name="COAST_GUARD_BOAT_material" texture="COAST_GUARD_BOAT_texture" />
+    <mesh name="COAST_GUARD_BOAT" file="library_objects/COAST_GUARD_BOAT/COAST_GUARD_BOAT.obj" />
+    <mesh name="COAST_GUARD_BOAT_part_0" file="library_objects/COAST_GUARD_BOAT/COAST_GUARD_BOAT_decomp_4.obj" />
+    <mesh name="COAST_GUARD_BOAT_part_1" file="library_objects/COAST_GUARD_BOAT/COAST_GUARD_BOAT_decomp_2.obj" />
+    <mesh name="COAST_GUARD_BOAT_part_2" file="library_objects/COAST_GUARD_BOAT/COAST_GUARD_BOAT_decomp_5.obj" />
+    <mesh name="COAST_GUARD_BOAT_part_3" file="library_objects/COAST_GUARD_BOAT/COAST_GUARD_BOAT_decomp_7.obj" />
+    <mesh name="COAST_GUARD_BOAT_part_4" file="library_objects/COAST_GUARD_BOAT/COAST_GUARD_BOAT_decomp_3.obj" />
+    <mesh name="COAST_GUARD_BOAT_part_5" file="library_objects/COAST_GUARD_BOAT/COAST_GUARD_BOAT_decomp_1.obj" />
+    <mesh name="COAST_GUARD_BOAT_part_6" file="library_objects/COAST_GUARD_BOAT/COAST_GUARD_BOAT_decomp_6.obj" />
+    <mesh name="COAST_GUARD_BOAT_part_7" file="library_objects/COAST_GUARD_BOAT/COAST_GUARD_BOAT_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

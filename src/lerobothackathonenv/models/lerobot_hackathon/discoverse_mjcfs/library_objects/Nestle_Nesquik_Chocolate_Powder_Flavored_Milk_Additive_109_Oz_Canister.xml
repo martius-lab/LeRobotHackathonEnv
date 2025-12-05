@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Nestle_Nesquik_Chocolate_Powder_Flavored_Milk_Additive_109_Oz_Canister_material" mesh="Nestle_Nesquik_Chocolate_Powder_Flavored_Milk_Additive_109_Oz_Canister" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Nestle_Nesquik_Chocolate_Powder_Flavored_Milk_Additive_109_Oz_Canister_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Nestle_Nesquik_Chocolate_Powder_Flavored_Milk_Additive_109_Oz_Canister_part_1" />
+</mujocoinclude>

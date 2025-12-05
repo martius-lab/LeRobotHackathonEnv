@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Nestle_Nips_Hard_Candy_Peanut_Butter_texture" file="library_objects/Nestle_Nips_Hard_Candy_Peanut_Butter/texture.png" />
+    <material name="Nestle_Nips_Hard_Candy_Peanut_Butter_material" texture="Nestle_Nips_Hard_Candy_Peanut_Butter_texture" />
+    <mesh name="Nestle_Nips_Hard_Candy_Peanut_Butter" file="library_objects/Nestle_Nips_Hard_Candy_Peanut_Butter/Nestle_Nips_Hard_Candy_Peanut_Butter.obj" />
+    <mesh name="Nestle_Nips_Hard_Candy_Peanut_Butter_part_0" file="library_objects/Nestle_Nips_Hard_Candy_Peanut_Butter/Nestle_Nips_Hard_Candy_Peanut_Butter_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

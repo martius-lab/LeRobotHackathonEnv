@@ -1,0 +1,13 @@
+<mujocoinclude>
+  <geom material="Womens_Bluefish_2Eye_Boat_Shoe_in_White_Tumbled_YG44xIePRHw_material" mesh="Womens_Bluefish_2Eye_Boat_Shoe_in_White_Tumbled_YG44xIePRHw" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Bluefish_2Eye_Boat_Shoe_in_White_Tumbled_YG44xIePRHw_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Bluefish_2Eye_Boat_Shoe_in_White_Tumbled_YG44xIePRHw_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Bluefish_2Eye_Boat_Shoe_in_White_Tumbled_YG44xIePRHw_part_2" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Bluefish_2Eye_Boat_Shoe_in_White_Tumbled_YG44xIePRHw_part_3" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Bluefish_2Eye_Boat_Shoe_in_White_Tumbled_YG44xIePRHw_part_4" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Bluefish_2Eye_Boat_Shoe_in_White_Tumbled_YG44xIePRHw_part_5" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Bluefish_2Eye_Boat_Shoe_in_White_Tumbled_YG44xIePRHw_part_6" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Bluefish_2Eye_Boat_Shoe_in_White_Tumbled_YG44xIePRHw_part_7" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Bluefish_2Eye_Boat_Shoe_in_White_Tumbled_YG44xIePRHw_part_8" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Bluefish_2Eye_Boat_Shoe_in_White_Tumbled_YG44xIePRHw_part_9" />
+</mujocoinclude>

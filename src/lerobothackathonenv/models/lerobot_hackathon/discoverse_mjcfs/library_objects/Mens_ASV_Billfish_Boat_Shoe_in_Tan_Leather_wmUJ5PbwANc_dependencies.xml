@@ -1,0 +1,23 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_texture" file="library_objects/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc/texture.png" />
+    <material name="Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_material" texture="Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_texture" />
+    <mesh name="Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc" file="library_objects/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc.obj" />
+    <mesh name="Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_part_0" file="library_objects/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_decomp_13.obj" />
+    <mesh name="Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_part_1" file="library_objects/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_decomp_2.obj" />
+    <mesh name="Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_part_2" file="library_objects/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_decomp_5.obj" />
+    <mesh name="Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_part_3" file="library_objects/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_decomp_11.obj" />
+    <mesh name="Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_part_4" file="library_objects/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_decomp_8.obj" />
+    <mesh name="Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_part_5" file="library_objects/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_decomp_9.obj" />
+    <mesh name="Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_part_6" file="library_objects/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_decomp_14.obj" />
+    <mesh name="Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_part_7" file="library_objects/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_decomp_12.obj" />
+    <mesh name="Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_part_8" file="library_objects/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_decomp_15.obj" />
+    <mesh name="Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_part_9" file="library_objects/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_decomp_0.obj" />
+    <mesh name="Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_part_10" file="library_objects/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_decomp_3.obj" />
+    <mesh name="Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_part_11" file="library_objects/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_decomp_4.obj" />
+    <mesh name="Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_part_12" file="library_objects/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_decomp_10.obj" />
+    <mesh name="Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_part_13" file="library_objects/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_decomp_1.obj" />
+    <mesh name="Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_part_14" file="library_objects/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_decomp_6.obj" />
+    <mesh name="Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_part_15" file="library_objects/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc_decomp_7.obj" />
+  </asset>
+</mujocoinclude>

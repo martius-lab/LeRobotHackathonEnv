@@ -1,0 +1,16 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="3M_Vinyl_Tape_Green_1_x_36_yd_texture" file="library_objects/3M_Vinyl_Tape_Green_1_x_36_yd/texture.png" />
+    <material name="3M_Vinyl_Tape_Green_1_x_36_yd_material" texture="3M_Vinyl_Tape_Green_1_x_36_yd_texture" />
+    <mesh name="3M_Vinyl_Tape_Green_1_x_36_yd" file="library_objects/3M_Vinyl_Tape_Green_1_x_36_yd/3M_Vinyl_Tape_Green_1_x_36_yd.obj" />
+    <mesh name="3M_Vinyl_Tape_Green_1_x_36_yd_part_0" file="library_objects/3M_Vinyl_Tape_Green_1_x_36_yd/3M_Vinyl_Tape_Green_1_x_36_yd_decomp_8.obj" />
+    <mesh name="3M_Vinyl_Tape_Green_1_x_36_yd_part_1" file="library_objects/3M_Vinyl_Tape_Green_1_x_36_yd/3M_Vinyl_Tape_Green_1_x_36_yd_decomp_5.obj" />
+    <mesh name="3M_Vinyl_Tape_Green_1_x_36_yd_part_2" file="library_objects/3M_Vinyl_Tape_Green_1_x_36_yd/3M_Vinyl_Tape_Green_1_x_36_yd_decomp_0.obj" />
+    <mesh name="3M_Vinyl_Tape_Green_1_x_36_yd_part_3" file="library_objects/3M_Vinyl_Tape_Green_1_x_36_yd/3M_Vinyl_Tape_Green_1_x_36_yd_decomp_7.obj" />
+    <mesh name="3M_Vinyl_Tape_Green_1_x_36_yd_part_4" file="library_objects/3M_Vinyl_Tape_Green_1_x_36_yd/3M_Vinyl_Tape_Green_1_x_36_yd_decomp_2.obj" />
+    <mesh name="3M_Vinyl_Tape_Green_1_x_36_yd_part_5" file="library_objects/3M_Vinyl_Tape_Green_1_x_36_yd/3M_Vinyl_Tape_Green_1_x_36_yd_decomp_1.obj" />
+    <mesh name="3M_Vinyl_Tape_Green_1_x_36_yd_part_6" file="library_objects/3M_Vinyl_Tape_Green_1_x_36_yd/3M_Vinyl_Tape_Green_1_x_36_yd_decomp_3.obj" />
+    <mesh name="3M_Vinyl_Tape_Green_1_x_36_yd_part_7" file="library_objects/3M_Vinyl_Tape_Green_1_x_36_yd/3M_Vinyl_Tape_Green_1_x_36_yd_decomp_4.obj" />
+    <mesh name="3M_Vinyl_Tape_Green_1_x_36_yd_part_8" file="library_objects/3M_Vinyl_Tape_Green_1_x_36_yd/3M_Vinyl_Tape_Green_1_x_36_yd_decomp_6.obj" />
+  </asset>
+</mujocoinclude>

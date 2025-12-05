@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Mario_Party_9_Wii_Game_material" mesh="Mario_Party_9_Wii_Game" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mario_Party_9_Wii_Game_part_0" />
+</mujocoinclude>

@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Mastic_Gum_material" mesh="Mastic_Gum" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mastic_Gum_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mastic_Gum_part_1" />
+</mujocoinclude>

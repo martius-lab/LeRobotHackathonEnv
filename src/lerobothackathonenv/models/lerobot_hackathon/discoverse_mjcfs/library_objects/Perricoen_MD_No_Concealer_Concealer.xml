@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Perricoen_MD_No_Concealer_Concealer_material" mesh="Perricoen_MD_No_Concealer_Concealer" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Perricoen_MD_No_Concealer_Concealer_part_0" />
+</mujocoinclude>

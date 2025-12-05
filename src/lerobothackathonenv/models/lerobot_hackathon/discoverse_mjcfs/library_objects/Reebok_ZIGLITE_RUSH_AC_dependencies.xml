@@ -1,0 +1,26 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Reebok_ZIGLITE_RUSH_AC_texture" file="library_objects/Reebok_ZIGLITE_RUSH_AC/texture.png" />
+    <material name="Reebok_ZIGLITE_RUSH_AC_material" texture="Reebok_ZIGLITE_RUSH_AC_texture" />
+    <mesh name="Reebok_ZIGLITE_RUSH_AC" file="library_objects/Reebok_ZIGLITE_RUSH_AC/Reebok_ZIGLITE_RUSH_AC.obj" />
+    <mesh name="Reebok_ZIGLITE_RUSH_AC_part_0" file="library_objects/Reebok_ZIGLITE_RUSH_AC/Reebok_ZIGLITE_RUSH_AC_decomp_1.obj" />
+    <mesh name="Reebok_ZIGLITE_RUSH_AC_part_1" file="library_objects/Reebok_ZIGLITE_RUSH_AC/Reebok_ZIGLITE_RUSH_AC_decomp_5.obj" />
+    <mesh name="Reebok_ZIGLITE_RUSH_AC_part_2" file="library_objects/Reebok_ZIGLITE_RUSH_AC/Reebok_ZIGLITE_RUSH_AC_decomp_14.obj" />
+    <mesh name="Reebok_ZIGLITE_RUSH_AC_part_3" file="library_objects/Reebok_ZIGLITE_RUSH_AC/Reebok_ZIGLITE_RUSH_AC_decomp_0.obj" />
+    <mesh name="Reebok_ZIGLITE_RUSH_AC_part_4" file="library_objects/Reebok_ZIGLITE_RUSH_AC/Reebok_ZIGLITE_RUSH_AC_decomp_12.obj" />
+    <mesh name="Reebok_ZIGLITE_RUSH_AC_part_5" file="library_objects/Reebok_ZIGLITE_RUSH_AC/Reebok_ZIGLITE_RUSH_AC_decomp_16.obj" />
+    <mesh name="Reebok_ZIGLITE_RUSH_AC_part_6" file="library_objects/Reebok_ZIGLITE_RUSH_AC/Reebok_ZIGLITE_RUSH_AC_decomp_13.obj" />
+    <mesh name="Reebok_ZIGLITE_RUSH_AC_part_7" file="library_objects/Reebok_ZIGLITE_RUSH_AC/Reebok_ZIGLITE_RUSH_AC_decomp_6.obj" />
+    <mesh name="Reebok_ZIGLITE_RUSH_AC_part_8" file="library_objects/Reebok_ZIGLITE_RUSH_AC/Reebok_ZIGLITE_RUSH_AC_decomp_10.obj" />
+    <mesh name="Reebok_ZIGLITE_RUSH_AC_part_9" file="library_objects/Reebok_ZIGLITE_RUSH_AC/Reebok_ZIGLITE_RUSH_AC_decomp_17.obj" />
+    <mesh name="Reebok_ZIGLITE_RUSH_AC_part_10" file="library_objects/Reebok_ZIGLITE_RUSH_AC/Reebok_ZIGLITE_RUSH_AC_decomp_7.obj" />
+    <mesh name="Reebok_ZIGLITE_RUSH_AC_part_11" file="library_objects/Reebok_ZIGLITE_RUSH_AC/Reebok_ZIGLITE_RUSH_AC_decomp_2.obj" />
+    <mesh name="Reebok_ZIGLITE_RUSH_AC_part_12" file="library_objects/Reebok_ZIGLITE_RUSH_AC/Reebok_ZIGLITE_RUSH_AC_decomp_9.obj" />
+    <mesh name="Reebok_ZIGLITE_RUSH_AC_part_13" file="library_objects/Reebok_ZIGLITE_RUSH_AC/Reebok_ZIGLITE_RUSH_AC_decomp_11.obj" />
+    <mesh name="Reebok_ZIGLITE_RUSH_AC_part_14" file="library_objects/Reebok_ZIGLITE_RUSH_AC/Reebok_ZIGLITE_RUSH_AC_decomp_8.obj" />
+    <mesh name="Reebok_ZIGLITE_RUSH_AC_part_15" file="library_objects/Reebok_ZIGLITE_RUSH_AC/Reebok_ZIGLITE_RUSH_AC_decomp_18.obj" />
+    <mesh name="Reebok_ZIGLITE_RUSH_AC_part_16" file="library_objects/Reebok_ZIGLITE_RUSH_AC/Reebok_ZIGLITE_RUSH_AC_decomp_15.obj" />
+    <mesh name="Reebok_ZIGLITE_RUSH_AC_part_17" file="library_objects/Reebok_ZIGLITE_RUSH_AC/Reebok_ZIGLITE_RUSH_AC_decomp_4.obj" />
+    <mesh name="Reebok_ZIGLITE_RUSH_AC_part_18" file="library_objects/Reebok_ZIGLITE_RUSH_AC/Reebok_ZIGLITE_RUSH_AC_decomp_3.obj" />
+  </asset>
+</mujocoinclude>

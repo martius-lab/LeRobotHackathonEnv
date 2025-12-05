@@ -1,0 +1,12 @@
+<mujocoinclude>
+  <geom material="Markings_Letter_Holder_material" mesh="Markings_Letter_Holder" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Markings_Letter_Holder_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Markings_Letter_Holder_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Markings_Letter_Holder_part_2" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Markings_Letter_Holder_part_3" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Markings_Letter_Holder_part_4" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Markings_Letter_Holder_part_5" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Markings_Letter_Holder_part_6" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Markings_Letter_Holder_part_7" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Markings_Letter_Holder_part_8" />
+</mujocoinclude>

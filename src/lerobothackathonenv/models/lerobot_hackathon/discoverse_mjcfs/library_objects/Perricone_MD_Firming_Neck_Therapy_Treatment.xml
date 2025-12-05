@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Perricone_MD_Firming_Neck_Therapy_Treatment_material" mesh="Perricone_MD_Firming_Neck_Therapy_Treatment" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Perricone_MD_Firming_Neck_Therapy_Treatment_part_0" />
+</mujocoinclude>

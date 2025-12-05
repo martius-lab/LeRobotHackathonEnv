@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Kanex_MultiSync_Wireless_Keyboard_texture" file="library_objects/Kanex_MultiSync_Wireless_Keyboard/texture.png" />
+    <material name="Kanex_MultiSync_Wireless_Keyboard_material" texture="Kanex_MultiSync_Wireless_Keyboard_texture" />
+    <mesh name="Kanex_MultiSync_Wireless_Keyboard" file="library_objects/Kanex_MultiSync_Wireless_Keyboard/Kanex_MultiSync_Wireless_Keyboard.obj" />
+    <mesh name="Kanex_MultiSync_Wireless_Keyboard_part_0" file="library_objects/Kanex_MultiSync_Wireless_Keyboard/Kanex_MultiSync_Wireless_Keyboard_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

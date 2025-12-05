@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="U_By_Kotex_Sleek_Regular_Unscented_Tampons_36_Ct_Box_material" mesh="U_By_Kotex_Sleek_Regular_Unscented_Tampons_36_Ct_Box" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="U_By_Kotex_Sleek_Regular_Unscented_Tampons_36_Ct_Box_part_0" />
+</mujocoinclude>

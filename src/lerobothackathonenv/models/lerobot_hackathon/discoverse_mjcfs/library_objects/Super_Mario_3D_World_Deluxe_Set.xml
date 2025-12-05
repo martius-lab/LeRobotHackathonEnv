@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Super_Mario_3D_World_Deluxe_Set_material" mesh="Super_Mario_3D_World_Deluxe_Set" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Super_Mario_3D_World_Deluxe_Set_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Super_Mario_3D_World_Deluxe_Set_part_1" />
+</mujocoinclude>

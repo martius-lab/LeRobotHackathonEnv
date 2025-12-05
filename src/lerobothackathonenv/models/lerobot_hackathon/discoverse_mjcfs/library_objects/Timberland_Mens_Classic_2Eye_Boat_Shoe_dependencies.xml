@@ -1,0 +1,23 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Timberland_Mens_Classic_2Eye_Boat_Shoe_texture" file="library_objects/Timberland_Mens_Classic_2Eye_Boat_Shoe/texture.png" />
+    <material name="Timberland_Mens_Classic_2Eye_Boat_Shoe_material" texture="Timberland_Mens_Classic_2Eye_Boat_Shoe_texture" />
+    <mesh name="Timberland_Mens_Classic_2Eye_Boat_Shoe" file="library_objects/Timberland_Mens_Classic_2Eye_Boat_Shoe/Timberland_Mens_Classic_2Eye_Boat_Shoe.obj" />
+    <mesh name="Timberland_Mens_Classic_2Eye_Boat_Shoe_part_0" file="library_objects/Timberland_Mens_Classic_2Eye_Boat_Shoe/Timberland_Mens_Classic_2Eye_Boat_Shoe_decomp_7.obj" />
+    <mesh name="Timberland_Mens_Classic_2Eye_Boat_Shoe_part_1" file="library_objects/Timberland_Mens_Classic_2Eye_Boat_Shoe/Timberland_Mens_Classic_2Eye_Boat_Shoe_decomp_0.obj" />
+    <mesh name="Timberland_Mens_Classic_2Eye_Boat_Shoe_part_2" file="library_objects/Timberland_Mens_Classic_2Eye_Boat_Shoe/Timberland_Mens_Classic_2Eye_Boat_Shoe_decomp_5.obj" />
+    <mesh name="Timberland_Mens_Classic_2Eye_Boat_Shoe_part_3" file="library_objects/Timberland_Mens_Classic_2Eye_Boat_Shoe/Timberland_Mens_Classic_2Eye_Boat_Shoe_decomp_10.obj" />
+    <mesh name="Timberland_Mens_Classic_2Eye_Boat_Shoe_part_4" file="library_objects/Timberland_Mens_Classic_2Eye_Boat_Shoe/Timberland_Mens_Classic_2Eye_Boat_Shoe_decomp_4.obj" />
+    <mesh name="Timberland_Mens_Classic_2Eye_Boat_Shoe_part_5" file="library_objects/Timberland_Mens_Classic_2Eye_Boat_Shoe/Timberland_Mens_Classic_2Eye_Boat_Shoe_decomp_8.obj" />
+    <mesh name="Timberland_Mens_Classic_2Eye_Boat_Shoe_part_6" file="library_objects/Timberland_Mens_Classic_2Eye_Boat_Shoe/Timberland_Mens_Classic_2Eye_Boat_Shoe_decomp_1.obj" />
+    <mesh name="Timberland_Mens_Classic_2Eye_Boat_Shoe_part_7" file="library_objects/Timberland_Mens_Classic_2Eye_Boat_Shoe/Timberland_Mens_Classic_2Eye_Boat_Shoe_decomp_6.obj" />
+    <mesh name="Timberland_Mens_Classic_2Eye_Boat_Shoe_part_8" file="library_objects/Timberland_Mens_Classic_2Eye_Boat_Shoe/Timberland_Mens_Classic_2Eye_Boat_Shoe_decomp_9.obj" />
+    <mesh name="Timberland_Mens_Classic_2Eye_Boat_Shoe_part_9" file="library_objects/Timberland_Mens_Classic_2Eye_Boat_Shoe/Timberland_Mens_Classic_2Eye_Boat_Shoe_decomp_15.obj" />
+    <mesh name="Timberland_Mens_Classic_2Eye_Boat_Shoe_part_10" file="library_objects/Timberland_Mens_Classic_2Eye_Boat_Shoe/Timberland_Mens_Classic_2Eye_Boat_Shoe_decomp_14.obj" />
+    <mesh name="Timberland_Mens_Classic_2Eye_Boat_Shoe_part_11" file="library_objects/Timberland_Mens_Classic_2Eye_Boat_Shoe/Timberland_Mens_Classic_2Eye_Boat_Shoe_decomp_3.obj" />
+    <mesh name="Timberland_Mens_Classic_2Eye_Boat_Shoe_part_12" file="library_objects/Timberland_Mens_Classic_2Eye_Boat_Shoe/Timberland_Mens_Classic_2Eye_Boat_Shoe_decomp_11.obj" />
+    <mesh name="Timberland_Mens_Classic_2Eye_Boat_Shoe_part_13" file="library_objects/Timberland_Mens_Classic_2Eye_Boat_Shoe/Timberland_Mens_Classic_2Eye_Boat_Shoe_decomp_12.obj" />
+    <mesh name="Timberland_Mens_Classic_2Eye_Boat_Shoe_part_14" file="library_objects/Timberland_Mens_Classic_2Eye_Boat_Shoe/Timberland_Mens_Classic_2Eye_Boat_Shoe_decomp_2.obj" />
+    <mesh name="Timberland_Mens_Classic_2Eye_Boat_Shoe_part_15" file="library_objects/Timberland_Mens_Classic_2Eye_Boat_Shoe/Timberland_Mens_Classic_2Eye_Boat_Shoe_decomp_13.obj" />
+  </asset>
+</mujocoinclude>

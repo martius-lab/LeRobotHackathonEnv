@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Leap_Frog_Paint_Dabber_Dot_Art_5_paint_bottles_texture" file="library_objects/Leap_Frog_Paint_Dabber_Dot_Art_5_paint_bottles/texture.png" />
+    <material name="Leap_Frog_Paint_Dabber_Dot_Art_5_paint_bottles_material" texture="Leap_Frog_Paint_Dabber_Dot_Art_5_paint_bottles_texture" />
+    <mesh name="Leap_Frog_Paint_Dabber_Dot_Art_5_paint_bottles" file="library_objects/Leap_Frog_Paint_Dabber_Dot_Art_5_paint_bottles/Leap_Frog_Paint_Dabber_Dot_Art_5_paint_bottles.obj" />
+    <mesh name="Leap_Frog_Paint_Dabber_Dot_Art_5_paint_bottles_part_0" file="library_objects/Leap_Frog_Paint_Dabber_Dot_Art_5_paint_bottles/Leap_Frog_Paint_Dabber_Dot_Art_5_paint_bottles_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

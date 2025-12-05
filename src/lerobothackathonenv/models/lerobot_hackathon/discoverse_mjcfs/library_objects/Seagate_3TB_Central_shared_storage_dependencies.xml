@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Seagate_3TB_Central_shared_storage_texture" file="library_objects/Seagate_3TB_Central_shared_storage/texture.png" />
+    <material name="Seagate_3TB_Central_shared_storage_material" texture="Seagate_3TB_Central_shared_storage_texture" />
+    <mesh name="Seagate_3TB_Central_shared_storage" file="library_objects/Seagate_3TB_Central_shared_storage/Seagate_3TB_Central_shared_storage.obj" />
+    <mesh name="Seagate_3TB_Central_shared_storage_part_0" file="library_objects/Seagate_3TB_Central_shared_storage/Seagate_3TB_Central_shared_storage_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

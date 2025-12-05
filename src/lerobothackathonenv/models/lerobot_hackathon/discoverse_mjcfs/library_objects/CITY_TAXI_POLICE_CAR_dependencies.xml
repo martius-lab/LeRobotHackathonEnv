@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="CITY_TAXI_POLICE_CAR_texture" file="library_objects/CITY_TAXI_POLICE_CAR/texture.png" />
+    <material name="CITY_TAXI_POLICE_CAR_material" texture="CITY_TAXI_POLICE_CAR_texture" />
+    <mesh name="CITY_TAXI_POLICE_CAR" file="library_objects/CITY_TAXI_POLICE_CAR/CITY_TAXI_POLICE_CAR.obj" />
+    <mesh name="CITY_TAXI_POLICE_CAR_part_0" file="library_objects/CITY_TAXI_POLICE_CAR/CITY_TAXI_POLICE_CAR_decomp_1.obj" />
+    <mesh name="CITY_TAXI_POLICE_CAR_part_1" file="library_objects/CITY_TAXI_POLICE_CAR/CITY_TAXI_POLICE_CAR_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

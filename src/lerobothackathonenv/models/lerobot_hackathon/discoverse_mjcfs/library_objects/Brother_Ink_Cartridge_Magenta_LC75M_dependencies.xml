@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Brother_Ink_Cartridge_Magenta_LC75M_texture" file="library_objects/Brother_Ink_Cartridge_Magenta_LC75M/texture.png" />
+    <material name="Brother_Ink_Cartridge_Magenta_LC75M_material" texture="Brother_Ink_Cartridge_Magenta_LC75M_texture" />
+    <mesh name="Brother_Ink_Cartridge_Magenta_LC75M" file="library_objects/Brother_Ink_Cartridge_Magenta_LC75M/Brother_Ink_Cartridge_Magenta_LC75M.obj" />
+    <mesh name="Brother_Ink_Cartridge_Magenta_LC75M_part_0" file="library_objects/Brother_Ink_Cartridge_Magenta_LC75M/Brother_Ink_Cartridge_Magenta_LC75M_decomp_0.obj" />
+    <mesh name="Brother_Ink_Cartridge_Magenta_LC75M_part_1" file="library_objects/Brother_Ink_Cartridge_Magenta_LC75M/Brother_Ink_Cartridge_Magenta_LC75M_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

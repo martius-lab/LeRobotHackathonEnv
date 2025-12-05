@@ -1,0 +1,14 @@
+<mujocoinclude>
+  <geom material="In_Green_Company_Surface_Saver_Ring_10_Terra_Cotta_material" mesh="In_Green_Company_Surface_Saver_Ring_10_Terra_Cotta" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="In_Green_Company_Surface_Saver_Ring_10_Terra_Cotta_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="In_Green_Company_Surface_Saver_Ring_10_Terra_Cotta_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="In_Green_Company_Surface_Saver_Ring_10_Terra_Cotta_part_2" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="In_Green_Company_Surface_Saver_Ring_10_Terra_Cotta_part_3" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="In_Green_Company_Surface_Saver_Ring_10_Terra_Cotta_part_4" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="In_Green_Company_Surface_Saver_Ring_10_Terra_Cotta_part_5" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="In_Green_Company_Surface_Saver_Ring_10_Terra_Cotta_part_6" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="In_Green_Company_Surface_Saver_Ring_10_Terra_Cotta_part_7" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="In_Green_Company_Surface_Saver_Ring_10_Terra_Cotta_part_8" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="In_Green_Company_Surface_Saver_Ring_10_Terra_Cotta_part_9" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="In_Green_Company_Surface_Saver_Ring_10_Terra_Cotta_part_10" />
+</mujocoinclude>

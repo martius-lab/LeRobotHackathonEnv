@@ -1,0 +1,19 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="PHEEHAN_RUN_texture" file="library_objects/PHEEHAN_RUN/texture.png" />
+    <material name="PHEEHAN_RUN_material" texture="PHEEHAN_RUN_texture" />
+    <mesh name="PHEEHAN_RUN" file="library_objects/PHEEHAN_RUN/PHEEHAN_RUN.obj" />
+    <mesh name="PHEEHAN_RUN_part_0" file="library_objects/PHEEHAN_RUN/PHEEHAN_RUN_decomp_3.obj" />
+    <mesh name="PHEEHAN_RUN_part_1" file="library_objects/PHEEHAN_RUN/PHEEHAN_RUN_decomp_9.obj" />
+    <mesh name="PHEEHAN_RUN_part_2" file="library_objects/PHEEHAN_RUN/PHEEHAN_RUN_decomp_2.obj" />
+    <mesh name="PHEEHAN_RUN_part_3" file="library_objects/PHEEHAN_RUN/PHEEHAN_RUN_decomp_11.obj" />
+    <mesh name="PHEEHAN_RUN_part_4" file="library_objects/PHEEHAN_RUN/PHEEHAN_RUN_decomp_10.obj" />
+    <mesh name="PHEEHAN_RUN_part_5" file="library_objects/PHEEHAN_RUN/PHEEHAN_RUN_decomp_7.obj" />
+    <mesh name="PHEEHAN_RUN_part_6" file="library_objects/PHEEHAN_RUN/PHEEHAN_RUN_decomp_6.obj" />
+    <mesh name="PHEEHAN_RUN_part_7" file="library_objects/PHEEHAN_RUN/PHEEHAN_RUN_decomp_1.obj" />
+    <mesh name="PHEEHAN_RUN_part_8" file="library_objects/PHEEHAN_RUN/PHEEHAN_RUN_decomp_8.obj" />
+    <mesh name="PHEEHAN_RUN_part_9" file="library_objects/PHEEHAN_RUN/PHEEHAN_RUN_decomp_4.obj" />
+    <mesh name="PHEEHAN_RUN_part_10" file="library_objects/PHEEHAN_RUN/PHEEHAN_RUN_decomp_0.obj" />
+    <mesh name="PHEEHAN_RUN_part_11" file="library_objects/PHEEHAN_RUN/PHEEHAN_RUN_decomp_5.obj" />
+  </asset>
+</mujocoinclude>

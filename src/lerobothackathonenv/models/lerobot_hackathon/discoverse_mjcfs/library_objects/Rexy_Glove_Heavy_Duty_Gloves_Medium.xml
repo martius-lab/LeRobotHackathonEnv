@@ -1,0 +1,11 @@
+<mujocoinclude>
+  <geom material="Rexy_Glove_Heavy_Duty_Gloves_Medium_material" mesh="Rexy_Glove_Heavy_Duty_Gloves_Medium" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Rexy_Glove_Heavy_Duty_Gloves_Medium_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Rexy_Glove_Heavy_Duty_Gloves_Medium_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Rexy_Glove_Heavy_Duty_Gloves_Medium_part_2" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Rexy_Glove_Heavy_Duty_Gloves_Medium_part_3" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Rexy_Glove_Heavy_Duty_Gloves_Medium_part_4" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Rexy_Glove_Heavy_Duty_Gloves_Medium_part_5" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Rexy_Glove_Heavy_Duty_Gloves_Medium_part_6" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Rexy_Glove_Heavy_Duty_Gloves_Medium_part_7" />
+</mujocoinclude>

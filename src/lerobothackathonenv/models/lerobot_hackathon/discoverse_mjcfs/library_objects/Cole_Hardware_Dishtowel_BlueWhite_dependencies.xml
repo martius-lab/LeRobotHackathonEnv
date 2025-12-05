@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Cole_Hardware_Dishtowel_BlueWhite_texture" file="library_objects/Cole_Hardware_Dishtowel_BlueWhite/texture.png" />
+    <material name="Cole_Hardware_Dishtowel_BlueWhite_material" texture="Cole_Hardware_Dishtowel_BlueWhite_texture" />
+    <mesh name="Cole_Hardware_Dishtowel_BlueWhite" file="library_objects/Cole_Hardware_Dishtowel_BlueWhite/Cole_Hardware_Dishtowel_BlueWhite.obj" />
+    <mesh name="Cole_Hardware_Dishtowel_BlueWhite_part_0" file="library_objects/Cole_Hardware_Dishtowel_BlueWhite/Cole_Hardware_Dishtowel_BlueWhite_decomp_0.obj" />
+    <mesh name="Cole_Hardware_Dishtowel_BlueWhite_part_1" file="library_objects/Cole_Hardware_Dishtowel_BlueWhite/Cole_Hardware_Dishtowel_BlueWhite_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

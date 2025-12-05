@@ -1,0 +1,6 @@
+<mujocoinclude>
+  <geom material="3D_Dollhouse_Lamp_material" mesh="3D_Dollhouse_Lamp" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="3D_Dollhouse_Lamp_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="3D_Dollhouse_Lamp_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="3D_Dollhouse_Lamp_part_2" />
+</mujocoinclude>

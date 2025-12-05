@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Persona_Q_Shadow_of_the_Labyrinth_Nintendo_3DS_texture" file="library_objects/Persona_Q_Shadow_of_the_Labyrinth_Nintendo_3DS/texture.png" />
+    <material name="Persona_Q_Shadow_of_the_Labyrinth_Nintendo_3DS_material" texture="Persona_Q_Shadow_of_the_Labyrinth_Nintendo_3DS_texture" />
+    <mesh name="Persona_Q_Shadow_of_the_Labyrinth_Nintendo_3DS" file="library_objects/Persona_Q_Shadow_of_the_Labyrinth_Nintendo_3DS/Persona_Q_Shadow_of_the_Labyrinth_Nintendo_3DS.obj" />
+    <mesh name="Persona_Q_Shadow_of_the_Labyrinth_Nintendo_3DS_part_0" file="library_objects/Persona_Q_Shadow_of_the_Labyrinth_Nintendo_3DS/Persona_Q_Shadow_of_the_Labyrinth_Nintendo_3DS_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

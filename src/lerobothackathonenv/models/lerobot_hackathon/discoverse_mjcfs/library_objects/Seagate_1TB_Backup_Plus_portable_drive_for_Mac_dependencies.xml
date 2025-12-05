@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Seagate_1TB_Backup_Plus_portable_drive_for_Mac_texture" file="library_objects/Seagate_1TB_Backup_Plus_portable_drive_for_Mac/texture.png" />
+    <material name="Seagate_1TB_Backup_Plus_portable_drive_for_Mac_material" texture="Seagate_1TB_Backup_Plus_portable_drive_for_Mac_texture" />
+    <mesh name="Seagate_1TB_Backup_Plus_portable_drive_for_Mac" file="library_objects/Seagate_1TB_Backup_Plus_portable_drive_for_Mac/Seagate_1TB_Backup_Plus_portable_drive_for_Mac.obj" />
+    <mesh name="Seagate_1TB_Backup_Plus_portable_drive_for_Mac_part_0" file="library_objects/Seagate_1TB_Backup_Plus_portable_drive_for_Mac/Seagate_1TB_Backup_Plus_portable_drive_for_Mac_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

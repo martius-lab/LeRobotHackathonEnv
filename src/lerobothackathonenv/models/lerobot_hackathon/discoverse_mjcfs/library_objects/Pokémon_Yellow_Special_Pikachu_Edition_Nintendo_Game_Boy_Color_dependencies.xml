@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Pokémon_Yellow_Special_Pikachu_Edition_Nintendo_Game_Boy_Color_texture" file="library_objects/Pokémon_Yellow_Special_Pikachu_Edition_Nintendo_Game_Boy_Color/texture.png" />
+    <material name="Pokémon_Yellow_Special_Pikachu_Edition_Nintendo_Game_Boy_Color_material" texture="Pokémon_Yellow_Special_Pikachu_Edition_Nintendo_Game_Boy_Color_texture" />
+    <mesh name="Pokémon_Yellow_Special_Pikachu_Edition_Nintendo_Game_Boy_Color" file="library_objects/Pokémon_Yellow_Special_Pikachu_Edition_Nintendo_Game_Boy_Color/Pokémon_Yellow_Special_Pikachu_Edition_Nintendo_Game_Boy_Color.obj" />
+    <mesh name="Pokémon_Yellow_Special_Pikachu_Edition_Nintendo_Game_Boy_Color_part_0" file="library_objects/Pokémon_Yellow_Special_Pikachu_Edition_Nintendo_Game_Boy_Color/Pokémon_Yellow_Special_Pikachu_Edition_Nintendo_Game_Boy_Color_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

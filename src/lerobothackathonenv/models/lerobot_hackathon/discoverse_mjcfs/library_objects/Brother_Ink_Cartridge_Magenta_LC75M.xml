@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Brother_Ink_Cartridge_Magenta_LC75M_material" mesh="Brother_Ink_Cartridge_Magenta_LC75M" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Brother_Ink_Cartridge_Magenta_LC75M_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Brother_Ink_Cartridge_Magenta_LC75M_part_1" />
+</mujocoinclude>

@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Theanine_texture" file="library_objects/Theanine/texture.png" />
+    <material name="Theanine_material" texture="Theanine_texture" />
+    <mesh name="Theanine" file="library_objects/Theanine/Theanine.obj" />
+    <mesh name="Theanine_part_0" file="library_objects/Theanine/Theanine_decomp_1.obj" />
+    <mesh name="Theanine_part_1" file="library_objects/Theanine/Theanine_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

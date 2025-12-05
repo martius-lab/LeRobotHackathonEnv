@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Fujifilm_instax_SHARE_SP1_10_photos_material" mesh="Fujifilm_instax_SHARE_SP1_10_photos" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Fujifilm_instax_SHARE_SP1_10_photos_part_0" />
+</mujocoinclude>

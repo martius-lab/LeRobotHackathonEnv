@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Office_Depot_HP_950XL_Ink_Cartridge_Black_CN045AN_texture" file="library_objects/Office_Depot_HP_950XL_Ink_Cartridge_Black_CN045AN/texture.png" />
+    <material name="Office_Depot_HP_950XL_Ink_Cartridge_Black_CN045AN_material" texture="Office_Depot_HP_950XL_Ink_Cartridge_Black_CN045AN_texture" />
+    <mesh name="Office_Depot_HP_950XL_Ink_Cartridge_Black_CN045AN" file="library_objects/Office_Depot_HP_950XL_Ink_Cartridge_Black_CN045AN/Office_Depot_HP_950XL_Ink_Cartridge_Black_CN045AN.obj" />
+    <mesh name="Office_Depot_HP_950XL_Ink_Cartridge_Black_CN045AN_part_0" file="library_objects/Office_Depot_HP_950XL_Ink_Cartridge_Black_CN045AN/Office_Depot_HP_950XL_Ink_Cartridge_Black_CN045AN_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

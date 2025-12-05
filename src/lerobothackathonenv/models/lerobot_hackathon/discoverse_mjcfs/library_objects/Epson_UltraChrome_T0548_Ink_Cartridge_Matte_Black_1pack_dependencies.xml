@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Epson_UltraChrome_T0548_Ink_Cartridge_Matte_Black_1pack_texture" file="library_objects/Epson_UltraChrome_T0548_Ink_Cartridge_Matte_Black_1pack/texture.png" />
+    <material name="Epson_UltraChrome_T0548_Ink_Cartridge_Matte_Black_1pack_material" texture="Epson_UltraChrome_T0548_Ink_Cartridge_Matte_Black_1pack_texture" />
+    <mesh name="Epson_UltraChrome_T0548_Ink_Cartridge_Matte_Black_1pack" file="library_objects/Epson_UltraChrome_T0548_Ink_Cartridge_Matte_Black_1pack/Epson_UltraChrome_T0548_Ink_Cartridge_Matte_Black_1pack.obj" />
+    <mesh name="Epson_UltraChrome_T0548_Ink_Cartridge_Matte_Black_1pack_part_0" file="library_objects/Epson_UltraChrome_T0548_Ink_Cartridge_Matte_Black_1pack/Epson_UltraChrome_T0548_Ink_Cartridge_Matte_Black_1pack_decomp_0.obj" />
+    <mesh name="Epson_UltraChrome_T0548_Ink_Cartridge_Matte_Black_1pack_part_1" file="library_objects/Epson_UltraChrome_T0548_Ink_Cartridge_Matte_Black_1pack/Epson_UltraChrome_T0548_Ink_Cartridge_Matte_Black_1pack_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

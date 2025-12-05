@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Kotex_U_Barely_There_Liners_Thin_60_count_texture" file="library_objects/Kotex_U_Barely_There_Liners_Thin_60_count/texture.png" />
+    <material name="Kotex_U_Barely_There_Liners_Thin_60_count_material" texture="Kotex_U_Barely_There_Liners_Thin_60_count_texture" />
+    <mesh name="Kotex_U_Barely_There_Liners_Thin_60_count" file="library_objects/Kotex_U_Barely_There_Liners_Thin_60_count/Kotex_U_Barely_There_Liners_Thin_60_count.obj" />
+    <mesh name="Kotex_U_Barely_There_Liners_Thin_60_count_part_0" file="library_objects/Kotex_U_Barely_There_Liners_Thin_60_count/Kotex_U_Barely_There_Liners_Thin_60_count_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

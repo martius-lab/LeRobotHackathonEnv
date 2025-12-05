@@ -1,0 +1,10 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="ALPHABET_AZ_GRADIENT_WQb1ufEycSj_texture" file="library_objects/ALPHABET_AZ_GRADIENT_WQb1ufEycSj/texture.png" />
+    <material name="ALPHABET_AZ_GRADIENT_WQb1ufEycSj_material" texture="ALPHABET_AZ_GRADIENT_WQb1ufEycSj_texture" />
+    <mesh name="ALPHABET_AZ_GRADIENT_WQb1ufEycSj" file="library_objects/ALPHABET_AZ_GRADIENT_WQb1ufEycSj/ALPHABET_AZ_GRADIENT_WQb1ufEycSj.obj" />
+    <mesh name="ALPHABET_AZ_GRADIENT_WQb1ufEycSj_part_0" file="library_objects/ALPHABET_AZ_GRADIENT_WQb1ufEycSj/ALPHABET_AZ_GRADIENT_WQb1ufEycSj_decomp_2.obj" />
+    <mesh name="ALPHABET_AZ_GRADIENT_WQb1ufEycSj_part_1" file="library_objects/ALPHABET_AZ_GRADIENT_WQb1ufEycSj/ALPHABET_AZ_GRADIENT_WQb1ufEycSj_decomp_1.obj" />
+    <mesh name="ALPHABET_AZ_GRADIENT_WQb1ufEycSj_part_2" file="library_objects/ALPHABET_AZ_GRADIENT_WQb1ufEycSj/ALPHABET_AZ_GRADIENT_WQb1ufEycSj_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

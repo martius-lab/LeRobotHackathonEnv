@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Home_Fashions_Washcloth_Linen_texture" file="library_objects/Home_Fashions_Washcloth_Linen/texture.png" />
+    <material name="Home_Fashions_Washcloth_Linen_material" texture="Home_Fashions_Washcloth_Linen_texture" />
+    <mesh name="Home_Fashions_Washcloth_Linen" file="library_objects/Home_Fashions_Washcloth_Linen/Home_Fashions_Washcloth_Linen.obj" />
+    <mesh name="Home_Fashions_Washcloth_Linen_part_0" file="library_objects/Home_Fashions_Washcloth_Linen/Home_Fashions_Washcloth_Linen_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

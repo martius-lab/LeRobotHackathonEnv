@@ -1,0 +1,12 @@
+<mujocoinclude>
+  <geom material="My_First_Wiggle_Crocodile_material" mesh="My_First_Wiggle_Crocodile" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="My_First_Wiggle_Crocodile_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="My_First_Wiggle_Crocodile_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="My_First_Wiggle_Crocodile_part_2" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="My_First_Wiggle_Crocodile_part_3" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="My_First_Wiggle_Crocodile_part_4" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="My_First_Wiggle_Crocodile_part_5" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="My_First_Wiggle_Crocodile_part_6" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="My_First_Wiggle_Crocodile_part_7" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="My_First_Wiggle_Crocodile_part_8" />
+</mujocoinclude>

@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Marc_Anthony_True_Professional_Strictly_Curls_Curl_Defining_Lotion_texture" file="library_objects/Marc_Anthony_True_Professional_Strictly_Curls_Curl_Defining_Lotion/texture.png" />
+    <material name="Marc_Anthony_True_Professional_Strictly_Curls_Curl_Defining_Lotion_material" texture="Marc_Anthony_True_Professional_Strictly_Curls_Curl_Defining_Lotion_texture" />
+    <mesh name="Marc_Anthony_True_Professional_Strictly_Curls_Curl_Defining_Lotion" file="library_objects/Marc_Anthony_True_Professional_Strictly_Curls_Curl_Defining_Lotion/Marc_Anthony_True_Professional_Strictly_Curls_Curl_Defining_Lotion.obj" />
+    <mesh name="Marc_Anthony_True_Professional_Strictly_Curls_Curl_Defining_Lotion_part_0" file="library_objects/Marc_Anthony_True_Professional_Strictly_Curls_Curl_Defining_Lotion/Marc_Anthony_True_Professional_Strictly_Curls_Curl_Defining_Lotion_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

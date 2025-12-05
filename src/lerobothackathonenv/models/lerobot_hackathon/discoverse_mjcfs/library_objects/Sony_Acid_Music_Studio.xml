@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Sony_Acid_Music_Studio_material" mesh="Sony_Acid_Music_Studio" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Sony_Acid_Music_Studio_part_0" />
+</mujocoinclude>

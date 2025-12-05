@@ -1,0 +1,12 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Magnifying_Glassassrt_texture" file="library_objects/Magnifying_Glassassrt/texture.png" />
+    <material name="Magnifying_Glassassrt_material" texture="Magnifying_Glassassrt_texture" />
+    <mesh name="Magnifying_Glassassrt" file="library_objects/Magnifying_Glassassrt/Magnifying_Glassassrt.obj" />
+    <mesh name="Magnifying_Glassassrt_part_0" file="library_objects/Magnifying_Glassassrt/Magnifying_Glassassrt_decomp_1.obj" />
+    <mesh name="Magnifying_Glassassrt_part_1" file="library_objects/Magnifying_Glassassrt/Magnifying_Glassassrt_decomp_2.obj" />
+    <mesh name="Magnifying_Glassassrt_part_2" file="library_objects/Magnifying_Glassassrt/Magnifying_Glassassrt_decomp_4.obj" />
+    <mesh name="Magnifying_Glassassrt_part_3" file="library_objects/Magnifying_Glassassrt/Magnifying_Glassassrt_decomp_3.obj" />
+    <mesh name="Magnifying_Glassassrt_part_4" file="library_objects/Magnifying_Glassassrt/Magnifying_Glassassrt_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

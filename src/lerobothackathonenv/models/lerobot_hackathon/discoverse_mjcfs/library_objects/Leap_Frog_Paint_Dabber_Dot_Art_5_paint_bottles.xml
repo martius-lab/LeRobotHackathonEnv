@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Leap_Frog_Paint_Dabber_Dot_Art_5_paint_bottles_material" mesh="Leap_Frog_Paint_Dabber_Dot_Art_5_paint_bottles" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Leap_Frog_Paint_Dabber_Dot_Art_5_paint_bottles_part_0" />
+</mujocoinclude>

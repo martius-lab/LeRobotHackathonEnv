@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Bifidus_Balance_FOS_texture" file="library_objects/Bifidus_Balance_FOS/texture.png" />
+    <material name="Bifidus_Balance_FOS_material" texture="Bifidus_Balance_FOS_texture" />
+    <mesh name="Bifidus_Balance_FOS" file="library_objects/Bifidus_Balance_FOS/Bifidus_Balance_FOS.obj" />
+    <mesh name="Bifidus_Balance_FOS_part_0" file="library_objects/Bifidus_Balance_FOS/Bifidus_Balance_FOS_decomp_0.obj" />
+    <mesh name="Bifidus_Balance_FOS_part_1" file="library_objects/Bifidus_Balance_FOS/Bifidus_Balance_FOS_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

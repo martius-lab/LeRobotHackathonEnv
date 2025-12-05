@@ -1,0 +1,19 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Threshold_Porcelain_Spoon_Rest_White_texture" file="library_objects/Threshold_Porcelain_Spoon_Rest_White/texture.png" />
+    <material name="Threshold_Porcelain_Spoon_Rest_White_material" texture="Threshold_Porcelain_Spoon_Rest_White_texture" />
+    <mesh name="Threshold_Porcelain_Spoon_Rest_White" file="library_objects/Threshold_Porcelain_Spoon_Rest_White/Threshold_Porcelain_Spoon_Rest_White.obj" />
+    <mesh name="Threshold_Porcelain_Spoon_Rest_White_part_0" file="library_objects/Threshold_Porcelain_Spoon_Rest_White/Threshold_Porcelain_Spoon_Rest_White_decomp_2.obj" />
+    <mesh name="Threshold_Porcelain_Spoon_Rest_White_part_1" file="library_objects/Threshold_Porcelain_Spoon_Rest_White/Threshold_Porcelain_Spoon_Rest_White_decomp_8.obj" />
+    <mesh name="Threshold_Porcelain_Spoon_Rest_White_part_2" file="library_objects/Threshold_Porcelain_Spoon_Rest_White/Threshold_Porcelain_Spoon_Rest_White_decomp_9.obj" />
+    <mesh name="Threshold_Porcelain_Spoon_Rest_White_part_3" file="library_objects/Threshold_Porcelain_Spoon_Rest_White/Threshold_Porcelain_Spoon_Rest_White_decomp_6.obj" />
+    <mesh name="Threshold_Porcelain_Spoon_Rest_White_part_4" file="library_objects/Threshold_Porcelain_Spoon_Rest_White/Threshold_Porcelain_Spoon_Rest_White_decomp_1.obj" />
+    <mesh name="Threshold_Porcelain_Spoon_Rest_White_part_5" file="library_objects/Threshold_Porcelain_Spoon_Rest_White/Threshold_Porcelain_Spoon_Rest_White_decomp_0.obj" />
+    <mesh name="Threshold_Porcelain_Spoon_Rest_White_part_6" file="library_objects/Threshold_Porcelain_Spoon_Rest_White/Threshold_Porcelain_Spoon_Rest_White_decomp_5.obj" />
+    <mesh name="Threshold_Porcelain_Spoon_Rest_White_part_7" file="library_objects/Threshold_Porcelain_Spoon_Rest_White/Threshold_Porcelain_Spoon_Rest_White_decomp_11.obj" />
+    <mesh name="Threshold_Porcelain_Spoon_Rest_White_part_8" file="library_objects/Threshold_Porcelain_Spoon_Rest_White/Threshold_Porcelain_Spoon_Rest_White_decomp_3.obj" />
+    <mesh name="Threshold_Porcelain_Spoon_Rest_White_part_9" file="library_objects/Threshold_Porcelain_Spoon_Rest_White/Threshold_Porcelain_Spoon_Rest_White_decomp_10.obj" />
+    <mesh name="Threshold_Porcelain_Spoon_Rest_White_part_10" file="library_objects/Threshold_Porcelain_Spoon_Rest_White/Threshold_Porcelain_Spoon_Rest_White_decomp_7.obj" />
+    <mesh name="Threshold_Porcelain_Spoon_Rest_White_part_11" file="library_objects/Threshold_Porcelain_Spoon_Rest_White/Threshold_Porcelain_Spoon_Rest_White_decomp_4.obj" />
+  </asset>
+</mujocoinclude>

@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Bifidus_Balance_FOS_material" mesh="Bifidus_Balance_FOS" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Bifidus_Balance_FOS_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Bifidus_Balance_FOS_part_1" />
+</mujocoinclude>

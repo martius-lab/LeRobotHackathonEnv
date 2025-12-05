@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Crayola_Model_Magic_Modeling_Material_Single_Packs_6_pack_05_oz_packs_material" mesh="Crayola_Model_Magic_Modeling_Material_Single_Packs_6_pack_05_oz_packs" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Crayola_Model_Magic_Modeling_Material_Single_Packs_6_pack_05_oz_packs_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Crayola_Model_Magic_Modeling_Material_Single_Packs_6_pack_05_oz_packs_part_1" />
+</mujocoinclude>

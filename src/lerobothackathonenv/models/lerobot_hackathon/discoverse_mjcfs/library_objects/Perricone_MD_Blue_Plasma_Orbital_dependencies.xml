@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Perricone_MD_Blue_Plasma_Orbital_texture" file="library_objects/Perricone_MD_Blue_Plasma_Orbital/texture.png" />
+    <material name="Perricone_MD_Blue_Plasma_Orbital_material" texture="Perricone_MD_Blue_Plasma_Orbital_texture" />
+    <mesh name="Perricone_MD_Blue_Plasma_Orbital" file="library_objects/Perricone_MD_Blue_Plasma_Orbital/Perricone_MD_Blue_Plasma_Orbital.obj" />
+    <mesh name="Perricone_MD_Blue_Plasma_Orbital_part_0" file="library_objects/Perricone_MD_Blue_Plasma_Orbital/Perricone_MD_Blue_Plasma_Orbital_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

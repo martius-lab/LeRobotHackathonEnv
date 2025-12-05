@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Nestle_Nips_Hard_Candy_Peanut_Butter_material" mesh="Nestle_Nips_Hard_Candy_Peanut_Butter" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Nestle_Nips_Hard_Candy_Peanut_Butter_part_0" />
+</mujocoinclude>

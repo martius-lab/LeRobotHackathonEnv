@@ -1,0 +1,10 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Canon_Pixma_Ink_Cartridge_8_Red_texture" file="library_objects/Canon_Pixma_Ink_Cartridge_8_Red/texture.png" />
+    <material name="Canon_Pixma_Ink_Cartridge_8_Red_material" texture="Canon_Pixma_Ink_Cartridge_8_Red_texture" />
+    <mesh name="Canon_Pixma_Ink_Cartridge_8_Red" file="library_objects/Canon_Pixma_Ink_Cartridge_8_Red/Canon_Pixma_Ink_Cartridge_8_Red.obj" />
+    <mesh name="Canon_Pixma_Ink_Cartridge_8_Red_part_0" file="library_objects/Canon_Pixma_Ink_Cartridge_8_Red/Canon_Pixma_Ink_Cartridge_8_Red_decomp_2.obj" />
+    <mesh name="Canon_Pixma_Ink_Cartridge_8_Red_part_1" file="library_objects/Canon_Pixma_Ink_Cartridge_8_Red/Canon_Pixma_Ink_Cartridge_8_Red_decomp_1.obj" />
+    <mesh name="Canon_Pixma_Ink_Cartridge_8_Red_part_2" file="library_objects/Canon_Pixma_Ink_Cartridge_8_Red/Canon_Pixma_Ink_Cartridge_8_Red_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

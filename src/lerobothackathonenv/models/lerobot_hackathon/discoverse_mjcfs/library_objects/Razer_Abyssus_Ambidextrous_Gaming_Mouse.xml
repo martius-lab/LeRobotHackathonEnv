@@ -1,0 +1,12 @@
+<mujocoinclude>
+  <geom material="Razer_Abyssus_Ambidextrous_Gaming_Mouse_material" mesh="Razer_Abyssus_Ambidextrous_Gaming_Mouse" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Razer_Abyssus_Ambidextrous_Gaming_Mouse_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Razer_Abyssus_Ambidextrous_Gaming_Mouse_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Razer_Abyssus_Ambidextrous_Gaming_Mouse_part_2" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Razer_Abyssus_Ambidextrous_Gaming_Mouse_part_3" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Razer_Abyssus_Ambidextrous_Gaming_Mouse_part_4" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Razer_Abyssus_Ambidextrous_Gaming_Mouse_part_5" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Razer_Abyssus_Ambidextrous_Gaming_Mouse_part_6" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Razer_Abyssus_Ambidextrous_Gaming_Mouse_part_7" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Razer_Abyssus_Ambidextrous_Gaming_Mouse_part_8" />
+</mujocoinclude>

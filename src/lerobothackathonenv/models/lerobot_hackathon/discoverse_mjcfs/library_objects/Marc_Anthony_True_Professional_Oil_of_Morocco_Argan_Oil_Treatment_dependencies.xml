@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Marc_Anthony_True_Professional_Oil_of_Morocco_Argan_Oil_Treatment_texture" file="library_objects/Marc_Anthony_True_Professional_Oil_of_Morocco_Argan_Oil_Treatment/texture.png" />
+    <material name="Marc_Anthony_True_Professional_Oil_of_Morocco_Argan_Oil_Treatment_material" texture="Marc_Anthony_True_Professional_Oil_of_Morocco_Argan_Oil_Treatment_texture" />
+    <mesh name="Marc_Anthony_True_Professional_Oil_of_Morocco_Argan_Oil_Treatment" file="library_objects/Marc_Anthony_True_Professional_Oil_of_Morocco_Argan_Oil_Treatment/Marc_Anthony_True_Professional_Oil_of_Morocco_Argan_Oil_Treatment.obj" />
+    <mesh name="Marc_Anthony_True_Professional_Oil_of_Morocco_Argan_Oil_Treatment_part_0" file="library_objects/Marc_Anthony_True_Professional_Oil_of_Morocco_Argan_Oil_Treatment/Marc_Anthony_True_Professional_Oil_of_Morocco_Argan_Oil_Treatment_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

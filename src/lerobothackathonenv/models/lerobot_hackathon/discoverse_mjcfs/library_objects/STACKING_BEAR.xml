@@ -1,0 +1,7 @@
+<mujocoinclude>
+  <geom material="STACKING_BEAR_material" mesh="STACKING_BEAR" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="STACKING_BEAR_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="STACKING_BEAR_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="STACKING_BEAR_part_2" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="STACKING_BEAR_part_3" />
+</mujocoinclude>

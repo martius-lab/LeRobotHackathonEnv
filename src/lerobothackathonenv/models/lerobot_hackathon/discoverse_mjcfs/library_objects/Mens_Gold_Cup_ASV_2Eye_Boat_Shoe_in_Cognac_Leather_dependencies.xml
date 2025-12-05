@@ -1,0 +1,24 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_texture" file="library_objects/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather/texture.png" />
+    <material name="Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_material" texture="Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_texture" />
+    <mesh name="Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather" file="library_objects/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather.obj" />
+    <mesh name="Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_part_0" file="library_objects/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_decomp_15.obj" />
+    <mesh name="Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_part_1" file="library_objects/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_decomp_16.obj" />
+    <mesh name="Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_part_2" file="library_objects/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_decomp_5.obj" />
+    <mesh name="Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_part_3" file="library_objects/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_decomp_14.obj" />
+    <mesh name="Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_part_4" file="library_objects/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_decomp_0.obj" />
+    <mesh name="Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_part_5" file="library_objects/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_decomp_9.obj" />
+    <mesh name="Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_part_6" file="library_objects/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_decomp_7.obj" />
+    <mesh name="Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_part_7" file="library_objects/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_decomp_3.obj" />
+    <mesh name="Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_part_8" file="library_objects/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_decomp_4.obj" />
+    <mesh name="Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_part_9" file="library_objects/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_decomp_6.obj" />
+    <mesh name="Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_part_10" file="library_objects/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_decomp_1.obj" />
+    <mesh name="Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_part_11" file="library_objects/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_decomp_2.obj" />
+    <mesh name="Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_part_12" file="library_objects/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_decomp_13.obj" />
+    <mesh name="Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_part_13" file="library_objects/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_decomp_11.obj" />
+    <mesh name="Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_part_14" file="library_objects/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_decomp_8.obj" />
+    <mesh name="Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_part_15" file="library_objects/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_decomp_12.obj" />
+    <mesh name="Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_part_16" file="library_objects/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather_decomp_10.obj" />
+  </asset>
+</mujocoinclude>

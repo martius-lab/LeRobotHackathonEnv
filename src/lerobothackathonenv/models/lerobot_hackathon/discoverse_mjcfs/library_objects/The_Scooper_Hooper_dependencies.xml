@@ -1,0 +1,16 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="The_Scooper_Hooper_texture" file="library_objects/The_Scooper_Hooper/texture.png" />
+    <material name="The_Scooper_Hooper_material" texture="The_Scooper_Hooper_texture" />
+    <mesh name="The_Scooper_Hooper" file="library_objects/The_Scooper_Hooper/The_Scooper_Hooper.obj" />
+    <mesh name="The_Scooper_Hooper_part_0" file="library_objects/The_Scooper_Hooper/The_Scooper_Hooper_decomp_1.obj" />
+    <mesh name="The_Scooper_Hooper_part_1" file="library_objects/The_Scooper_Hooper/The_Scooper_Hooper_decomp_6.obj" />
+    <mesh name="The_Scooper_Hooper_part_2" file="library_objects/The_Scooper_Hooper/The_Scooper_Hooper_decomp_5.obj" />
+    <mesh name="The_Scooper_Hooper_part_3" file="library_objects/The_Scooper_Hooper/The_Scooper_Hooper_decomp_7.obj" />
+    <mesh name="The_Scooper_Hooper_part_4" file="library_objects/The_Scooper_Hooper/The_Scooper_Hooper_decomp_3.obj" />
+    <mesh name="The_Scooper_Hooper_part_5" file="library_objects/The_Scooper_Hooper/The_Scooper_Hooper_decomp_2.obj" />
+    <mesh name="The_Scooper_Hooper_part_6" file="library_objects/The_Scooper_Hooper/The_Scooper_Hooper_decomp_0.obj" />
+    <mesh name="The_Scooper_Hooper_part_7" file="library_objects/The_Scooper_Hooper/The_Scooper_Hooper_decomp_8.obj" />
+    <mesh name="The_Scooper_Hooper_part_8" file="library_objects/The_Scooper_Hooper/The_Scooper_Hooper_decomp_4.obj" />
+  </asset>
+</mujocoinclude>

@@ -1,0 +1,16 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Snack_Catcher_Snack_Dispenser_texture" file="library_objects/Snack_Catcher_Snack_Dispenser/texture.png" />
+    <material name="Snack_Catcher_Snack_Dispenser_material" texture="Snack_Catcher_Snack_Dispenser_texture" />
+    <mesh name="Snack_Catcher_Snack_Dispenser" file="library_objects/Snack_Catcher_Snack_Dispenser/Snack_Catcher_Snack_Dispenser.obj" />
+    <mesh name="Snack_Catcher_Snack_Dispenser_part_0" file="library_objects/Snack_Catcher_Snack_Dispenser/Snack_Catcher_Snack_Dispenser_decomp_5.obj" />
+    <mesh name="Snack_Catcher_Snack_Dispenser_part_1" file="library_objects/Snack_Catcher_Snack_Dispenser/Snack_Catcher_Snack_Dispenser_decomp_1.obj" />
+    <mesh name="Snack_Catcher_Snack_Dispenser_part_2" file="library_objects/Snack_Catcher_Snack_Dispenser/Snack_Catcher_Snack_Dispenser_decomp_4.obj" />
+    <mesh name="Snack_Catcher_Snack_Dispenser_part_3" file="library_objects/Snack_Catcher_Snack_Dispenser/Snack_Catcher_Snack_Dispenser_decomp_2.obj" />
+    <mesh name="Snack_Catcher_Snack_Dispenser_part_4" file="library_objects/Snack_Catcher_Snack_Dispenser/Snack_Catcher_Snack_Dispenser_decomp_7.obj" />
+    <mesh name="Snack_Catcher_Snack_Dispenser_part_5" file="library_objects/Snack_Catcher_Snack_Dispenser/Snack_Catcher_Snack_Dispenser_decomp_0.obj" />
+    <mesh name="Snack_Catcher_Snack_Dispenser_part_6" file="library_objects/Snack_Catcher_Snack_Dispenser/Snack_Catcher_Snack_Dispenser_decomp_3.obj" />
+    <mesh name="Snack_Catcher_Snack_Dispenser_part_7" file="library_objects/Snack_Catcher_Snack_Dispenser/Snack_Catcher_Snack_Dispenser_decomp_6.obj" />
+    <mesh name="Snack_Catcher_Snack_Dispenser_part_8" file="library_objects/Snack_Catcher_Snack_Dispenser/Snack_Catcher_Snack_Dispenser_decomp_8.obj" />
+  </asset>
+</mujocoinclude>

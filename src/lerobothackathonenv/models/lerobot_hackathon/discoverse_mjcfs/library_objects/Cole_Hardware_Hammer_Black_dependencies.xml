@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Cole_Hardware_Hammer_Black_texture" file="library_objects/Cole_Hardware_Hammer_Black/texture.png" />
+    <material name="Cole_Hardware_Hammer_Black_material" texture="Cole_Hardware_Hammer_Black_texture" />
+    <mesh name="Cole_Hardware_Hammer_Black" file="library_objects/Cole_Hardware_Hammer_Black/Cole_Hardware_Hammer_Black.obj" />
+    <mesh name="Cole_Hardware_Hammer_Black_part_0" file="library_objects/Cole_Hardware_Hammer_Black/Cole_Hardware_Hammer_Black_decomp_1.obj" />
+    <mesh name="Cole_Hardware_Hammer_Black_part_1" file="library_objects/Cole_Hardware_Hammer_Black/Cole_Hardware_Hammer_Black_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

@@ -1,0 +1,33 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="BIRD_RATTLE_texture" file="library_objects/BIRD_RATTLE/texture.png" />
+    <material name="BIRD_RATTLE_material" texture="BIRD_RATTLE_texture" />
+    <mesh name="BIRD_RATTLE" file="library_objects/BIRD_RATTLE/BIRD_RATTLE.obj" />
+    <mesh name="BIRD_RATTLE_part_0" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_13.obj" />
+    <mesh name="BIRD_RATTLE_part_1" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_10.obj" />
+    <mesh name="BIRD_RATTLE_part_2" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_15.obj" />
+    <mesh name="BIRD_RATTLE_part_3" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_9.obj" />
+    <mesh name="BIRD_RATTLE_part_4" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_5.obj" />
+    <mesh name="BIRD_RATTLE_part_5" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_14.obj" />
+    <mesh name="BIRD_RATTLE_part_6" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_19.obj" />
+    <mesh name="BIRD_RATTLE_part_7" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_2.obj" />
+    <mesh name="BIRD_RATTLE_part_8" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_0.obj" />
+    <mesh name="BIRD_RATTLE_part_9" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_4.obj" />
+    <mesh name="BIRD_RATTLE_part_10" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_17.obj" />
+    <mesh name="BIRD_RATTLE_part_11" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_23.obj" />
+    <mesh name="BIRD_RATTLE_part_12" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_25.obj" />
+    <mesh name="BIRD_RATTLE_part_13" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_20.obj" />
+    <mesh name="BIRD_RATTLE_part_14" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_21.obj" />
+    <mesh name="BIRD_RATTLE_part_15" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_16.obj" />
+    <mesh name="BIRD_RATTLE_part_16" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_11.obj" />
+    <mesh name="BIRD_RATTLE_part_17" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_7.obj" />
+    <mesh name="BIRD_RATTLE_part_18" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_3.obj" />
+    <mesh name="BIRD_RATTLE_part_19" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_18.obj" />
+    <mesh name="BIRD_RATTLE_part_20" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_1.obj" />
+    <mesh name="BIRD_RATTLE_part_21" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_8.obj" />
+    <mesh name="BIRD_RATTLE_part_22" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_24.obj" />
+    <mesh name="BIRD_RATTLE_part_23" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_22.obj" />
+    <mesh name="BIRD_RATTLE_part_24" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_6.obj" />
+    <mesh name="BIRD_RATTLE_part_25" file="library_objects/BIRD_RATTLE/BIRD_RATTLE_decomp_12.obj" />
+  </asset>
+</mujocoinclude>

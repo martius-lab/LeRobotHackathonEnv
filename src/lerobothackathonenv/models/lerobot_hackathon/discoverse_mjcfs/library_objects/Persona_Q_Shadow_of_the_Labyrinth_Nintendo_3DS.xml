@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Persona_Q_Shadow_of_the_Labyrinth_Nintendo_3DS_material" mesh="Persona_Q_Shadow_of_the_Labyrinth_Nintendo_3DS" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Persona_Q_Shadow_of_the_Labyrinth_Nintendo_3DS_part_0" />
+</mujocoinclude>

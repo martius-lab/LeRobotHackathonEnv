@@ -1,0 +1,11 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Big_Dot_Pink_Pencil_Case_texture" file="library_objects/Big_Dot_Pink_Pencil_Case/texture.png" />
+    <material name="Big_Dot_Pink_Pencil_Case_material" texture="Big_Dot_Pink_Pencil_Case_texture" />
+    <mesh name="Big_Dot_Pink_Pencil_Case" file="library_objects/Big_Dot_Pink_Pencil_Case/Big_Dot_Pink_Pencil_Case.obj" />
+    <mesh name="Big_Dot_Pink_Pencil_Case_part_0" file="library_objects/Big_Dot_Pink_Pencil_Case/Big_Dot_Pink_Pencil_Case_decomp_2.obj" />
+    <mesh name="Big_Dot_Pink_Pencil_Case_part_1" file="library_objects/Big_Dot_Pink_Pencil_Case/Big_Dot_Pink_Pencil_Case_decomp_1.obj" />
+    <mesh name="Big_Dot_Pink_Pencil_Case_part_2" file="library_objects/Big_Dot_Pink_Pencil_Case/Big_Dot_Pink_Pencil_Case_decomp_0.obj" />
+    <mesh name="Big_Dot_Pink_Pencil_Case_part_3" file="library_objects/Big_Dot_Pink_Pencil_Case/Big_Dot_Pink_Pencil_Case_decomp_3.obj" />
+  </asset>
+</mujocoinclude>

@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Sushi_Mat_texture" file="library_objects/Sushi_Mat/texture.png" />
+    <material name="Sushi_Mat_material" texture="Sushi_Mat_texture" />
+    <mesh name="Sushi_Mat" file="library_objects/Sushi_Mat/Sushi_Mat.obj" />
+    <mesh name="Sushi_Mat_part_0" file="library_objects/Sushi_Mat/Sushi_Mat_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

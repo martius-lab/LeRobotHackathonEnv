@@ -1,0 +1,21 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="RESCUE_CREW_texture" file="library_objects/RESCUE_CREW/texture.png" />
+    <material name="RESCUE_CREW_material" texture="RESCUE_CREW_texture" />
+    <mesh name="RESCUE_CREW" file="library_objects/RESCUE_CREW/RESCUE_CREW.obj" />
+    <mesh name="RESCUE_CREW_part_0" file="library_objects/RESCUE_CREW/RESCUE_CREW_decomp_11.obj" />
+    <mesh name="RESCUE_CREW_part_1" file="library_objects/RESCUE_CREW/RESCUE_CREW_decomp_1.obj" />
+    <mesh name="RESCUE_CREW_part_2" file="library_objects/RESCUE_CREW/RESCUE_CREW_decomp_6.obj" />
+    <mesh name="RESCUE_CREW_part_3" file="library_objects/RESCUE_CREW/RESCUE_CREW_decomp_13.obj" />
+    <mesh name="RESCUE_CREW_part_4" file="library_objects/RESCUE_CREW/RESCUE_CREW_decomp_3.obj" />
+    <mesh name="RESCUE_CREW_part_5" file="library_objects/RESCUE_CREW/RESCUE_CREW_decomp_0.obj" />
+    <mesh name="RESCUE_CREW_part_6" file="library_objects/RESCUE_CREW/RESCUE_CREW_decomp_7.obj" />
+    <mesh name="RESCUE_CREW_part_7" file="library_objects/RESCUE_CREW/RESCUE_CREW_decomp_5.obj" />
+    <mesh name="RESCUE_CREW_part_8" file="library_objects/RESCUE_CREW/RESCUE_CREW_decomp_9.obj" />
+    <mesh name="RESCUE_CREW_part_9" file="library_objects/RESCUE_CREW/RESCUE_CREW_decomp_12.obj" />
+    <mesh name="RESCUE_CREW_part_10" file="library_objects/RESCUE_CREW/RESCUE_CREW_decomp_2.obj" />
+    <mesh name="RESCUE_CREW_part_11" file="library_objects/RESCUE_CREW/RESCUE_CREW_decomp_4.obj" />
+    <mesh name="RESCUE_CREW_part_12" file="library_objects/RESCUE_CREW/RESCUE_CREW_decomp_8.obj" />
+    <mesh name="RESCUE_CREW_part_13" file="library_objects/RESCUE_CREW/RESCUE_CREW_decomp_10.obj" />
+  </asset>
+</mujocoinclude>

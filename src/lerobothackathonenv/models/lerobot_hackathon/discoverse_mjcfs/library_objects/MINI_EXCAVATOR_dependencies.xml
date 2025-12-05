@@ -1,0 +1,22 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="MINI_EXCAVATOR_texture" file="library_objects/MINI_EXCAVATOR/texture.png" />
+    <material name="MINI_EXCAVATOR_material" texture="MINI_EXCAVATOR_texture" />
+    <mesh name="MINI_EXCAVATOR" file="library_objects/MINI_EXCAVATOR/MINI_EXCAVATOR.obj" />
+    <mesh name="MINI_EXCAVATOR_part_0" file="library_objects/MINI_EXCAVATOR/MINI_EXCAVATOR_decomp_5.obj" />
+    <mesh name="MINI_EXCAVATOR_part_1" file="library_objects/MINI_EXCAVATOR/MINI_EXCAVATOR_decomp_14.obj" />
+    <mesh name="MINI_EXCAVATOR_part_2" file="library_objects/MINI_EXCAVATOR/MINI_EXCAVATOR_decomp_3.obj" />
+    <mesh name="MINI_EXCAVATOR_part_3" file="library_objects/MINI_EXCAVATOR/MINI_EXCAVATOR_decomp_4.obj" />
+    <mesh name="MINI_EXCAVATOR_part_4" file="library_objects/MINI_EXCAVATOR/MINI_EXCAVATOR_decomp_13.obj" />
+    <mesh name="MINI_EXCAVATOR_part_5" file="library_objects/MINI_EXCAVATOR/MINI_EXCAVATOR_decomp_9.obj" />
+    <mesh name="MINI_EXCAVATOR_part_6" file="library_objects/MINI_EXCAVATOR/MINI_EXCAVATOR_decomp_6.obj" />
+    <mesh name="MINI_EXCAVATOR_part_7" file="library_objects/MINI_EXCAVATOR/MINI_EXCAVATOR_decomp_7.obj" />
+    <mesh name="MINI_EXCAVATOR_part_8" file="library_objects/MINI_EXCAVATOR/MINI_EXCAVATOR_decomp_8.obj" />
+    <mesh name="MINI_EXCAVATOR_part_9" file="library_objects/MINI_EXCAVATOR/MINI_EXCAVATOR_decomp_2.obj" />
+    <mesh name="MINI_EXCAVATOR_part_10" file="library_objects/MINI_EXCAVATOR/MINI_EXCAVATOR_decomp_1.obj" />
+    <mesh name="MINI_EXCAVATOR_part_11" file="library_objects/MINI_EXCAVATOR/MINI_EXCAVATOR_decomp_0.obj" />
+    <mesh name="MINI_EXCAVATOR_part_12" file="library_objects/MINI_EXCAVATOR/MINI_EXCAVATOR_decomp_12.obj" />
+    <mesh name="MINI_EXCAVATOR_part_13" file="library_objects/MINI_EXCAVATOR/MINI_EXCAVATOR_decomp_10.obj" />
+    <mesh name="MINI_EXCAVATOR_part_14" file="library_objects/MINI_EXCAVATOR/MINI_EXCAVATOR_decomp_11.obj" />
+  </asset>
+</mujocoinclude>

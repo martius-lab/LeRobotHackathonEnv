@@ -1,0 +1,16 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="TWIST_SHAPE_texture" file="library_objects/TWIST_SHAPE/texture.png" />
+    <material name="TWIST_SHAPE_material" texture="TWIST_SHAPE_texture" />
+    <mesh name="TWIST_SHAPE" file="library_objects/TWIST_SHAPE/TWIST_SHAPE.obj" />
+    <mesh name="TWIST_SHAPE_part_0" file="library_objects/TWIST_SHAPE/TWIST_SHAPE_decomp_2.obj" />
+    <mesh name="TWIST_SHAPE_part_1" file="library_objects/TWIST_SHAPE/TWIST_SHAPE_decomp_6.obj" />
+    <mesh name="TWIST_SHAPE_part_2" file="library_objects/TWIST_SHAPE/TWIST_SHAPE_decomp_7.obj" />
+    <mesh name="TWIST_SHAPE_part_3" file="library_objects/TWIST_SHAPE/TWIST_SHAPE_decomp_8.obj" />
+    <mesh name="TWIST_SHAPE_part_4" file="library_objects/TWIST_SHAPE/TWIST_SHAPE_decomp_5.obj" />
+    <mesh name="TWIST_SHAPE_part_5" file="library_objects/TWIST_SHAPE/TWIST_SHAPE_decomp_0.obj" />
+    <mesh name="TWIST_SHAPE_part_6" file="library_objects/TWIST_SHAPE/TWIST_SHAPE_decomp_1.obj" />
+    <mesh name="TWIST_SHAPE_part_7" file="library_objects/TWIST_SHAPE/TWIST_SHAPE_decomp_3.obj" />
+    <mesh name="TWIST_SHAPE_part_8" file="library_objects/TWIST_SHAPE/TWIST_SHAPE_decomp_4.obj" />
+  </asset>
+</mujocoinclude>

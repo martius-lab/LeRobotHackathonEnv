@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Office_Depot_Canon_CLI_221BK_Ink_Cartridge_Black_2946B001_material" mesh="Office_Depot_Canon_CLI_221BK_Ink_Cartridge_Black_2946B001" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Office_Depot_Canon_CLI_221BK_Ink_Cartridge_Black_2946B001_part_0" />
+</mujocoinclude>

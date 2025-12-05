@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Epson_T5803_Ink_Cartridge_Magenta_1pack_texture" file="library_objects/Epson_T5803_Ink_Cartridge_Magenta_1pack/texture.png" />
+    <material name="Epson_T5803_Ink_Cartridge_Magenta_1pack_material" texture="Epson_T5803_Ink_Cartridge_Magenta_1pack_texture" />
+    <mesh name="Epson_T5803_Ink_Cartridge_Magenta_1pack" file="library_objects/Epson_T5803_Ink_Cartridge_Magenta_1pack/Epson_T5803_Ink_Cartridge_Magenta_1pack.obj" />
+    <mesh name="Epson_T5803_Ink_Cartridge_Magenta_1pack_part_0" file="library_objects/Epson_T5803_Ink_Cartridge_Magenta_1pack/Epson_T5803_Ink_Cartridge_Magenta_1pack_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

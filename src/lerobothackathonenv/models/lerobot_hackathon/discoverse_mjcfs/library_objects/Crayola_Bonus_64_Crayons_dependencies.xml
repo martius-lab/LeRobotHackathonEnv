@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Crayola_Bonus_64_Crayons_texture" file="library_objects/Crayola_Bonus_64_Crayons/texture.png" />
+    <material name="Crayola_Bonus_64_Crayons_material" texture="Crayola_Bonus_64_Crayons_texture" />
+    <mesh name="Crayola_Bonus_64_Crayons" file="library_objects/Crayola_Bonus_64_Crayons/Crayola_Bonus_64_Crayons.obj" />
+    <mesh name="Crayola_Bonus_64_Crayons_part_0" file="library_objects/Crayola_Bonus_64_Crayons/Crayola_Bonus_64_Crayons_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

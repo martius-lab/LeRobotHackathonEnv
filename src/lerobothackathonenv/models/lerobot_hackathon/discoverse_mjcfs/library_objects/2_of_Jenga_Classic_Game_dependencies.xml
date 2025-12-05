@@ -1,0 +1,14 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="2_of_Jenga_Classic_Game_texture" file="library_objects/2_of_Jenga_Classic_Game/texture.png" />
+    <material name="2_of_Jenga_Classic_Game_material" texture="2_of_Jenga_Classic_Game_texture" />
+    <mesh name="2_of_Jenga_Classic_Game" file="library_objects/2_of_Jenga_Classic_Game/2_of_Jenga_Classic_Game.obj" />
+    <mesh name="2_of_Jenga_Classic_Game_part_0" file="library_objects/2_of_Jenga_Classic_Game/2_of_Jenga_Classic_Game_decomp_4.obj" />
+    <mesh name="2_of_Jenga_Classic_Game_part_1" file="library_objects/2_of_Jenga_Classic_Game/2_of_Jenga_Classic_Game_decomp_3.obj" />
+    <mesh name="2_of_Jenga_Classic_Game_part_2" file="library_objects/2_of_Jenga_Classic_Game/2_of_Jenga_Classic_Game_decomp_6.obj" />
+    <mesh name="2_of_Jenga_Classic_Game_part_3" file="library_objects/2_of_Jenga_Classic_Game/2_of_Jenga_Classic_Game_decomp_0.obj" />
+    <mesh name="2_of_Jenga_Classic_Game_part_4" file="library_objects/2_of_Jenga_Classic_Game/2_of_Jenga_Classic_Game_decomp_2.obj" />
+    <mesh name="2_of_Jenga_Classic_Game_part_5" file="library_objects/2_of_Jenga_Classic_Game/2_of_Jenga_Classic_Game_decomp_1.obj" />
+    <mesh name="2_of_Jenga_Classic_Game_part_6" file="library_objects/2_of_Jenga_Classic_Game/2_of_Jenga_Classic_Game_decomp_5.obj" />
+  </asset>
+</mujocoinclude>

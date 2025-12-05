@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Wilton_PreCut_Parchment_Sheets_10_x_15_24_sheets_material" mesh="Wilton_PreCut_Parchment_Sheets_10_x_15_24_sheets" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Wilton_PreCut_Parchment_Sheets_10_x_15_24_sheets_part_0" />
+</mujocoinclude>

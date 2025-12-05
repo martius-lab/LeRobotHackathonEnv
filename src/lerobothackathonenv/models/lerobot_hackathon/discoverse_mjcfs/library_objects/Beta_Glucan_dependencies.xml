@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Beta_Glucan_texture" file="library_objects/Beta_Glucan/texture.png" />
+    <material name="Beta_Glucan_material" texture="Beta_Glucan_texture" />
+    <mesh name="Beta_Glucan" file="library_objects/Beta_Glucan/Beta_Glucan.obj" />
+    <mesh name="Beta_Glucan_part_0" file="library_objects/Beta_Glucan/Beta_Glucan_decomp_1.obj" />
+    <mesh name="Beta_Glucan_part_1" file="library_objects/Beta_Glucan/Beta_Glucan_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

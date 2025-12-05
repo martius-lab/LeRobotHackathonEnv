@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="YumYum_D3_Liquid_material" mesh="YumYum_D3_Liquid" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="YumYum_D3_Liquid_part_0" />
+</mujocoinclude>

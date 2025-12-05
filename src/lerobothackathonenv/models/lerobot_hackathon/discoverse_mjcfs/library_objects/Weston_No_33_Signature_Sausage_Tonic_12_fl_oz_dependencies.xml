@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Weston_No_33_Signature_Sausage_Tonic_12_fl_oz_texture" file="library_objects/Weston_No_33_Signature_Sausage_Tonic_12_fl_oz/texture.png" />
+    <material name="Weston_No_33_Signature_Sausage_Tonic_12_fl_oz_material" texture="Weston_No_33_Signature_Sausage_Tonic_12_fl_oz_texture" />
+    <mesh name="Weston_No_33_Signature_Sausage_Tonic_12_fl_oz" file="library_objects/Weston_No_33_Signature_Sausage_Tonic_12_fl_oz/Weston_No_33_Signature_Sausage_Tonic_12_fl_oz.obj" />
+    <mesh name="Weston_No_33_Signature_Sausage_Tonic_12_fl_oz_part_0" file="library_objects/Weston_No_33_Signature_Sausage_Tonic_12_fl_oz/Weston_No_33_Signature_Sausage_Tonic_12_fl_oz_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

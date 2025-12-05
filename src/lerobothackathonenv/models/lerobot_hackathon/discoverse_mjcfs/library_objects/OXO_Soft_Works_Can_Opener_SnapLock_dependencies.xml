@@ -1,0 +1,13 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="OXO_Soft_Works_Can_Opener_SnapLock_texture" file="library_objects/OXO_Soft_Works_Can_Opener_SnapLock/texture.png" />
+    <material name="OXO_Soft_Works_Can_Opener_SnapLock_material" texture="OXO_Soft_Works_Can_Opener_SnapLock_texture" />
+    <mesh name="OXO_Soft_Works_Can_Opener_SnapLock" file="library_objects/OXO_Soft_Works_Can_Opener_SnapLock/OXO_Soft_Works_Can_Opener_SnapLock.obj" />
+    <mesh name="OXO_Soft_Works_Can_Opener_SnapLock_part_0" file="library_objects/OXO_Soft_Works_Can_Opener_SnapLock/OXO_Soft_Works_Can_Opener_SnapLock_decomp_5.obj" />
+    <mesh name="OXO_Soft_Works_Can_Opener_SnapLock_part_1" file="library_objects/OXO_Soft_Works_Can_Opener_SnapLock/OXO_Soft_Works_Can_Opener_SnapLock_decomp_3.obj" />
+    <mesh name="OXO_Soft_Works_Can_Opener_SnapLock_part_2" file="library_objects/OXO_Soft_Works_Can_Opener_SnapLock/OXO_Soft_Works_Can_Opener_SnapLock_decomp_0.obj" />
+    <mesh name="OXO_Soft_Works_Can_Opener_SnapLock_part_3" file="library_objects/OXO_Soft_Works_Can_Opener_SnapLock/OXO_Soft_Works_Can_Opener_SnapLock_decomp_1.obj" />
+    <mesh name="OXO_Soft_Works_Can_Opener_SnapLock_part_4" file="library_objects/OXO_Soft_Works_Can_Opener_SnapLock/OXO_Soft_Works_Can_Opener_SnapLock_decomp_4.obj" />
+    <mesh name="OXO_Soft_Works_Can_Opener_SnapLock_part_5" file="library_objects/OXO_Soft_Works_Can_Opener_SnapLock/OXO_Soft_Works_Can_Opener_SnapLock_decomp_2.obj" />
+  </asset>
+</mujocoinclude>

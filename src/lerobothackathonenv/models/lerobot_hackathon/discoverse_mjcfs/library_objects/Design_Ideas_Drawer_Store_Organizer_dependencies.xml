@@ -1,0 +1,16 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Design_Ideas_Drawer_Store_Organizer_texture" file="library_objects/Design_Ideas_Drawer_Store_Organizer/texture.png" />
+    <material name="Design_Ideas_Drawer_Store_Organizer_material" texture="Design_Ideas_Drawer_Store_Organizer_texture" />
+    <mesh name="Design_Ideas_Drawer_Store_Organizer" file="library_objects/Design_Ideas_Drawer_Store_Organizer/Design_Ideas_Drawer_Store_Organizer.obj" />
+    <mesh name="Design_Ideas_Drawer_Store_Organizer_part_0" file="library_objects/Design_Ideas_Drawer_Store_Organizer/Design_Ideas_Drawer_Store_Organizer_decomp_1.obj" />
+    <mesh name="Design_Ideas_Drawer_Store_Organizer_part_1" file="library_objects/Design_Ideas_Drawer_Store_Organizer/Design_Ideas_Drawer_Store_Organizer_decomp_2.obj" />
+    <mesh name="Design_Ideas_Drawer_Store_Organizer_part_2" file="library_objects/Design_Ideas_Drawer_Store_Organizer/Design_Ideas_Drawer_Store_Organizer_decomp_5.obj" />
+    <mesh name="Design_Ideas_Drawer_Store_Organizer_part_3" file="library_objects/Design_Ideas_Drawer_Store_Organizer/Design_Ideas_Drawer_Store_Organizer_decomp_0.obj" />
+    <mesh name="Design_Ideas_Drawer_Store_Organizer_part_4" file="library_objects/Design_Ideas_Drawer_Store_Organizer/Design_Ideas_Drawer_Store_Organizer_decomp_3.obj" />
+    <mesh name="Design_Ideas_Drawer_Store_Organizer_part_5" file="library_objects/Design_Ideas_Drawer_Store_Organizer/Design_Ideas_Drawer_Store_Organizer_decomp_4.obj" />
+    <mesh name="Design_Ideas_Drawer_Store_Organizer_part_6" file="library_objects/Design_Ideas_Drawer_Store_Organizer/Design_Ideas_Drawer_Store_Organizer_decomp_7.obj" />
+    <mesh name="Design_Ideas_Drawer_Store_Organizer_part_7" file="library_objects/Design_Ideas_Drawer_Store_Organizer/Design_Ideas_Drawer_Store_Organizer_decomp_6.obj" />
+    <mesh name="Design_Ideas_Drawer_Store_Organizer_part_8" file="library_objects/Design_Ideas_Drawer_Store_Organizer/Design_Ideas_Drawer_Store_Organizer_decomp_8.obj" />
+  </asset>
+</mujocoinclude>

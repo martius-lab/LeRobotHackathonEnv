@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="HP_Card_Invitation_Kit_texture" file="library_objects/HP_Card_Invitation_Kit/texture.png" />
+    <material name="HP_Card_Invitation_Kit_material" texture="HP_Card_Invitation_Kit_texture" />
+    <mesh name="HP_Card_Invitation_Kit" file="library_objects/HP_Card_Invitation_Kit/HP_Card_Invitation_Kit.obj" />
+    <mesh name="HP_Card_Invitation_Kit_part_0" file="library_objects/HP_Card_Invitation_Kit/HP_Card_Invitation_Kit_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="House_of_Cards_The_Complete_First_Season_4_Discs_DVD_material" mesh="House_of_Cards_The_Complete_First_Season_4_Discs_DVD" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="House_of_Cards_The_Complete_First_Season_4_Discs_DVD_part_0" />
+</mujocoinclude>

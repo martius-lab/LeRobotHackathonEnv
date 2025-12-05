@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="RedBlack_Nintendo_3DSXL_material" mesh="RedBlack_Nintendo_3DSXL" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="RedBlack_Nintendo_3DSXL_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="RedBlack_Nintendo_3DSXL_part_1" />
+</mujocoinclude>

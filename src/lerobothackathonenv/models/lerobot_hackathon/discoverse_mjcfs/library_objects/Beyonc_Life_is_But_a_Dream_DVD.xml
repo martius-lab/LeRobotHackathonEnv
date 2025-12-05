@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Beyonc_Life_is_But_a_Dream_DVD_material" mesh="Beyonc_Life_is_But_a_Dream_DVD" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Beyonc_Life_is_But_a_Dream_DVD_part_0" />
+</mujocoinclude>

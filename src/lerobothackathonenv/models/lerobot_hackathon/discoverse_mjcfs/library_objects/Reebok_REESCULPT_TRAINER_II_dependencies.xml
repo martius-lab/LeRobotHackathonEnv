@@ -1,0 +1,20 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Reebok_REESCULPT_TRAINER_II_texture" file="library_objects/Reebok_REESCULPT_TRAINER_II/texture.png" />
+    <material name="Reebok_REESCULPT_TRAINER_II_material" texture="Reebok_REESCULPT_TRAINER_II_texture" />
+    <mesh name="Reebok_REESCULPT_TRAINER_II" file="library_objects/Reebok_REESCULPT_TRAINER_II/Reebok_REESCULPT_TRAINER_II.obj" />
+    <mesh name="Reebok_REESCULPT_TRAINER_II_part_0" file="library_objects/Reebok_REESCULPT_TRAINER_II/Reebok_REESCULPT_TRAINER_II_decomp_4.obj" />
+    <mesh name="Reebok_REESCULPT_TRAINER_II_part_1" file="library_objects/Reebok_REESCULPT_TRAINER_II/Reebok_REESCULPT_TRAINER_II_decomp_1.obj" />
+    <mesh name="Reebok_REESCULPT_TRAINER_II_part_2" file="library_objects/Reebok_REESCULPT_TRAINER_II/Reebok_REESCULPT_TRAINER_II_decomp_12.obj" />
+    <mesh name="Reebok_REESCULPT_TRAINER_II_part_3" file="library_objects/Reebok_REESCULPT_TRAINER_II/Reebok_REESCULPT_TRAINER_II_decomp_9.obj" />
+    <mesh name="Reebok_REESCULPT_TRAINER_II_part_4" file="library_objects/Reebok_REESCULPT_TRAINER_II/Reebok_REESCULPT_TRAINER_II_decomp_0.obj" />
+    <mesh name="Reebok_REESCULPT_TRAINER_II_part_5" file="library_objects/Reebok_REESCULPT_TRAINER_II/Reebok_REESCULPT_TRAINER_II_decomp_2.obj" />
+    <mesh name="Reebok_REESCULPT_TRAINER_II_part_6" file="library_objects/Reebok_REESCULPT_TRAINER_II/Reebok_REESCULPT_TRAINER_II_decomp_8.obj" />
+    <mesh name="Reebok_REESCULPT_TRAINER_II_part_7" file="library_objects/Reebok_REESCULPT_TRAINER_II/Reebok_REESCULPT_TRAINER_II_decomp_5.obj" />
+    <mesh name="Reebok_REESCULPT_TRAINER_II_part_8" file="library_objects/Reebok_REESCULPT_TRAINER_II/Reebok_REESCULPT_TRAINER_II_decomp_3.obj" />
+    <mesh name="Reebok_REESCULPT_TRAINER_II_part_9" file="library_objects/Reebok_REESCULPT_TRAINER_II/Reebok_REESCULPT_TRAINER_II_decomp_11.obj" />
+    <mesh name="Reebok_REESCULPT_TRAINER_II_part_10" file="library_objects/Reebok_REESCULPT_TRAINER_II/Reebok_REESCULPT_TRAINER_II_decomp_6.obj" />
+    <mesh name="Reebok_REESCULPT_TRAINER_II_part_11" file="library_objects/Reebok_REESCULPT_TRAINER_II/Reebok_REESCULPT_TRAINER_II_decomp_10.obj" />
+    <mesh name="Reebok_REESCULPT_TRAINER_II_part_12" file="library_objects/Reebok_REESCULPT_TRAINER_II/Reebok_REESCULPT_TRAINER_II_decomp_7.obj" />
+  </asset>
+</mujocoinclude>

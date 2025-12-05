@@ -1,0 +1,20 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="BUILD_A_ZOO_texture" file="library_objects/BUILD_A_ZOO/texture.png" />
+    <material name="BUILD_A_ZOO_material" texture="BUILD_A_ZOO_texture" />
+    <mesh name="BUILD_A_ZOO" file="library_objects/BUILD_A_ZOO/BUILD_A_ZOO.obj" />
+    <mesh name="BUILD_A_ZOO_part_0" file="library_objects/BUILD_A_ZOO/BUILD_A_ZOO_decomp_3.obj" />
+    <mesh name="BUILD_A_ZOO_part_1" file="library_objects/BUILD_A_ZOO/BUILD_A_ZOO_decomp_6.obj" />
+    <mesh name="BUILD_A_ZOO_part_2" file="library_objects/BUILD_A_ZOO/BUILD_A_ZOO_decomp_1.obj" />
+    <mesh name="BUILD_A_ZOO_part_3" file="library_objects/BUILD_A_ZOO/BUILD_A_ZOO_decomp_11.obj" />
+    <mesh name="BUILD_A_ZOO_part_4" file="library_objects/BUILD_A_ZOO/BUILD_A_ZOO_decomp_2.obj" />
+    <mesh name="BUILD_A_ZOO_part_5" file="library_objects/BUILD_A_ZOO/BUILD_A_ZOO_decomp_4.obj" />
+    <mesh name="BUILD_A_ZOO_part_6" file="library_objects/BUILD_A_ZOO/BUILD_A_ZOO_decomp_7.obj" />
+    <mesh name="BUILD_A_ZOO_part_7" file="library_objects/BUILD_A_ZOO/BUILD_A_ZOO_decomp_9.obj" />
+    <mesh name="BUILD_A_ZOO_part_8" file="library_objects/BUILD_A_ZOO/BUILD_A_ZOO_decomp_12.obj" />
+    <mesh name="BUILD_A_ZOO_part_9" file="library_objects/BUILD_A_ZOO/BUILD_A_ZOO_decomp_0.obj" />
+    <mesh name="BUILD_A_ZOO_part_10" file="library_objects/BUILD_A_ZOO/BUILD_A_ZOO_decomp_5.obj" />
+    <mesh name="BUILD_A_ZOO_part_11" file="library_objects/BUILD_A_ZOO/BUILD_A_ZOO_decomp_8.obj" />
+    <mesh name="BUILD_A_ZOO_part_12" file="library_objects/BUILD_A_ZOO/BUILD_A_ZOO_decomp_10.obj" />
+  </asset>
+</mujocoinclude>

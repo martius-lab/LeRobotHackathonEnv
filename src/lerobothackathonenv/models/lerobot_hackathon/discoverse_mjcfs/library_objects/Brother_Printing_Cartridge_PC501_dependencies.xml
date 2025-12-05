@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Brother_Printing_Cartridge_PC501_texture" file="library_objects/Brother_Printing_Cartridge_PC501/texture.png" />
+    <material name="Brother_Printing_Cartridge_PC501_material" texture="Brother_Printing_Cartridge_PC501_texture" />
+    <mesh name="Brother_Printing_Cartridge_PC501" file="library_objects/Brother_Printing_Cartridge_PC501/Brother_Printing_Cartridge_PC501.obj" />
+    <mesh name="Brother_Printing_Cartridge_PC501_part_0" file="library_objects/Brother_Printing_Cartridge_PC501/Brother_Printing_Cartridge_PC501_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

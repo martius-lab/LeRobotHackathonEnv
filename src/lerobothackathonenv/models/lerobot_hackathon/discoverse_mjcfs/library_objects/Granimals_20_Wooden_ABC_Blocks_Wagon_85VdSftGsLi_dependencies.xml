@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Granimals_20_Wooden_ABC_Blocks_Wagon_85VdSftGsLi_texture" file="library_objects/Granimals_20_Wooden_ABC_Blocks_Wagon_85VdSftGsLi/texture.png" />
+    <material name="Granimals_20_Wooden_ABC_Blocks_Wagon_85VdSftGsLi_material" texture="Granimals_20_Wooden_ABC_Blocks_Wagon_85VdSftGsLi_texture" />
+    <mesh name="Granimals_20_Wooden_ABC_Blocks_Wagon_85VdSftGsLi" file="library_objects/Granimals_20_Wooden_ABC_Blocks_Wagon_85VdSftGsLi/Granimals_20_Wooden_ABC_Blocks_Wagon_85VdSftGsLi.obj" />
+    <mesh name="Granimals_20_Wooden_ABC_Blocks_Wagon_85VdSftGsLi_part_0" file="library_objects/Granimals_20_Wooden_ABC_Blocks_Wagon_85VdSftGsLi/Granimals_20_Wooden_ABC_Blocks_Wagon_85VdSftGsLi_decomp_0.obj" />
+    <mesh name="Granimals_20_Wooden_ABC_Blocks_Wagon_85VdSftGsLi_part_1" file="library_objects/Granimals_20_Wooden_ABC_Blocks_Wagon_85VdSftGsLi/Granimals_20_Wooden_ABC_Blocks_Wagon_85VdSftGsLi_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

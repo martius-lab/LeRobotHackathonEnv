@@ -1,0 +1,23 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Sapota_Threshold_4_Ceramic_Round_Planter_Red_texture" file="library_objects/Sapota_Threshold_4_Ceramic_Round_Planter_Red/texture.png" />
+    <material name="Sapota_Threshold_4_Ceramic_Round_Planter_Red_material" texture="Sapota_Threshold_4_Ceramic_Round_Planter_Red_texture" />
+    <mesh name="Sapota_Threshold_4_Ceramic_Round_Planter_Red" file="library_objects/Sapota_Threshold_4_Ceramic_Round_Planter_Red/Sapota_Threshold_4_Ceramic_Round_Planter_Red.obj" />
+    <mesh name="Sapota_Threshold_4_Ceramic_Round_Planter_Red_part_0" file="library_objects/Sapota_Threshold_4_Ceramic_Round_Planter_Red/Sapota_Threshold_4_Ceramic_Round_Planter_Red_decomp_5.obj" />
+    <mesh name="Sapota_Threshold_4_Ceramic_Round_Planter_Red_part_1" file="library_objects/Sapota_Threshold_4_Ceramic_Round_Planter_Red/Sapota_Threshold_4_Ceramic_Round_Planter_Red_decomp_0.obj" />
+    <mesh name="Sapota_Threshold_4_Ceramic_Round_Planter_Red_part_2" file="library_objects/Sapota_Threshold_4_Ceramic_Round_Planter_Red/Sapota_Threshold_4_Ceramic_Round_Planter_Red_decomp_4.obj" />
+    <mesh name="Sapota_Threshold_4_Ceramic_Round_Planter_Red_part_3" file="library_objects/Sapota_Threshold_4_Ceramic_Round_Planter_Red/Sapota_Threshold_4_Ceramic_Round_Planter_Red_decomp_9.obj" />
+    <mesh name="Sapota_Threshold_4_Ceramic_Round_Planter_Red_part_4" file="library_objects/Sapota_Threshold_4_Ceramic_Round_Planter_Red/Sapota_Threshold_4_Ceramic_Round_Planter_Red_decomp_7.obj" />
+    <mesh name="Sapota_Threshold_4_Ceramic_Round_Planter_Red_part_5" file="library_objects/Sapota_Threshold_4_Ceramic_Round_Planter_Red/Sapota_Threshold_4_Ceramic_Round_Planter_Red_decomp_3.obj" />
+    <mesh name="Sapota_Threshold_4_Ceramic_Round_Planter_Red_part_6" file="library_objects/Sapota_Threshold_4_Ceramic_Round_Planter_Red/Sapota_Threshold_4_Ceramic_Round_Planter_Red_decomp_2.obj" />
+    <mesh name="Sapota_Threshold_4_Ceramic_Round_Planter_Red_part_7" file="library_objects/Sapota_Threshold_4_Ceramic_Round_Planter_Red/Sapota_Threshold_4_Ceramic_Round_Planter_Red_decomp_14.obj" />
+    <mesh name="Sapota_Threshold_4_Ceramic_Round_Planter_Red_part_8" file="library_objects/Sapota_Threshold_4_Ceramic_Round_Planter_Red/Sapota_Threshold_4_Ceramic_Round_Planter_Red_decomp_13.obj" />
+    <mesh name="Sapota_Threshold_4_Ceramic_Round_Planter_Red_part_9" file="library_objects/Sapota_Threshold_4_Ceramic_Round_Planter_Red/Sapota_Threshold_4_Ceramic_Round_Planter_Red_decomp_10.obj" />
+    <mesh name="Sapota_Threshold_4_Ceramic_Round_Planter_Red_part_10" file="library_objects/Sapota_Threshold_4_Ceramic_Round_Planter_Red/Sapota_Threshold_4_Ceramic_Round_Planter_Red_decomp_8.obj" />
+    <mesh name="Sapota_Threshold_4_Ceramic_Round_Planter_Red_part_11" file="library_objects/Sapota_Threshold_4_Ceramic_Round_Planter_Red/Sapota_Threshold_4_Ceramic_Round_Planter_Red_decomp_11.obj" />
+    <mesh name="Sapota_Threshold_4_Ceramic_Round_Planter_Red_part_12" file="library_objects/Sapota_Threshold_4_Ceramic_Round_Planter_Red/Sapota_Threshold_4_Ceramic_Round_Planter_Red_decomp_1.obj" />
+    <mesh name="Sapota_Threshold_4_Ceramic_Round_Planter_Red_part_13" file="library_objects/Sapota_Threshold_4_Ceramic_Round_Planter_Red/Sapota_Threshold_4_Ceramic_Round_Planter_Red_decomp_15.obj" />
+    <mesh name="Sapota_Threshold_4_Ceramic_Round_Planter_Red_part_14" file="library_objects/Sapota_Threshold_4_Ceramic_Round_Planter_Red/Sapota_Threshold_4_Ceramic_Round_Planter_Red_decomp_12.obj" />
+    <mesh name="Sapota_Threshold_4_Ceramic_Round_Planter_Red_part_15" file="library_objects/Sapota_Threshold_4_Ceramic_Round_Planter_Red/Sapota_Threshold_4_Ceramic_Round_Planter_Red_decomp_6.obj" />
+  </asset>
+</mujocoinclude>

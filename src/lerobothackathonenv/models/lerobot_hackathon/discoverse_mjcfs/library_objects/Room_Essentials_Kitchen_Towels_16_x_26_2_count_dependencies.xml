@@ -1,0 +1,25 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Room_Essentials_Kitchen_Towels_16_x_26_2_count_texture" file="library_objects/Room_Essentials_Kitchen_Towels_16_x_26_2_count/texture.png" />
+    <material name="Room_Essentials_Kitchen_Towels_16_x_26_2_count_material" texture="Room_Essentials_Kitchen_Towels_16_x_26_2_count_texture" />
+    <mesh name="Room_Essentials_Kitchen_Towels_16_x_26_2_count" file="library_objects/Room_Essentials_Kitchen_Towels_16_x_26_2_count/Room_Essentials_Kitchen_Towels_16_x_26_2_count.obj" />
+    <mesh name="Room_Essentials_Kitchen_Towels_16_x_26_2_count_part_0" file="library_objects/Room_Essentials_Kitchen_Towels_16_x_26_2_count/Room_Essentials_Kitchen_Towels_16_x_26_2_count_decomp_10.obj" />
+    <mesh name="Room_Essentials_Kitchen_Towels_16_x_26_2_count_part_1" file="library_objects/Room_Essentials_Kitchen_Towels_16_x_26_2_count/Room_Essentials_Kitchen_Towels_16_x_26_2_count_decomp_2.obj" />
+    <mesh name="Room_Essentials_Kitchen_Towels_16_x_26_2_count_part_2" file="library_objects/Room_Essentials_Kitchen_Towels_16_x_26_2_count/Room_Essentials_Kitchen_Towels_16_x_26_2_count_decomp_11.obj" />
+    <mesh name="Room_Essentials_Kitchen_Towels_16_x_26_2_count_part_3" file="library_objects/Room_Essentials_Kitchen_Towels_16_x_26_2_count/Room_Essentials_Kitchen_Towels_16_x_26_2_count_decomp_14.obj" />
+    <mesh name="Room_Essentials_Kitchen_Towels_16_x_26_2_count_part_4" file="library_objects/Room_Essentials_Kitchen_Towels_16_x_26_2_count/Room_Essentials_Kitchen_Towels_16_x_26_2_count_decomp_8.obj" />
+    <mesh name="Room_Essentials_Kitchen_Towels_16_x_26_2_count_part_5" file="library_objects/Room_Essentials_Kitchen_Towels_16_x_26_2_count/Room_Essentials_Kitchen_Towels_16_x_26_2_count_decomp_4.obj" />
+    <mesh name="Room_Essentials_Kitchen_Towels_16_x_26_2_count_part_6" file="library_objects/Room_Essentials_Kitchen_Towels_16_x_26_2_count/Room_Essentials_Kitchen_Towels_16_x_26_2_count_decomp_12.obj" />
+    <mesh name="Room_Essentials_Kitchen_Towels_16_x_26_2_count_part_7" file="library_objects/Room_Essentials_Kitchen_Towels_16_x_26_2_count/Room_Essentials_Kitchen_Towels_16_x_26_2_count_decomp_5.obj" />
+    <mesh name="Room_Essentials_Kitchen_Towels_16_x_26_2_count_part_8" file="library_objects/Room_Essentials_Kitchen_Towels_16_x_26_2_count/Room_Essentials_Kitchen_Towels_16_x_26_2_count_decomp_9.obj" />
+    <mesh name="Room_Essentials_Kitchen_Towels_16_x_26_2_count_part_9" file="library_objects/Room_Essentials_Kitchen_Towels_16_x_26_2_count/Room_Essentials_Kitchen_Towels_16_x_26_2_count_decomp_16.obj" />
+    <mesh name="Room_Essentials_Kitchen_Towels_16_x_26_2_count_part_10" file="library_objects/Room_Essentials_Kitchen_Towels_16_x_26_2_count/Room_Essentials_Kitchen_Towels_16_x_26_2_count_decomp_0.obj" />
+    <mesh name="Room_Essentials_Kitchen_Towels_16_x_26_2_count_part_11" file="library_objects/Room_Essentials_Kitchen_Towels_16_x_26_2_count/Room_Essentials_Kitchen_Towels_16_x_26_2_count_decomp_13.obj" />
+    <mesh name="Room_Essentials_Kitchen_Towels_16_x_26_2_count_part_12" file="library_objects/Room_Essentials_Kitchen_Towels_16_x_26_2_count/Room_Essentials_Kitchen_Towels_16_x_26_2_count_decomp_15.obj" />
+    <mesh name="Room_Essentials_Kitchen_Towels_16_x_26_2_count_part_13" file="library_objects/Room_Essentials_Kitchen_Towels_16_x_26_2_count/Room_Essentials_Kitchen_Towels_16_x_26_2_count_decomp_6.obj" />
+    <mesh name="Room_Essentials_Kitchen_Towels_16_x_26_2_count_part_14" file="library_objects/Room_Essentials_Kitchen_Towels_16_x_26_2_count/Room_Essentials_Kitchen_Towels_16_x_26_2_count_decomp_1.obj" />
+    <mesh name="Room_Essentials_Kitchen_Towels_16_x_26_2_count_part_15" file="library_objects/Room_Essentials_Kitchen_Towels_16_x_26_2_count/Room_Essentials_Kitchen_Towels_16_x_26_2_count_decomp_17.obj" />
+    <mesh name="Room_Essentials_Kitchen_Towels_16_x_26_2_count_part_16" file="library_objects/Room_Essentials_Kitchen_Towels_16_x_26_2_count/Room_Essentials_Kitchen_Towels_16_x_26_2_count_decomp_7.obj" />
+    <mesh name="Room_Essentials_Kitchen_Towels_16_x_26_2_count_part_17" file="library_objects/Room_Essentials_Kitchen_Towels_16_x_26_2_count/Room_Essentials_Kitchen_Towels_16_x_26_2_count_decomp_3.obj" />
+  </asset>
+</mujocoinclude>

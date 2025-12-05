@@ -1,0 +1,10 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Sleep_Optimizer_texture" file="library_objects/Sleep_Optimizer/texture.png" />
+    <material name="Sleep_Optimizer_material" texture="Sleep_Optimizer_texture" />
+    <mesh name="Sleep_Optimizer" file="library_objects/Sleep_Optimizer/Sleep_Optimizer.obj" />
+    <mesh name="Sleep_Optimizer_part_0" file="library_objects/Sleep_Optimizer/Sleep_Optimizer_decomp_2.obj" />
+    <mesh name="Sleep_Optimizer_part_1" file="library_objects/Sleep_Optimizer/Sleep_Optimizer_decomp_0.obj" />
+    <mesh name="Sleep_Optimizer_part_2" file="library_objects/Sleep_Optimizer/Sleep_Optimizer_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

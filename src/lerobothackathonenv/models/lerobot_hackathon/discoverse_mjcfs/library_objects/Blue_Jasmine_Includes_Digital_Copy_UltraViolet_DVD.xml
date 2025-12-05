@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Blue_Jasmine_Includes_Digital_Copy_UltraViolet_DVD_material" mesh="Blue_Jasmine_Includes_Digital_Copy_UltraViolet_DVD" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Blue_Jasmine_Includes_Digital_Copy_UltraViolet_DVD_part_0" />
+</mujocoinclude>

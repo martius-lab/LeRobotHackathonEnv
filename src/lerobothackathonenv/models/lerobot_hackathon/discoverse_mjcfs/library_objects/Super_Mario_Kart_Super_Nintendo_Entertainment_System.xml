@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <geom material="Super_Mario_Kart_Super_Nintendo_Entertainment_System_material" mesh="Super_Mario_Kart_Super_Nintendo_Entertainment_System" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Super_Mario_Kart_Super_Nintendo_Entertainment_System_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Super_Mario_Kart_Super_Nintendo_Entertainment_System_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Super_Mario_Kart_Super_Nintendo_Entertainment_System_part_2" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Super_Mario_Kart_Super_Nintendo_Entertainment_System_part_3" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Super_Mario_Kart_Super_Nintendo_Entertainment_System_part_4" />
+</mujocoinclude>

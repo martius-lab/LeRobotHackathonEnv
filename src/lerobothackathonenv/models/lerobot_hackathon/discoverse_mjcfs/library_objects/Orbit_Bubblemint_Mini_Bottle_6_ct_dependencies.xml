@@ -1,0 +1,19 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Orbit_Bubblemint_Mini_Bottle_6_ct_texture" file="library_objects/Orbit_Bubblemint_Mini_Bottle_6_ct/texture.png" />
+    <material name="Orbit_Bubblemint_Mini_Bottle_6_ct_material" texture="Orbit_Bubblemint_Mini_Bottle_6_ct_texture" />
+    <mesh name="Orbit_Bubblemint_Mini_Bottle_6_ct" file="library_objects/Orbit_Bubblemint_Mini_Bottle_6_ct/Orbit_Bubblemint_Mini_Bottle_6_ct.obj" />
+    <mesh name="Orbit_Bubblemint_Mini_Bottle_6_ct_part_0" file="library_objects/Orbit_Bubblemint_Mini_Bottle_6_ct/Orbit_Bubblemint_Mini_Bottle_6_ct_decomp_5.obj" />
+    <mesh name="Orbit_Bubblemint_Mini_Bottle_6_ct_part_1" file="library_objects/Orbit_Bubblemint_Mini_Bottle_6_ct/Orbit_Bubblemint_Mini_Bottle_6_ct_decomp_11.obj" />
+    <mesh name="Orbit_Bubblemint_Mini_Bottle_6_ct_part_2" file="library_objects/Orbit_Bubblemint_Mini_Bottle_6_ct/Orbit_Bubblemint_Mini_Bottle_6_ct_decomp_6.obj" />
+    <mesh name="Orbit_Bubblemint_Mini_Bottle_6_ct_part_3" file="library_objects/Orbit_Bubblemint_Mini_Bottle_6_ct/Orbit_Bubblemint_Mini_Bottle_6_ct_decomp_4.obj" />
+    <mesh name="Orbit_Bubblemint_Mini_Bottle_6_ct_part_4" file="library_objects/Orbit_Bubblemint_Mini_Bottle_6_ct/Orbit_Bubblemint_Mini_Bottle_6_ct_decomp_2.obj" />
+    <mesh name="Orbit_Bubblemint_Mini_Bottle_6_ct_part_5" file="library_objects/Orbit_Bubblemint_Mini_Bottle_6_ct/Orbit_Bubblemint_Mini_Bottle_6_ct_decomp_10.obj" />
+    <mesh name="Orbit_Bubblemint_Mini_Bottle_6_ct_part_6" file="library_objects/Orbit_Bubblemint_Mini_Bottle_6_ct/Orbit_Bubblemint_Mini_Bottle_6_ct_decomp_3.obj" />
+    <mesh name="Orbit_Bubblemint_Mini_Bottle_6_ct_part_7" file="library_objects/Orbit_Bubblemint_Mini_Bottle_6_ct/Orbit_Bubblemint_Mini_Bottle_6_ct_decomp_0.obj" />
+    <mesh name="Orbit_Bubblemint_Mini_Bottle_6_ct_part_8" file="library_objects/Orbit_Bubblemint_Mini_Bottle_6_ct/Orbit_Bubblemint_Mini_Bottle_6_ct_decomp_7.obj" />
+    <mesh name="Orbit_Bubblemint_Mini_Bottle_6_ct_part_9" file="library_objects/Orbit_Bubblemint_Mini_Bottle_6_ct/Orbit_Bubblemint_Mini_Bottle_6_ct_decomp_9.obj" />
+    <mesh name="Orbit_Bubblemint_Mini_Bottle_6_ct_part_10" file="library_objects/Orbit_Bubblemint_Mini_Bottle_6_ct/Orbit_Bubblemint_Mini_Bottle_6_ct_decomp_1.obj" />
+    <mesh name="Orbit_Bubblemint_Mini_Bottle_6_ct_part_11" file="library_objects/Orbit_Bubblemint_Mini_Bottle_6_ct/Orbit_Bubblemint_Mini_Bottle_6_ct_decomp_8.obj" />
+  </asset>
+</mujocoinclude>

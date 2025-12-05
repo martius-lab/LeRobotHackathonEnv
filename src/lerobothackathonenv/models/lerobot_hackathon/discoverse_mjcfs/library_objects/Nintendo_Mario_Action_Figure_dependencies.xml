@@ -1,0 +1,25 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Nintendo_Mario_Action_Figure_texture" file="library_objects/Nintendo_Mario_Action_Figure/texture.png" />
+    <material name="Nintendo_Mario_Action_Figure_material" texture="Nintendo_Mario_Action_Figure_texture" />
+    <mesh name="Nintendo_Mario_Action_Figure" file="library_objects/Nintendo_Mario_Action_Figure/Nintendo_Mario_Action_Figure.obj" />
+    <mesh name="Nintendo_Mario_Action_Figure_part_0" file="library_objects/Nintendo_Mario_Action_Figure/Nintendo_Mario_Action_Figure_decomp_2.obj" />
+    <mesh name="Nintendo_Mario_Action_Figure_part_1" file="library_objects/Nintendo_Mario_Action_Figure/Nintendo_Mario_Action_Figure_decomp_14.obj" />
+    <mesh name="Nintendo_Mario_Action_Figure_part_2" file="library_objects/Nintendo_Mario_Action_Figure/Nintendo_Mario_Action_Figure_decomp_0.obj" />
+    <mesh name="Nintendo_Mario_Action_Figure_part_3" file="library_objects/Nintendo_Mario_Action_Figure/Nintendo_Mario_Action_Figure_decomp_15.obj" />
+    <mesh name="Nintendo_Mario_Action_Figure_part_4" file="library_objects/Nintendo_Mario_Action_Figure/Nintendo_Mario_Action_Figure_decomp_11.obj" />
+    <mesh name="Nintendo_Mario_Action_Figure_part_5" file="library_objects/Nintendo_Mario_Action_Figure/Nintendo_Mario_Action_Figure_decomp_6.obj" />
+    <mesh name="Nintendo_Mario_Action_Figure_part_6" file="library_objects/Nintendo_Mario_Action_Figure/Nintendo_Mario_Action_Figure_decomp_13.obj" />
+    <mesh name="Nintendo_Mario_Action_Figure_part_7" file="library_objects/Nintendo_Mario_Action_Figure/Nintendo_Mario_Action_Figure_decomp_12.obj" />
+    <mesh name="Nintendo_Mario_Action_Figure_part_8" file="library_objects/Nintendo_Mario_Action_Figure/Nintendo_Mario_Action_Figure_decomp_8.obj" />
+    <mesh name="Nintendo_Mario_Action_Figure_part_9" file="library_objects/Nintendo_Mario_Action_Figure/Nintendo_Mario_Action_Figure_decomp_10.obj" />
+    <mesh name="Nintendo_Mario_Action_Figure_part_10" file="library_objects/Nintendo_Mario_Action_Figure/Nintendo_Mario_Action_Figure_decomp_17.obj" />
+    <mesh name="Nintendo_Mario_Action_Figure_part_11" file="library_objects/Nintendo_Mario_Action_Figure/Nintendo_Mario_Action_Figure_decomp_4.obj" />
+    <mesh name="Nintendo_Mario_Action_Figure_part_12" file="library_objects/Nintendo_Mario_Action_Figure/Nintendo_Mario_Action_Figure_decomp_9.obj" />
+    <mesh name="Nintendo_Mario_Action_Figure_part_13" file="library_objects/Nintendo_Mario_Action_Figure/Nintendo_Mario_Action_Figure_decomp_1.obj" />
+    <mesh name="Nintendo_Mario_Action_Figure_part_14" file="library_objects/Nintendo_Mario_Action_Figure/Nintendo_Mario_Action_Figure_decomp_5.obj" />
+    <mesh name="Nintendo_Mario_Action_Figure_part_15" file="library_objects/Nintendo_Mario_Action_Figure/Nintendo_Mario_Action_Figure_decomp_3.obj" />
+    <mesh name="Nintendo_Mario_Action_Figure_part_16" file="library_objects/Nintendo_Mario_Action_Figure/Nintendo_Mario_Action_Figure_decomp_7.obj" />
+    <mesh name="Nintendo_Mario_Action_Figure_part_17" file="library_objects/Nintendo_Mario_Action_Figure/Nintendo_Mario_Action_Figure_decomp_16.obj" />
+  </asset>
+</mujocoinclude>

@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Paper_Mario_Sticker_Star_Nintendo_3DS_Game_material" mesh="Paper_Mario_Sticker_Star_Nintendo_3DS_Game" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Paper_Mario_Sticker_Star_Nintendo_3DS_Game_part_0" />
+</mujocoinclude>

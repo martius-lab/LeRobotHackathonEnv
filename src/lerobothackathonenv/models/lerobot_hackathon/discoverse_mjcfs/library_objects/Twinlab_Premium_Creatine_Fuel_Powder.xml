@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Twinlab_Premium_Creatine_Fuel_Powder_material" mesh="Twinlab_Premium_Creatine_Fuel_Powder" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Twinlab_Premium_Creatine_Fuel_Powder_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Twinlab_Premium_Creatine_Fuel_Powder_part_1" />
+</mujocoinclude>

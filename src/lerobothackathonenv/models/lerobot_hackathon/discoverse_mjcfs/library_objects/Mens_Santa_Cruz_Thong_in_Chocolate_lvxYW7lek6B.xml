@@ -1,0 +1,14 @@
+<mujocoinclude>
+  <geom material="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_material" mesh="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_part_2" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_part_3" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_part_4" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_part_5" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_part_6" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_part_7" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_part_8" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_part_9" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_part_10" />
+</mujocoinclude>

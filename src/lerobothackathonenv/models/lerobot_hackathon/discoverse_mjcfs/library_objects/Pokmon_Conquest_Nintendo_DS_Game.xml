@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Pokmon_Conquest_Nintendo_DS_Game_material" mesh="Pokmon_Conquest_Nintendo_DS_Game" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Pokmon_Conquest_Nintendo_DS_Game_part_0" />
+</mujocoinclude>

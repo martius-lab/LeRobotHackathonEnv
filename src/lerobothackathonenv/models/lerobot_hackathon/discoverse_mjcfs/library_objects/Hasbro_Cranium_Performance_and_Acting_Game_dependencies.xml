@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Hasbro_Cranium_Performance_and_Acting_Game_texture" file="library_objects/Hasbro_Cranium_Performance_and_Acting_Game/texture.png" />
+    <material name="Hasbro_Cranium_Performance_and_Acting_Game_material" texture="Hasbro_Cranium_Performance_and_Acting_Game_texture" />
+    <mesh name="Hasbro_Cranium_Performance_and_Acting_Game" file="library_objects/Hasbro_Cranium_Performance_and_Acting_Game/Hasbro_Cranium_Performance_and_Acting_Game.obj" />
+    <mesh name="Hasbro_Cranium_Performance_and_Acting_Game_part_0" file="library_objects/Hasbro_Cranium_Performance_and_Acting_Game/Hasbro_Cranium_Performance_and_Acting_Game_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

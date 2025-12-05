@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="NattoMax_texture" file="library_objects/NattoMax/texture.png" />
+    <material name="NattoMax_material" texture="NattoMax_texture" />
+    <mesh name="NattoMax" file="library_objects/NattoMax/NattoMax.obj" />
+    <mesh name="NattoMax_part_0" file="library_objects/NattoMax/NattoMax_decomp_0.obj" />
+    <mesh name="NattoMax_part_1" file="library_objects/NattoMax/NattoMax_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

@@ -1,0 +1,16 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Markings_Letter_Holder_texture" file="library_objects/Markings_Letter_Holder/texture.png" />
+    <material name="Markings_Letter_Holder_material" texture="Markings_Letter_Holder_texture" />
+    <mesh name="Markings_Letter_Holder" file="library_objects/Markings_Letter_Holder/Markings_Letter_Holder.obj" />
+    <mesh name="Markings_Letter_Holder_part_0" file="library_objects/Markings_Letter_Holder/Markings_Letter_Holder_decomp_2.obj" />
+    <mesh name="Markings_Letter_Holder_part_1" file="library_objects/Markings_Letter_Holder/Markings_Letter_Holder_decomp_8.obj" />
+    <mesh name="Markings_Letter_Holder_part_2" file="library_objects/Markings_Letter_Holder/Markings_Letter_Holder_decomp_1.obj" />
+    <mesh name="Markings_Letter_Holder_part_3" file="library_objects/Markings_Letter_Holder/Markings_Letter_Holder_decomp_0.obj" />
+    <mesh name="Markings_Letter_Holder_part_4" file="library_objects/Markings_Letter_Holder/Markings_Letter_Holder_decomp_4.obj" />
+    <mesh name="Markings_Letter_Holder_part_5" file="library_objects/Markings_Letter_Holder/Markings_Letter_Holder_decomp_3.obj" />
+    <mesh name="Markings_Letter_Holder_part_6" file="library_objects/Markings_Letter_Holder/Markings_Letter_Holder_decomp_6.obj" />
+    <mesh name="Markings_Letter_Holder_part_7" file="library_objects/Markings_Letter_Holder/Markings_Letter_Holder_decomp_5.obj" />
+    <mesh name="Markings_Letter_Holder_part_8" file="library_objects/Markings_Letter_Holder/Markings_Letter_Holder_decomp_7.obj" />
+  </asset>
+</mujocoinclude>

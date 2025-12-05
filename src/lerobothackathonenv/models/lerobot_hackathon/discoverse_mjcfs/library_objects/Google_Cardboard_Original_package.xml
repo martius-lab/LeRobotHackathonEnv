@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Google_Cardboard_Original_package_material" mesh="Google_Cardboard_Original_package" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Google_Cardboard_Original_package_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Google_Cardboard_Original_package_part_1" />
+</mujocoinclude>

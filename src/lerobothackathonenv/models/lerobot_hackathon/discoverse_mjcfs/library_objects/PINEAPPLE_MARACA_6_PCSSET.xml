@@ -1,0 +1,7 @@
+<mujocoinclude>
+  <geom material="PINEAPPLE_MARACA_6_PCSSET_material" mesh="PINEAPPLE_MARACA_6_PCSSET" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="PINEAPPLE_MARACA_6_PCSSET_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="PINEAPPLE_MARACA_6_PCSSET_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="PINEAPPLE_MARACA_6_PCSSET_part_2" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="PINEAPPLE_MARACA_6_PCSSET_part_3" />
+</mujocoinclude>

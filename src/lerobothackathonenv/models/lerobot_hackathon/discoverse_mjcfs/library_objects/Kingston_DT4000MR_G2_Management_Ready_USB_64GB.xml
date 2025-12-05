@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Kingston_DT4000MR_G2_Management_Ready_USB_64GB_material" mesh="Kingston_DT4000MR_G2_Management_Ready_USB_64GB" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Kingston_DT4000MR_G2_Management_Ready_USB_64GB_part_0" />
+</mujocoinclude>

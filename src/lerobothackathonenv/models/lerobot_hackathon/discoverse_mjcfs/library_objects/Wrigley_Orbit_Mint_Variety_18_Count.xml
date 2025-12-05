@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Wrigley_Orbit_Mint_Variety_18_Count_material" mesh="Wrigley_Orbit_Mint_Variety_18_Count" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Wrigley_Orbit_Mint_Variety_18_Count_part_0" />
+</mujocoinclude>

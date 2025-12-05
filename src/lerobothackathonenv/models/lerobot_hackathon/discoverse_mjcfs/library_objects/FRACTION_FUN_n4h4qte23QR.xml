@@ -1,0 +1,12 @@
+<mujocoinclude>
+  <geom material="FRACTION_FUN_n4h4qte23QR_material" mesh="FRACTION_FUN_n4h4qte23QR" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="FRACTION_FUN_n4h4qte23QR_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="FRACTION_FUN_n4h4qte23QR_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="FRACTION_FUN_n4h4qte23QR_part_2" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="FRACTION_FUN_n4h4qte23QR_part_3" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="FRACTION_FUN_n4h4qte23QR_part_4" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="FRACTION_FUN_n4h4qte23QR_part_5" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="FRACTION_FUN_n4h4qte23QR_part_6" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="FRACTION_FUN_n4h4qte23QR_part_7" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="FRACTION_FUN_n4h4qte23QR_part_8" />
+</mujocoinclude>

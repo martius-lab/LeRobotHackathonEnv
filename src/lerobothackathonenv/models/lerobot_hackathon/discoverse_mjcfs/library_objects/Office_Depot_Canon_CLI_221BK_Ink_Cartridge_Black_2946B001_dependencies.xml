@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Office_Depot_Canon_CLI_221BK_Ink_Cartridge_Black_2946B001_texture" file="library_objects/Office_Depot_Canon_CLI_221BK_Ink_Cartridge_Black_2946B001/texture.png" />
+    <material name="Office_Depot_Canon_CLI_221BK_Ink_Cartridge_Black_2946B001_material" texture="Office_Depot_Canon_CLI_221BK_Ink_Cartridge_Black_2946B001_texture" />
+    <mesh name="Office_Depot_Canon_CLI_221BK_Ink_Cartridge_Black_2946B001" file="library_objects/Office_Depot_Canon_CLI_221BK_Ink_Cartridge_Black_2946B001/Office_Depot_Canon_CLI_221BK_Ink_Cartridge_Black_2946B001.obj" />
+    <mesh name="Office_Depot_Canon_CLI_221BK_Ink_Cartridge_Black_2946B001_part_0" file="library_objects/Office_Depot_Canon_CLI_221BK_Ink_Cartridge_Black_2946B001/Office_Depot_Canon_CLI_221BK_Ink_Cartridge_Black_2946B001_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

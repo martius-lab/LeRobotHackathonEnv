@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Brother_Printing_Cartridge_PC501_material" mesh="Brother_Printing_Cartridge_PC501" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Brother_Printing_Cartridge_PC501_part_0" />
+</mujocoinclude>

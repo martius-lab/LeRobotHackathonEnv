@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Phillips_Stool_Softener_Liquid_Gels_30_liquid_gels_material" mesh="Phillips_Stool_Softener_Liquid_Gels_30_liquid_gels" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Phillips_Stool_Softener_Liquid_Gels_30_liquid_gels_part_0" />
+</mujocoinclude>

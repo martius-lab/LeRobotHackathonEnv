@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Twinlab_Premium_Creatine_Fuel_Powder_texture" file="library_objects/Twinlab_Premium_Creatine_Fuel_Powder/texture.png" />
+    <material name="Twinlab_Premium_Creatine_Fuel_Powder_material" texture="Twinlab_Premium_Creatine_Fuel_Powder_texture" />
+    <mesh name="Twinlab_Premium_Creatine_Fuel_Powder" file="library_objects/Twinlab_Premium_Creatine_Fuel_Powder/Twinlab_Premium_Creatine_Fuel_Powder.obj" />
+    <mesh name="Twinlab_Premium_Creatine_Fuel_Powder_part_0" file="library_objects/Twinlab_Premium_Creatine_Fuel_Powder/Twinlab_Premium_Creatine_Fuel_Powder_decomp_1.obj" />
+    <mesh name="Twinlab_Premium_Creatine_Fuel_Powder_part_1" file="library_objects/Twinlab_Premium_Creatine_Fuel_Powder/Twinlab_Premium_Creatine_Fuel_Powder_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

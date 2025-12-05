@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="IsoRich_Soy_material" mesh="IsoRich_Soy" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="IsoRich_Soy_part_0" />
+</mujocoinclude>

@@ -1,0 +1,17 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_texture" file="library_objects/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R/texture.png" />
+    <material name="Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_material" texture="Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_texture" />
+    <mesh name="Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R" file="library_objects/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R.obj" />
+    <mesh name="Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_part_0" file="library_objects/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_decomp_1.obj" />
+    <mesh name="Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_part_1" file="library_objects/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_decomp_4.obj" />
+    <mesh name="Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_part_2" file="library_objects/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_decomp_8.obj" />
+    <mesh name="Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_part_3" file="library_objects/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_decomp_7.obj" />
+    <mesh name="Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_part_4" file="library_objects/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_decomp_2.obj" />
+    <mesh name="Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_part_5" file="library_objects/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_decomp_0.obj" />
+    <mesh name="Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_part_6" file="library_objects/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_decomp_5.obj" />
+    <mesh name="Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_part_7" file="library_objects/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_decomp_9.obj" />
+    <mesh name="Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_part_8" file="library_objects/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_decomp_3.obj" />
+    <mesh name="Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_part_9" file="library_objects/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R_decomp_6.obj" />
+  </asset>
+</mujocoinclude>

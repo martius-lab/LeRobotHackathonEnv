@@ -1,0 +1,17 @@
+<mujocoinclude>
+  <geom material="Womens_Betty_Chukka_Boot_in_Grey_Jersey_Sequin_material" mesh="Womens_Betty_Chukka_Boot_in_Grey_Jersey_Sequin" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Betty_Chukka_Boot_in_Grey_Jersey_Sequin_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Betty_Chukka_Boot_in_Grey_Jersey_Sequin_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Betty_Chukka_Boot_in_Grey_Jersey_Sequin_part_2" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Betty_Chukka_Boot_in_Grey_Jersey_Sequin_part_3" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Betty_Chukka_Boot_in_Grey_Jersey_Sequin_part_4" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Betty_Chukka_Boot_in_Grey_Jersey_Sequin_part_5" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Betty_Chukka_Boot_in_Grey_Jersey_Sequin_part_6" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Betty_Chukka_Boot_in_Grey_Jersey_Sequin_part_7" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Betty_Chukka_Boot_in_Grey_Jersey_Sequin_part_8" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Betty_Chukka_Boot_in_Grey_Jersey_Sequin_part_9" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Betty_Chukka_Boot_in_Grey_Jersey_Sequin_part_10" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Betty_Chukka_Boot_in_Grey_Jersey_Sequin_part_11" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Betty_Chukka_Boot_in_Grey_Jersey_Sequin_part_12" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Betty_Chukka_Boot_in_Grey_Jersey_Sequin_part_13" />
+</mujocoinclude>

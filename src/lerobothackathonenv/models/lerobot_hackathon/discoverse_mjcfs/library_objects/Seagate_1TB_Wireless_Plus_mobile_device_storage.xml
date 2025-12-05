@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Seagate_1TB_Wireless_Plus_mobile_device_storage_material" mesh="Seagate_1TB_Wireless_Plus_mobile_device_storage" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Seagate_1TB_Wireless_Plus_mobile_device_storage_part_0" />
+</mujocoinclude>

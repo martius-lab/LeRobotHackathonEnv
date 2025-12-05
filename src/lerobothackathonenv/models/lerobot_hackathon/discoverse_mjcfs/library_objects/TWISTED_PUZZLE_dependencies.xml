@@ -1,0 +1,13 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="TWISTED_PUZZLE_texture" file="library_objects/TWISTED_PUZZLE/texture.png" />
+    <material name="TWISTED_PUZZLE_material" texture="TWISTED_PUZZLE_texture" />
+    <mesh name="TWISTED_PUZZLE" file="library_objects/TWISTED_PUZZLE/TWISTED_PUZZLE.obj" />
+    <mesh name="TWISTED_PUZZLE_part_0" file="library_objects/TWISTED_PUZZLE/TWISTED_PUZZLE_decomp_5.obj" />
+    <mesh name="TWISTED_PUZZLE_part_1" file="library_objects/TWISTED_PUZZLE/TWISTED_PUZZLE_decomp_3.obj" />
+    <mesh name="TWISTED_PUZZLE_part_2" file="library_objects/TWISTED_PUZZLE/TWISTED_PUZZLE_decomp_4.obj" />
+    <mesh name="TWISTED_PUZZLE_part_3" file="library_objects/TWISTED_PUZZLE/TWISTED_PUZZLE_decomp_1.obj" />
+    <mesh name="TWISTED_PUZZLE_part_4" file="library_objects/TWISTED_PUZZLE/TWISTED_PUZZLE_decomp_0.obj" />
+    <mesh name="TWISTED_PUZZLE_part_5" file="library_objects/TWISTED_PUZZLE/TWISTED_PUZZLE_decomp_2.obj" />
+  </asset>
+</mujocoinclude>

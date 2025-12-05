@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Office_Depot_HP_61Tricolor_Ink_Cartridge_texture" file="library_objects/Office_Depot_HP_61Tricolor_Ink_Cartridge/texture.png" />
+    <material name="Office_Depot_HP_61Tricolor_Ink_Cartridge_material" texture="Office_Depot_HP_61Tricolor_Ink_Cartridge_texture" />
+    <mesh name="Office_Depot_HP_61Tricolor_Ink_Cartridge" file="library_objects/Office_Depot_HP_61Tricolor_Ink_Cartridge/Office_Depot_HP_61Tricolor_Ink_Cartridge.obj" />
+    <mesh name="Office_Depot_HP_61Tricolor_Ink_Cartridge_part_0" file="library_objects/Office_Depot_HP_61Tricolor_Ink_Cartridge/Office_Depot_HP_61Tricolor_Ink_Cartridge_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

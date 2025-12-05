@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Perricone_MD_Hypoallergenic_Firming_Eye_Cream_05_oz_texture" file="library_objects/Perricone_MD_Hypoallergenic_Firming_Eye_Cream_05_oz/texture.png" />
+    <material name="Perricone_MD_Hypoallergenic_Firming_Eye_Cream_05_oz_material" texture="Perricone_MD_Hypoallergenic_Firming_Eye_Cream_05_oz_texture" />
+    <mesh name="Perricone_MD_Hypoallergenic_Firming_Eye_Cream_05_oz" file="library_objects/Perricone_MD_Hypoallergenic_Firming_Eye_Cream_05_oz/Perricone_MD_Hypoallergenic_Firming_Eye_Cream_05_oz.obj" />
+    <mesh name="Perricone_MD_Hypoallergenic_Firming_Eye_Cream_05_oz_part_0" file="library_objects/Perricone_MD_Hypoallergenic_Firming_Eye_Cream_05_oz/Perricone_MD_Hypoallergenic_Firming_Eye_Cream_05_oz_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

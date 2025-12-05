@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Crayola_Crayons_Washable_24_crayons_material" mesh="Crayola_Crayons_Washable_24_crayons" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Crayola_Crayons_Washable_24_crayons_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Crayola_Crayons_Washable_24_crayons_part_1" />
+</mujocoinclude>

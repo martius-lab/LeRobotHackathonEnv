@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Dell_Series_9_Color_Ink_Cartridge_MK993_High_Yield_material" mesh="Dell_Series_9_Color_Ink_Cartridge_MK993_High_Yield" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Dell_Series_9_Color_Ink_Cartridge_MK993_High_Yield_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Dell_Series_9_Color_Ink_Cartridge_MK993_High_Yield_part_1" />
+</mujocoinclude>

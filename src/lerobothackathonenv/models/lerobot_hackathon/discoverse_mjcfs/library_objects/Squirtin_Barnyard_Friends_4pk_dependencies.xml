@@ -1,0 +1,12 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Squirtin_Barnyard_Friends_4pk_texture" file="library_objects/Squirtin_Barnyard_Friends_4pk/texture.png" />
+    <material name="Squirtin_Barnyard_Friends_4pk_material" texture="Squirtin_Barnyard_Friends_4pk_texture" />
+    <mesh name="Squirtin_Barnyard_Friends_4pk" file="library_objects/Squirtin_Barnyard_Friends_4pk/Squirtin_Barnyard_Friends_4pk.obj" />
+    <mesh name="Squirtin_Barnyard_Friends_4pk_part_0" file="library_objects/Squirtin_Barnyard_Friends_4pk/Squirtin_Barnyard_Friends_4pk_decomp_1.obj" />
+    <mesh name="Squirtin_Barnyard_Friends_4pk_part_1" file="library_objects/Squirtin_Barnyard_Friends_4pk/Squirtin_Barnyard_Friends_4pk_decomp_2.obj" />
+    <mesh name="Squirtin_Barnyard_Friends_4pk_part_2" file="library_objects/Squirtin_Barnyard_Friends_4pk/Squirtin_Barnyard_Friends_4pk_decomp_4.obj" />
+    <mesh name="Squirtin_Barnyard_Friends_4pk_part_3" file="library_objects/Squirtin_Barnyard_Friends_4pk/Squirtin_Barnyard_Friends_4pk_decomp_0.obj" />
+    <mesh name="Squirtin_Barnyard_Friends_4pk_part_4" file="library_objects/Squirtin_Barnyard_Friends_4pk/Squirtin_Barnyard_Friends_4pk_decomp_3.obj" />
+  </asset>
+</mujocoinclude>

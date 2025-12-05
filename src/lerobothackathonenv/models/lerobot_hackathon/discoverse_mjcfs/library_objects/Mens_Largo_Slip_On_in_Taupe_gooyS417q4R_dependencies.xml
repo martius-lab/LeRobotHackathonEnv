@@ -1,0 +1,21 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_texture" file="library_objects/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R/texture.png" />
+    <material name="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_material" texture="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_texture" />
+    <mesh name="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R" file="library_objects/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R.obj" />
+    <mesh name="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_0" file="library_objects/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_decomp_0.obj" />
+    <mesh name="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_1" file="library_objects/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_decomp_2.obj" />
+    <mesh name="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_2" file="library_objects/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_decomp_12.obj" />
+    <mesh name="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_3" file="library_objects/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_decomp_4.obj" />
+    <mesh name="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_4" file="library_objects/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_decomp_9.obj" />
+    <mesh name="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_5" file="library_objects/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_decomp_7.obj" />
+    <mesh name="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_6" file="library_objects/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_decomp_10.obj" />
+    <mesh name="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_7" file="library_objects/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_decomp_8.obj" />
+    <mesh name="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_8" file="library_objects/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_decomp_1.obj" />
+    <mesh name="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_9" file="library_objects/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_decomp_13.obj" />
+    <mesh name="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_10" file="library_objects/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_decomp_5.obj" />
+    <mesh name="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_11" file="library_objects/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_decomp_11.obj" />
+    <mesh name="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_12" file="library_objects/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_decomp_3.obj" />
+    <mesh name="Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_part_13" file="library_objects/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R_decomp_6.obj" />
+  </asset>
+</mujocoinclude>

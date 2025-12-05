@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Weston_No_33_Signature_Sausage_Tonic_12_fl_oz_material" mesh="Weston_No_33_Signature_Sausage_Tonic_12_fl_oz" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Weston_No_33_Signature_Sausage_Tonic_12_fl_oz_part_0" />
+</mujocoinclude>

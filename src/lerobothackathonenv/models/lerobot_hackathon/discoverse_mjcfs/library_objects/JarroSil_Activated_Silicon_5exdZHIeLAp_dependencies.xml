@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="JarroSil_Activated_Silicon_5exdZHIeLAp_texture" file="library_objects/JarroSil_Activated_Silicon_5exdZHIeLAp/texture.png" />
+    <material name="JarroSil_Activated_Silicon_5exdZHIeLAp_material" texture="JarroSil_Activated_Silicon_5exdZHIeLAp_texture" />
+    <mesh name="JarroSil_Activated_Silicon_5exdZHIeLAp" file="library_objects/JarroSil_Activated_Silicon_5exdZHIeLAp/JarroSil_Activated_Silicon_5exdZHIeLAp.obj" />
+    <mesh name="JarroSil_Activated_Silicon_5exdZHIeLAp_part_0" file="library_objects/JarroSil_Activated_Silicon_5exdZHIeLAp/JarroSil_Activated_Silicon_5exdZHIeLAp_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

@@ -1,0 +1,21 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_texture" file="library_objects/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy/texture.png" />
+    <material name="Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_material" texture="Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_texture" />
+    <mesh name="Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy" file="library_objects/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy.obj" />
+    <mesh name="Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_part_0" file="library_objects/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_decomp_6.obj" />
+    <mesh name="Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_part_1" file="library_objects/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_decomp_10.obj" />
+    <mesh name="Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_part_2" file="library_objects/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_decomp_1.obj" />
+    <mesh name="Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_part_3" file="library_objects/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_decomp_12.obj" />
+    <mesh name="Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_part_4" file="library_objects/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_decomp_0.obj" />
+    <mesh name="Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_part_5" file="library_objects/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_decomp_3.obj" />
+    <mesh name="Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_part_6" file="library_objects/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_decomp_9.obj" />
+    <mesh name="Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_part_7" file="library_objects/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_decomp_5.obj" />
+    <mesh name="Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_part_8" file="library_objects/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_decomp_13.obj" />
+    <mesh name="Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_part_9" file="library_objects/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_decomp_2.obj" />
+    <mesh name="Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_part_10" file="library_objects/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_decomp_4.obj" />
+    <mesh name="Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_part_11" file="library_objects/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_decomp_7.obj" />
+    <mesh name="Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_part_12" file="library_objects/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_decomp_11.obj" />
+    <mesh name="Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_part_13" file="library_objects/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy/Womens_Betty_Chukka_Boot_in_Salt_Washed_Red_AL2YrOt9CRy_decomp_8.obj" />
+  </asset>
+</mujocoinclude>

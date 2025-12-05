@@ -1,0 +1,13 @@
+<mujocoinclude>
+  <geom material="NAPA_VALLEY_NAVAJO_SANDAL_material" mesh="NAPA_VALLEY_NAVAJO_SANDAL" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="NAPA_VALLEY_NAVAJO_SANDAL_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="NAPA_VALLEY_NAVAJO_SANDAL_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="NAPA_VALLEY_NAVAJO_SANDAL_part_2" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="NAPA_VALLEY_NAVAJO_SANDAL_part_3" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="NAPA_VALLEY_NAVAJO_SANDAL_part_4" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="NAPA_VALLEY_NAVAJO_SANDAL_part_5" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="NAPA_VALLEY_NAVAJO_SANDAL_part_6" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="NAPA_VALLEY_NAVAJO_SANDAL_part_7" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="NAPA_VALLEY_NAVAJO_SANDAL_part_8" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="NAPA_VALLEY_NAVAJO_SANDAL_part_9" />
+</mujocoinclude>

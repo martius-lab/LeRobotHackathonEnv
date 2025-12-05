@@ -1,0 +1,24 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Schleich_Hereford_Bull_texture" file="library_objects/Schleich_Hereford_Bull/texture.png" />
+    <material name="Schleich_Hereford_Bull_material" texture="Schleich_Hereford_Bull_texture" />
+    <mesh name="Schleich_Hereford_Bull" file="library_objects/Schleich_Hereford_Bull/Schleich_Hereford_Bull.obj" />
+    <mesh name="Schleich_Hereford_Bull_part_0" file="library_objects/Schleich_Hereford_Bull/Schleich_Hereford_Bull_decomp_8.obj" />
+    <mesh name="Schleich_Hereford_Bull_part_1" file="library_objects/Schleich_Hereford_Bull/Schleich_Hereford_Bull_decomp_4.obj" />
+    <mesh name="Schleich_Hereford_Bull_part_2" file="library_objects/Schleich_Hereford_Bull/Schleich_Hereford_Bull_decomp_12.obj" />
+    <mesh name="Schleich_Hereford_Bull_part_3" file="library_objects/Schleich_Hereford_Bull/Schleich_Hereford_Bull_decomp_13.obj" />
+    <mesh name="Schleich_Hereford_Bull_part_4" file="library_objects/Schleich_Hereford_Bull/Schleich_Hereford_Bull_decomp_3.obj" />
+    <mesh name="Schleich_Hereford_Bull_part_5" file="library_objects/Schleich_Hereford_Bull/Schleich_Hereford_Bull_decomp_16.obj" />
+    <mesh name="Schleich_Hereford_Bull_part_6" file="library_objects/Schleich_Hereford_Bull/Schleich_Hereford_Bull_decomp_2.obj" />
+    <mesh name="Schleich_Hereford_Bull_part_7" file="library_objects/Schleich_Hereford_Bull/Schleich_Hereford_Bull_decomp_14.obj" />
+    <mesh name="Schleich_Hereford_Bull_part_8" file="library_objects/Schleich_Hereford_Bull/Schleich_Hereford_Bull_decomp_0.obj" />
+    <mesh name="Schleich_Hereford_Bull_part_9" file="library_objects/Schleich_Hereford_Bull/Schleich_Hereford_Bull_decomp_10.obj" />
+    <mesh name="Schleich_Hereford_Bull_part_10" file="library_objects/Schleich_Hereford_Bull/Schleich_Hereford_Bull_decomp_7.obj" />
+    <mesh name="Schleich_Hereford_Bull_part_11" file="library_objects/Schleich_Hereford_Bull/Schleich_Hereford_Bull_decomp_1.obj" />
+    <mesh name="Schleich_Hereford_Bull_part_12" file="library_objects/Schleich_Hereford_Bull/Schleich_Hereford_Bull_decomp_5.obj" />
+    <mesh name="Schleich_Hereford_Bull_part_13" file="library_objects/Schleich_Hereford_Bull/Schleich_Hereford_Bull_decomp_9.obj" />
+    <mesh name="Schleich_Hereford_Bull_part_14" file="library_objects/Schleich_Hereford_Bull/Schleich_Hereford_Bull_decomp_15.obj" />
+    <mesh name="Schleich_Hereford_Bull_part_15" file="library_objects/Schleich_Hereford_Bull/Schleich_Hereford_Bull_decomp_6.obj" />
+    <mesh name="Schleich_Hereford_Bull_part_16" file="library_objects/Schleich_Hereford_Bull/Schleich_Hereford_Bull_decomp_11.obj" />
+  </asset>
+</mujocoinclude>

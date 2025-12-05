@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Jarrow_Formulas_Glucosamine_Hci_Mega_1000_100_ct_material" mesh="Jarrow_Formulas_Glucosamine_Hci_Mega_1000_100_ct" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Jarrow_Formulas_Glucosamine_Hci_Mega_1000_100_ct_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Jarrow_Formulas_Glucosamine_Hci_Mega_1000_100_ct_part_1" />
+</mujocoinclude>

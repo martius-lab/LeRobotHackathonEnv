@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Phillips_Milk_of_Magnesia_Saline_Laxative_Liquid_Original_texture" file="library_objects/Phillips_Milk_of_Magnesia_Saline_Laxative_Liquid_Original/texture.png" />
+    <material name="Phillips_Milk_of_Magnesia_Saline_Laxative_Liquid_Original_material" texture="Phillips_Milk_of_Magnesia_Saline_Laxative_Liquid_Original_texture" />
+    <mesh name="Phillips_Milk_of_Magnesia_Saline_Laxative_Liquid_Original" file="library_objects/Phillips_Milk_of_Magnesia_Saline_Laxative_Liquid_Original/Phillips_Milk_of_Magnesia_Saline_Laxative_Liquid_Original.obj" />
+    <mesh name="Phillips_Milk_of_Magnesia_Saline_Laxative_Liquid_Original_part_0" file="library_objects/Phillips_Milk_of_Magnesia_Saline_Laxative_Liquid_Original/Phillips_Milk_of_Magnesia_Saline_Laxative_Liquid_Original_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

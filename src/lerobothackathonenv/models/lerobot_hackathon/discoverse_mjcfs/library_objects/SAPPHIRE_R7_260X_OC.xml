@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="SAPPHIRE_R7_260X_OC_material" mesh="SAPPHIRE_R7_260X_OC" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="SAPPHIRE_R7_260X_OC_part_0" />
+</mujocoinclude>

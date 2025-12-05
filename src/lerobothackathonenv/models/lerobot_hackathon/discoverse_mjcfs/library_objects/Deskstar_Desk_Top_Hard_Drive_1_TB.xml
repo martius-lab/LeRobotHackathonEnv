@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Deskstar_Desk_Top_Hard_Drive_1_TB_material" mesh="Deskstar_Desk_Top_Hard_Drive_1_TB" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Deskstar_Desk_Top_Hard_Drive_1_TB_part_0" />
+</mujocoinclude>

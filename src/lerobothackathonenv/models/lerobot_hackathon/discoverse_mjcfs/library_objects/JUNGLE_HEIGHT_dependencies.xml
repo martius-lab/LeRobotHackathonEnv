@@ -1,0 +1,11 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="JUNGLE_HEIGHT_texture" file="library_objects/JUNGLE_HEIGHT/texture.png" />
+    <material name="JUNGLE_HEIGHT_material" texture="JUNGLE_HEIGHT_texture" />
+    <mesh name="JUNGLE_HEIGHT" file="library_objects/JUNGLE_HEIGHT/JUNGLE_HEIGHT.obj" />
+    <mesh name="JUNGLE_HEIGHT_part_0" file="library_objects/JUNGLE_HEIGHT/JUNGLE_HEIGHT_decomp_2.obj" />
+    <mesh name="JUNGLE_HEIGHT_part_1" file="library_objects/JUNGLE_HEIGHT/JUNGLE_HEIGHT_decomp_1.obj" />
+    <mesh name="JUNGLE_HEIGHT_part_2" file="library_objects/JUNGLE_HEIGHT/JUNGLE_HEIGHT_decomp_3.obj" />
+    <mesh name="JUNGLE_HEIGHT_part_3" file="library_objects/JUNGLE_HEIGHT/JUNGLE_HEIGHT_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

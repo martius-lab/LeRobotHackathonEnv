@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="5_HTP_material" mesh="5_HTP" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="5_HTP_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="5_HTP_part_1" />
+</mujocoinclude>

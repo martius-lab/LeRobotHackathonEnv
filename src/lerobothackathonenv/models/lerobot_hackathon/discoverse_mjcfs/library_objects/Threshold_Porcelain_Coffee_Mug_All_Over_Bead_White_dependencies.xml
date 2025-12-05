@@ -1,0 +1,38 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_texture" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/texture.png" />
+    <material name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_material" texture="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_texture" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_0" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_24.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_1" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_0.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_2" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_13.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_3" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_18.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_4" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_6.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_5" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_14.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_6" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_1.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_7" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_17.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_8" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_11.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_9" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_25.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_10" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_26.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_11" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_20.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_12" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_15.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_13" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_9.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_14" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_28.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_15" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_27.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_16" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_16.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_17" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_8.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_18" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_4.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_19" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_30.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_20" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_23.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_21" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_12.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_22" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_7.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_23" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_10.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_24" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_22.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_25" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_2.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_26" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_5.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_27" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_29.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_28" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_19.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_29" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_21.obj" />
+    <mesh name="Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_part_30" file="library_objects/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White/Threshold_Porcelain_Coffee_Mug_All_Over_Bead_White_decomp_3.obj" />
+  </asset>
+</mujocoinclude>

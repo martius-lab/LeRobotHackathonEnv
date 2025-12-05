@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="CoQ10_wSSVoxVppVD_texture" file="library_objects/CoQ10_wSSVoxVppVD/texture.png" />
+    <material name="CoQ10_wSSVoxVppVD_material" texture="CoQ10_wSSVoxVppVD_texture" />
+    <mesh name="CoQ10_wSSVoxVppVD" file="library_objects/CoQ10_wSSVoxVppVD/CoQ10_wSSVoxVppVD.obj" />
+    <mesh name="CoQ10_wSSVoxVppVD_part_0" file="library_objects/CoQ10_wSSVoxVppVD/CoQ10_wSSVoxVppVD_decomp_1.obj" />
+    <mesh name="CoQ10_wSSVoxVppVD_part_1" file="library_objects/CoQ10_wSSVoxVppVD/CoQ10_wSSVoxVppVD_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

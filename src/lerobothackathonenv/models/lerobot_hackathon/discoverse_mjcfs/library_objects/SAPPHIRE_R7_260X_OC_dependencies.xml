@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="SAPPHIRE_R7_260X_OC_texture" file="library_objects/SAPPHIRE_R7_260X_OC/texture.png" />
+    <material name="SAPPHIRE_R7_260X_OC_material" texture="SAPPHIRE_R7_260X_OC_texture" />
+    <mesh name="SAPPHIRE_R7_260X_OC" file="library_objects/SAPPHIRE_R7_260X_OC/SAPPHIRE_R7_260X_OC.obj" />
+    <mesh name="SAPPHIRE_R7_260X_OC_part_0" file="library_objects/SAPPHIRE_R7_260X_OC/SAPPHIRE_R7_260X_OC_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

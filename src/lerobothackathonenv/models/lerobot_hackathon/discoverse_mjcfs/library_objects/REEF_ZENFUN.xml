@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <geom material="REEF_ZENFUN_material" mesh="REEF_ZENFUN" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="REEF_ZENFUN_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="REEF_ZENFUN_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="REEF_ZENFUN_part_2" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="REEF_ZENFUN_part_3" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="REEF_ZENFUN_part_4" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="REEF_ZENFUN_part_5" />
+</mujocoinclude>

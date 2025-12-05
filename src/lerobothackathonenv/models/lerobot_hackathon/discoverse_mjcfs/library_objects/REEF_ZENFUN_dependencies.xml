@@ -1,0 +1,13 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="REEF_ZENFUN_texture" file="library_objects/REEF_ZENFUN/texture.png" />
+    <material name="REEF_ZENFUN_material" texture="REEF_ZENFUN_texture" />
+    <mesh name="REEF_ZENFUN" file="library_objects/REEF_ZENFUN/REEF_ZENFUN.obj" />
+    <mesh name="REEF_ZENFUN_part_0" file="library_objects/REEF_ZENFUN/REEF_ZENFUN_decomp_5.obj" />
+    <mesh name="REEF_ZENFUN_part_1" file="library_objects/REEF_ZENFUN/REEF_ZENFUN_decomp_4.obj" />
+    <mesh name="REEF_ZENFUN_part_2" file="library_objects/REEF_ZENFUN/REEF_ZENFUN_decomp_2.obj" />
+    <mesh name="REEF_ZENFUN_part_3" file="library_objects/REEF_ZENFUN/REEF_ZENFUN_decomp_0.obj" />
+    <mesh name="REEF_ZENFUN_part_4" file="library_objects/REEF_ZENFUN/REEF_ZENFUN_decomp_1.obj" />
+    <mesh name="REEF_ZENFUN_part_5" file="library_objects/REEF_ZENFUN/REEF_ZENFUN_decomp_3.obj" />
+  </asset>
+</mujocoinclude>

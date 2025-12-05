@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Canon_Pixma_Ink_Cartridge_251_M_texture" file="library_objects/Canon_Pixma_Ink_Cartridge_251_M/texture.png" />
+    <material name="Canon_Pixma_Ink_Cartridge_251_M_material" texture="Canon_Pixma_Ink_Cartridge_251_M_texture" />
+    <mesh name="Canon_Pixma_Ink_Cartridge_251_M" file="library_objects/Canon_Pixma_Ink_Cartridge_251_M/Canon_Pixma_Ink_Cartridge_251_M.obj" />
+    <mesh name="Canon_Pixma_Ink_Cartridge_251_M_part_0" file="library_objects/Canon_Pixma_Ink_Cartridge_251_M/Canon_Pixma_Ink_Cartridge_251_M_decomp_0.obj" />
+    <mesh name="Canon_Pixma_Ink_Cartridge_251_M_part_1" file="library_objects/Canon_Pixma_Ink_Cartridge_251_M/Canon_Pixma_Ink_Cartridge_251_M_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

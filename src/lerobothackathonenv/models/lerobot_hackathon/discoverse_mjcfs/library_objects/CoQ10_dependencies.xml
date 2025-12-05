@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="CoQ10_texture" file="library_objects/CoQ10/texture.png" />
+    <material name="CoQ10_material" texture="CoQ10_texture" />
+    <mesh name="CoQ10" file="library_objects/CoQ10/CoQ10.obj" />
+    <mesh name="CoQ10_part_0" file="library_objects/CoQ10/CoQ10_decomp_1.obj" />
+    <mesh name="CoQ10_part_1" file="library_objects/CoQ10/CoQ10_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Hasbro_Cranium_Performance_and_Acting_Game_material" mesh="Hasbro_Cranium_Performance_and_Acting_Game" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Hasbro_Cranium_Performance_and_Acting_Game_part_0" />
+</mujocoinclude>

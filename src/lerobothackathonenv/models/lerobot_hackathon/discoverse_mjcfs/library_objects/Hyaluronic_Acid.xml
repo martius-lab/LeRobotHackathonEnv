@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Hyaluronic_Acid_material" mesh="Hyaluronic_Acid" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Hyaluronic_Acid_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Hyaluronic_Acid_part_1" />
+</mujocoinclude>

@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="CITY_TAXI_POLICE_CAR_material" mesh="CITY_TAXI_POLICE_CAR" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="CITY_TAXI_POLICE_CAR_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="CITY_TAXI_POLICE_CAR_part_1" />
+</mujocoinclude>

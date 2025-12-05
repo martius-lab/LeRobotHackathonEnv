@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Pokmon_X_Nintendo_3DS_Game_texture" file="library_objects/Pokmon_X_Nintendo_3DS_Game/texture.png" />
+    <material name="Pokmon_X_Nintendo_3DS_Game_material" texture="Pokmon_X_Nintendo_3DS_Game_texture" />
+    <mesh name="Pokmon_X_Nintendo_3DS_Game" file="library_objects/Pokmon_X_Nintendo_3DS_Game/Pokmon_X_Nintendo_3DS_Game.obj" />
+    <mesh name="Pokmon_X_Nintendo_3DS_Game_part_0" file="library_objects/Pokmon_X_Nintendo_3DS_Game/Pokmon_X_Nintendo_3DS_Game_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

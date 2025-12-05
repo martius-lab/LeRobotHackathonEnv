@@ -1,0 +1,15 @@
+<mujocoinclude>
+  <geom material="Womens_Suede_Bahama_in_Graphite_Suede_t22AJSRjBOX_material" mesh="Womens_Suede_Bahama_in_Graphite_Suede_t22AJSRjBOX" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Suede_Bahama_in_Graphite_Suede_t22AJSRjBOX_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Suede_Bahama_in_Graphite_Suede_t22AJSRjBOX_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Suede_Bahama_in_Graphite_Suede_t22AJSRjBOX_part_2" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Suede_Bahama_in_Graphite_Suede_t22AJSRjBOX_part_3" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Suede_Bahama_in_Graphite_Suede_t22AJSRjBOX_part_4" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Suede_Bahama_in_Graphite_Suede_t22AJSRjBOX_part_5" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Suede_Bahama_in_Graphite_Suede_t22AJSRjBOX_part_6" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Suede_Bahama_in_Graphite_Suede_t22AJSRjBOX_part_7" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Suede_Bahama_in_Graphite_Suede_t22AJSRjBOX_part_8" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Suede_Bahama_in_Graphite_Suede_t22AJSRjBOX_part_9" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Suede_Bahama_in_Graphite_Suede_t22AJSRjBOX_part_10" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Womens_Suede_Bahama_in_Graphite_Suede_t22AJSRjBOX_part_11" />
+</mujocoinclude>

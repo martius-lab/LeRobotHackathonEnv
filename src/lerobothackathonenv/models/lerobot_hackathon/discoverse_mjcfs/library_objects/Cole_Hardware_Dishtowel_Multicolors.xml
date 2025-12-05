@@ -1,0 +1,6 @@
+<mujocoinclude>
+  <geom material="Cole_Hardware_Dishtowel_Multicolors_material" mesh="Cole_Hardware_Dishtowel_Multicolors" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Cole_Hardware_Dishtowel_Multicolors_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Cole_Hardware_Dishtowel_Multicolors_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Cole_Hardware_Dishtowel_Multicolors_part_2" />
+</mujocoinclude>

@@ -1,0 +1,15 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="STEAK_SET_texture" file="library_objects/STEAK_SET/texture.png" />
+    <material name="STEAK_SET_material" texture="STEAK_SET_texture" />
+    <mesh name="STEAK_SET" file="library_objects/STEAK_SET/STEAK_SET.obj" />
+    <mesh name="STEAK_SET_part_0" file="library_objects/STEAK_SET/STEAK_SET_decomp_6.obj" />
+    <mesh name="STEAK_SET_part_1" file="library_objects/STEAK_SET/STEAK_SET_decomp_0.obj" />
+    <mesh name="STEAK_SET_part_2" file="library_objects/STEAK_SET/STEAK_SET_decomp_4.obj" />
+    <mesh name="STEAK_SET_part_3" file="library_objects/STEAK_SET/STEAK_SET_decomp_3.obj" />
+    <mesh name="STEAK_SET_part_4" file="library_objects/STEAK_SET/STEAK_SET_decomp_1.obj" />
+    <mesh name="STEAK_SET_part_5" file="library_objects/STEAK_SET/STEAK_SET_decomp_7.obj" />
+    <mesh name="STEAK_SET_part_6" file="library_objects/STEAK_SET/STEAK_SET_decomp_2.obj" />
+    <mesh name="STEAK_SET_part_7" file="library_objects/STEAK_SET/STEAK_SET_decomp_5.obj" />
+  </asset>
+</mujocoinclude>

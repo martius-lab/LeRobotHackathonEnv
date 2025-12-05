@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Logitech_Ultimate_Ears_Boom_Wireless_Speaker_Night_Black_material" mesh="Logitech_Ultimate_Ears_Boom_Wireless_Speaker_Night_Black" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Logitech_Ultimate_Ears_Boom_Wireless_Speaker_Night_Black_part_0" />
+</mujocoinclude>

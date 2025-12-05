@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Travel_Smart_Neck_Rest_Inflatable_texture" file="library_objects/Travel_Smart_Neck_Rest_Inflatable/texture.png" />
+    <material name="Travel_Smart_Neck_Rest_Inflatable_material" texture="Travel_Smart_Neck_Rest_Inflatable_texture" />
+    <mesh name="Travel_Smart_Neck_Rest_Inflatable" file="library_objects/Travel_Smart_Neck_Rest_Inflatable/Travel_Smart_Neck_Rest_Inflatable.obj" />
+    <mesh name="Travel_Smart_Neck_Rest_Inflatable_part_0" file="library_objects/Travel_Smart_Neck_Rest_Inflatable/Travel_Smart_Neck_Rest_Inflatable_decomp_0.obj" />
+    <mesh name="Travel_Smart_Neck_Rest_Inflatable_part_1" file="library_objects/Travel_Smart_Neck_Rest_Inflatable/Travel_Smart_Neck_Rest_Inflatable_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Black_Elderberry_Syrup_54_oz_Gaia_Herbs_material" mesh="Black_Elderberry_Syrup_54_oz_Gaia_Herbs" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Black_Elderberry_Syrup_54_oz_Gaia_Herbs_part_0" />
+</mujocoinclude>

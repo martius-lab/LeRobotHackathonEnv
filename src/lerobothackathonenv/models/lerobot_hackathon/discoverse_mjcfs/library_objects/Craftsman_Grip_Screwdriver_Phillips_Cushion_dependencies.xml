@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Craftsman_Grip_Screwdriver_Phillips_Cushion_texture" file="library_objects/Craftsman_Grip_Screwdriver_Phillips_Cushion/texture.png" />
+    <material name="Craftsman_Grip_Screwdriver_Phillips_Cushion_material" texture="Craftsman_Grip_Screwdriver_Phillips_Cushion_texture" />
+    <mesh name="Craftsman_Grip_Screwdriver_Phillips_Cushion" file="library_objects/Craftsman_Grip_Screwdriver_Phillips_Cushion/Craftsman_Grip_Screwdriver_Phillips_Cushion.obj" />
+    <mesh name="Craftsman_Grip_Screwdriver_Phillips_Cushion_part_0" file="library_objects/Craftsman_Grip_Screwdriver_Phillips_Cushion/Craftsman_Grip_Screwdriver_Phillips_Cushion_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

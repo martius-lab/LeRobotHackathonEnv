@@ -1,0 +1,16 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="SAMBA_HEMP_texture" file="library_objects/SAMBA_HEMP/texture.png" />
+    <material name="SAMBA_HEMP_material" texture="SAMBA_HEMP_texture" />
+    <mesh name="SAMBA_HEMP" file="library_objects/SAMBA_HEMP/SAMBA_HEMP.obj" />
+    <mesh name="SAMBA_HEMP_part_0" file="library_objects/SAMBA_HEMP/SAMBA_HEMP_decomp_3.obj" />
+    <mesh name="SAMBA_HEMP_part_1" file="library_objects/SAMBA_HEMP/SAMBA_HEMP_decomp_6.obj" />
+    <mesh name="SAMBA_HEMP_part_2" file="library_objects/SAMBA_HEMP/SAMBA_HEMP_decomp_1.obj" />
+    <mesh name="SAMBA_HEMP_part_3" file="library_objects/SAMBA_HEMP/SAMBA_HEMP_decomp_4.obj" />
+    <mesh name="SAMBA_HEMP_part_4" file="library_objects/SAMBA_HEMP/SAMBA_HEMP_decomp_2.obj" />
+    <mesh name="SAMBA_HEMP_part_5" file="library_objects/SAMBA_HEMP/SAMBA_HEMP_decomp_5.obj" />
+    <mesh name="SAMBA_HEMP_part_6" file="library_objects/SAMBA_HEMP/SAMBA_HEMP_decomp_8.obj" />
+    <mesh name="SAMBA_HEMP_part_7" file="library_objects/SAMBA_HEMP/SAMBA_HEMP_decomp_7.obj" />
+    <mesh name="SAMBA_HEMP_part_8" file="library_objects/SAMBA_HEMP/SAMBA_HEMP_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

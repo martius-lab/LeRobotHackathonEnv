@@ -1,0 +1,16 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Kong_Puppy_Teething_Rubber_Small_Pink_texture" file="library_objects/Kong_Puppy_Teething_Rubber_Small_Pink/texture.png" />
+    <material name="Kong_Puppy_Teething_Rubber_Small_Pink_material" texture="Kong_Puppy_Teething_Rubber_Small_Pink_texture" />
+    <mesh name="Kong_Puppy_Teething_Rubber_Small_Pink" file="library_objects/Kong_Puppy_Teething_Rubber_Small_Pink/Kong_Puppy_Teething_Rubber_Small_Pink.obj" />
+    <mesh name="Kong_Puppy_Teething_Rubber_Small_Pink_part_0" file="library_objects/Kong_Puppy_Teething_Rubber_Small_Pink/Kong_Puppy_Teething_Rubber_Small_Pink_decomp_4.obj" />
+    <mesh name="Kong_Puppy_Teething_Rubber_Small_Pink_part_1" file="library_objects/Kong_Puppy_Teething_Rubber_Small_Pink/Kong_Puppy_Teething_Rubber_Small_Pink_decomp_2.obj" />
+    <mesh name="Kong_Puppy_Teething_Rubber_Small_Pink_part_2" file="library_objects/Kong_Puppy_Teething_Rubber_Small_Pink/Kong_Puppy_Teething_Rubber_Small_Pink_decomp_6.obj" />
+    <mesh name="Kong_Puppy_Teething_Rubber_Small_Pink_part_3" file="library_objects/Kong_Puppy_Teething_Rubber_Small_Pink/Kong_Puppy_Teething_Rubber_Small_Pink_decomp_0.obj" />
+    <mesh name="Kong_Puppy_Teething_Rubber_Small_Pink_part_4" file="library_objects/Kong_Puppy_Teething_Rubber_Small_Pink/Kong_Puppy_Teething_Rubber_Small_Pink_decomp_3.obj" />
+    <mesh name="Kong_Puppy_Teething_Rubber_Small_Pink_part_5" file="library_objects/Kong_Puppy_Teething_Rubber_Small_Pink/Kong_Puppy_Teething_Rubber_Small_Pink_decomp_7.obj" />
+    <mesh name="Kong_Puppy_Teething_Rubber_Small_Pink_part_6" file="library_objects/Kong_Puppy_Teething_Rubber_Small_Pink/Kong_Puppy_Teething_Rubber_Small_Pink_decomp_1.obj" />
+    <mesh name="Kong_Puppy_Teething_Rubber_Small_Pink_part_7" file="library_objects/Kong_Puppy_Teething_Rubber_Small_Pink/Kong_Puppy_Teething_Rubber_Small_Pink_decomp_8.obj" />
+    <mesh name="Kong_Puppy_Teething_Rubber_Small_Pink_part_8" file="library_objects/Kong_Puppy_Teething_Rubber_Small_Pink/Kong_Puppy_Teething_Rubber_Small_Pink_decomp_5.obj" />
+  </asset>
+</mujocoinclude>

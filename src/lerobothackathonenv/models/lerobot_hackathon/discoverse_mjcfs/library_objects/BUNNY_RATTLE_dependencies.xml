@@ -1,0 +1,20 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="BUNNY_RATTLE_texture" file="library_objects/BUNNY_RATTLE/texture.png" />
+    <material name="BUNNY_RATTLE_material" texture="BUNNY_RATTLE_texture" />
+    <mesh name="BUNNY_RATTLE" file="library_objects/BUNNY_RATTLE/BUNNY_RATTLE.obj" />
+    <mesh name="BUNNY_RATTLE_part_0" file="library_objects/BUNNY_RATTLE/BUNNY_RATTLE_decomp_7.obj" />
+    <mesh name="BUNNY_RATTLE_part_1" file="library_objects/BUNNY_RATTLE/BUNNY_RATTLE_decomp_1.obj" />
+    <mesh name="BUNNY_RATTLE_part_2" file="library_objects/BUNNY_RATTLE/BUNNY_RATTLE_decomp_5.obj" />
+    <mesh name="BUNNY_RATTLE_part_3" file="library_objects/BUNNY_RATTLE/BUNNY_RATTLE_decomp_10.obj" />
+    <mesh name="BUNNY_RATTLE_part_4" file="library_objects/BUNNY_RATTLE/BUNNY_RATTLE_decomp_0.obj" />
+    <mesh name="BUNNY_RATTLE_part_5" file="library_objects/BUNNY_RATTLE/BUNNY_RATTLE_decomp_11.obj" />
+    <mesh name="BUNNY_RATTLE_part_6" file="library_objects/BUNNY_RATTLE/BUNNY_RATTLE_decomp_3.obj" />
+    <mesh name="BUNNY_RATTLE_part_7" file="library_objects/BUNNY_RATTLE/BUNNY_RATTLE_decomp_8.obj" />
+    <mesh name="BUNNY_RATTLE_part_8" file="library_objects/BUNNY_RATTLE/BUNNY_RATTLE_decomp_12.obj" />
+    <mesh name="BUNNY_RATTLE_part_9" file="library_objects/BUNNY_RATTLE/BUNNY_RATTLE_decomp_6.obj" />
+    <mesh name="BUNNY_RATTLE_part_10" file="library_objects/BUNNY_RATTLE/BUNNY_RATTLE_decomp_9.obj" />
+    <mesh name="BUNNY_RATTLE_part_11" file="library_objects/BUNNY_RATTLE/BUNNY_RATTLE_decomp_4.obj" />
+    <mesh name="BUNNY_RATTLE_part_12" file="library_objects/BUNNY_RATTLE/BUNNY_RATTLE_decomp_2.obj" />
+  </asset>
+</mujocoinclude>

@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Canon_225226_Ink_Cartridges_BlackColor_Cyan_Magenta_Yellow_6_count_texture" file="library_objects/Canon_225226_Ink_Cartridges_BlackColor_Cyan_Magenta_Yellow_6_count/texture.png" />
+    <material name="Canon_225226_Ink_Cartridges_BlackColor_Cyan_Magenta_Yellow_6_count_material" texture="Canon_225226_Ink_Cartridges_BlackColor_Cyan_Magenta_Yellow_6_count_texture" />
+    <mesh name="Canon_225226_Ink_Cartridges_BlackColor_Cyan_Magenta_Yellow_6_count" file="library_objects/Canon_225226_Ink_Cartridges_BlackColor_Cyan_Magenta_Yellow_6_count/Canon_225226_Ink_Cartridges_BlackColor_Cyan_Magenta_Yellow_6_count.obj" />
+    <mesh name="Canon_225226_Ink_Cartridges_BlackColor_Cyan_Magenta_Yellow_6_count_part_0" file="library_objects/Canon_225226_Ink_Cartridges_BlackColor_Cyan_Magenta_Yellow_6_count/Canon_225226_Ink_Cartridges_BlackColor_Cyan_Magenta_Yellow_6_count_decomp_1.obj" />
+    <mesh name="Canon_225226_Ink_Cartridges_BlackColor_Cyan_Magenta_Yellow_6_count_part_1" file="library_objects/Canon_225226_Ink_Cartridges_BlackColor_Cyan_Magenta_Yellow_6_count/Canon_225226_Ink_Cartridges_BlackColor_Cyan_Magenta_Yellow_6_count_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

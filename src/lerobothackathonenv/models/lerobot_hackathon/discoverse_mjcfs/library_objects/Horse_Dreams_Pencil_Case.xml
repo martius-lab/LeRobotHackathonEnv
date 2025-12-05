@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Horse_Dreams_Pencil_Case_material" mesh="Horse_Dreams_Pencil_Case" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Horse_Dreams_Pencil_Case_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Horse_Dreams_Pencil_Case_part_1" />
+</mujocoinclude>

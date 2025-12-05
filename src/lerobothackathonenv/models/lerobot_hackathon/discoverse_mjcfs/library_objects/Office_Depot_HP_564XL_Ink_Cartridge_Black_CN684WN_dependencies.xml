@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Office_Depot_HP_564XL_Ink_Cartridge_Black_CN684WN_texture" file="library_objects/Office_Depot_HP_564XL_Ink_Cartridge_Black_CN684WN/texture.png" />
+    <material name="Office_Depot_HP_564XL_Ink_Cartridge_Black_CN684WN_material" texture="Office_Depot_HP_564XL_Ink_Cartridge_Black_CN684WN_texture" />
+    <mesh name="Office_Depot_HP_564XL_Ink_Cartridge_Black_CN684WN" file="library_objects/Office_Depot_HP_564XL_Ink_Cartridge_Black_CN684WN/Office_Depot_HP_564XL_Ink_Cartridge_Black_CN684WN.obj" />
+    <mesh name="Office_Depot_HP_564XL_Ink_Cartridge_Black_CN684WN_part_0" file="library_objects/Office_Depot_HP_564XL_Ink_Cartridge_Black_CN684WN/Office_Depot_HP_564XL_Ink_Cartridge_Black_CN684WN_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Sushi_Mat_material" mesh="Sushi_Mat" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Sushi_Mat_part_0" />
+</mujocoinclude>

@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Organic_Whey_Protein_Unflavored_material" mesh="Organic_Whey_Protein_Unflavored" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Organic_Whey_Protein_Unflavored_part_0" />
+</mujocoinclude>

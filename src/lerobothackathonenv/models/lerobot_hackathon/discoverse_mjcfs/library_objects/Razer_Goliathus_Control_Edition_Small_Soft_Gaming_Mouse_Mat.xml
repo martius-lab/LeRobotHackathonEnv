@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Razer_Goliathus_Control_Edition_Small_Soft_Gaming_Mouse_Mat_material" mesh="Razer_Goliathus_Control_Edition_Small_Soft_Gaming_Mouse_Mat" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Razer_Goliathus_Control_Edition_Small_Soft_Gaming_Mouse_Mat_part_0" />
+</mujocoinclude>

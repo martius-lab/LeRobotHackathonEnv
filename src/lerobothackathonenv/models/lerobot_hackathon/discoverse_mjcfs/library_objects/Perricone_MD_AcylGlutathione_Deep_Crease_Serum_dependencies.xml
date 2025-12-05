@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Perricone_MD_AcylGlutathione_Deep_Crease_Serum_texture" file="library_objects/Perricone_MD_AcylGlutathione_Deep_Crease_Serum/texture.png" />
+    <material name="Perricone_MD_AcylGlutathione_Deep_Crease_Serum_material" texture="Perricone_MD_AcylGlutathione_Deep_Crease_Serum_texture" />
+    <mesh name="Perricone_MD_AcylGlutathione_Deep_Crease_Serum" file="library_objects/Perricone_MD_AcylGlutathione_Deep_Crease_Serum/Perricone_MD_AcylGlutathione_Deep_Crease_Serum.obj" />
+    <mesh name="Perricone_MD_AcylGlutathione_Deep_Crease_Serum_part_0" file="library_objects/Perricone_MD_AcylGlutathione_Deep_Crease_Serum/Perricone_MD_AcylGlutathione_Deep_Crease_Serum_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

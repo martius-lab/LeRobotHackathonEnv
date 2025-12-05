@@ -1,0 +1,22 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="GIRLS_DECKHAND_texture" file="library_objects/GIRLS_DECKHAND/texture.png" />
+    <material name="GIRLS_DECKHAND_material" texture="GIRLS_DECKHAND_texture" />
+    <mesh name="GIRLS_DECKHAND" file="library_objects/GIRLS_DECKHAND/GIRLS_DECKHAND.obj" />
+    <mesh name="GIRLS_DECKHAND_part_0" file="library_objects/GIRLS_DECKHAND/GIRLS_DECKHAND_decomp_3.obj" />
+    <mesh name="GIRLS_DECKHAND_part_1" file="library_objects/GIRLS_DECKHAND/GIRLS_DECKHAND_decomp_10.obj" />
+    <mesh name="GIRLS_DECKHAND_part_2" file="library_objects/GIRLS_DECKHAND/GIRLS_DECKHAND_decomp_4.obj" />
+    <mesh name="GIRLS_DECKHAND_part_3" file="library_objects/GIRLS_DECKHAND/GIRLS_DECKHAND_decomp_14.obj" />
+    <mesh name="GIRLS_DECKHAND_part_4" file="library_objects/GIRLS_DECKHAND/GIRLS_DECKHAND_decomp_5.obj" />
+    <mesh name="GIRLS_DECKHAND_part_5" file="library_objects/GIRLS_DECKHAND/GIRLS_DECKHAND_decomp_8.obj" />
+    <mesh name="GIRLS_DECKHAND_part_6" file="library_objects/GIRLS_DECKHAND/GIRLS_DECKHAND_decomp_0.obj" />
+    <mesh name="GIRLS_DECKHAND_part_7" file="library_objects/GIRLS_DECKHAND/GIRLS_DECKHAND_decomp_11.obj" />
+    <mesh name="GIRLS_DECKHAND_part_8" file="library_objects/GIRLS_DECKHAND/GIRLS_DECKHAND_decomp_2.obj" />
+    <mesh name="GIRLS_DECKHAND_part_9" file="library_objects/GIRLS_DECKHAND/GIRLS_DECKHAND_decomp_1.obj" />
+    <mesh name="GIRLS_DECKHAND_part_10" file="library_objects/GIRLS_DECKHAND/GIRLS_DECKHAND_decomp_7.obj" />
+    <mesh name="GIRLS_DECKHAND_part_11" file="library_objects/GIRLS_DECKHAND/GIRLS_DECKHAND_decomp_13.obj" />
+    <mesh name="GIRLS_DECKHAND_part_12" file="library_objects/GIRLS_DECKHAND/GIRLS_DECKHAND_decomp_6.obj" />
+    <mesh name="GIRLS_DECKHAND_part_13" file="library_objects/GIRLS_DECKHAND/GIRLS_DECKHAND_decomp_9.obj" />
+    <mesh name="GIRLS_DECKHAND_part_14" file="library_objects/GIRLS_DECKHAND/GIRLS_DECKHAND_decomp_12.obj" />
+  </asset>
+</mujocoinclude>

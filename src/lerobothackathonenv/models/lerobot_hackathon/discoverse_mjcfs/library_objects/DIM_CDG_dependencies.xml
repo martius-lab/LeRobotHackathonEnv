@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="DIM_CDG_texture" file="library_objects/DIM_CDG/texture.png" />
+    <material name="DIM_CDG_material" texture="DIM_CDG_texture" />
+    <mesh name="DIM_CDG" file="library_objects/DIM_CDG/DIM_CDG.obj" />
+    <mesh name="DIM_CDG_part_0" file="library_objects/DIM_CDG/DIM_CDG_decomp_1.obj" />
+    <mesh name="DIM_CDG_part_1" file="library_objects/DIM_CDG/DIM_CDG_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

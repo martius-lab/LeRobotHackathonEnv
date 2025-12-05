@@ -15,33 +15,18 @@ from collections import deque
 import lerobothackathonenv as _
 from lerobothackathonenv.env import LeRobot
 from lerobothackathonenv.structs import MujocoState
+from lerobothackathonenv.wrappers import ReferenceStateInitializationWrapper
 import gymnasium as gym
 from numpy.typing import NDArray
 
 from lerobot.configs import parser
-from trajectory_set import TrajectorySet
+from lerobothackathonenv.trajectory_set import TrajectorySet
 from lerobot.teleoperators import (
     TeleoperatorConfig,
     make_teleoperator_from_config,
     so101_leader,
 )
-env: LeRobot = gym.make("LeRobotGoalConditioned-v0")
-env.unwrapped.render_to_window()
-observation, info = env.reset()
-
-class RateLimiter:
-    def __init__(self, calls_per_second):
-        self.min_interval = 1.0 / (calls_per_second + 1)
-        self.last_call_time = 0.0
-
-    def wait(self):
-        current_time = time.time()
-        next_allowed_time = self.last_call_time + self.min_interval
-        wait_time = next_allowed_time - current_time
-        if wait_time > 0:
-            time.sleep(wait_time)
-            current_time = time.time()
-        self.last_call_time = current_time
+from rate_limiter import RateLimiter
 
 class TerminalRewardPlotter:
     def __init__(self, window_size=50, bar_width=60):
@@ -129,6 +114,12 @@ class TeleoperateConfig:
 ts = TrajectorySet()
 reward_plotter = TerminalRewardPlotter(window_size=50, bar_width=60)
 observations, rewards, terminations, trunctuations, infos, simulator_states = (list() for i in range(6))
+
+env: LeRobot = gym.make("LeRobotGoalConditioned-v0")
+env.unwrapped.render_to_window()
+observation, info = env.reset()
+
+env = ReferenceStateInitializationWrapper(env, ts)
 
 @parser.wrap()
 def run_collection_loop(cfg: TeleoperateConfig):

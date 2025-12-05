@@ -1,0 +1,20 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="DANCING_ALLIGATOR_zoWBjc0jbTs_texture" file="library_objects/DANCING_ALLIGATOR_zoWBjc0jbTs/texture.png" />
+    <material name="DANCING_ALLIGATOR_zoWBjc0jbTs_material" texture="DANCING_ALLIGATOR_zoWBjc0jbTs_texture" />
+    <mesh name="DANCING_ALLIGATOR_zoWBjc0jbTs" file="library_objects/DANCING_ALLIGATOR_zoWBjc0jbTs/DANCING_ALLIGATOR_zoWBjc0jbTs.obj" />
+    <mesh name="DANCING_ALLIGATOR_zoWBjc0jbTs_part_0" file="library_objects/DANCING_ALLIGATOR_zoWBjc0jbTs/DANCING_ALLIGATOR_zoWBjc0jbTs_decomp_3.obj" />
+    <mesh name="DANCING_ALLIGATOR_zoWBjc0jbTs_part_1" file="library_objects/DANCING_ALLIGATOR_zoWBjc0jbTs/DANCING_ALLIGATOR_zoWBjc0jbTs_decomp_7.obj" />
+    <mesh name="DANCING_ALLIGATOR_zoWBjc0jbTs_part_2" file="library_objects/DANCING_ALLIGATOR_zoWBjc0jbTs/DANCING_ALLIGATOR_zoWBjc0jbTs_decomp_0.obj" />
+    <mesh name="DANCING_ALLIGATOR_zoWBjc0jbTs_part_3" file="library_objects/DANCING_ALLIGATOR_zoWBjc0jbTs/DANCING_ALLIGATOR_zoWBjc0jbTs_decomp_1.obj" />
+    <mesh name="DANCING_ALLIGATOR_zoWBjc0jbTs_part_4" file="library_objects/DANCING_ALLIGATOR_zoWBjc0jbTs/DANCING_ALLIGATOR_zoWBjc0jbTs_decomp_8.obj" />
+    <mesh name="DANCING_ALLIGATOR_zoWBjc0jbTs_part_5" file="library_objects/DANCING_ALLIGATOR_zoWBjc0jbTs/DANCING_ALLIGATOR_zoWBjc0jbTs_decomp_10.obj" />
+    <mesh name="DANCING_ALLIGATOR_zoWBjc0jbTs_part_6" file="library_objects/DANCING_ALLIGATOR_zoWBjc0jbTs/DANCING_ALLIGATOR_zoWBjc0jbTs_decomp_2.obj" />
+    <mesh name="DANCING_ALLIGATOR_zoWBjc0jbTs_part_7" file="library_objects/DANCING_ALLIGATOR_zoWBjc0jbTs/DANCING_ALLIGATOR_zoWBjc0jbTs_decomp_12.obj" />
+    <mesh name="DANCING_ALLIGATOR_zoWBjc0jbTs_part_8" file="library_objects/DANCING_ALLIGATOR_zoWBjc0jbTs/DANCING_ALLIGATOR_zoWBjc0jbTs_decomp_11.obj" />
+    <mesh name="DANCING_ALLIGATOR_zoWBjc0jbTs_part_9" file="library_objects/DANCING_ALLIGATOR_zoWBjc0jbTs/DANCING_ALLIGATOR_zoWBjc0jbTs_decomp_6.obj" />
+    <mesh name="DANCING_ALLIGATOR_zoWBjc0jbTs_part_10" file="library_objects/DANCING_ALLIGATOR_zoWBjc0jbTs/DANCING_ALLIGATOR_zoWBjc0jbTs_decomp_5.obj" />
+    <mesh name="DANCING_ALLIGATOR_zoWBjc0jbTs_part_11" file="library_objects/DANCING_ALLIGATOR_zoWBjc0jbTs/DANCING_ALLIGATOR_zoWBjc0jbTs_decomp_4.obj" />
+    <mesh name="DANCING_ALLIGATOR_zoWBjc0jbTs_part_12" file="library_objects/DANCING_ALLIGATOR_zoWBjc0jbTs/DANCING_ALLIGATOR_zoWBjc0jbTs_decomp_9.obj" />
+  </asset>
+</mujocoinclude>

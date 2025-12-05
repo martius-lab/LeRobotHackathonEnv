@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Perricone_MD_The_Metabolic_Formula_Supplements_texture" file="library_objects/Perricone_MD_The_Metabolic_Formula_Supplements/texture.png" />
+    <material name="Perricone_MD_The_Metabolic_Formula_Supplements_material" texture="Perricone_MD_The_Metabolic_Formula_Supplements_texture" />
+    <mesh name="Perricone_MD_The_Metabolic_Formula_Supplements" file="library_objects/Perricone_MD_The_Metabolic_Formula_Supplements/Perricone_MD_The_Metabolic_Formula_Supplements.obj" />
+    <mesh name="Perricone_MD_The_Metabolic_Formula_Supplements_part_0" file="library_objects/Perricone_MD_The_Metabolic_Formula_Supplements/Perricone_MD_The_Metabolic_Formula_Supplements_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

@@ -1,0 +1,6 @@
+<mujocoinclude>
+  <geom material="ALPHABET_AZ_GRADIENT_WQb1ufEycSj_material" mesh="ALPHABET_AZ_GRADIENT_WQb1ufEycSj" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="ALPHABET_AZ_GRADIENT_WQb1ufEycSj_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="ALPHABET_AZ_GRADIENT_WQb1ufEycSj_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="ALPHABET_AZ_GRADIENT_WQb1ufEycSj_part_2" />
+</mujocoinclude>

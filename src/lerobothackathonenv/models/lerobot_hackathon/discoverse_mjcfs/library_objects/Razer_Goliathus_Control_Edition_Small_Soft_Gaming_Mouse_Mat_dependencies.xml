@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Razer_Goliathus_Control_Edition_Small_Soft_Gaming_Mouse_Mat_texture" file="library_objects/Razer_Goliathus_Control_Edition_Small_Soft_Gaming_Mouse_Mat/texture.png" />
+    <material name="Razer_Goliathus_Control_Edition_Small_Soft_Gaming_Mouse_Mat_material" texture="Razer_Goliathus_Control_Edition_Small_Soft_Gaming_Mouse_Mat_texture" />
+    <mesh name="Razer_Goliathus_Control_Edition_Small_Soft_Gaming_Mouse_Mat" file="library_objects/Razer_Goliathus_Control_Edition_Small_Soft_Gaming_Mouse_Mat/Razer_Goliathus_Control_Edition_Small_Soft_Gaming_Mouse_Mat.obj" />
+    <mesh name="Razer_Goliathus_Control_Edition_Small_Soft_Gaming_Mouse_Mat_part_0" file="library_objects/Razer_Goliathus_Control_Edition_Small_Soft_Gaming_Mouse_Mat/Razer_Goliathus_Control_Edition_Small_Soft_Gaming_Mouse_Mat_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

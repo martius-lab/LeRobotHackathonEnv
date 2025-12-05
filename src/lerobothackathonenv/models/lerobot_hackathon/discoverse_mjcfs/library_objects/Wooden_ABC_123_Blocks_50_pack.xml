@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Wooden_ABC_123_Blocks_50_pack_material" mesh="Wooden_ABC_123_Blocks_50_pack" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Wooden_ABC_123_Blocks_50_pack_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Wooden_ABC_123_Blocks_50_pack_part_1" />
+</mujocoinclude>

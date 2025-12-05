@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Wilton_PreCut_Parchment_Sheets_10_x_15_24_sheets_texture" file="library_objects/Wilton_PreCut_Parchment_Sheets_10_x_15_24_sheets/texture.png" />
+    <material name="Wilton_PreCut_Parchment_Sheets_10_x_15_24_sheets_material" texture="Wilton_PreCut_Parchment_Sheets_10_x_15_24_sheets_texture" />
+    <mesh name="Wilton_PreCut_Parchment_Sheets_10_x_15_24_sheets" file="library_objects/Wilton_PreCut_Parchment_Sheets_10_x_15_24_sheets/Wilton_PreCut_Parchment_Sheets_10_x_15_24_sheets.obj" />
+    <mesh name="Wilton_PreCut_Parchment_Sheets_10_x_15_24_sheets_part_0" file="library_objects/Wilton_PreCut_Parchment_Sheets_10_x_15_24_sheets/Wilton_PreCut_Parchment_Sheets_10_x_15_24_sheets_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

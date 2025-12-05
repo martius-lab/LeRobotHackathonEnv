@@ -1,0 +1,15 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring_texture" file="library_objects/Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring/texture.png" />
+    <material name="Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring_material" texture="Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring_texture" />
+    <mesh name="Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring" file="library_objects/Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring/Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring.obj" />
+    <mesh name="Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring_part_0" file="library_objects/Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring/Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring_decomp_4.obj" />
+    <mesh name="Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring_part_1" file="library_objects/Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring/Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring_decomp_6.obj" />
+    <mesh name="Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring_part_2" file="library_objects/Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring/Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring_decomp_0.obj" />
+    <mesh name="Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring_part_3" file="library_objects/Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring/Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring_decomp_3.obj" />
+    <mesh name="Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring_part_4" file="library_objects/Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring/Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring_decomp_5.obj" />
+    <mesh name="Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring_part_5" file="library_objects/Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring/Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring_decomp_1.obj" />
+    <mesh name="Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring_part_6" file="library_objects/Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring/Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring_decomp_2.obj" />
+    <mesh name="Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring_part_7" file="library_objects/Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring/Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring_decomp_7.obj" />
+  </asset>
+</mujocoinclude>

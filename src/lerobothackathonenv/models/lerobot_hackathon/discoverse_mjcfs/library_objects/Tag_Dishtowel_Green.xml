@@ -1,0 +1,6 @@
+<mujocoinclude>
+  <geom material="Tag_Dishtowel_Green_material" mesh="Tag_Dishtowel_Green" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Tag_Dishtowel_Green_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Tag_Dishtowel_Green_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Tag_Dishtowel_Green_part_2" />
+</mujocoinclude>

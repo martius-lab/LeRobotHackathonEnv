@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Perricone_MD_Nutritive_Cleanser_texture" file="library_objects/Perricone_MD_Nutritive_Cleanser/texture.png" />
+    <material name="Perricone_MD_Nutritive_Cleanser_material" texture="Perricone_MD_Nutritive_Cleanser_texture" />
+    <mesh name="Perricone_MD_Nutritive_Cleanser" file="library_objects/Perricone_MD_Nutritive_Cleanser/Perricone_MD_Nutritive_Cleanser.obj" />
+    <mesh name="Perricone_MD_Nutritive_Cleanser_part_0" file="library_objects/Perricone_MD_Nutritive_Cleanser/Perricone_MD_Nutritive_Cleanser_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

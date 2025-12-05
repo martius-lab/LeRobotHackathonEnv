@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Apples_to_Apples_Kids_Edition_material" mesh="Apples_to_Apples_Kids_Edition" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Apples_to_Apples_Kids_Edition_part_0" />
+</mujocoinclude>

@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Borage_GLA240Gamma_Tocopherol_material" mesh="Borage_GLA240Gamma_Tocopherol" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Borage_GLA240Gamma_Tocopherol_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Borage_GLA240Gamma_Tocopherol_part_1" />
+</mujocoinclude>

@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <geom material="Don_Franciscos_Gourmet_Coffee_Medium_Decaf_100_Colombian_12_oz_340_g_material" mesh="Don_Franciscos_Gourmet_Coffee_Medium_Decaf_100_Colombian_12_oz_340_g" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Don_Franciscos_Gourmet_Coffee_Medium_Decaf_100_Colombian_12_oz_340_g_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Don_Franciscos_Gourmet_Coffee_Medium_Decaf_100_Colombian_12_oz_340_g_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Don_Franciscos_Gourmet_Coffee_Medium_Decaf_100_Colombian_12_oz_340_g_part_2" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Don_Franciscos_Gourmet_Coffee_Medium_Decaf_100_Colombian_12_oz_340_g_part_3" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Don_Franciscos_Gourmet_Coffee_Medium_Decaf_100_Colombian_12_oz_340_g_part_4" />
+</mujocoinclude>

@@ -1,0 +1,6 @@
+<mujocoinclude>
+  <geom material="CARSII_material" mesh="CARSII" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="CARSII_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="CARSII_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="CARSII_part_2" />
+</mujocoinclude>

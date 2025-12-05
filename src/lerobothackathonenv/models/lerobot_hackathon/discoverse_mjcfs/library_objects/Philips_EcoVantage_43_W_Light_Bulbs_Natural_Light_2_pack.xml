@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Philips_EcoVantage_43_W_Light_Bulbs_Natural_Light_2_pack_material" mesh="Philips_EcoVantage_43_W_Light_Bulbs_Natural_Light_2_pack" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Philips_EcoVantage_43_W_Light_Bulbs_Natural_Light_2_pack_part_0" />
+</mujocoinclude>

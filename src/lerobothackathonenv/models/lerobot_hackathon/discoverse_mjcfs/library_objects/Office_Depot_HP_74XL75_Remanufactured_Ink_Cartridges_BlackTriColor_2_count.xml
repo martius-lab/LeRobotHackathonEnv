@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Office_Depot_HP_74XL75_Remanufactured_Ink_Cartridges_BlackTriColor_2_count_material" mesh="Office_Depot_HP_74XL75_Remanufactured_Ink_Cartridges_BlackTriColor_2_count" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Office_Depot_HP_74XL75_Remanufactured_Ink_Cartridges_BlackTriColor_2_count_part_0" />
+</mujocoinclude>

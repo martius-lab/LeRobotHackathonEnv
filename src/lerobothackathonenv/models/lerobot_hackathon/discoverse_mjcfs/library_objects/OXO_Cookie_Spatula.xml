@@ -1,0 +1,6 @@
+<mujocoinclude>
+  <geom material="OXO_Cookie_Spatula_material" mesh="OXO_Cookie_Spatula" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="OXO_Cookie_Spatula_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="OXO_Cookie_Spatula_part_1" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="OXO_Cookie_Spatula_part_2" />
+</mujocoinclude>

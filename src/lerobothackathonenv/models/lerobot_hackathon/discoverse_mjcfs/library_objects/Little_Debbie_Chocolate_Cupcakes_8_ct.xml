@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Little_Debbie_Chocolate_Cupcakes_8_ct_material" mesh="Little_Debbie_Chocolate_Cupcakes_8_ct" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Little_Debbie_Chocolate_Cupcakes_8_ct_part_0" />
+</mujocoinclude>

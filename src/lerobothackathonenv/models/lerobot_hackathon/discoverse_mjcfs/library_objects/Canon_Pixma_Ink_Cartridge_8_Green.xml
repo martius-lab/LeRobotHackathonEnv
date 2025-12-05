@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Canon_Pixma_Ink_Cartridge_8_Green_material" mesh="Canon_Pixma_Ink_Cartridge_8_Green" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Canon_Pixma_Ink_Cartridge_8_Green_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Canon_Pixma_Ink_Cartridge_8_Green_part_1" />
+</mujocoinclude>

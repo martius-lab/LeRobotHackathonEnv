@@ -1,0 +1,22 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="F10_TRX_FG_ssscuo9tGxb_texture" file="library_objects/F10_TRX_FG_ssscuo9tGxb/texture.png" />
+    <material name="F10_TRX_FG_ssscuo9tGxb_material" texture="F10_TRX_FG_ssscuo9tGxb_texture" />
+    <mesh name="F10_TRX_FG_ssscuo9tGxb" file="library_objects/F10_TRX_FG_ssscuo9tGxb/F10_TRX_FG_ssscuo9tGxb.obj" />
+    <mesh name="F10_TRX_FG_ssscuo9tGxb_part_0" file="library_objects/F10_TRX_FG_ssscuo9tGxb/F10_TRX_FG_ssscuo9tGxb_decomp_12.obj" />
+    <mesh name="F10_TRX_FG_ssscuo9tGxb_part_1" file="library_objects/F10_TRX_FG_ssscuo9tGxb/F10_TRX_FG_ssscuo9tGxb_decomp_7.obj" />
+    <mesh name="F10_TRX_FG_ssscuo9tGxb_part_2" file="library_objects/F10_TRX_FG_ssscuo9tGxb/F10_TRX_FG_ssscuo9tGxb_decomp_8.obj" />
+    <mesh name="F10_TRX_FG_ssscuo9tGxb_part_3" file="library_objects/F10_TRX_FG_ssscuo9tGxb/F10_TRX_FG_ssscuo9tGxb_decomp_10.obj" />
+    <mesh name="F10_TRX_FG_ssscuo9tGxb_part_4" file="library_objects/F10_TRX_FG_ssscuo9tGxb/F10_TRX_FG_ssscuo9tGxb_decomp_6.obj" />
+    <mesh name="F10_TRX_FG_ssscuo9tGxb_part_5" file="library_objects/F10_TRX_FG_ssscuo9tGxb/F10_TRX_FG_ssscuo9tGxb_decomp_13.obj" />
+    <mesh name="F10_TRX_FG_ssscuo9tGxb_part_6" file="library_objects/F10_TRX_FG_ssscuo9tGxb/F10_TRX_FG_ssscuo9tGxb_decomp_0.obj" />
+    <mesh name="F10_TRX_FG_ssscuo9tGxb_part_7" file="library_objects/F10_TRX_FG_ssscuo9tGxb/F10_TRX_FG_ssscuo9tGxb_decomp_14.obj" />
+    <mesh name="F10_TRX_FG_ssscuo9tGxb_part_8" file="library_objects/F10_TRX_FG_ssscuo9tGxb/F10_TRX_FG_ssscuo9tGxb_decomp_4.obj" />
+    <mesh name="F10_TRX_FG_ssscuo9tGxb_part_9" file="library_objects/F10_TRX_FG_ssscuo9tGxb/F10_TRX_FG_ssscuo9tGxb_decomp_11.obj" />
+    <mesh name="F10_TRX_FG_ssscuo9tGxb_part_10" file="library_objects/F10_TRX_FG_ssscuo9tGxb/F10_TRX_FG_ssscuo9tGxb_decomp_5.obj" />
+    <mesh name="F10_TRX_FG_ssscuo9tGxb_part_11" file="library_objects/F10_TRX_FG_ssscuo9tGxb/F10_TRX_FG_ssscuo9tGxb_decomp_1.obj" />
+    <mesh name="F10_TRX_FG_ssscuo9tGxb_part_12" file="library_objects/F10_TRX_FG_ssscuo9tGxb/F10_TRX_FG_ssscuo9tGxb_decomp_2.obj" />
+    <mesh name="F10_TRX_FG_ssscuo9tGxb_part_13" file="library_objects/F10_TRX_FG_ssscuo9tGxb/F10_TRX_FG_ssscuo9tGxb_decomp_9.obj" />
+    <mesh name="F10_TRX_FG_ssscuo9tGxb_part_14" file="library_objects/F10_TRX_FG_ssscuo9tGxb/F10_TRX_FG_ssscuo9tGxb_decomp_3.obj" />
+  </asset>
+</mujocoinclude>

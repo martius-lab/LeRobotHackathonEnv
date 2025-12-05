@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="MK7_texture" file="library_objects/MK7/texture.png" />
+    <material name="MK7_material" texture="MK7_texture" />
+    <mesh name="MK7" file="library_objects/MK7/MK7.obj" />
+    <mesh name="MK7_part_0" file="library_objects/MK7/MK7_decomp_0.obj" />
+    <mesh name="MK7_part_1" file="library_objects/MK7/MK7_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

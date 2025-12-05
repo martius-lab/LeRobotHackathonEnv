@@ -1,0 +1,5 @@
+<mujocoinclude>
+  <geom material="Pet_Dophilus_powder_material" mesh="Pet_Dophilus_powder" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Pet_Dophilus_powder_part_0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Pet_Dophilus_powder_part_1" />
+</mujocoinclude>

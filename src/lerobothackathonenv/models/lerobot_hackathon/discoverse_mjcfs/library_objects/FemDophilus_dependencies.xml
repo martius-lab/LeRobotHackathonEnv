@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="FemDophilus_texture" file="library_objects/FemDophilus/texture.png" />
+    <material name="FemDophilus_material" texture="FemDophilus_texture" />
+    <mesh name="FemDophilus" file="library_objects/FemDophilus/FemDophilus.obj" />
+    <mesh name="FemDophilus_part_0" file="library_objects/FemDophilus/FemDophilus_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

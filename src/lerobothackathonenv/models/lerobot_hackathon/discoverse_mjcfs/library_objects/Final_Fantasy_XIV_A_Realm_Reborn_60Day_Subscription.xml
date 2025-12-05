@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Final_Fantasy_XIV_A_Realm_Reborn_60Day_Subscription_material" mesh="Final_Fantasy_XIV_A_Realm_Reborn_60Day_Subscription" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Final_Fantasy_XIV_A_Realm_Reborn_60Day_Subscription_part_0" />
+</mujocoinclude>

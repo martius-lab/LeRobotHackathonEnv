@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Ultra_JarroDophilus_material" mesh="Ultra_JarroDophilus" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Ultra_JarroDophilus_part_0" />
+</mujocoinclude>

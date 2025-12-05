@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Now_Designs_Snack_Bags_Bicycle_2_count_texture" file="library_objects/Now_Designs_Snack_Bags_Bicycle_2_count/texture.png" />
+    <material name="Now_Designs_Snack_Bags_Bicycle_2_count_material" texture="Now_Designs_Snack_Bags_Bicycle_2_count_texture" />
+    <mesh name="Now_Designs_Snack_Bags_Bicycle_2_count" file="library_objects/Now_Designs_Snack_Bags_Bicycle_2_count/Now_Designs_Snack_Bags_Bicycle_2_count.obj" />
+    <mesh name="Now_Designs_Snack_Bags_Bicycle_2_count_part_0" file="library_objects/Now_Designs_Snack_Bags_Bicycle_2_count/Now_Designs_Snack_Bags_Bicycle_2_count_decomp_1.obj" />
+    <mesh name="Now_Designs_Snack_Bags_Bicycle_2_count_part_1" file="library_objects/Now_Designs_Snack_Bags_Bicycle_2_count/Now_Designs_Snack_Bags_Bicycle_2_count_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

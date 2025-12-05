@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Pokmon_Conquest_Nintendo_DS_Game_texture" file="library_objects/Pokmon_Conquest_Nintendo_DS_Game/texture.png" />
+    <material name="Pokmon_Conquest_Nintendo_DS_Game_material" texture="Pokmon_Conquest_Nintendo_DS_Game_texture" />
+    <mesh name="Pokmon_Conquest_Nintendo_DS_Game" file="library_objects/Pokmon_Conquest_Nintendo_DS_Game/Pokmon_Conquest_Nintendo_DS_Game.obj" />
+    <mesh name="Pokmon_Conquest_Nintendo_DS_Game_part_0" file="library_objects/Pokmon_Conquest_Nintendo_DS_Game/Pokmon_Conquest_Nintendo_DS_Game_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

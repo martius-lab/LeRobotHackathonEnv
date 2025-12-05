@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="JarroDophilusFOS_Value_Size_texture" file="library_objects/JarroDophilusFOS_Value_Size/texture.png" />
+    <material name="JarroDophilusFOS_Value_Size_material" texture="JarroDophilusFOS_Value_Size_texture" />
+    <mesh name="JarroDophilusFOS_Value_Size" file="library_objects/JarroDophilusFOS_Value_Size/JarroDophilusFOS_Value_Size.obj" />
+    <mesh name="JarroDophilusFOS_Value_Size_part_0" file="library_objects/JarroDophilusFOS_Value_Size/JarroDophilusFOS_Value_Size_decomp_0.obj" />
+    <mesh name="JarroDophilusFOS_Value_Size_part_1" file="library_objects/JarroDophilusFOS_Value_Size/JarroDophilusFOS_Value_Size_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

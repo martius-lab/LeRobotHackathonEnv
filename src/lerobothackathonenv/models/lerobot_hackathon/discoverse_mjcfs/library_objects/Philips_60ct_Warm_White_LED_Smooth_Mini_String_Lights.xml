@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="Philips_60ct_Warm_White_LED_Smooth_Mini_String_Lights_material" mesh="Philips_60ct_Warm_White_LED_Smooth_Mini_String_Lights" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="Philips_60ct_Warm_White_LED_Smooth_Mini_String_Lights_part_0" />
+</mujocoinclude>

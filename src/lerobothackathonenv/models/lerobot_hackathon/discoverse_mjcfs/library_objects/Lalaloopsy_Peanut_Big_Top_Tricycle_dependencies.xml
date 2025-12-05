@@ -1,0 +1,55 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Lalaloopsy_Peanut_Big_Top_Tricycle_texture" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/texture.png" />
+    <material name="Lalaloopsy_Peanut_Big_Top_Tricycle_material" texture="Lalaloopsy_Peanut_Big_Top_Tricycle_texture" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_0" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_9.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_1" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_34.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_2" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_41.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_3" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_7.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_4" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_20.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_5" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_22.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_6" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_5.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_7" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_37.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_8" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_40.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_9" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_2.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_10" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_28.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_11" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_39.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_12" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_31.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_13" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_6.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_14" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_44.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_15" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_16.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_16" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_15.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_17" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_35.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_18" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_12.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_19" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_10.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_20" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_17.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_21" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_45.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_22" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_47.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_23" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_38.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_24" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_46.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_25" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_42.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_26" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_24.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_27" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_23.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_28" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_21.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_29" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_36.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_30" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_0.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_31" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_4.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_32" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_14.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_33" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_8.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_34" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_32.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_35" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_30.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_36" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_3.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_37" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_1.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_38" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_13.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_39" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_26.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_40" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_18.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_41" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_25.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_42" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_29.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_43" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_33.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_44" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_27.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_45" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_19.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_46" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_11.obj" />
+    <mesh name="Lalaloopsy_Peanut_Big_Top_Tricycle_part_47" file="library_objects/Lalaloopsy_Peanut_Big_Top_Tricycle/Lalaloopsy_Peanut_Big_Top_Tricycle_decomp_43.obj" />
+  </asset>
+</mujocoinclude>

@@ -1,0 +1,18 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="JBL_Charge_Speaker_portable_wireless_wired_Green_texture" file="library_objects/JBL_Charge_Speaker_portable_wireless_wired_Green/texture.png" />
+    <material name="JBL_Charge_Speaker_portable_wireless_wired_Green_material" texture="JBL_Charge_Speaker_portable_wireless_wired_Green_texture" />
+    <mesh name="JBL_Charge_Speaker_portable_wireless_wired_Green" file="library_objects/JBL_Charge_Speaker_portable_wireless_wired_Green/JBL_Charge_Speaker_portable_wireless_wired_Green.obj" />
+    <mesh name="JBL_Charge_Speaker_portable_wireless_wired_Green_part_0" file="library_objects/JBL_Charge_Speaker_portable_wireless_wired_Green/JBL_Charge_Speaker_portable_wireless_wired_Green_decomp_3.obj" />
+    <mesh name="JBL_Charge_Speaker_portable_wireless_wired_Green_part_1" file="library_objects/JBL_Charge_Speaker_portable_wireless_wired_Green/JBL_Charge_Speaker_portable_wireless_wired_Green_decomp_2.obj" />
+    <mesh name="JBL_Charge_Speaker_portable_wireless_wired_Green_part_2" file="library_objects/JBL_Charge_Speaker_portable_wireless_wired_Green/JBL_Charge_Speaker_portable_wireless_wired_Green_decomp_4.obj" />
+    <mesh name="JBL_Charge_Speaker_portable_wireless_wired_Green_part_3" file="library_objects/JBL_Charge_Speaker_portable_wireless_wired_Green/JBL_Charge_Speaker_portable_wireless_wired_Green_decomp_8.obj" />
+    <mesh name="JBL_Charge_Speaker_portable_wireless_wired_Green_part_4" file="library_objects/JBL_Charge_Speaker_portable_wireless_wired_Green/JBL_Charge_Speaker_portable_wireless_wired_Green_decomp_10.obj" />
+    <mesh name="JBL_Charge_Speaker_portable_wireless_wired_Green_part_5" file="library_objects/JBL_Charge_Speaker_portable_wireless_wired_Green/JBL_Charge_Speaker_portable_wireless_wired_Green_decomp_7.obj" />
+    <mesh name="JBL_Charge_Speaker_portable_wireless_wired_Green_part_6" file="library_objects/JBL_Charge_Speaker_portable_wireless_wired_Green/JBL_Charge_Speaker_portable_wireless_wired_Green_decomp_6.obj" />
+    <mesh name="JBL_Charge_Speaker_portable_wireless_wired_Green_part_7" file="library_objects/JBL_Charge_Speaker_portable_wireless_wired_Green/JBL_Charge_Speaker_portable_wireless_wired_Green_decomp_5.obj" />
+    <mesh name="JBL_Charge_Speaker_portable_wireless_wired_Green_part_8" file="library_objects/JBL_Charge_Speaker_portable_wireless_wired_Green/JBL_Charge_Speaker_portable_wireless_wired_Green_decomp_0.obj" />
+    <mesh name="JBL_Charge_Speaker_portable_wireless_wired_Green_part_9" file="library_objects/JBL_Charge_Speaker_portable_wireless_wired_Green/JBL_Charge_Speaker_portable_wireless_wired_Green_decomp_9.obj" />
+    <mesh name="JBL_Charge_Speaker_portable_wireless_wired_Green_part_10" file="library_objects/JBL_Charge_Speaker_portable_wireless_wired_Green/JBL_Charge_Speaker_portable_wireless_wired_Green_decomp_1.obj" />
+  </asset>
+</mujocoinclude>

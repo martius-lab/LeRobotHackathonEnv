@@ -1,0 +1,20 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Wilton_Easy_Layers_Cake_Pan_Set_texture" file="library_objects/Wilton_Easy_Layers_Cake_Pan_Set/texture.png" />
+    <material name="Wilton_Easy_Layers_Cake_Pan_Set_material" texture="Wilton_Easy_Layers_Cake_Pan_Set_texture" />
+    <mesh name="Wilton_Easy_Layers_Cake_Pan_Set" file="library_objects/Wilton_Easy_Layers_Cake_Pan_Set/Wilton_Easy_Layers_Cake_Pan_Set.obj" />
+    <mesh name="Wilton_Easy_Layers_Cake_Pan_Set_part_0" file="library_objects/Wilton_Easy_Layers_Cake_Pan_Set/Wilton_Easy_Layers_Cake_Pan_Set_decomp_4.obj" />
+    <mesh name="Wilton_Easy_Layers_Cake_Pan_Set_part_1" file="library_objects/Wilton_Easy_Layers_Cake_Pan_Set/Wilton_Easy_Layers_Cake_Pan_Set_decomp_6.obj" />
+    <mesh name="Wilton_Easy_Layers_Cake_Pan_Set_part_2" file="library_objects/Wilton_Easy_Layers_Cake_Pan_Set/Wilton_Easy_Layers_Cake_Pan_Set_decomp_9.obj" />
+    <mesh name="Wilton_Easy_Layers_Cake_Pan_Set_part_3" file="library_objects/Wilton_Easy_Layers_Cake_Pan_Set/Wilton_Easy_Layers_Cake_Pan_Set_decomp_2.obj" />
+    <mesh name="Wilton_Easy_Layers_Cake_Pan_Set_part_4" file="library_objects/Wilton_Easy_Layers_Cake_Pan_Set/Wilton_Easy_Layers_Cake_Pan_Set_decomp_11.obj" />
+    <mesh name="Wilton_Easy_Layers_Cake_Pan_Set_part_5" file="library_objects/Wilton_Easy_Layers_Cake_Pan_Set/Wilton_Easy_Layers_Cake_Pan_Set_decomp_12.obj" />
+    <mesh name="Wilton_Easy_Layers_Cake_Pan_Set_part_6" file="library_objects/Wilton_Easy_Layers_Cake_Pan_Set/Wilton_Easy_Layers_Cake_Pan_Set_decomp_0.obj" />
+    <mesh name="Wilton_Easy_Layers_Cake_Pan_Set_part_7" file="library_objects/Wilton_Easy_Layers_Cake_Pan_Set/Wilton_Easy_Layers_Cake_Pan_Set_decomp_10.obj" />
+    <mesh name="Wilton_Easy_Layers_Cake_Pan_Set_part_8" file="library_objects/Wilton_Easy_Layers_Cake_Pan_Set/Wilton_Easy_Layers_Cake_Pan_Set_decomp_1.obj" />
+    <mesh name="Wilton_Easy_Layers_Cake_Pan_Set_part_9" file="library_objects/Wilton_Easy_Layers_Cake_Pan_Set/Wilton_Easy_Layers_Cake_Pan_Set_decomp_8.obj" />
+    <mesh name="Wilton_Easy_Layers_Cake_Pan_Set_part_10" file="library_objects/Wilton_Easy_Layers_Cake_Pan_Set/Wilton_Easy_Layers_Cake_Pan_Set_decomp_5.obj" />
+    <mesh name="Wilton_Easy_Layers_Cake_Pan_Set_part_11" file="library_objects/Wilton_Easy_Layers_Cake_Pan_Set/Wilton_Easy_Layers_Cake_Pan_Set_decomp_7.obj" />
+    <mesh name="Wilton_Easy_Layers_Cake_Pan_Set_part_12" file="library_objects/Wilton_Easy_Layers_Cake_Pan_Set/Wilton_Easy_Layers_Cake_Pan_Set_decomp_3.obj" />
+  </asset>
+</mujocoinclude>

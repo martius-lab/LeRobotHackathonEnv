@@ -1,0 +1,4 @@
+<mujocoinclude>
+  <geom material="The_Coffee_Bean_Tea_Leaf_KCup_Packs_Jasmine_Green_Tea_16_count_material" mesh="The_Coffee_Bean_Tea_Leaf_KCup_Packs_Jasmine_Green_Tea_16_count" type="mesh" contype="0" conaffinity="0" />
+  <geom type="mesh" rgba="0.5 0.5 0.5 1" mesh="The_Coffee_Bean_Tea_Leaf_KCup_Packs_Jasmine_Green_Tea_16_count_part_0" />
+</mujocoinclude>

@@ -1,0 +1,9 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Borage_GLA240Gamma_Tocopherol_texture" file="library_objects/Borage_GLA240Gamma_Tocopherol/texture.png" />
+    <material name="Borage_GLA240Gamma_Tocopherol_material" texture="Borage_GLA240Gamma_Tocopherol_texture" />
+    <mesh name="Borage_GLA240Gamma_Tocopherol" file="library_objects/Borage_GLA240Gamma_Tocopherol/Borage_GLA240Gamma_Tocopherol.obj" />
+    <mesh name="Borage_GLA240Gamma_Tocopherol_part_0" file="library_objects/Borage_GLA240Gamma_Tocopherol/Borage_GLA240Gamma_Tocopherol_decomp_1.obj" />
+    <mesh name="Borage_GLA240Gamma_Tocopherol_part_1" file="library_objects/Borage_GLA240Gamma_Tocopherol/Borage_GLA240Gamma_Tocopherol_decomp_0.obj" />
+  </asset>
+</mujocoinclude>

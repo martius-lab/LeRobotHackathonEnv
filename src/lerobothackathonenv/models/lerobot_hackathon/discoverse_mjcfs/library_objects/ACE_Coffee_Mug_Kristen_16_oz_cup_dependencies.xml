@@ -1,0 +1,28 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="ACE_Coffee_Mug_Kristen_16_oz_cup_texture" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/texture.png" />
+    <material name="ACE_Coffee_Mug_Kristen_16_oz_cup_material" texture="ACE_Coffee_Mug_Kristen_16_oz_cup_texture" />
+    <mesh name="ACE_Coffee_Mug_Kristen_16_oz_cup" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/ACE_Coffee_Mug_Kristen_16_oz_cup.obj" />
+    <mesh name="ACE_Coffee_Mug_Kristen_16_oz_cup_part_0" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/ACE_Coffee_Mug_Kristen_16_oz_cup_decomp_0.obj" />
+    <mesh name="ACE_Coffee_Mug_Kristen_16_oz_cup_part_1" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/ACE_Coffee_Mug_Kristen_16_oz_cup_decomp_15.obj" />
+    <mesh name="ACE_Coffee_Mug_Kristen_16_oz_cup_part_2" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/ACE_Coffee_Mug_Kristen_16_oz_cup_decomp_8.obj" />
+    <mesh name="ACE_Coffee_Mug_Kristen_16_oz_cup_part_3" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/ACE_Coffee_Mug_Kristen_16_oz_cup_decomp_11.obj" />
+    <mesh name="ACE_Coffee_Mug_Kristen_16_oz_cup_part_4" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/ACE_Coffee_Mug_Kristen_16_oz_cup_decomp_7.obj" />
+    <mesh name="ACE_Coffee_Mug_Kristen_16_oz_cup_part_5" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/ACE_Coffee_Mug_Kristen_16_oz_cup_decomp_14.obj" />
+    <mesh name="ACE_Coffee_Mug_Kristen_16_oz_cup_part_6" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/ACE_Coffee_Mug_Kristen_16_oz_cup_decomp_13.obj" />
+    <mesh name="ACE_Coffee_Mug_Kristen_16_oz_cup_part_7" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/ACE_Coffee_Mug_Kristen_16_oz_cup_decomp_1.obj" />
+    <mesh name="ACE_Coffee_Mug_Kristen_16_oz_cup_part_8" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/ACE_Coffee_Mug_Kristen_16_oz_cup_decomp_2.obj" />
+    <mesh name="ACE_Coffee_Mug_Kristen_16_oz_cup_part_9" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/ACE_Coffee_Mug_Kristen_16_oz_cup_decomp_16.obj" />
+    <mesh name="ACE_Coffee_Mug_Kristen_16_oz_cup_part_10" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/ACE_Coffee_Mug_Kristen_16_oz_cup_decomp_17.obj" />
+    <mesh name="ACE_Coffee_Mug_Kristen_16_oz_cup_part_11" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/ACE_Coffee_Mug_Kristen_16_oz_cup_decomp_6.obj" />
+    <mesh name="ACE_Coffee_Mug_Kristen_16_oz_cup_part_12" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/ACE_Coffee_Mug_Kristen_16_oz_cup_decomp_18.obj" />
+    <mesh name="ACE_Coffee_Mug_Kristen_16_oz_cup_part_13" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/ACE_Coffee_Mug_Kristen_16_oz_cup_decomp_9.obj" />
+    <mesh name="ACE_Coffee_Mug_Kristen_16_oz_cup_part_14" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/ACE_Coffee_Mug_Kristen_16_oz_cup_decomp_4.obj" />
+    <mesh name="ACE_Coffee_Mug_Kristen_16_oz_cup_part_15" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/ACE_Coffee_Mug_Kristen_16_oz_cup_decomp_5.obj" />
+    <mesh name="ACE_Coffee_Mug_Kristen_16_oz_cup_part_16" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/ACE_Coffee_Mug_Kristen_16_oz_cup_decomp_3.obj" />
+    <mesh name="ACE_Coffee_Mug_Kristen_16_oz_cup_part_17" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/ACE_Coffee_Mug_Kristen_16_oz_cup_decomp_12.obj" />
+    <mesh name="ACE_Coffee_Mug_Kristen_16_oz_cup_part_18" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/ACE_Coffee_Mug_Kristen_16_oz_cup_decomp_19.obj" />
+    <mesh name="ACE_Coffee_Mug_Kristen_16_oz_cup_part_19" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/ACE_Coffee_Mug_Kristen_16_oz_cup_decomp_20.obj" />
+    <mesh name="ACE_Coffee_Mug_Kristen_16_oz_cup_part_20" file="library_objects/ACE_Coffee_Mug_Kristen_16_oz_cup/ACE_Coffee_Mug_Kristen_16_oz_cup_decomp_10.obj" />
+  </asset>
+</mujocoinclude>

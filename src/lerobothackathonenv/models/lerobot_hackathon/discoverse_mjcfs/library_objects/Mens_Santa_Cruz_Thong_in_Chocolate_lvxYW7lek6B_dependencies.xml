@@ -1,0 +1,18 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_texture" file="library_objects/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B/texture.png" />
+    <material name="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_material" texture="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_texture" />
+    <mesh name="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B" file="library_objects/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B.obj" />
+    <mesh name="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_part_0" file="library_objects/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_decomp_4.obj" />
+    <mesh name="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_part_1" file="library_objects/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_decomp_7.obj" />
+    <mesh name="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_part_2" file="library_objects/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_decomp_2.obj" />
+    <mesh name="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_part_3" file="library_objects/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_decomp_5.obj" />
+    <mesh name="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_part_4" file="library_objects/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_decomp_6.obj" />
+    <mesh name="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_part_5" file="library_objects/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_decomp_1.obj" />
+    <mesh name="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_part_6" file="library_objects/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_decomp_9.obj" />
+    <mesh name="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_part_7" file="library_objects/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_decomp_10.obj" />
+    <mesh name="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_part_8" file="library_objects/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_decomp_0.obj" />
+    <mesh name="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_part_9" file="library_objects/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_decomp_8.obj" />
+    <mesh name="Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_part_10" file="library_objects/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B/Mens_Santa_Cruz_Thong_in_Chocolate_lvxYW7lek6B_decomp_3.obj" />
+  </asset>
+</mujocoinclude>

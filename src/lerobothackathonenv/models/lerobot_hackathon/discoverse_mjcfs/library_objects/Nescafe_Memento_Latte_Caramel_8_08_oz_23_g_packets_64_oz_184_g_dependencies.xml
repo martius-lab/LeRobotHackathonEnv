@@ -1,0 +1,8 @@
+<mujocoinclude>
+  <asset>
+    <texture type="2d" name="Nescafe_Memento_Latte_Caramel_8_08_oz_23_g_packets_64_oz_184_g_texture" file="library_objects/Nescafe_Memento_Latte_Caramel_8_08_oz_23_g_packets_64_oz_184_g/texture.png" />
+    <material name="Nescafe_Memento_Latte_Caramel_8_08_oz_23_g_packets_64_oz_184_g_material" texture="Nescafe_Memento_Latte_Caramel_8_08_oz_23_g_packets_64_oz_184_g_texture" />
+    <mesh name="Nescafe_Memento_Latte_Caramel_8_08_oz_23_g_packets_64_oz_184_g" file="library_objects/Nescafe_Memento_Latte_Caramel_8_08_oz_23_g_packets_64_oz_184_g/Nescafe_Memento_Latte_Caramel_8_08_oz_23_g_packets_64_oz_184_g.obj" />
+    <mesh name="Nescafe_Memento_Latte_Caramel_8_08_oz_23_g_packets_64_oz_184_g_part_0" file="library_objects/Nescafe_Memento_Latte_Caramel_8_08_oz_23_g_packets_64_oz_184_g/Nescafe_Memento_Latte_Caramel_8_08_oz_23_g_packets_64_oz_184_g_decomp_0.obj" />
+  </asset>
+</mujocoinclude>
