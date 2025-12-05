@@ -35,7 +35,6 @@ class ReferenceStateInitializationWrapper(gym.Wrapper):
         obs, info = self.env.reset(**kwargs)
 
         random_idx = np.random.randint(0, len(self.qpos_array))
-        print(random_idx)
         self.env.unwrapped.dm_control_env.physics.data.qpos[:] = self.qpos_array[random_idx]
         self.env.unwrapped.dm_control_env.physics.data.qvel[:] = self.qvel_array[random_idx]
         self.env.unwrapped.dm_control_env.physics.forward()
